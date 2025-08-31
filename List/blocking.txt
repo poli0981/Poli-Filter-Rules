@@ -1,10 +1,8 @@
-
-
-||okvip.*^
-||co88.*^
-||rc88.*^
-||vb88.*^
-||mi88.*^
+||okvip.top^
+||co88.com^
+||rc88.com^
+||vb88.com^
+||mi88.com^
 
 ! Cookie Consent
 ||onetrust.com^$important,third-party  ! Block OneTrust cookie scripts
