@@ -1,0 +1,36 @@
+! Title: My Content Blocker List
+! Description: Blocks ads, trackers, and hides annoying CSS elements
+! Version: 1.0
+! Homepage: https://github.com/poli0981/my-content-blocker
+! License: MIT
+
+! --- Blocking rules cơ bản (chặn URL quảng cáo/trackers) ---
+||googleadservices.com^$important
+||doubleclick.net^$third-party
+||ads.facebook.com^$important 
+
+! --- Element hiding rules
+! Hide footer (global hoặc per domain)
+*##.footer ! Check if footer legit
+! example.com##footer[id="site-footer"]
+youtube.com##ytd-guide-renderer > ytd-guide-section-renderer:last-child
+! Hide promotion
+*##.promotion  ! Hide class promotion global
+facebook.com##div[data-testid="marketplace_home_feed_unit"]  ! Hide promotion trên FB Marketplace
+
+! Hide advertising
+*##.advertising  ! Hide class advertising global
+example.net##div[id^="ad-"]
+youtube.com##ytd-ad-slot-renderer  ! Hide ads on YouTube
+
+! --- Another basic rules (hide popup, banner, trackers CSS) ---
+*##.popup-modal
+*##.banner-ad 
+*##[data-ad="true"]
+reddit.com##.promotedlink
+
+! --- Cosmetic rules if change rule style (hide use set display:none) ---
+*#$#.sticky-ad { display: none !important; }  ! Ẩn sticky ads
+
+! --- Exceptions if block false (unhide) ---
+@@||example.com^$elemhide

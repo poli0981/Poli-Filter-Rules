@@ -1,0 +1,32 @@
+animehay.*##.ah_footer
+animehay.*##.ah_content > .bg-black.padding-10
+animehay.*##.nav-items.flex-wrap.flex
+animehay.*##div.ah-frame-bg:nth-of-type(5)
+animehay.*##.movie-recommend.ah-frame-bg
+animehay.*##.flex.ah-frame-bg.flex-wrap
+animehay.*##div.ah-frame-bg:nth-of-type(11)
+animehay.*##.noti-info.bg-red
+animehay.*##.bg-black.flex.flex-hozi-center.fs-17.padding-0-10.height-50.border-r-b-t
+
+animehay.*##.ah_footer
+animehay.*##.ah_content > .bg-black.padding-10
+animehay.*##.nav-items.flex-wrap.flex
+animehay.*##div.ah-frame-bg:nth-of-type(5)
+animehay.*##.movie-recommend.ah-frame-bg
+animehay.*##div.ah-frame-bg:nth-of-type(11)
+animehay.*##.noti-info.bg-red
+animevietsub.*##.Footer
+animevietsub.*##.widget-area
+animevietsub.*##.ann_text
+animevietsub.*##.announcement
+animevietsub.*##.Button.StylA
+
+animevietsub.*##div.Wdgt:nth-of-type(7) > div.Title:nth-of-type(1)
+animevietsub.*###mv-keywords
+animevietsub.*##.notification-enhanced
+animevietsub.*##.alert.alert-info
+animevietsub.*###comments
+
+github.com##.footer.pt-8.pb-6.f6.color-fg-muted
+animehay.*##div.ah-frame-bg:nth-of-type(6)
+animehay.*##div.flex.flex-ver-center.margin-10:nth-of-type(7)
