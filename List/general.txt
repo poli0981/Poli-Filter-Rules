@@ -4,19 +4,19 @@
 ! Homepage: https://github.com/poli0981/my-content-blocker
 ! License: MIT
 
-! --- Blocking rules cơ bản (chặn URL quảng cáo/trackers) ---
+! --- Blocking rules basic (block URL ads/trackers) ---
 ||googleadservices.com^$important
 ||doubleclick.net^$third-party
 ||ads.facebook.com^$important 
 
 ! --- Element hiding rules
-! Hide footer (global hoặc per domain)
+! Hide footer (global/ per domain)
 *##.footer ! Check if footer legit
 ! example.com##footer[id="site-footer"]
 youtube.com##ytd-guide-renderer > ytd-guide-section-renderer:last-child
 ! Hide promotion
 *##.promotion  ! Hide class promotion global
-facebook.com##div[data-testid="marketplace_home_feed_unit"]  ! Hide promotion trên FB Marketplace
+facebook.com##div[data-testid="marketplace_home_feed_unit"]  ! Hide promotion: FB Marketplace
 
 ! Hide advertising
 *##.advertising  ! Hide class advertising global

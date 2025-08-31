@@ -3,4 +3,27 @@
 ||okvip.*^
 ||co88.*^
 ||rc88.*^
-||vb88.com^
+||vb88.*^
+||mi88.*^
+
+! Cookie Consent
+||onetrust.com^$important,third-party  ! Block OneTrust cookie scripts
+||cookiebot.com^$important,third-party  ! Block Cookiebot
+||cookielaw.org^$important,third-party  ! Block CookieLaw
+||consentmanager.net^$important,third-party  ! Block ConsentManager
+||usercentrics.eu^$important,third-party  ! Block Usercentrics
+
+||play.google.com/store/apps^$important,popup  ! Block Google Play download prompts if third-party
+||itunes.apple.com/app^$important,popup  ! Block App Store links if popup
+
+
+! Chatbot
+||intercom.io^$important,third-party  ! Block Intercom chatbot
+||drift.com^$important,third-party  ! Block Drift
+||tidio.com^$important,third-party  ! Block Tidio
+||zendesk.com/widget^$important,third-party  ! Block Zendesk chat
+||tawk.to^$important,third-party  ! Block Tawk.to
+
+||connect.facebook.net^$important,third-party  ! Block FB SDK (prevent widgets load)
+||facebook.com/plugins^$important,third-party  ! Block plugins  (e.g: like/share)
+||fbcdn.net^$important,third-party,domain=~facebook.com  ! Block CDN, except main facebook website

@@ -15,6 +15,7 @@ animehay.*##div.ah-frame-bg:nth-of-type(5)
 animehay.*##.movie-recommend.ah-frame-bg
 animehay.*##div.ah-frame-bg:nth-of-type(11)
 animehay.*##.noti-info.bg-red
+
 animevietsub.*##.Footer
 animevietsub.*##.widget-area
 animevietsub.*##.ann_text
@@ -30,3 +31,20 @@ animevietsub.*###comments
 github.com##.footer.pt-8.pb-6.f6.color-fg-muted
 animehay.*##div.ah-frame-bg:nth-of-type(6)
 animehay.*##div.flex.flex-ver-center.margin-10:nth-of-type(7)
+
+*##.cookie-banner  ! banner cookie global
+*##.consent-popup  
+*##div[id^="cookie-notice"]
+*##.gdpr-banner
+
+*##.intercom-launcher  ! bubble Intercom
+*##.drift-widget  ! Hide Drift bubble
+*##div[id^="tidio-chat"]  ! Hide Tidio
+*##.zopim  ! Hide Zendesk old style
+*##.chat-button-bottom-right
+
+*##.fb-like  ! Hide Like button
+*##.fb-share-button  ! Hide Share
+*##div[data-provider="facebook"]  ! Hide div FB generic
+*##[id^="fb-root"]  ! Ẩn root container FB
+! example.com##.social-widget-facebook  ! Example
