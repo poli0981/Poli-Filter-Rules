@@ -1,5 +1,3 @@
-# my-content-blocker
-
 # Custom Adblock Filter List
 
 [![Version](https://img.shields.io/badge/version-1.0--alpha0-blue.svg)](https://github.com/poli0981/my-content-blocker)
