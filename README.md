@@ -38,7 +38,7 @@ This is an early-stage project (version 1.0-alpha0), built as a solo endeavor wi
 ## Structure
 - `/blocking.txt`: Rules for blocking ad/tracker requests.
 - `/hiding.txt`: Rules for hiding CSS elements.
-- `/LICENSE`: MIT License (or your chosen license).
+- `/LICENSE`: MIT License.
 - `/README.md`: This file.
 - `/ACKNOWLEDGEMENTS.md`: Credits and contributions.
 - `/DISCLAIMER.md`: Important disclaimers.
