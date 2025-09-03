@@ -3,6 +3,9 @@
 ||rc88.com^
 ||vb88.com^
 ||mi88.com^
+||ctcrt.com^
+||88-credit.com^
+||emufind.com^
 
 ! Cookie Consent
 ||onetrust.com^$important,third-party  ! Block OneTrust cookie scripts
