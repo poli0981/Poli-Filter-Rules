@@ -49,8 +49,8 @@ animehay.*##div.flex.flex-ver-center.margin-10:nth-of-type(7)
 *##[id^="fb-root"]  ! Ẩn root container FB
 ! example.com##.social-widget-facebook  ! Example
 
-! Cookie consent for Unity
-*unity.com###onetrust-banner-sdk > div:nth-of-type(1) > .ot-sdk-container > .ot-sdk-row
+! OneTrust Cookie consent
+*###onetrust-banner-sdk > div:nth-of-type(1) > .ot-sdk-container > .ot-sdk-row
 
 ! Hide download Chrome suggest notification when use another browser and use Google to search (e.g: Brave)
 www.google.com##.XPuBac
