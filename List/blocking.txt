@@ -8,6 +8,7 @@
 ||*urcdt.*^
 ||jeff.*^
 ||emufind.*^
+||buysellads.*^
 
 ! Cookie Consent
 ||onetrust.com^$important,third-party  ! Block OneTrust cookie scripts

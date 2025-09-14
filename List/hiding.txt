@@ -50,7 +50,7 @@ animehay.*##div.flex.flex-ver-center.margin-10:nth-of-type(7)
 ! example.com##.social-widget-facebook  ! Example
 
 ! OneTrust Cookie consent
-*###onetrust-banner-sdk > div:nth-of-type(1) > .ot-sdk-container > .ot-sdk-row
+*##onetrust-banner-sdk > div:nth-of-type(1) > .ot-sdk-container > .ot-sdk-row
 
 ! Hide download Chrome suggest notification when use another browser and use Google to search (e.g: Brave)
 www.google.com##.XPuBac
