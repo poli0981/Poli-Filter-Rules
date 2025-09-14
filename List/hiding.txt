@@ -28,7 +28,7 @@ animevietsub.*##.notification-enhanced
 animevietsub.*##.alert.alert-info
 animevietsub.*###comments
 
-github.com##.footer.pt-8.pb-6.f6.color-fg-muted
+github.*##.footer.pt-8.pb-6.f6.color-fg-muted
 animehay.*##div.ah-frame-bg:nth-of-type(6)
 animehay.*##div.flex.flex-ver-center.margin-10:nth-of-type(7)
 
@@ -48,3 +48,9 @@ animehay.*##div.flex.flex-ver-center.margin-10:nth-of-type(7)
 *##div[data-provider="facebook"]  ! Hide div FB generic
 *##[id^="fb-root"]  ! Ẩn root container FB
 ! example.com##.social-widget-facebook  ! Example
+
+! Cookie consent for Unity
+*.unity.com###onetrust-banner-sdk > div:nth-of-type(1) > .ot-sdk-container > .ot-sdk-row
+
+! Hide download Chrome suggest notification when use another browser and use Google to search (e.g: Brave)
+www.google.com##.XPuBac
