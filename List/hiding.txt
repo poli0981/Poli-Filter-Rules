@@ -7,30 +7,23 @@ animehay.*##.flex.ah-frame-bg.flex-wrap
 animehay.*##div.ah-frame-bg:nth-of-type(11)
 animehay.*##.noti-info.bg-red
 animehay.*##.bg-black.flex.flex-hozi-center.fs-17.padding-0-10.height-50.border-r-b-t
+animehay.*##div.ah-frame-bg:nth-of-type(6)
+animehay.*##div.flex.flex-ver-center.margin-10:nth-of-type(7)
 
-animehay.*##.ah_footer
-animehay.*##.ah_content > .bg-black.padding-10
-animehay.*##.nav-items.flex-wrap.flex
-animehay.*##div.ah-frame-bg:nth-of-type(5)
-animehay.*##.movie-recommend.ah-frame-bg
-animehay.*##div.ah-frame-bg:nth-of-type(11)
-animehay.*##.noti-info.bg-red
 
 animevietsub.*##.Footer
 animevietsub.*##.widget-area
 animevietsub.*##.ann_text
 animevietsub.*##.announcement
 animevietsub.*##.Button.StylA
-
 animevietsub.*##div.Wdgt:nth-of-type(7) > div.Title:nth-of-type(1)
 animevietsub.*###mv-keywords
 animevietsub.*##.notification-enhanced
 animevietsub.*##.alert.alert-info
 animevietsub.*###comments
 
+! GitHub
 github.*##.footer.pt-8.pb-6.f6.color-fg-muted
-animehay.*##div.ah-frame-bg:nth-of-type(6)
-animehay.*##div.flex.flex-ver-center.margin-10:nth-of-type(7)
 
 *##.cookie-banner  ! banner cookie global
 *##.consent-popup  
@@ -46,11 +39,30 @@ animehay.*##div.flex.flex-ver-center.margin-10:nth-of-type(7)
 *##.fb-like  ! Hide Like button
 *##.fb-share-button  ! Hide Share
 *##div[data-provider="facebook"]  ! Hide div FB generic
-*##[id^="fb-root"]  ! Ẩn root container FB
-! example.com##.social-widget-facebook  ! Example
+*##[id^="fb-root"]  ! Hide root container FB
 
-! OneTrust Cookie consent
-*##onetrust-banner-sdk > div:nth-of-type(1) > .ot-sdk-container > .ot-sdk-row
+! Unity Cookie consent
+discussions.unity.com###onetrust-banner-sdk > div:nth-of-type(1) > .ot-sdk-container > .ot-sdk-row
+cloud.unity.com###onetrust-banner-sdk > div:nth-of-type(1) > .ot-sdk-container > .ot-sdk-row
+
+! Spotify Hiding Footer, download app, foter, etc
+open.spotify.com##.D_6zDR19xV1TJcWGiLff
+open.spotify.com##.esBjsh.sc-jxOSlx
+open.spotify.com##.e-91000-button--leading.e-91000-button--small.e-91000-overflow-wrap-anywhere.encore-text-body-small-bold.dzIYeQ.Button-sc-1dqy6lx-0
+open.spotify.com##button.e-91000-button-tertiary--condensed.e-91000-overflow-wrap-anywhere.encore-text-body-medium-bold.enYihQ.Button-sc-1dqy6lx-0:nth-of-type(3)
+open.spotify.com##.main-view-container__mh-footer-container
+open.spotify.com##button.e-91000-button-tertiary--condensed.e-91000-overflow-wrap-anywhere.encore-text-body-medium-bold.enYihQ.Button-sc-1dqy6lx-0:nth-of-type(1)
 
 ! Hide download Chrome suggest notification when use another browser and use Google to search (e.g: Brave)
 www.google.com##.XPuBac
+
+!iH*****
+ihentai.*##.v-footer.v-theme--dark.tw-justify-center.\!tw-py-10
+ihentai.*##.v-btn.v-btn--elevated.v-theme--dark.bg-orange.v-btn--density-default.v-btn--size-default.v-btn--variant-elevated.\!tw-normal-case.\!tw-tracking-normal
+ihentai.*##.v-spacer
+
+! Vl**
+vlxx.*##footer
+
+! Brave Search Web
+search.brave.com##footer.svelte-6sdecn
