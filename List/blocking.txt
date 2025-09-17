@@ -9,6 +9,7 @@
 ||jeff.*^
 ||emufind.*^
 ||buysellads.*^
+||xmvnbroker.*^
 
 ! Cookie Consent
 ||onetrust.com^$important,third-party  ! Block OneTrust cookie scripts
