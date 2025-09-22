@@ -30,7 +30,7 @@ youtube.com##ytd-ad-slot-renderer  ! Hide ads on YouTube
 reddit.com##.promotedlink
 
 ! --- Cosmetic rules if change rule style (hide use set display:none) ---
-*#$#.sticky-ad { display: none !important; }  ! Ẩn sticky ads
+*#$#.sticky-ad { display: none !important; }  ! sticky ads
 
 ! --- Exceptions if block false (unhide) ---
 @@||example.com^$elemhide
