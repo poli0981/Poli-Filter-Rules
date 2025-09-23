@@ -41,16 +41,16 @@ github.*##.footer.pt-8.pb-6.f6.color-fg-muted
 *##div[id^="cookie-notice"]
 *##.gdpr-banner
 
-*##.intercom-launcher  ! bubble Intercom
-*##.drift-widget  ! Hide Drift bubble
-*##div[id^="tidio-chat"]  ! Hide Tidio
-*##.zopim  ! Hide Zendesk old style
+*##.intercom-launcher
+*##.drift-widget
+*##div[id^="tidio-chat"]
+*##.zopim
 *##.chat-button-bottom-right
 
-*##.fb-like  ! Hide Like button
-*##.fb-share-button  ! Hide Share
-*##div[data-provider="facebook"]  ! Hide div FB generic
-*##[id^="fb-root"]  ! Hide root container FB
+*##.fb-like
+*##.fb-share-button
+*##div[data-provider="facebook"]
+*##[id^="fb-root"]
 
 ! Unity Cookie consent
 discussions.unity.com###onetrust-banner-sdk > div:nth-of-type(1) > .ot-sdk-container > .ot-sdk-row
@@ -83,6 +83,19 @@ www.reddit.com###advertise-button
 
 ! X element
 x.com##.css-175oi2r.r-18u37iz.r-1w6e6rj.r-gu64tb
+
+! CuuTruyen
+cuutruyen.*##.flex-1.flex.justify-end.max-w-full > div.relative
+cuutruyen.*##.px-2.bg-gray-800.border-t-2.border-gray-800.py-16
+cuutruyen.*##.lg\:h-13.lg\:w-13.md\:h-12.md\:w-12.h-8.w-8
+
+
+! Netflix
+www.netflix.com##.default-ltr-iqcdef-cache-1r1jvwn
+
+! Crunchyroll
+www.crunchyroll.com##.footer-horizontal-layout__image--iCc3p
+www.crunchyroll.com##.footer--NNXrc.footer--is-default--F1n5V
 
 ! Facebook
 www.facebook.com##footer > .x193iq5w.xeuugli.x13faqbe.x1vvkbs.x1xmvt09.x1lliihq.x1s928wv.xhkezso.x1gmr53x.x1cpjm7i.x1fgarty.x1943h6x.x4zkp8e.x676frb.x1pg5gke.x1sibtaa.xo1l8bm.xi81zsa
