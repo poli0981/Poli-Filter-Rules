@@ -1,4 +1,4 @@
-! Scamming website
+! Scam website
 ||oklavip67.com^
 ||tiktokv.us.com^
 ||okvip.vision^
@@ -16,6 +16,8 @@
 ||buysellads.com^
 ||xmvnbroker.com^
 ||trgihoncykupt.com^
+||123qq88.me^
+||dong247.com^
 
 ! Cookie Consent
 ||onetrust.com^$important,third-party 
