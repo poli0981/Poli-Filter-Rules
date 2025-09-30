@@ -30,9 +30,9 @@
 ||consentmanager.net^$important,third-party
 ||usercentrics.eu^$important,third-party 
 
+! App download popup
 ||play.google.com/store/apps^$important,popup
-||itunes.apple.com/app^$important,popup 
-
+||itunes.apple.com/app^$important,popup
 
 ! Chatbot
 ||intercom.io^$important,third-party
@@ -41,6 +41,7 @@
 ||zendesk.com/widget^$important,third-party 
 ||tawk.to^$important,third-party
 
+! Facebook third-party
 ||connect.facebook.net^$important,third-party
 ||facebook.com/plugins^$important,third-party
 ||fbcdn.net^$important,third-party,domain=~facebook.com 
