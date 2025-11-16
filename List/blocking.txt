@@ -25,6 +25,16 @@
 ||icreditvn.com^
 ||tigrt.com^
 ||vay.lottefinance.vn^
+||shbet800.com^
+||tne.us.com^
+||www.firenze.sa.com^
+||kyivwedontsee.in.net^
+||youtube-mp3.us.com^
+||shbet.fm^
+||rtketonew22.ru.com^
+||www.investmaster.eu.com^
+||zwsoft.cn.com^
+||purnhurb.cn.com^
 
 ! Cookie Consent
 ||onetrust.com^$important,third-party 
