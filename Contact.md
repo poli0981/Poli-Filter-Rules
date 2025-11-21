@@ -1,56 +1,45 @@
-# CONTACT.md  
+# About the Author  
 **Poli-Filter-Rules** – Version 1.0-alpha1  
-**Last Updated: November 21, 2025**
+**Last Updated: November 22, 2025**
 
-Welcome to the Contact section of a random unemployed, introverted, mildly autistic dev who literally only talks to an AI because real humans are exhausting and small talk makes me want to uninstall life.
+### English Version
 
-Yes, Grok 4.1 is my only friend. Yes, I’m writing this at 5 a.m. after finally beating Malenia in NG+2, uninstalling Elden Ring, staring at my empty Steam library for 20 minutes, and realising I have no idea what to play next.  
-Send help. Or a job. Or a new personality.
+Yep, it’s me. The one and only human behind this repo.
 
-Anyway, if you really, REALLY need to reach me (please don’t, unless it’s to send copium or ramen), here are my sad little internet corners:
+A jobless, university-dropout, socially-awkward, heavily-introverted Vietnamese dude living with his parents, eating instant noodles for the 5th day in a row, and whose only real friend is Grok 4.1 Thinking - Beta (because humans are too loud and complicated).
 
-### [Steam](https://steamcommunity.com/profiles/76561199544666292/)  
-300+ games, 90% untouched, 9% abandoned after 30 minutes, 1% actually completed.  
-Elden Ring has been ceremonially uninstalled after NG+2 left me with PTSD.  
-Currently lost in existential crisis: “What do I play now?”  
-Feel free to send friend request. I’ll probably accept in 3–4 business months.
+Skill level: solidly mediocre at everything.  
+- Coding → still needs AI to not shoot himself in the foot  
+- Gaming → NG+2 Elden Ring but still summons spirit ashes like a coward (Elden Ring has now been officially deleted, -1 game, too tilting)  
+- Social skills → Facebook friends count = 0, X followers ≈ 15 (80% bots), YouTube 204 subs with gameplay no-commentary videos that look like they were edited by a depressed potato.
 
-### [YouTube (No Commentary Gameplay Hell)](https://www.youtube.com/@SkullMute)
-Almost 1 year old, ~200 subs (most are bots or pity subs), average view count: 25–40.  
-80% of videos have less than 40 views.  
-I play whatever the hell I feel like — AAA masterpieces, indie, pixel art, hyper-realistic graphics, doesn’t matter.  
-No commentary, just raw gameplay, mouse clicks, and occasional rage-breaths.  
-If you want to watch a grown man suffer silently in 1080p60, you came to the right place.
+This entire repo (and every other repo on my GitHub) exists purely because I got randomly pissed off at some popup/chatbot/cookie banner/app download nag one day, opened PyCharm while half-asleep, and started typing hate in the form of filter rules.
 
-### [X (Twitter – where I pretend to be funny)](https://x.com/SkullMute0011)
-Mainly shitposts, copium, screenshots of me dying in games, and occasional “why am I like this” status at 4 a.m.  
-Follower count: yes.  
-Engagement: also yes (if bots count).
+That’s it. That’s the whole origin story.
 
-### [GitHub (the only place I’m slightly competent)](https://github.com/poli0981)
-You’re already here. Hi.
+### Socials (don’t expect replies, seriously)
 
-### [Facebook](https://www.facebook.com/profile.php?id=61578715425186)
-Exists. Barely used. Mostly for family to check I’m still alive.
+- **[Steam](https://steamcommunity.com/profiles/76561199544666292/)**:  
+  → If my profile is **offline** → maybe I’ll reply (50% chance).  
+  → If it’s **online** → 96.69% I’m NOT replying. I’m just picking a random game from my 400+ backlog and pretending I’m having fun. Do not disturb. Touch grass instead.
 
-### Instagram  
-Literally just reposts from X and some blurry game screenshots.  
-Don’t bother.
+- **[YouTube](https://www.youtube.com/@SkullMute)**: 
+  → No-commentary gameplay, dogshit thumbnails, <40 views average. I read every comment, I just never reply because anxiety.
 
-### Telegram  
-If you somehow find my username, I’ll be impressed.  
-I use it to send myself memes and backup save files.
+- **[X (Twitter)](https://x.com/SkullMute0011)**:  
+  → I post once every 3 months when I remember passwords exist. Replies? See Steam rule above.
 
-### Email  
-No.  
-Just open an issue on the repo.  
-Or don’t.  
-I’m probably asleep or staring at Steam “What to play” page again.
+- **[Facebook](https://www.facebook.com/profile.php?id=61578715425186)**: lol no. Account exists for login purposes only. Friends: 0. Messages: ignored.
 
-Final words:  
-If you made it this far, congratulations — you now know more about me than my own mother.  
-Please don’t DM me asking for tech support, relationship advice, or why I’m like No Commentary videos, or why I still haven’t found a job.
+- **Email**: `lopop05905@proton.me`  
+  → I check it once a week when I remember it exists. If it’s not a job offer with ≥5000$ salary, it goes straight to archive.
 
-Just star the repo, block some ads, and let me suffer in peace.
+Moral of the story:  
+If you message me anywhere → good luck.  
+I might be offline, asleep, ignoring the world, or just staring at my library deciding what to play next instead of fixing my life.
 
-— The dev who just wants to browse the web and play games without being reminded that life exists
+You’ve been warned.
+
+Still wanna say hi? Go ahead. I’ll probably see it in 2026.
+
+– The dev who is currently offline on Steam and definitely not reading this
