@@ -24,4 +24,5 @@ By using this repository, you acknowledge and accept all risks.
 ---
 **Version**: 1.0-alpha1  
 **Last Updated**: November 21, 2025, 09:45 GMT+7
+
 **License**: MIT (see [LICENSE](LICENSE) file)
