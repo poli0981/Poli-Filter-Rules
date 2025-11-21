@@ -1,62 +1,71 @@
 # Terms of Service (ToS)  
-**Custom Adblock Filter List** – Version 1.0-alpha1  
-**Last Updated: November 21, 2025**
+**Poli-Filter-Rules** – Version 1.0-alpha1  
+**Last Updated: November 22, 2025**
 
-Hello again. It’s me — the same unemployed dev who just died for the 47th time to Malenia in Elden Ring NG+2, screamed into the void, closed the game, opened this repo, and decided to finish the legal docs while my poor 3-year-old laptop is begging for mercy with its fan sounding like a jet engine.
+### English Version (the one that will actually hold up if someone tries to sue my broke ass)
 
-Yes, I’m still jobless. Yes, I’m still surviving on instant noodles and copium. Yes, if you want to watch me get absolutely destroyed by a naked lady with a katana, feel free to check my Steam profile or YouTube channel (links will be in CONTACT.md whenever I remember to create it).
+By accessing, downloading, forking, starring, watching, opening an issue, or even breathing in the general direction of this repository, you unconditionally agree to these Terms of Service.  
+No backsies. No “I didn’t read”. No refunds (it’s free anyway).
 
-Now, let’s get this over with.
+1. **Acceptance of Terms**  
+   You accept these ToS, the MIT License, the EULA I just wrote while half-dead, the Privacy Policy (which is basically “I collect nothing”), and the Disclaimer (which says everything will probably break).  
+   If you don’t accept → close the tab right now and go back to suffering with cookie banners. Your loss.
 
-### 1. Acceptance of Terms
-By using, viewing, forking, starring, or even breathing in the general direction of this repository, you agree to these Terms of Service, the MIT License, the EULA I wrote while crying, and the Privacy Policy I wrote while half-asleep.
+2. **Description of Service**  
+   I give you text files that (try to) kill ads, trackers, popups, chatbots, and anything else that personally triggering me on the internet.  
+   That’s it. No support. No uptime guarantee. No “it just works”.
 
-Don’t like it? Close the tab. Go play Elden Ring yourself. I hear Malenia is feeling generous today.
+3. **User Responsibilities – listen up, this is important**  
+   You agree to:
+   - Not be a dick.
+   - Not use these filters to break laws (e.g. g. bypassing paywalls illegally, piracy, harassment, etc.).
+   - Not redistribute modified versions and pretend it’s official without clearly saying it’s your fork.
+   - Not blame me when a site detects your adblocker and calls you poor (they’re not wrong).
+   - Test everything yourself. I’m not your filter list, not your mom.
 
-### 2. Use of Service
-You may use this filter list for any purpose allowed under the MIT License — personal, commercial, world domination, whatever.  
-You may NOT:
-- Blame me when a site breaks
-- Blame me when your company’s internal dashboard disappears because you applied my aggressive rules
-- Blame me when your mom can’t see cat videos on Facebook because I nuked all FB widgets
-- Sue me (please, I’m begging you, I have nothing but debt and 400 hours+ in Elden Ring)
+4. **Prohibited Activities – don’t make me add more rules**  
+   You shall NOT:
+   - Use this repo for commercial products without at least buying me a coffee (kidding, but also not really).
+   - Spam issues with “it doesn’t work on this site fix plz” without providing the URL and selector (I’m tired, bro).
+   - Sue me, threaten me, dox me, or send me hate mail. I’m already depressed enough.
+   - Hold me responsible if your favourite site breaks. Fork it and fix it yourself – that’s literally the point of open source.
 
-### 3. Prohibited Activities
-Don’t be a dick. Specifically:
-- Don’t use this list to break laws (bypassing paywalls in countries where it’s illegal, etc.)
-- Don’t rehost my files and pretend you made them
-- Don’t send me job offers that pay in “exposure”
-- Don’t send me death threats when a rule hides your favorite waifu banner
+5. **Intellectual Property**  
+   The filters are MIT-licensed. You can do almost anything.  
+   But if you make money off my suffering and don’t at least star the repo… man, that’s cold.
 
-### 4. Updates & Availability
-The list is updated every 3–5 days when I’m not:
-- Rage-quitting Elden Ring
-- Applying for jobs and getting ghosted
-- Staring at the ceiling wondering why I chose this life
-- Sleeping (rare)
+6. **Limitation of Liability – the “I told you so” section**  
+   To the maximum extent permitted by law (which in my case is basically everything because I have nothing to lose):  
+   I am not liable for anything. Ever.  
+   Not for broken websites, not for lost data, not for emotional trauma from seeing how many trackers Facebook has, not for your boss noticing you’re suddenly too productive at work.  
+   If the repo disappears tomorrow because I got bored or my laptop finally committed suicide – tough luck.
 
-There is no guarantee of uptime, updates, or me not deleting the entire repo at 3 a.m. because I failed the same boss for the 100th time.
+7. **Termination**  
+   I can ban you from the repo any time for any reason.  
+   Reasons may include: being rude, spamming, or simply because I woke up in a bad mood.  
+   You can stop using the repo any time by… just stopping. No ceremony required.
 
-### 5. Termination
-I can terminate your access (i.e., delete the repo or block you) anytime, for any reason, or no reason at all.  
-Probably because I died to Malenia again and needed to take it out on someone.
+8. **Governing Law & Jurisdiction**  
+   Laws of Vietnam.  
+   Good luck flying here to serve papers on a guy who can’t even afford instant noodles this week.
 
-### 6. Limitation of Liability Indemnification (copy-paste from EULA because I’m tired)
-Same as EULA. No liability. Zero. None.  
-You break it, you buy it. You get fired because of it, you explain it.  
-If someone sues because of your use of this list → you pay the lawyers, not me.
+9. **Changes to Terms**  
+   I can change these ToS whenever I want.  
+   If you keep using the repo after changes → you accept them.  
+   I’ll probably update the date and that’s it.
 
-### 7. Governing Law
-Laws of the Socialist Republic of Vietnam, because that’s where this broke dev is currently losing his mind to a FromSoftware game.
+10. **Severability**  
+    If any part of these terms is deemed invalid or unenforceable, the rest still apply.  
+    I still hate popups.
 
-### 8. Final Words from the Dev Who Should Be Sleeping
-Look, I made this list so I could browse the web without wanting to throw my laptop out the window.  
-If it helps you → awesome, buy me a coffee or just star the repo.  
-If it breaks your entire internet experience → fork it and fix it, or uninstall.  
-If you’re here to complain → please don’t. My mental health is held together by duct tape and Elden Ring copium.
+11. **Entire Agreement**  
+    This, plus the MIT License, EULA, Privacy Policy, and Disclaimer, is the whole deal.  
+    No verbal agreements. No “but you said on Discord…”. Nothing.
 
-Now if you’ll excuse me, my laptop is literally crying (fan noise = tears), and I’m going to attempt Malenia one more time before passing out.
+Still reading?  
+Respect.  
+Now go use the filters and let me sleep.
 
-Try not to miss.
+– The unemployed, self-loathing, AI-dependent dev who wrote this at 4 AM while his laptop sounded like a jet engine
 
-— The dev who just wants to browse in peace (and finally beat NG+2)
+---

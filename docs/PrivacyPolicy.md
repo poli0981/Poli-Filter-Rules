@@ -1,48 +1,50 @@
 # Privacy Policy  
 **Poli-Filter-Rules** – Version 1.0-alpha1  
-**Last Updated: November 21, 2025**
+**Last Updated: November 22, 2025**
 
-Hey, it’s me again — the same unemployed, instant-noodle-powered dev who wrote the EULA at 4 a.m. while questioning every life choice that led to this moment this.
+### English Version
 
-Let’s make this short because I’m tired and you probably are too.
+### 1. Data Collection?
+   Zero. Nada. Không có. Zilch. Null. None.  
+   This repo is just a bunch of text files on GitHub.  
+   I don't have servers, I don't have analytics, I don't have cookies, I don't even have a proper job.
 
-### 1. Data I Collect
-**Absolutely nothing.**
+### 2. So what do I know about you?  
+   Literally nothing.  
+   GitHub might know your IP when you download the raw file – that's between you and Microsoft.
+   Go read it here: https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement
+   I don't see shit. I don't want to see shit. I have enough problems with my own life.
 
-Zero. Zilch. Không có. ゼロ.  
-This repository is just a bunch of text files on GitHub. No backend, no analytics, no trackers, no cookies, no “sign up for my newsletter” crap, no nothing.
+### 3. **Nah, your data – what do I get from keeping it?**  
+   Exactly fucking nothing. Not a single đồng. Not even a view on YouTube.  
+   I'm too broke and too lazy to sell your data even if I had it (which I don't).
 
-I don’t know who you are, where you’re from, what browser you use, or whether you’re reading this on your phone in the toilet. And honestly? I don’t care. I have zero technical ability to know, and even if I did, **I wouldn’t bother**. Keeping your data would give me literally zero benefit — I’m broke, not evil.
+### 4. **Raw File Subscriptions (Brave/AdGuard/uBlock etc.)**
+   When you subscribe to the raw URLs, your adblocker pings GitHub’s CDN. Again — that traffic goes to GitHub/Cloudflare, not to me. I can’t see it, can’t log it, can’t sell it (even if I wanted to, which I don’t, because again: broke, not evil).
 
-### 2. Data GitHub Collects
-Everything you do here (fork, star, watch, open issue, etc.) is handled by GitHub.  
-Their servers, their cookies, their analytics, their privacy policy.  
-Go read it here: https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement  
-I have zero access to it, zero control over it, and zero interest in it.
+### 5. **Third-party stuff**  
+   If you subscribe via raw URL → Cloudflare/GitHub CDN sees your request. Again, not my circus, not my monkeys.
 
-### 3. Raw File Subscriptions (Brave/AdGuard/uBlock etc.)
-When you subscribe to the raw URLs, your adblocker pings GitHub’s CDN. Again — that traffic goes to GitHub/Cloudflare, not to me. I can’t see it, can’t log it, can’t sell it (even if I wanted to, which I don’t, because again: broke, not evil).
-
-### 4. If You Open an Issue or PR
+### 6. If You Open an Issue or PR
 Your GitHub username and whatever you write will be public forever (that’s how GitHub works).  
 Still not my server, still not my data.
 
-### 5. GDPR, CCPA, Whatever New Privacy Law They Invent Next Week
-Since I collect **nothing**, I’m already compliant by default.  
-But yeah, sure, you have the right to be forgotten — just delete your fork or close your issues. I can’t do it for you and I wouldn’t even if I could.
+### 7. **Future plans**  
+   Even if one day this repo blows up to 10k stars (lmao in my dreams), I still won't add analytics.  
+   Because:
+   - I hate trackers myself (that's why I made this repo)
+   - I'm too depressed to learn how to implement them properly
+   - My laptop would probably explode
 
-### 6. Changes to This Policy
+### 8. Changes to This Policy
 If I ever decide to add analytics or sell your soul to Facebook (spoiler: I won’t), I’ll update this file.  
 Continued use after that = you agree.  
 But let’s be real — this section will stay exactly the same until the heat death of the universe.
 
-### 7. Final Words from the Dev Who Just Wants to Sleep
-Your data is safe because it never reaches me.  
-I have no database, no server, no money, and no energy to deal with privacy complaints.  
-If you’re a lawyer looking for someone to sue over privacy — please pick a bigger target. I literally have nothing but this repo and a half-eaten pack of instant noodles.
+### 9. **Your responsibility**  
+   If you're in EU and worried about GDPR – congrats, you're the first person ever to read this far.  
+   Since I collect zero data, you're already compliant by default. You're welcome.
 
-Thank you for respecting my non-existent privacy infrastructure.
+Still reading? Go touch some grass, king.
 
-Now leave me alone, I’m going to bed.
-
-— The dev who blocks ads so he doesn’t have to see job ads anymore
+– A very tired, very private, very data-allergic dev
