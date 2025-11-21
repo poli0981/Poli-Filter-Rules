@@ -1,4 +1,4 @@
-# generate_blocks.py - auto generate full domain blocking list from raw domains with tags
+# generate_blocks.py - auto generate full domain blocking list from raw domains with tag(s)
 import pathlib
 from datetime import datetime
 
@@ -13,7 +13,7 @@ with RAW_FILE.open('r', encoding='utf-8') as f:
         if not line or line.startswith(('#', '!')):
             continue
 
-        # Tách comment nếu có
+        # Split comment if any
         if '#' in line:
             domain_part, comment = line.split('#', 1)
             comment = '  ! ' + comment.strip()

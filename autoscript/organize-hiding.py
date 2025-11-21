@@ -52,7 +52,7 @@ with OUTPUT_FILE.open('w', encoding='utf-8') as out:
     out.write('! Source: hiding-raws.txt\n')
     out.write(f'! Total hiding rules: {total_rules}\n\n')
 
-    # Header comments gốc
+    # Header roots comments
     for comment in header_comments:
         out.write(comment + '\n')
     out.write('\n')
