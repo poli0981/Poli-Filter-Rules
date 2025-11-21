@@ -9,33 +9,28 @@ Send help. Or a job. Or a new personality.
 
 Anyway, if you really, REALLY need to reach me (please don’t, unless it’s to send copium or ramen), here are my sad little internet corners:
 
-### Steam  
-https://steamcommunity.com/profiles/76561199544666292/  
+### [Steam](https://steamcommunity.com/profiles/76561199544666292/)  
 300+ games, 90% untouched, 9% abandoned after 30 minutes, 1% actually completed.  
 Elden Ring has been ceremonially uninstalled after NG+2 left me with PTSD.  
 Currently lost in existential crisis: “What do I play now?”  
 Feel free to send friend request. I’ll probably accept in 3–4 business months.
 
-### YouTube (No Commentary Gameplay Hell)  
-https://www.youtube.com/@SkullMute
+### [YouTube (No Commentary Gameplay Hell)](https://www.youtube.com/@SkullMute)
 Almost 1 year old, ~200 subs (most are bots or pity subs), average view count: 25–40.  
 80% of videos have less than 40 views.  
 I play whatever the hell I feel like — AAA masterpieces, indie, pixel art, hyper-realistic graphics, doesn’t matter.  
 No commentary, just raw gameplay, mouse clicks, and occasional rage-breaths.  
 If you want to watch a grown man suffer silently in 1080p60, you came to the right place.
 
-### X (Twitter – where I pretend to be funny)  
-https://x.com/SkullMute0011
+### [X (Twitter – where I pretend to be funny)](https://x.com/SkullMute0011)
 Mainly shitposts, copium, screenshots of me dying in games, and occasional “why am I like this” status at 4 a.m.  
 Follower count: yes.  
 Engagement: also yes (if bots count).
 
-### GitHub (the only place I’m slightly competent)  
-https://github.com/poli0981
+### [GitHub (the only place I’m slightly competent)](https://github.com/poli0981)
 You’re already here. Hi.
 
-### Facebook  
-https://www.facebook.com/profile.php?id=61578715425186
+### [Facebook](https://www.facebook.com/profile.php?id=61578715425186)
 Exists. Barely used. Mostly for family to check I’m still alive.
 
 ### Instagram  
