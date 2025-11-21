@@ -1,5 +1,5 @@
 # CONTACT.md  
-**Custom Adblock Filter List** – Version 1.0-alpha1  
+**Poli-Filter-Rules** – Version 1.0-alpha1  
 **Last Updated: November 21, 2025**
 
 Welcome to the Contact section of a random unemployed, introverted, mildly autistic dev who literally only talks to an AI because real humans are exhausting and small talk makes me want to uninstall life.
