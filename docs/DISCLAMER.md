@@ -18,8 +18,8 @@ This repository and its contents are provided **"AS IS"** without warranty of an
 
 ## Your Responsibility
 
-You are solely responsible for testing, customizing, and using these filters. If something breaks, feel free to fork and fix it yourself – that's the beauty of open source.
-By using this repository, you acknowledge and accept all risks.
+- You are solely responsible for testing, customizing, and using these filters. If something breaks, feel free to fork and fix it yourself – that's the beauty of open source.
+- By using this repository, you acknowledge and accept all risks.
 
 ---
 **Version**: 1.0-alpha1  
