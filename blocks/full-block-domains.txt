@@ -1,0 +1,55 @@
+! Full Domain Block List - Auto Generated
+! Generated on: 2025-11-21 08:35
+! Source: raws.txt
+! Total domains: 50
+
+||*urcdt.com^$important
+||123qq88.me^$important
+||88-credit.com^$important
+||bpkcl.sa.com^$important
+||buysellads.com^$important
+||co88.vip^$important
+||ctcrt.com^$important
+||dong247.com^$important
+||emufind.com^$important
+||fly88.co.com^$important
+||h5.vvaln.com^$important
+||i7o.cn.com^$important
+||icreditvn.com^$important
+||jeff.vn^$important
+||jun88vn8.kim^$important
+||km.nhacais8.online^$important
+||kyivwedontsee.in.net^$important
+||m.fly88h.com^$important
+||mi88.com^$important
+||mutualfundsahihai.in.net^$important
+||oklavip67.com^$important
+||okvip.top^$important
+||okvip.vision^$important
+||okvipv.com^$important
+||purnhurb.cn.com^$important
+||qc.sb88vn.vip^$important
+||rc88.com^$important
+||rtketonew22.ru.com^$important
+||safepal.in.net^$important
+||shbet.fm^$important
+||shbet6.zone^$important
+||shbet800.com^$important
+||tigrt.com^$important
+||tiktokv.us.com^$important
+||tne.us.com^$important
+||trgihoncykupt.com^$important
+||ttclub.fly88s.vip.queniuaa.com^$important
+||vay.lottefinance.vn^$important
+||vb88.com^$important
+||www.bridging-loan.eu.com^$important
+||www.fggtyln.ru.com^$important
+||www.firenze.sa.com^$important
+||www.investmaster.eu.com^$important
+||www.jun888k3.vip^$important
+||www.keyword.us.com^^$important
+||www.offcampus.us.com^$important
+||xmvnbroker.com^$important
+||youtube-mp3.us.com^$important
+||zagonka.ru.com^$important
+||zwsoft.cn.com^$important

@@ -1,0 +1,115 @@
+! Organized Hiding Rules - Auto Generated
+! Generated on: 2025-11-21 08:38
+! Source: hiding.txt
+! Total hiding rules: 67
+
+! --- Global Hiding Rules ---
+
+*##.chat-button-bottom-right
+*##.consent-popup
+*##.cookie-banner
+*##.drift-widget
+*##.fb-like
+*##.fb-share-button
+*##.gdpr-banner
+*##.intercom-launcher
+*##.zopim
+*##[id^="fb-root"]
+*##div[data-provider="facebook"]
+*##div[id^="cookie-notice"]
+*##div[id^="tidio-chat"]
+
+! --- animehay.* ---
+animehay.*##.ah_content > .bg-black.padding-10
+animehay.*##.ah_footer
+animehay.*##.bg-black.flex.flex-hozi-center.fs-17.padding-0-10.height-50.border-r-b-t
+animehay.*##.flex.ah-frame-bg.flex-wrap
+animehay.*##.movie-recommend.ah-frame-bg
+animehay.*##.nav-items.flex-wrap.flex
+animehay.*##.noti-info.bg-red
+animehay.*##div.ah-frame-bg:nth-of-type(11)
+animehay.*##div.ah-frame-bg:nth-of-type(12)
+animehay.*##div.ah-frame-bg:nth-of-type(5)
+animehay.*##div.ah-frame-bg:nth-of-type(6)
+animehay.*##div.ah-frame-bg:nth-of-type(9)
+animehay.*##div.flex.flex-ver-center.margin-10:nth-of-type(7)
+
+! --- animevietsub.* ---
+animevietsub.*###comments
+animevietsub.*###mv-keywords
+animevietsub.*##.alert.alert-info
+animevietsub.*##.ann_text
+animevietsub.*##.announcement
+animevietsub.*##.Button.StylA
+animevietsub.*##.Footer
+animevietsub.*##.notification-enhanced
+animevietsub.*##.widget-area
+animevietsub.*##div.Wdgt:nth-of-type(7) > div.Title:nth-of-type(1)
+
+! --- cloud.unity.com ---
+cloud.unity.com###onetrust-banner-sdk > div:nth-of-type(1) > .ot-sdk-container > .ot-sdk-row
+
+! --- cuutruyen.* ---
+cuutruyen.*##.flex-1.flex.justify-end.max-w-full > div.relative
+cuutruyen.*##.lg\:h-13.lg\:w-13.md\:h-12.md\:w-12.h-8.w-8
+cuutruyen.*##.px-2.bg-gray-800.border-t-2.border-gray-800.py-16
+
+! --- discussions.unity.com ---
+discussions.unity.com###onetrust-banner-sdk > div:nth-of-type(1) > .ot-sdk-container > .ot-sdk-row
+
+! --- github.* ---
+github.*##.footer.pt-8.pb-6.f6.color-fg-muted
+
+! --- ihentai.* ---
+ihentai.*##.v-btn.v-btn--elevated.v-theme--dark.bg-orange.v-btn--density-default.v-btn--size-default.v-btn--variant-elevated.\!tw-normal-case.\!tw-tracking-normal
+ihentai.*##.v-footer.v-theme--dark.tw-justify-center.\!tw-py-10
+ihentai.*##.v-spacer
+
+! --- open.spotify.com ---
+open.spotify.com##.D_6zDR19xV1TJcWGiLff
+open.spotify.com##.e-91000-button--leading.e-91000-button--small.e-91000-overflow-wrap-anywhere.encore-text-body-small-bold.dzIYeQ.Button-sc-1dqy6lx-0
+open.spotify.com##.esBjsh.sc-jxOSlx
+open.spotify.com##.main-view-container__mh-footer-container
+open.spotify.com##button.e-91000-button-tertiary--condensed.e-91000-overflow-wrap-anywhere.encore-text-body-medium-bold.enYihQ.Button-sc-1dqy6lx-0:nth-of-type(1)
+open.spotify.com##button.e-91000-button-tertiary--condensed.e-91000-overflow-wrap-anywhere.encore-text-body-medium-bold.enYihQ.Button-sc-1dqy6lx-0:nth-of-type(3)
+
+! --- search.brave.com ---
+search.brave.com##footer.svelte-6sdecn
+
+! --- store.steampowered.com ---
+store.steampowered.com###footer
+
+! --- vlxx.* ---
+vlxx.*##footer
+
+! --- www.crunchyroll.com ---
+www.crunchyroll.com##.footer--NNXrc.footer--is-default--F1n5V
+www.crunchyroll.com##.footer-horizontal-layout__image--iCc3p
+
+! --- www.facebook.com ---
+www.facebook.com##footer > .x193iq5w.xeuugli.x13faqbe.x1vvkbs.x1xmvt09.x1lliihq.x1s928wv.xhkezso.x1gmr53x.x1cpjm7i.x1fgarty.x1943h6x.x4zkp8e.x676frb.x1pg5gke.x1sibtaa.xo1l8bm.xi81zsa
+
+! --- www.gog.com ---
+www.gog.com##.footer-microservice.main-footer
+
+! --- www.google.com ---
+www.google.com##.XPuBac
+
+! --- www.netflix.com ---
+www.netflix.com##.default-ltr-iqcdef-cache-1r1jvwn
+
+! --- www.nytimes.com ---
+www.nytimes.com##.css-1e1s8k7
+www.nytimes.com##.css-50gbj.e1j3jvdr1 > span:nth-of-type(1)
+www.nytimes.com##.css-sg7scw
+
+! --- www.reddit.com ---
+www.reddit.com###advertise-button
+
+! --- www.ted.com ---
+www.ted.com##.w-full.pr-5 > .w-full.px-5.md\:px-10.xl\:px-16
+www.ted.com##footer.flex.w-full > .w-full.bg-black
+
+! --- x.com ---
+x.com##.css-175oi2r.r-18u37iz.r-1w6e6rj.r-gu64tb
+

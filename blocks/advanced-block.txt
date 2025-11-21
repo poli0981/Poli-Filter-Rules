@@ -1,0 +1,30 @@
+! General blocking rules
+||*88.com^
+||ru.com^$all
+||in.net^$all
+||us.com^$all
+||jpn.com^$all
+
+
+! Cookie Consent
+||onetrust.com^$important,third-party
+||cookiebot.com^$important,third-party
+||cookielaw.org^$important,third-party
+||consentmanager.net^$important,third-party
+||usercentrics.eu^$important,third-party
+
+! App download popup
+||play.google.com/store/apps^$important,popup
+||itunes.apple.com/app^$important,popup
+
+! Chatbot
+||intercom.io^$important,third-party
+||drift.com^$important,third-party
+||tidio.com^$important,third-party
+||zendesk.com/widget^$important,third-party
+||tawk.to^$important,third-party
+
+! Facebook third-party
+||connect.facebook.net^$important,third-party
+||facebook.com/plugins^$important,third-party
+||fbcdn.net^$important,third-party,domain=~facebook.com
