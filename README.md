@@ -1,53 +1,109 @@
-# Custom Adblock Filter List
+# Poli-Filter-Rules - Personal Content Blocker Filter List
 
-[![Version](https://img.shields.io/badge/version-1.0--alpha0-blue.svg)](https://github.com/poli0981/my-content-blocker)
+[![Version](https://img.shields.io/badge/version-1.0--alpha1-blue.svg)](https://github.com/poli0981/Poli-Filter-Rules)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Updates](https://img.shields.io/badge/updates-every%203%20days-orange.svg)](https://github.com/poli0981/my-content-blocker/commits/main)
 
 ## Overview
-This repository contains a personal collection of adblock filters designed to block advertisements, trackers, and hide unwanted CSS elements (such as footers, promotions, cookie notices, chatbots, and more) on various websites. It's compatible with tools like Brave Browser, AdGuard, uBlock Origin, and other adblockers that support AdBlock Plus (ABP) syntax.
 
-This is an early-stage project (version 1.0-alpha0), built as a solo endeavor with AI assistance. It's based on personal web browsing experiences and may not suit everyone. Feel free to fork and customize!
+- A highly modular, auto-generated, and meticulously organized personal adblock filter list designed for Brave, AdGuard, uBlock Origin, and any AdBlock Plus-compatible extension.
+- Built as a solo project with heavy AI assistance (Grok 4.1 Thinking - Beta), this list focuses on real-world annoyances: aggressive ads, trackers, cookie banners, app download nags, chatbots, Facebook widgets, and full-domain blocks for particularly toxic sites.
+- Version 1.0-alpha1 marks the transition to fully English documentation and a professional repository structure suitable for international use.
 
 ## Features
-- **Blocking Rules**: Filters to block ad/tracker domains and URLs (e.g., Google Ads, Facebook trackers).
-- **Element Hiding**: CSS selectors to hide annoying elements like cookie banners, app download prompts, chatbots, and Facebook widgets (excluding facebook.com itself).
-- **Modular Structure**: Filters are split into separate files for better management:
-  - `blocking.txt`: Domain/URL blocking rules.
-  - `hiding.txt`: CSS element hiding rules.
-  - (Optional) `cosmetic.txt`: Advanced style modifications.
-  - (Optional) `exceptions.txt`: Whitelists to prevent over-blocking.
-- **Easy Integration**: Subscribe via raw GitHub URLs for auto-updates.
+
+- Raw → auto-generated workflow (no manual sorting ever again)
+- Full-domain blocking with reasons & tags
+- Per-site CSS hiding rules, automatically organized by domain
+- Exception list for over-blocking protection
+- Scripts for generation & organization included
+- All legal docs (EULA, ToS, Privacy Policy, etc.)
+
+## Current Version
+- Version: 1.0-alpha1
+- Release Date: November 21, 2025
+- Changelog: [CHANGELOG.md](CHANGELOG.md)
+
+## Update Frequency
+- Update frequency: every 3–5 days (may be earlier or delayed due to health, file loss, or real-life issues)
+
+## Repository Structure
+```text
+.
+├── autoscript/
+│   ├── generate-blocking.py      # raw → full-block-domains.txt + advanced-block.txt
+│   └── organize-hiding.py        # hiding-raws.txt → organized-hiding.txt (grouped by domain)
+├── blocks/
+│   ├── raws.txt                  # plain domain list with optional tags "[tracker][popup][full]"
+│   ├── full-block-domains.txt    # auto-generated ||domain^$important,...
+│   └── advanced-block.txt        # manual complex blocking rules
+├── Hide/
+│   ├── hiding-raws.txt           # raw CSS selectors (free-form input)
+│   └── organized-hiding.txt      # auto-generated, grouped & sorted by domain
+├── Exception/
+│   └── exception.txt
+├── docs/
+│   ├── ACKNOWLEDGEMENTS.md
+│   ├── DISCLAIMER.md
+│   ├── EULA.md
+│   ├── PrivacyPolicy.md
+│   └── ToS.md
+├── LICENSE                       # MIT License
+└── README.md
+```
 
 ## How to Use
-1. **Subscribe in Your Adblocker**:
-   - Get the raw URL for each file (e.g., `https://raw.githubusercontent.com/yourusername/custom-adblock-list/main/blocking.txt`).
-   - In Brave: Settings > Shields > Content Filtering > Add custom filter list.
-   - In AdGuard: Settings > Filters > Custom > Add filter URL.
-   - In uBlock Origin: Dashboard > Filter Lists > Import URL.
 
-2. **Testing and Customization**:
-   - Apply the lists and reload target websites.
-   - Use browser DevTools (F12) to inspect elements and create new rules.
-   - If a rule breaks a site, add exceptions in `exceptions.txt` (e.g., `@@||example.com^$document`).
+1. Subscribe to the generated files (recommended):
+   - Full block: `https://raw.githubusercontent.com/poli0981/Poli-Filter-Rules/refs/heads/main/blocks/full-block-domains.txt`
+   - Advanced block: `https://raw.githubusercontent.com/poli0981/Poli-Filter-Rules/refs/heads/main/blocks/advanced-block.txt`
+   - Organized hiding: `https://raw.githubusercontent.com/poli0981/Poli-Filter-Rules/refs/heads/main/Hide/organized-hiding.txt`
+   - Exceptions: `https://raw.githubusercontent.com/poli0981/Poli-Filter-Rules/refs/heads/main/Exception/exception.txt`
 
-3. **Updating**:
-   - The repo will be updated approximately every 3 days (barring any issues).
-   - Your adblocker should auto-pull changes if subscribed to raw URLs.
+2. Or subscribe to the whole repo as multiple custom lists in your preferred adblocker.
 
-## Structure
-- `/blocking.txt`: Rules for blocking ad/tracker requests.
-- `/hiding.txt`: Rules for hiding CSS elements.
-- `/LICENSE`: MIT License.
-- `/README.md`: This file.
-- `/ACKNOWLEDGEMENTS.md`: Credits and contributions.
-- `/DISCLAIMER.md`: Important disclaimers.
+Auto-update works instantly on GitHub raw URLs.
+
+## Auto Scripts (Super Convenient)
+
+```bash
+# Blocking rules
+python autoscript/generate-blocking.py
+
+# Hiding rules (run after adding to hiding-raws.txt)
+python autoscript/organize-hiding.py
+```
+_Just commit the raw files → run scripts → commit generated files. Zero manual sorting forever._
+
+
+## Development Stack
+
+- ***IDEs***: PyCharm 2025.3 EAP + Visual Studio Code
+- ***AI Assistant***: Grok 4.1 Thinking - Beta (xAI) – ~50% of documentation, script logic, rule suggestions, debugging, and organization ideas
+- Human: prompt engineering, rule writing, testing, final decisions, health management :)
 
 ## Contributing
-This is a personal project, but contributions are welcome! Fork the repo, add your rules, and submit a pull request. Please test changes and follow ABP syntax.
 
-## Support
-If you encounter issues, open an GitHub issue or tweak the rules yourself. For syntax help, refer to [AdBlock Plus Filter Syntax](https://help.eyeo.com/adblockplus/how-to-write-filters).
+- This is primarily a solo project, but contributions are very welcome!
+- Fork → add rules to raw files → run scripts → open PR with both raw + generated files.
+- Please include reason in comments and test on real sites.
+- Issues & suggestions are always appreciated.
 
----
-*Built with ❤️ by a solo developer with AI assistance.*
+## Legal & Privacy
+
+- **License**: MIT (permissive – use anywhere)
+- _No data collection_ whatsoever (static files only)
+- Full docs in `/docs` folder:
+- [EULA](docs/EULA.md) | [ToS](docs/ToS.md) | [Privacy Policy](docs/PrivacyPolicy.md)
+- [Disclaimer](docs/DISCLAMER.md) | [Acknowledgements](docs/ACKNOWLEDGEMENTS.md)
+
+
+## Acknowledgements
+
+- Special thanks to _Grok 4.1 Thinking - Beta_ for being an incredible co-pilot: writing documentation, fixing bugs in seconds, suggesting smart script architecture, and keeping the project moving even when I was tired or sick.
+- Couldn't have reached 1.0-alpha1 this fast without you, bro.
+
+Built with passion, automation, and a bit of AI magic.
+Feedback? Open an issue – let's make the web suck less, together.
+
+**Last updated:** _November 21, 2025._
