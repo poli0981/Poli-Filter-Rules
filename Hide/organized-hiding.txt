@@ -1,9 +1,7 @@
 ! Organized Hiding Rules - Auto Generated
-! Generated on: 2025-11-21 08:38
-! Source: hiding.txt
-! Total hiding rules: 67
-
-! --- Global Hiding Rules ---
+! Generated on: 2025-11-22 23:20
+! Source: hiding-raws.txt
+! Total hiding rules: 83
 
 *##.chat-button-bottom-right
 *##.consent-popup
@@ -93,7 +91,27 @@ www.facebook.com##footer > .x193iq5w.xeuugli.x13faqbe.x1vvkbs.x1xmvt09.x1lliihq.
 www.gog.com##.footer-microservice.main-footer
 
 ! --- www.google.com ---
+www.google.com##.KxwPGc.SSwjIe ! Hide Google footer
 www.google.com##.XPuBac
+
+! --- www.hoyolab.com ---
+www.hoyolab.com##.footer__copyright > p
+www.hoyolab.com##.mhy-article-list__body > div.mhy-article-card-wrapper > .mhy-article-card
+www.hoyolab.com##.mhy-article-list__body > div.mhy-contribution-card-v2.mhy-contribution-card-v2--ended
+www.hoyolab.com##.mhy-article-list__body > div.mhy-contribution-card-v2.mhy-contribution-card-v2--started
+www.hoyolab.com##.mhy-loadmore.mhy-loadmore-common.mhy-loadmore-scroll
+www.hoyolab.com##.mhy-recommend-user-list-side > div.recommend-user-card
+www.hoyolab.com##.mhy-side-section.mhy-download-section
+www.hoyolab.com##.mhy-side-section.recommend-users
+www.hoyolab.com##.mhy-timeline-recommend-user-list__container.with-rounded-corners > div.mhy-timeline-recommend-user-list__card > .recommend-user-card
+www.hoyolab.com##.new-game-card.insert-com
+www.hoyolab.com##div.footer__item:nth-of-type(1)
+www.hoyolab.com##div.footer__item:nth-of-type(2) > .footer__block
+www.hoyolab.com##div.mhy-side-section:nth-of-type(4)
+
+! --- www.instagram.com ---
+www.instagram.com##.x1qjc9v5.x9f619.x78zum5.xdt5ytf.x2lah0s.xk390pu.xdj266r.x14z9mp.xat24cr.x1lziwak.x1h3rv7z.xexx8yu.x18d9i69.x1n2onr6.x11njtxf.xv54qhq.xf7dkkf.xl8spv7
+www.instagram.com##.x1qjc9v5.x9f619.x78zum5.xdt5ytf.x2lah0s.xk390pu.xdj266r.x14z9mp.xat24cr.x1lziwak.x1h3rv7z.xexx8yu.x18d9i69.x1n2onr6.x11njtxf.xv54qhq.xf7dkkf.xvbhtw
 
 ! --- www.netflix.com ---
 www.netflix.com##.default-ltr-iqcdef-cache-1r1jvwn

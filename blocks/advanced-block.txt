@@ -1,9 +1,27 @@
 ! General blocking rules
-||*88.com^
+||*88.com^$all
 ||ru.com^$all
 ||in.net^$all
 ||us.com^$all
 ||jpn.com^$all
+||sa.com^$all
+||co.com^$all
+||uk.net^$all
+||cn.com^$all
+||vn.vip^$all
+||eu.com^$all
+||uk.com^$all
+||br.com^$all
+||hit.club^$all
+||weebly.com^$all
+||us.org^$all
+||cn.com^$all
+||haywinclub.life^$all
+||vt88vip.link^$all
+||thegioitic88.biz^$all
+||tic88.com^$all
+||gamehd88.vip^$all
+||jp.net^$all
 
 
 ! Cookie Consent
