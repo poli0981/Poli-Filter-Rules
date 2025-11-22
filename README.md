@@ -1,6 +1,6 @@
 # Poli-Filter-Rules - Personal Content Blocker Filter List
 
-[![Version](https://img.shields.io/badge/version-1.0--alpha1-blue.svg)](https://github.com/poli0981/Poli-Filter-Rules)
+[![Version](https://img.shields.io/badge/version-1.0--alpha2-blue.svg)](https://github.com/poli0981/Poli-Filter-Rules)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Updates](https://img.shields.io/badge/updates-every%203%20days-orange.svg)](https://github.com/poli0981/my-content-blocker/commits/main)
 
