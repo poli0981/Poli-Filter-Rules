@@ -22,6 +22,13 @@
 ||tic88.com^$all
 ||gamehd88.vip^$all
 ||jp.net^$all
+||ae.org^$all
+||gr.com^$all
+||okbet.com^$all
+||localinfo.jp^$all
+||xi88^$all
+||okvip^$all
+||okbet^$all
 
 
 ! Cookie Consent

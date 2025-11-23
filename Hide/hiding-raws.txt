@@ -108,3 +108,20 @@ www.hoyolab.com##.mhy-side-section.recommend-users
 www.instagram.com##.x1qjc9v5.x9f619.x78zum5.xdt5ytf.x2lah0s.xk390pu.xdj266r.x14z9mp.xat24cr.x1lziwak.x1h3rv7z.xexx8yu.x18d9i69.x1n2onr6.x11njtxf.xv54qhq.xf7dkkf.xl8spv7
 www.instagram.com##.x1qjc9v5.x9f619.x78zum5.xdt5ytf.x2lah0s.xk390pu.xdj266r.x14z9mp.xat24cr.x1lziwak.x1h3rv7z.xexx8yu.x18d9i69.x1n2onr6.x11njtxf.xv54qhq.xf7dkkf.xvbhtw
 
+itch.io##.app_banner
+itch.io##.sidebar_social
+itch.io##.footer
+itch.io##a.panel_button:nth-of-type(1)
+itch.io##.panel_button.register_button
+karate.com##.footer_footer__Imvdy
+www.reddit.com##.text-neutral-content-weak.flex.gap-\[var\(--rem4\)\].flex-wrap.items-center.gap-xs
+www.reddit.com##.visible.py-md.grow.flex.flex-col.justify-end
+www.duolingo.com##._3mfHU
+brave.com##.site-footer.section.pb-12
+
+www.reddit.com##faceplate-tracker:nth-of-type(4) > .relative.list-none.mt-0 > .flex.justify-between.relative.px-md.gap-\[0\.5rem\].text-secondary.hover\:text-secondary-hover.active\:bg-interactive-pressed.hover\:bg-neutral-background-hover.hover\:no-underline.cursor-pointer.py-2xs.-outline-offset-1.s\:rounded-2.bg-transparent.no-underline
+www.reddit.com##faceplate-tracker:nth-of-type(14) > .relative.list-none.mt-0 > .flex.justify-between.relative.px-md.gap-\[0\.5rem\].text-secondary.hover\:text-secondary-hover.active\:bg-interactive-pressed.hover\:bg-neutral-background-hover.hover\:no-underline.cursor-pointer.py-2xs.-outline-offset-1.s\:rounded-2.bg-transparent.no-underline
+www.reddit.com##faceplate-tracker:nth-of-type(13) > .relative.list-none.mt-0 > .flex.justify-between.relative.px-md.gap-\[0\.5rem\].text-secondary.hover\:text-secondary-hover.active\:bg-interactive-pressed.hover\:bg-neutral-background-hover.hover\:no-underline.cursor-pointer.py-2xs.-outline-offset-1.s\:rounded-2.bg-transparent.no-underline
+www.reddit.com##faceplate-tracker:nth-of-type(15) > .relative.list-none.mt-0 > .flex.justify-between.relative.px-md.gap-\[0\.5rem\].text-secondary.hover\:text-secondary-hover.active\:bg-interactive-pressed.hover\:bg-neutral-background-hover.hover\:no-underline.cursor-pointer.py-2xs.-outline-offset-1.s\:rounded-2.bg-transparent.no-underline
+www.reddit.com##faceplate-tracker:nth-of-type(16) > .relative.list-none.mt-0 > .flex.justify-between.relative.px-md.gap-\[0\.5rem\].text-secondary.hover\:text-secondary-hover.active\:bg-interactive-pressed.hover\:bg-neutral-background-hover.hover\:no-underline.cursor-pointer.py-2xs.-outline-offset-1.s\:rounded-2.bg-transparent.no-underline
+

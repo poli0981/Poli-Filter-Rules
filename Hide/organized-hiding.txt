@@ -1,8 +1,9 @@
 ! Organized Hiding Rules - Auto Generated
-! Generated on: 2025-11-22 23:20
+! Generated on: 2025-11-23 22:25
 ! Source: hiding-raws.txt
-! Total hiding rules: 83
+! Total hiding rules: 98
 
+! --- General Blocking Elements ---
 *##.chat-button-bottom-right
 *##.consent-popup
 *##.cookie-banner
@@ -44,6 +45,9 @@ animevietsub.*##.notification-enhanced
 animevietsub.*##.widget-area
 animevietsub.*##div.Wdgt:nth-of-type(7) > div.Title:nth-of-type(1)
 
+! --- brave.com ---
+brave.com##.site-footer.section.pb-12
+
 ! --- cloud.unity.com ---
 cloud.unity.com###onetrust-banner-sdk > div:nth-of-type(1) > .ot-sdk-container > .ot-sdk-row
 
@@ -62,6 +66,16 @@ github.*##.footer.pt-8.pb-6.f6.color-fg-muted
 ihentai.*##.v-btn.v-btn--elevated.v-theme--dark.bg-orange.v-btn--density-default.v-btn--size-default.v-btn--variant-elevated.\!tw-normal-case.\!tw-tracking-normal
 ihentai.*##.v-footer.v-theme--dark.tw-justify-center.\!tw-py-10
 ihentai.*##.v-spacer
+
+! --- itch.io ---
+itch.io##.app_banner
+itch.io##.footer
+itch.io##.panel_button.register_button
+itch.io##.sidebar_social
+itch.io##a.panel_button:nth-of-type(1)
+
+! --- karate.com ---
+karate.com##.footer_footer__Imvdy
 
 ! --- open.spotify.com ---
 open.spotify.com##.D_6zDR19xV1TJcWGiLff
@@ -84,6 +98,9 @@ vlxx.*##footer
 www.crunchyroll.com##.footer--NNXrc.footer--is-default--F1n5V
 www.crunchyroll.com##.footer-horizontal-layout__image--iCc3p
 
+! --- www.duolingo.com ---
+www.duolingo.com##._3mfHU
+
 ! --- www.facebook.com ---
 www.facebook.com##footer > .x193iq5w.xeuugli.x13faqbe.x1vvkbs.x1xmvt09.x1lliihq.x1s928wv.xhkezso.x1gmr53x.x1cpjm7i.x1fgarty.x1943h6x.x4zkp8e.x676frb.x1pg5gke.x1sibtaa.xo1l8bm.xi81zsa
 
@@ -95,16 +112,16 @@ www.google.com##.KxwPGc.SSwjIe ! Hide Google footer
 www.google.com##.XPuBac
 
 ! --- www.hoyolab.com ---
-www.hoyolab.com##.footer__copyright > p
-www.hoyolab.com##.mhy-article-list__body > div.mhy-article-card-wrapper > .mhy-article-card
+www.hoyolab.com##.footer__copyright > p ! Hide copyright text
+www.hoyolab.com##.mhy-article-list__body > div.mhy-article-card-wrapper > .mhy-article-card ! Hide article cards on homepage
 www.hoyolab.com##.mhy-article-list__body > div.mhy-contribution-card-v2.mhy-contribution-card-v2--ended
 www.hoyolab.com##.mhy-article-list__body > div.mhy-contribution-card-v2.mhy-contribution-card-v2--started
 www.hoyolab.com##.mhy-loadmore.mhy-loadmore-common.mhy-loadmore-scroll
 www.hoyolab.com##.mhy-recommend-user-list-side > div.recommend-user-card
 www.hoyolab.com##.mhy-side-section.mhy-download-section
 www.hoyolab.com##.mhy-side-section.recommend-users
-www.hoyolab.com##.mhy-timeline-recommend-user-list__container.with-rounded-corners > div.mhy-timeline-recommend-user-list__card > .recommend-user-card
-www.hoyolab.com##.new-game-card.insert-com
+www.hoyolab.com##.mhy-timeline-recommend-user-list__container.with-rounded-corners > div.mhy-timeline-recommend-user-list__card > .recommend-user-card ! Hide recommended user
+www.hoyolab.com##.new-game-card.insert-com ! Hide new game card on homepage, oh shit, I don't see new Hoyoverse game again
 www.hoyolab.com##div.footer__item:nth-of-type(1)
 www.hoyolab.com##div.footer__item:nth-of-type(2) > .footer__block
 www.hoyolab.com##div.mhy-side-section:nth-of-type(4)
@@ -123,6 +140,13 @@ www.nytimes.com##.css-sg7scw
 
 ! --- www.reddit.com ---
 www.reddit.com###advertise-button
+www.reddit.com##.text-neutral-content-weak.flex.gap-\[var\(--rem4\)\].flex-wrap.items-center.gap-xs
+www.reddit.com##.visible.py-md.grow.flex.flex-col.justify-end
+www.reddit.com##faceplate-tracker:nth-of-type(13) > .relative.list-none.mt-0 > .flex.justify-between.relative.px-md.gap-\[0\.5rem\].text-secondary.hover\:text-secondary-hover.active\:bg-interactive-pressed.hover\:bg-neutral-background-hover.hover\:no-underline.cursor-pointer.py-2xs.-outline-offset-1.s\:rounded-2.bg-transparent.no-underline
+www.reddit.com##faceplate-tracker:nth-of-type(14) > .relative.list-none.mt-0 > .flex.justify-between.relative.px-md.gap-\[0\.5rem\].text-secondary.hover\:text-secondary-hover.active\:bg-interactive-pressed.hover\:bg-neutral-background-hover.hover\:no-underline.cursor-pointer.py-2xs.-outline-offset-1.s\:rounded-2.bg-transparent.no-underline
+www.reddit.com##faceplate-tracker:nth-of-type(15) > .relative.list-none.mt-0 > .flex.justify-between.relative.px-md.gap-\[0\.5rem\].text-secondary.hover\:text-secondary-hover.active\:bg-interactive-pressed.hover\:bg-neutral-background-hover.hover\:no-underline.cursor-pointer.py-2xs.-outline-offset-1.s\:rounded-2.bg-transparent.no-underline
+www.reddit.com##faceplate-tracker:nth-of-type(16) > .relative.list-none.mt-0 > .flex.justify-between.relative.px-md.gap-\[0\.5rem\].text-secondary.hover\:text-secondary-hover.active\:bg-interactive-pressed.hover\:bg-neutral-background-hover.hover\:no-underline.cursor-pointer.py-2xs.-outline-offset-1.s\:rounded-2.bg-transparent.no-underline
+www.reddit.com##faceplate-tracker:nth-of-type(4) > .relative.list-none.mt-0 > .flex.justify-between.relative.px-md.gap-\[0\.5rem\].text-secondary.hover\:text-secondary-hover.active\:bg-interactive-pressed.hover\:bg-neutral-background-hover.hover\:no-underline.cursor-pointer.py-2xs.-outline-offset-1.s\:rounded-2.bg-transparent.no-underline
 
 ! --- www.ted.com ---
 www.ted.com##.w-full.pr-5 > .w-full.px-5.md\:px-10.xl\:px-16
