@@ -55,10 +55,22 @@
 ## How to Use
 
 1. Subscribe to the generated files (recommended):
-   - Full block: `https://raw.githubusercontent.com/poli0981/Poli-Filter-Rules/refs/heads/main/blocks/full-block-domains.txt`
-   - Advanced block: `https://raw.githubusercontent.com/poli0981/Poli-Filter-Rules/refs/heads/main/blocks/advanced-block.txt`
-   - Organized hiding: `https://raw.githubusercontent.com/poli0981/Poli-Filter-Rules/refs/heads/main/Hide/organized-hiding.txt`
-   - Exceptions: `https://raw.githubusercontent.com/poli0981/Poli-Filter-Rules/refs/heads/main/Exception/exception.txt`
+   - Full block:
+     ```text
+     https://raw.githubusercontent.com/poli0981/Poli-Filter-Rules/refs/heads/main/blocks/full-block-domains.txt
+     ```
+   - Advanced block:
+     ```text
+     https://raw.githubusercontent.com/poli0981/Poli-Filter-Rules/refs/heads/main/blocks/advanced-block.txt
+     ```
+   - Organized hiding:
+     ```text
+     https://raw.githubusercontent.com/poli0981/Poli-Filter-Rules/refs/heads/main/Hide/organized-hiding.txt
+     ```
+   - Exceptions:
+     ```text
+     https://raw.githubusercontent.com/poli0981/Poli-Filter-Rules/refs/heads/main/Exception/exception.txt
+     ```
 
 2. Or subscribe to the whole repo as multiple custom lists in your preferred adblocker.
 
