@@ -3,6 +3,15 @@
 
 Written by the same unemployed dev who is currently eating cold noodles at 6 a.m. while listening to lofi to cope.
 
+## 1.0-alpha2.5 – "Scam Emails & More Gambling Bullshit" Quick Fix (November 23, 2025)
+
+- Added 84+ gambling domains (de88, au88, okfun, xi88, etc.) + advanced subdomain rules
+- Removed 1 duplicate domain (efficiency? Maybe.)
+- Hidden useless crap: Itch.io login/register/download/footer/socials; Reddit privacy/pro/agreement/legal footer; Brave.com/karate.com/Duolingo web footers
+- Official war on scams and Facebook's garbage moderation
+- 2 hours of my life wasted – worth it?
+
+
 ### Version 1.0-alpha2 - November 23, 2025
 
 ## 1.0-alpha2 – "I Hate Gambling Sites & HoYoverse" Emergency Patch (November 23, 2025)
