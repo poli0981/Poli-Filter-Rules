@@ -3,6 +3,15 @@
 
 Written by the same unemployed dev who is currently eating cold noodles at 6 a.m. while listening to lofi to cope.
 
+## 1.0-alpha5 – "5 Hours of My Life Gone: Gambling Ads & More Useless Crap Hidden" Mega Patch (November 25, 2025)
+
+- Added 200+ international gambling domains (UK, India, Middle East, Bangladesh, etc.) + advanced blocking rules
+- Hidden Postman chatbot/cookie consent; Twitch Turbo button; Medium email/footer/membership; Footers on TikTok/Bluesky/Loaded.com/ether.fi/Chess.com
+- 5 hours wasted – because why not make it hurt more?
+- Node.js reinstall mid-update (unrelated suffering)
+
+---
+
 ## 1.0-alpha2.5 – "Scam Emails & More Gambling Bullshit" Quick Fix (November 23, 2025)
 
 - Added 84+ gambling domains (de88, au88, okfun, xi88, etc.) + advanced subdomain rules
@@ -11,8 +20,7 @@ Written by the same unemployed dev who is currently eating cold noodles at 6 a.m
 - Official war on scams and Facebook's garbage moderation
 - 2 hours of my life wasted – worth it?
 
-
-### Version 1.0-alpha2 - November 23, 2025
+---
 
 ## 1.0-alpha2 – "I Hate Gambling Sites & HoYoverse" Emergency Patch (November 23, 2025)
 
@@ -21,6 +29,8 @@ Written by the same unemployed dev who is currently eating cold noodles at 6 a.m
 - Completely nuked annoying elements on HoYoLab (download buttons, recommendations, follow buttons, etc.)
 - Officially declared war on HoYoverse and deleted all their games from my life
 - Minor mental breakdown included in this release
+
+---
 
 ### Version 1.0-alpha1 – November 21, 2025  
 **"The International Mental Breakdown Release"**
@@ -45,9 +55,9 @@ Written by the same unemployed dev who is currently eating cold noodles at 6 a.m
 ### Version 1.0-alpha0 - Date ???, I forgot.
 - ...
 
-### Future Plans (or copium, who knows)
+---
 
-- `1.0-alpha2` → when domain count hits ~500 and hiding rules ~700 :D
+### Future Plans (or copium, who knows)
 - `1.0-beta` → when I feel like it (maybe when I finally get a job or beat Elden Ring DLC without summoning)
 - `1.0.0 (official release)` → when the list has enough rules OR when hell freezes over (whichever comes first)
 
