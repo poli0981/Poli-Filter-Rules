@@ -27,16 +27,8 @@
 ||gr.com^$all
 ||okbet.com^$all
 ||localinfo.jp^$all
-||.bet^$all
-||.casino^$all
-||.club^$all
-||win79.^$document
-||bu88.^$document
-||bk8.^$document
-||m88.^$document
-||vt88.^$document
-||bu88.^$document
-||tip88.^$document
+||hostman.com/_nuxt/img/new-coin-tutorials.fce6d90.png$image
+||bv399.com/en$subdocument
 
 
 ! Cookie Consent

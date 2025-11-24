@@ -48,6 +48,10 @@ github.*##.footer.pt-8.pb-6.f6.color-fg-muted
 *##.fb-share-button
 *##div[data-provider="facebook"]
 *##[id^="fb-root"]
+*###cookieconsent
+*##.cookieconsent
+*###cookie-consent
+*##.cookie-consent
 
 discussions.unity.com###onetrust-banner-sdk > div:nth-of-type(1) > .ot-sdk-container > .ot-sdk-row
 cloud.unity.com###onetrust-banner-sdk > div:nth-of-type(1) > .ot-sdk-container > .ot-sdk-row
@@ -125,3 +129,33 @@ www.reddit.com##faceplate-tracker:nth-of-type(13) > .relative.list-none.mt-0 > .
 www.reddit.com##faceplate-tracker:nth-of-type(15) > .relative.list-none.mt-0 > .flex.justify-between.relative.px-md.gap-\[0\.5rem\].text-secondary.hover\:text-secondary-hover.active\:bg-interactive-pressed.hover\:bg-neutral-background-hover.hover\:no-underline.cursor-pointer.py-2xs.-outline-offset-1.s\:rounded-2.bg-transparent.no-underline
 www.reddit.com##faceplate-tracker:nth-of-type(16) > .relative.list-none.mt-0 > .flex.justify-between.relative.px-md.gap-\[0\.5rem\].text-secondary.hover\:text-secondary-hover.active\:bg-interactive-pressed.hover\:bg-neutral-background-hover.hover\:no-underline.cursor-pointer.py-2xs.-outline-offset-1.s\:rounded-2.bg-transparent.no-underline
 
+medium.com##.k.l.i > .q.o
+medium.com##div.cp.co.cn.l.i:nth-of-type(2) > .bu.cq > .cu.ct.cs.b.cr > .cj.ci.ch.cg.cf.ce.cd.cc.cb.ca.bz.by.bx.bw.bv
+
+helpfreshers.medium.com##.gu.fr.m.adi.adh.adg.adf.ade.add.adc.adb.ada.acz.acy.acx.acw.acv.pw-susi-modal
+helpfreshers.medium.com##.acu.act.gz.acs.o.ub.acr.acq.acp.gy.aco.acn.ci.r.ac
+
+hostman.com##.cc-1o31k.cc-1qbp0
+hostman.com##.iconWrapper--yWqG
+
+betvision888.com###chat-widget-minimized
+www.betso88pro.com##.hoverArea__cAX6s
+www.betso88pro.com##.notranslate.__isShow__FhnKi.__bottom__GOZ51.container__S60mm
+
+hostman.com##.container--0Ycx
+bet88lo.com##.swift-in-viewport.link-hau-dai
+
+www.top100bookmakers.com###cookieconsent
+
+www.chess.com###navigation-footer
+
+www.tiktok.com##.css-1dtzhde-0be0dc34--DivFooterContainer.enjgv3a0
+
+www.loaded.com##.footer-copyright.bg-neutral.py-4.px-2.border-t.border-secondary
+www.loaded.com##.footer.content > .bg-primary-darker
+www.loaded.com##.p-10.lg\:py-14.flex.max-lg\:flex-wrap.lg\:justify-center.items-center
+www.loaded.com##.container.lg\:flex.flex-wrap.items-center.justify-between.gap-8.lg\:gap-5.lg\:py-10
+
+bsky.app##div.css-146c3p1:nth-of-type(6)
+
+www.twitch.tv##div.Layout-sc-1xcs6mc-0.VxLcr:nth-of-type(6) > div.Layout-sc-1xcs6mc-0:nth-of-type(1) > div.Layout-sc-1xcs6mc-0:nth-of-type(1) > .InjectLayout-sc-1i43xsx-0.iDMNUO > .ScCoreButton-sc-ocjdkq-0.gGttfb

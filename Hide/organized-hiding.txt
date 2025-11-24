@@ -1,12 +1,55 @@
 ! Organized Hiding Rules - Auto Generated
-! Generated on: 2025-11-23 22:25
+! Generated on: 2025-11-25 03:57
 ! Source: hiding-raws.txt
-! Total hiding rules: 98
+! Total hiding rules: 122
 
-! --- General Blocking Elements ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*###cookie-consent
+*###cookieconsent
 *##.chat-button-bottom-right
 *##.consent-popup
 *##.cookie-banner
+*##.cookie-consent
+*##.cookieconsent
 *##.drift-widget
 *##.fb-like
 *##.fb-share-button
@@ -45,8 +88,17 @@ animevietsub.*##.notification-enhanced
 animevietsub.*##.widget-area
 animevietsub.*##div.Wdgt:nth-of-type(7) > div.Title:nth-of-type(1)
 
+! --- bet88lo.com ---
+bet88lo.com##.swift-in-viewport.link-hau-dai
+
+! --- betvision888.com ---
+betvision888.com###chat-widget-minimized
+
 ! --- brave.com ---
 brave.com##.site-footer.section.pb-12
+
+! --- bsky.app ---
+bsky.app##div.css-146c3p1:nth-of-type(6)
 
 ! --- cloud.unity.com ---
 cloud.unity.com###onetrust-banner-sdk > div:nth-of-type(1) > .ot-sdk-container > .ot-sdk-row
@@ -62,6 +114,15 @@ discussions.unity.com###onetrust-banner-sdk > div:nth-of-type(1) > .ot-sdk-conta
 ! --- github.* ---
 github.*##.footer.pt-8.pb-6.f6.color-fg-muted
 
+! --- helpfreshers.medium.com ---
+helpfreshers.medium.com##.acu.act.gz.acs.o.ub.acr.acq.acp.gy.aco.acn.ci.r.ac
+helpfreshers.medium.com##.gu.fr.m.adi.adh.adg.adf.ade.add.adc.adb.ada.acz.acy.acx.acw.acv.pw-susi-modal
+
+! --- hostman.com ---
+hostman.com##.cc-1o31k.cc-1qbp0
+hostman.com##.container--0Ycx
+hostman.com##.iconWrapper--yWqG
+
 ! --- ihentai.* ---
 ihentai.*##.v-btn.v-btn--elevated.v-theme--dark.bg-orange.v-btn--density-default.v-btn--size-default.v-btn--variant-elevated.\!tw-normal-case.\!tw-tracking-normal
 ihentai.*##.v-footer.v-theme--dark.tw-justify-center.\!tw-py-10
@@ -76,6 +137,10 @@ itch.io##a.panel_button:nth-of-type(1)
 
 ! --- karate.com ---
 karate.com##.footer_footer__Imvdy
+
+! --- medium.com ---
+medium.com##.k.l.i > .q.o
+medium.com##div.cp.co.cn.l.i:nth-of-type(2) > .bu.cq > .cu.ct.cs.b.cr > .cj.ci.ch.cg.cf.ce.cd.cc.cb.ca.bz.by.bx.bw.bv
 
 ! --- open.spotify.com ---
 open.spotify.com##.D_6zDR19xV1TJcWGiLff
@@ -93,6 +158,13 @@ store.steampowered.com###footer
 
 ! --- vlxx.* ---
 vlxx.*##footer
+
+! --- www.betso88pro.com ---
+www.betso88pro.com##.hoverArea__cAX6s
+www.betso88pro.com##.notranslate.__isShow__FhnKi.__bottom__GOZ51.container__S60mm
+
+! --- www.chess.com ---
+www.chess.com###navigation-footer
 
 ! --- www.crunchyroll.com ---
 www.crunchyroll.com##.footer--NNXrc.footer--is-default--F1n5V
@@ -130,6 +202,12 @@ www.hoyolab.com##div.mhy-side-section:nth-of-type(4)
 www.instagram.com##.x1qjc9v5.x9f619.x78zum5.xdt5ytf.x2lah0s.xk390pu.xdj266r.x14z9mp.xat24cr.x1lziwak.x1h3rv7z.xexx8yu.x18d9i69.x1n2onr6.x11njtxf.xv54qhq.xf7dkkf.xl8spv7
 www.instagram.com##.x1qjc9v5.x9f619.x78zum5.xdt5ytf.x2lah0s.xk390pu.xdj266r.x14z9mp.xat24cr.x1lziwak.x1h3rv7z.xexx8yu.x18d9i69.x1n2onr6.x11njtxf.xv54qhq.xf7dkkf.xvbhtw
 
+! --- www.loaded.com ---
+www.loaded.com##.container.lg\:flex.flex-wrap.items-center.justify-between.gap-8.lg\:gap-5.lg\:py-10
+www.loaded.com##.footer-copyright.bg-neutral.py-4.px-2.border-t.border-secondary
+www.loaded.com##.footer.content > .bg-primary-darker
+www.loaded.com##.p-10.lg\:py-14.flex.max-lg\:flex-wrap.lg\:justify-center.items-center
+
 ! --- www.netflix.com ---
 www.netflix.com##.default-ltr-iqcdef-cache-1r1jvwn
 
@@ -151,6 +229,15 @@ www.reddit.com##faceplate-tracker:nth-of-type(4) > .relative.list-none.mt-0 > .f
 ! --- www.ted.com ---
 www.ted.com##.w-full.pr-5 > .w-full.px-5.md\:px-10.xl\:px-16
 www.ted.com##footer.flex.w-full > .w-full.bg-black
+
+! --- www.tiktok.com ---
+www.tiktok.com##.css-1dtzhde-0be0dc34--DivFooterContainer.enjgv3a0
+
+! --- www.top100bookmakers.com ---
+www.top100bookmakers.com###cookieconsent
+
+! --- www.twitch.tv ---
+www.twitch.tv##div.Layout-sc-1xcs6mc-0.VxLcr:nth-of-type(6) > div.Layout-sc-1xcs6mc-0:nth-of-type(1) > div.Layout-sc-1xcs6mc-0:nth-of-type(1) > .InjectLayout-sc-1i43xsx-0.iDMNUO > .ScCoreButton-sc-ocjdkq-0.gGttfb
 
 ! --- x.com ---
 x.com##.css-175oi2r.r-18u37iz.r-1w6e6rj.r-gu64tb
