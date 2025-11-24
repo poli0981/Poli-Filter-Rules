@@ -1,5 +1,5 @@
 ! General blocking rules
-||*88.com^$all
+||88.com^$all
 ||ru.com^$all
 ||in.net^$all
 ||us.com^$all
@@ -12,6 +12,7 @@
 ||eu.com^$all
 ||uk.com^$all
 ||br.com^$all
+||de.com^$all
 ||hit.club^$all
 ||weebly.com^$all
 ||us.org^$all
@@ -26,9 +27,16 @@
 ||gr.com^$all
 ||okbet.com^$all
 ||localinfo.jp^$all
-||xi88.*^
-||okvip.*^
-||okbet.*^
+||.bet^$all
+||.casino^$all
+||.club^$all
+||win79.^$document
+||bu88.^$document
+||bk8.^$document
+||m88.^$document
+||vt88.^$document
+||bu88.^$document
+||tip88.^$document
 
 
 ! Cookie Consent
