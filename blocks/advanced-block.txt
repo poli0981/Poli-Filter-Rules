@@ -26,10 +26,10 @@
 ||gr.com^$all
 ||okbet.com^$all
 ||localinfo.jp^$all
-||xi88.*
-||okvip.*
-||okbet.*
-||3bet.*
+||xi88.*^
+||okvip.*^
+||okbet.*^
+||3bet.*^
 
 
 ! Cookie Consent
