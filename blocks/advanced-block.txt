@@ -26,9 +26,9 @@
 ||gr.com^$all
 ||okbet.com^$all
 ||localinfo.jp^$all
-||xi88^
-||okvip^
-||okbet^
+||xi88.*
+||okvip.*
+||okbet.*
 
 
 ! Cookie Consent
