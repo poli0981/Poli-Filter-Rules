@@ -1,29 +1,30 @@
 ! Organized Hiding Rules - Auto Generated
-! Generated on: 2025-11-25 11:03
+! Generated on: 2025-11-26 02:11
 ! Source: hiding-raws.txt
-! Total hiding rules: 162
+! Total hiding rules: 168
 
-*###cookie-consent
-*###cookieconsent
-*###footer
-*###site-footer
-*##.chat-button-bottom-right
-*##.consent-popup
-*##.cookie-banner
-*##.cookie-consent
-*##.cookieconsent
-*##.drift-widget
-*##.fb-like
-*##.fb-share-button
-*##.footer
-*##.gdpr-banner
-*##.intercom-launcher
-*##.site-footer
-*##.zopim
-*##[id^="fb-root"]
-*##div[data-provider="facebook"]
-*##div[id^="cookie-notice"]
-*##div[id^="tidio-chat"]
+
+###cookie-consent
+###cookieconsent
+###footer
+###site-footer
+##.chat-button-bottom-right
+##.consent-popup
+##.cookie-banner
+##.cookie-consent
+##.cookieconsent
+##.drift-widget
+##.fb-like
+##.fb-share-button
+##.footer
+##.gdpr-banner
+##.intercom-launcher
+##.site-footer
+##.zopim
+##[id^="fb-root"]
+##div[data-provider="facebook"]
+##div[id^="cookie-notice"]
+##div[id^="tidio-chat"]
 
 ! --- animehay.* ---
 animehay.*##.ah_content > .bg-black.padding-10
@@ -249,10 +250,16 @@ www.twitch.tv##div.Layout-sc-1xcs6mc-0.VxLcr:nth-of-type(6) > div.Layout-sc-1xcs
 ! --- www.youtube.com ---
 www.youtube.com###buttons > ytd-button-renderer.ytd-masthead.style-scope > yt-button-shape
 www.youtube.com###comments
+www.youtube.com###content > .ytd-rich-section-renderer.style-scope
+www.youtube.com###contents-container > .ytd-rich-shelf-renderer.style-scope
+www.youtube.com###copyright
+www.youtube.com###guide-links-primary
+www.youtube.com###guide-links-secondary
 www.youtube.com###secondary > .ytd-watch-flexy.style-scope
 www.youtube.com###voice-search-button > .ytd-masthead.style-scope > yt-button-shape
 www.youtube.com##.ytd-download-button-renderer.style-scope > yt-button-shape
 www.youtube.com##ytd-guide-entry-renderer.ytd-guide-section-renderer.style-scope:nth-of-type(2)
+www.youtube.com##ytd-guide-signin-promo-renderer.ytd-guide-renderer.style-scope
 www.youtube.com##ytd-mini-guide-entry-renderer.style-scope.ytd-mini-guide-renderer:nth-of-type(2) > .yt-simple-endpoint.style-scope.ytd-mini-guide-entry-renderer
 
 ! --- x.com ---

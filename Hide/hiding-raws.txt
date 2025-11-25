@@ -33,30 +33,30 @@ www.ted.com##footer.flex.w-full > .w-full.bg-black
 
 github.*##.footer.pt-8.pb-6.f6.color-fg-muted
 
-*##.cookie-banner
-*##.consent-popup
-*##div[id^="cookie-notice"]
-*##.gdpr-banner
+##.cookie-banner
+##.consent-popup
+##div[id^="cookie-notice"]
+##.gdpr-banner
 
-*##.intercom-launcher
-*##.drift-widget
-*##div[id^="tidio-chat"]
-*##.zopim
-*##.chat-button-bottom-right
+##.intercom-launcher
+##.drift-widget
+##div[id^="tidio-chat"]
+##.zopim
+##.chat-button-bottom-right
 
 
-*###footer
-*###site-footer
-*##.footer
-*##.site-footer
-*##.fb-like
-*##.fb-share-button
-*##div[data-provider="facebook"]
-*##[id^="fb-root"]
-*###cookieconsent
-*##.cookieconsent
-*###cookie-consent
-*##.cookie-consent
+###footer
+###site-footer
+##.footer
+##.site-footer
+##.fb-like
+##.fb-share-button
+##div[data-provider="facebook"]
+##[id^="fb-root"]
+###cookieconsent
+##.cookieconsent
+###cookie-consent
+##.cookie-consent
 
 discussions.unity.com###onetrust-banner-sdk > div:nth-of-type(1) > .ot-sdk-container > .ot-sdk-row
 cloud.unity.com###onetrust-banner-sdk > div:nth-of-type(1) > .ot-sdk-container > .ot-sdk-row
@@ -171,6 +171,12 @@ www.youtube.com###buttons > ytd-button-renderer.ytd-masthead.style-scope > yt-bu
 www.youtube.com###voice-search-button > .ytd-masthead.style-scope > yt-button-shape
 www.youtube.com##.ytd-download-button-renderer.style-scope > yt-button-shape
 www.youtube.com##ytd-guide-entry-renderer.ytd-guide-section-renderer.style-scope:nth-of-type(2)
+www.youtube.com##ytd-guide-signin-promo-renderer.ytd-guide-renderer.style-scope
+www.youtube.com###copyright
+www.youtube.com###guide-links-primary
+www.youtube.com###guide-links-secondary
+www.youtube.com###contents-container > .ytd-rich-shelf-renderer.style-scope
+www.youtube.com###content > .ytd-rich-section-renderer.style-scope
 
 dev.to##.crayons-article-sticky.grid.gap-4.break-word.js-billboard-container > div:nth-of-type(1) > .crayons-card.crayons-card--secondary.crayons-bb.bb-placement.js-billboard
 www.datacamp.com##.css-101nefz
