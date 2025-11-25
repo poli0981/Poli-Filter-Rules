@@ -5,7 +5,7 @@ import re
 from collections import defaultdict, Counter
 from datetime import datetime
 
-RAW_FILE = pathlib.Path('../Hide/hiding-raws.txt')  # Thay path nếu bro để chỗ khác
+RAW_FILE = pathlib.Path('../Hide/hiding-raws.txt')  # Input file path
 BACKUP_FILE = RAW_FILE.with_suffix('.backup.txt')
 OUTPUT_FILE = RAW_FILE.with_name(RAW_FILE.stem + '_clean.txt')
 
