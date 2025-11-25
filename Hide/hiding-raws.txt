@@ -44,6 +44,11 @@ github.*##.footer.pt-8.pb-6.f6.color-fg-muted
 *##.zopim
 *##.chat-button-bottom-right
 
+
+*###footer
+*###site-footer
+*##.footer
+*##.site-footer
 *##.fb-like
 *##.fb-share-button
 *##div[data-provider="facebook"]
@@ -159,3 +164,41 @@ www.loaded.com##.container.lg\:flex.flex-wrap.items-center.justify-between.gap-8
 bsky.app##div.css-146c3p1:nth-of-type(6)
 
 www.twitch.tv##div.Layout-sc-1xcs6mc-0.VxLcr:nth-of-type(6) > div.Layout-sc-1xcs6mc-0:nth-of-type(1) > div.Layout-sc-1xcs6mc-0:nth-of-type(1) > .InjectLayout-sc-1i43xsx-0.iDMNUO > .ScCoreButton-sc-ocjdkq-0.gGttfb
+
+www.youtube.com###comments
+www.youtube.com###secondary > .ytd-watch-flexy.style-scope
+www.youtube.com###buttons > ytd-button-renderer.ytd-masthead.style-scope > yt-button-shape
+www.youtube.com###voice-search-button > .ytd-masthead.style-scope > yt-button-shape
+www.youtube.com##.ytd-download-button-renderer.style-scope > yt-button-shape
+www.youtube.com##ytd-guide-entry-renderer.ytd-guide-section-renderer.style-scope:nth-of-type(2)
+
+dev.to##.crayons-article-sticky.grid.gap-4.break-word.js-billboard-container > div:nth-of-type(1) > .crayons-card.crayons-card--secondary.crayons-bb.bb-placement.js-billboard
+www.datacamp.com##.css-101nefz
+www.datacamp.com##.css-1udnue6.css-13gihf0
+www.datacamp.com##.css-1kvegv3.css-13gihf0
+www.datacamp.com##.css-17outbb
+dev.to##.flex.items-center.h-100.ml-auto
+www.bairesdev.com##.relative.overflow-hidden.flex.justify-center.bg-site-neutrals-25
+www.bairesdev.com##.bg-site-neutrals-25.shadow-lv3.flex.w-fit.items-center.justify-center.gap-4.rounded-2xl.p-3.mdL\:flex-col
+store.steampowered.com###content_callout
+store.steampowered.com###content_out
+steamcommunity.com###footer_spacer
+steamcommunity.com###footer
+help.steampowered.com###footer
+search.brave.com##footer.svelte-jz8lnl
+www.youtube.com##ytd-mini-guide-entry-renderer.style-scope.ytd-mini-guide-renderer:nth-of-type(2) > .yt-simple-endpoint.style-scope.ytd-mini-guide-entry-renderer
+www.twitch.tv##.Layout-sc-1xcs6mc-0.AoXTY.prime-offers > .Layout-sc-1xcs6mc-0.bkOPih > div:nth-of-type(1) > .InjectLayout-sc-1i43xsx-0.iDMNUO > div:nth-of-type(1) > .ScCoreButton-sc-ocjdkq-0.iPkwTD.ScButtonIcon-sc-9yap0r-0.dcNXJO
+www.twitch.tv##.Layout-sc-1xcs6mc-0.hiJTwz > .ScCoreButton-sc-ocjdkq-0.iPkwTD.ScButtonIcon-sc-9yap0r-0.dcNXJO
+wutheringwaves.kurogames.com##.cookies-modal
+wutheringwaves.kurogames.com##.footer
+wutheringwaves.kurogames.com##.link-list
+wutheringwaves.kurogames.com##.login-btn
+wutheringwaves.kurogames.com##div.nav-item.nav-item-en:nth-of-type(6) > .nav-item-name
+kick.com###radix-_R_u2jl5ubtb_
+kick.com##.\33 xl\:grid-cols-\[repeat\(5\,minmax\(200px\,1fr\)\)\].flex.flex-col.gap-5.md\:grid.md\:grid-cols-\[repeat\(3\,minmax\(200px\,1fr\)\)\].lg\:grid-cols-\[repeat\(4\,minmax\(200px\,1fr\)\)\]
+kick.com##.flex.max-h-6.w-fit.items-center.justify-center > .h-full
+x.com##.css-175oi2r.r-1habvwh.r-eqz5dr.r-uaa2di.r-w7s2jr.r-u9wvl5.r-bnwqim
+x.com##.css-175oi2r.r-18u37iz.r-1w6e6rj.r-3pj75a
+endfield.gryphline.com##.Xrsk\+Qlh9i08Vsrs368r8Q\=\=.f-uw5oqemiZQ9E\+QQGoDUw\=\=
+endfield.gryphline.com##.Header_buttonShare__ml1S_
+endfield.gryphline.com##.Header_buttonShareBg__Tabt5

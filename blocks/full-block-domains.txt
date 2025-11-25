@@ -1,7 +1,7 @@
 ! Full Domain Block List - Auto Generated
-! Generated on: 2025-11-25 03:57
+! Generated on: 2025-11-25 11:00
 ! Source: raws.txt
-! Total domains: 443
+! Total domains: 461
 
 ||*urcdt.com^$important
 ||111hb88.com^$important
@@ -10,14 +10,17 @@
 ||1b8.network^$important
 ||1b8casino.weebly.com^$important
 ||2060.cn.com^$important
+||20asia.net^$important
+||20bet.org^$important
+||20bet.tv^$important
 ||20bet.win^$important
+||20betireland.com^$important
 ||22bett22.com^$important
 ||3bet.net^$important
 ||47e2bn.ru.com^$important
 ||79bet.com^$important
 ||79winbet.com^$important
 ||88-credit.com^$important
-||8847.cn.com^$important
 ||8847.cn.com^$important
 ||88betso.org^$important
 ||907restoration.uk.com^$important
@@ -43,10 +46,10 @@
 ||bayou.uk.com^$important
 ||bet-88.bet^$important
 ||bet-888.site^$important
+||bet20.eu.com^$important
 ||bet79pro.org^$important
 ||bet88-ph.com^$important
 ||bet88.cash^$important
-||bet88.ph^$important
 ||bet88.ph^$important
 ||bet88.pub^$important
 ||bet888.xin^$important
@@ -58,6 +61,7 @@
 ||bet88u.com^$important
 ||bet88uk.net^$important
 ||bet88vips.com^$important
+||betcom247.com^$important
 ||betso88.us.com^$important
 ||betso88m.com^$important
 ||betvision888.com^$important
@@ -105,8 +109,10 @@
 ||ctcrt.com^$important
 ||curacao.co.com^$important
 ||cybert.us.com^$important
+||cybet-casino.com^$important
 ||d2b.uk.com^$important
 ||daptrunggiovang-hi88.pages.dev^$important
+||dat.eu.com^$important
 ||dcqw.cn.com^$important
 ||de88.ink^$important
 ||de88.win^$important
@@ -122,7 +128,6 @@
 ||downtown.in.net^$important
 ||drborasnursingandmaternityhome.in.net^$important
 ||dzl.uk.com^$important
-||dzl.uk.com^$important
 ||ecom.cn.com^$important
 ||eeoibt.ru.com^$important
 ||eliminator.in.net^$important
@@ -136,6 +141,7 @@
 ||fly88.co.com^$important
 ||fun1x888.com^$important
 ||funmovies.us.org^$important
+||gamble88in.com^$important
 ||gamdom.com^$important
 ||gamebaihu.com^$important
 ||games.okbet.com^$important
@@ -145,13 +151,13 @@
 ||good8815.cc^$important
 ||graphix.us.com^$important
 ||gurni.us.com^$important
+||gwalabet.co.tz^$important
 ||h5.vvaln.com^$important
 ||hafele.eu.com^$important
 ||hd88casino.website3.me^$important
 ||herald.us.com^$important
 ||herbalife.br.com^$important
 ||hi1933.com^$important
-||hi2999.com^$important
 ||hi2999.com^$important
 ||hit.club^$important
 ||hitclub.com^$important
@@ -165,7 +171,6 @@
 ||imyfone.us.com^$important
 ||investtata.in.net^$important
 ||irishdomains.eu.com^$important
-||isds.co.com^$important
 ||isds.co.com^$important
 ||jeff.vn^$important
 ||jeffbet.casino-pp.net^$important
@@ -247,9 +252,17 @@
 ||prickly.uk.com^$important
 ||privateequity.us.com^$important
 ||propeciaonline.us.com^$important
+||pub-casino.com^$important
+||pub88.com^$important
+||pub88.net^$important
+||pubcasino.co.uk^$important
 ||purnhurb.cn.com^$important
 ||pwo.uk.com^$important
 ||qc.sb88vn.vip^$important
+||qibet.boo^$important
+||qibet.kim^$important
+||qibet.wiki^$important
+||qqbet-go.com^$important
 ||rail.jpn.com^$important
 ||rc88.com^$important
 ||rcit.in.net^$important
@@ -268,7 +281,6 @@
 ||shbet.fm^$important
 ||shbet6.zone^$important
 ||shbet800.com^$important
-||shopstyle.uk.com^$important
 ||shopstyle.uk.com^$important
 ||sirona.de.com^$important
 ||slr.uk.com^$important
@@ -336,8 +348,9 @@
 ||www-win777.com^$important
 ||www-xi88.com^$important
 ||www.188bet.com^$important
+||www.888.com^$important
 ||www.888sport.com^$important
-||www.888sport.com^$important
+||www.88myr.com^$important
 ||www.au8809.com^$important
 ||www.au888.center^$important
 ||www.bet-88h.com^$important
@@ -363,6 +376,7 @@
 ||www.bk8masia.com^$important
 ||www.bk8sgasia.com^$important
 ||www.bk8vn.com^$important
+||www.bongobongo.co.zm^$important
 ||www.boylesports.com^$important
 ||www.bridging-loan.eu.com^$important
 ||www.bwin.com^$important
@@ -370,9 +384,11 @@
 ||www.casinoplus.com.ph^$important
 ||www.cheapcruises.us.com^$important
 ||www.cmd368.com^$important
+||www.cosmoswin.com^$important
 ||www.dafabet.com^$important
 ||www.fafabet.co.uk^$important
 ||www.fggtyln.ru.com^$important
+||www.final99.com^$important
 ||www.firenze.sa.com^$important
 ||www.fun88vny.com^$important
 ||www.hb88elite.site^$important
@@ -405,6 +421,8 @@
 ||www.pawsandclaws.uk.com^$important
 ||www.posh-scripts.in.net^$important
 ||www.q88bets.com^$important
+||www.qbet.com^$important
+||www.qbet.zone^$important
 ||www.quinnbet.com^$important
 ||www.sbobet.com^$important
 ||www.skybet.com^$important

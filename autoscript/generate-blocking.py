@@ -2,7 +2,7 @@
 import pathlib
 from datetime import datetime
 
-RAW_FILE = pathlib.Path('../blocks/raws.txt')
+RAW_FILE = pathlib.Path('../blocks/raws_clean.txt')
 OUTPUT_FILE = pathlib.Path('../blocks/full-block-domains.txt')
 
 domains = []

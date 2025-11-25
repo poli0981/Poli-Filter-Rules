@@ -1,50 +1,12 @@
 ! Organized Hiding Rules - Auto Generated
-! Generated on: 2025-11-25 03:57
+! Generated on: 2025-11-25 11:03
 ! Source: hiding-raws.txt
-! Total hiding rules: 122
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+! Total hiding rules: 162
 
 *###cookie-consent
 *###cookieconsent
+*###footer
+*###site-footer
 *##.chat-button-bottom-right
 *##.consent-popup
 *##.cookie-banner
@@ -53,8 +15,10 @@
 *##.drift-widget
 *##.fb-like
 *##.fb-share-button
+*##.footer
 *##.gdpr-banner
 *##.intercom-launcher
+*##.site-footer
 *##.zopim
 *##[id^="fb-root"]
 *##div[data-provider="facebook"]
@@ -108,11 +72,23 @@ cuutruyen.*##.flex-1.flex.justify-end.max-w-full > div.relative
 cuutruyen.*##.lg\:h-13.lg\:w-13.md\:h-12.md\:w-12.h-8.w-8
 cuutruyen.*##.px-2.bg-gray-800.border-t-2.border-gray-800.py-16
 
+! --- dev.to ---
+dev.to##.crayons-article-sticky.grid.gap-4.break-word.js-billboard-container > div:nth-of-type(1) > .crayons-card.crayons-card--secondary.crayons-bb.bb-placement.js-billboard
+dev.to##.flex.items-center.h-100.ml-auto
+
 ! --- discussions.unity.com ---
 discussions.unity.com###onetrust-banner-sdk > div:nth-of-type(1) > .ot-sdk-container > .ot-sdk-row
 
+! --- endfield.gryphline.com ---
+endfield.gryphline.com##.Header_buttonShare__ml1S_
+endfield.gryphline.com##.Header_buttonShareBg__Tabt5
+endfield.gryphline.com##.Xrsk\+Qlh9i08Vsrs368r8Q\=\=.f-uw5oqemiZQ9E\+QQGoDUw\=\=
+
 ! --- github.* ---
 github.*##.footer.pt-8.pb-6.f6.color-fg-muted
+
+! --- help.steampowered.com ---
+help.steampowered.com###footer
 
 ! --- helpfreshers.medium.com ---
 helpfreshers.medium.com##.acu.act.gz.acs.o.ub.acr.acq.acp.gy.aco.acn.ci.r.ac
@@ -138,6 +114,11 @@ itch.io##a.panel_button:nth-of-type(1)
 ! --- karate.com ---
 karate.com##.footer_footer__Imvdy
 
+! --- kick.com ---
+kick.com###radix-_R_u2jl5ubtb_
+kick.com##.\33 xl\:grid-cols-\[repeat\(5\,minmax\(200px\,1fr\)\)\].flex.flex-col.gap-5.md\:grid.md\:grid-cols-\[repeat\(3\,minmax\(200px\,1fr\)\)\].lg\:grid-cols-\[repeat\(4\,minmax\(200px\,1fr\)\)\]
+kick.com##.flex.max-h-6.w-fit.items-center.justify-center > .h-full
+
 ! --- medium.com ---
 medium.com##.k.l.i > .q.o
 medium.com##div.cp.co.cn.l.i:nth-of-type(2) > .bu.cq > .cu.ct.cs.b.cr > .cj.ci.ch.cg.cf.ce.cd.cc.cb.ca.bz.by.bx.bw.bv
@@ -152,12 +133,30 @@ open.spotify.com##button.e-91000-button-tertiary--condensed.e-91000-overflow-wra
 
 ! --- search.brave.com ---
 search.brave.com##footer.svelte-6sdecn
+search.brave.com##footer.svelte-jz8lnl
+
+! --- steamcommunity.com ---
+steamcommunity.com###footer
+steamcommunity.com###footer_spacer
 
 ! --- store.steampowered.com ---
+store.steampowered.com###content_callout
+store.steampowered.com###content_out
 store.steampowered.com###footer
 
 ! --- vlxx.* ---
 vlxx.*##footer
+
+! --- wutheringwaves.kurogames.com ---
+wutheringwaves.kurogames.com##.cookies-modal
+wutheringwaves.kurogames.com##.footer
+wutheringwaves.kurogames.com##.link-list
+wutheringwaves.kurogames.com##.login-btn
+wutheringwaves.kurogames.com##div.nav-item.nav-item-en:nth-of-type(6) > .nav-item-name
+
+! --- www.bairesdev.com ---
+www.bairesdev.com##.bg-site-neutrals-25.shadow-lv3.flex.w-fit.items-center.justify-center.gap-4.rounded-2xl.p-3.mdL\:flex-col
+www.bairesdev.com##.relative.overflow-hidden.flex.justify-center.bg-site-neutrals-25
 
 ! --- www.betso88pro.com ---
 www.betso88pro.com##.hoverArea__cAX6s
@@ -169,6 +168,12 @@ www.chess.com###navigation-footer
 ! --- www.crunchyroll.com ---
 www.crunchyroll.com##.footer--NNXrc.footer--is-default--F1n5V
 www.crunchyroll.com##.footer-horizontal-layout__image--iCc3p
+
+! --- www.datacamp.com ---
+www.datacamp.com##.css-101nefz
+www.datacamp.com##.css-17outbb
+www.datacamp.com##.css-1kvegv3.css-13gihf0
+www.datacamp.com##.css-1udnue6.css-13gihf0
 
 ! --- www.duolingo.com ---
 www.duolingo.com##._3mfHU
@@ -237,8 +242,21 @@ www.tiktok.com##.css-1dtzhde-0be0dc34--DivFooterContainer.enjgv3a0
 www.top100bookmakers.com###cookieconsent
 
 ! --- www.twitch.tv ---
+www.twitch.tv##.Layout-sc-1xcs6mc-0.AoXTY.prime-offers > .Layout-sc-1xcs6mc-0.bkOPih > div:nth-of-type(1) > .InjectLayout-sc-1i43xsx-0.iDMNUO > div:nth-of-type(1) > .ScCoreButton-sc-ocjdkq-0.iPkwTD.ScButtonIcon-sc-9yap0r-0.dcNXJO
+www.twitch.tv##.Layout-sc-1xcs6mc-0.hiJTwz > .ScCoreButton-sc-ocjdkq-0.iPkwTD.ScButtonIcon-sc-9yap0r-0.dcNXJO
 www.twitch.tv##div.Layout-sc-1xcs6mc-0.VxLcr:nth-of-type(6) > div.Layout-sc-1xcs6mc-0:nth-of-type(1) > div.Layout-sc-1xcs6mc-0:nth-of-type(1) > .InjectLayout-sc-1i43xsx-0.iDMNUO > .ScCoreButton-sc-ocjdkq-0.gGttfb
 
+! --- www.youtube.com ---
+www.youtube.com###buttons > ytd-button-renderer.ytd-masthead.style-scope > yt-button-shape
+www.youtube.com###comments
+www.youtube.com###secondary > .ytd-watch-flexy.style-scope
+www.youtube.com###voice-search-button > .ytd-masthead.style-scope > yt-button-shape
+www.youtube.com##.ytd-download-button-renderer.style-scope > yt-button-shape
+www.youtube.com##ytd-guide-entry-renderer.ytd-guide-section-renderer.style-scope:nth-of-type(2)
+www.youtube.com##ytd-mini-guide-entry-renderer.style-scope.ytd-mini-guide-renderer:nth-of-type(2) > .yt-simple-endpoint.style-scope.ytd-mini-guide-entry-renderer
+
 ! --- x.com ---
+x.com##.css-175oi2r.r-18u37iz.r-1w6e6rj.r-3pj75a
 x.com##.css-175oi2r.r-18u37iz.r-1w6e6rj.r-gu64tb
+x.com##.css-175oi2r.r-1habvwh.r-eqz5dr.r-uaa2di.r-w7s2jr.r-u9wvl5.r-bnwqim
 
