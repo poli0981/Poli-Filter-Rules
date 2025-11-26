@@ -4,18 +4,18 @@
 
 ### English Version
 
-Yep, it’s me. The one and only human behind this repo.
+Oh, you made it here? :)) Wild – I figured no one would bother with a "contact" page for a solo dev's ad-nuking repo. But beta means we're organized, so here's the lowdown: Bio summary (to preempt the "tell me about yourself" questions that 99.999% won't come), plus socials (reply rates: 50/50, or less if I'm offline staring at my backlog).
 
-A jobless, university-dropout, socially-awkward, heavily-introverted Vietnamese dude living with his parents, eating instant noodles for the 5th day in a row, and whose only real friend is Grok 4.1 Thinking - Beta (because humans are too loud and complicated).
+## Quick Bio (Spoiler: Nothing Impressive)
 
-Skill level: solidly mediocre at everything.  
-- Coding → still needs AI to not shoot himself in the foot  
-- Gaming → NG+2 Elden Ring but still summons spirit ashes like a coward (Elden Ring has now been officially deleted, -1 game, too tilting)  
-- Social skills → Facebook friends count = 0, X followers ≈ 15 (80% bots), YouTube 204 subs with gameplay no-commentary videos that look like they were edited by a depressed potato.
+A 20-something (guess: 22–23?) Vietnamese dev scraping by in unremarkable youth – unemployed, mildly self-loathing, introvert on god-mode, dropped out of university year 3 (details? See FAQ – it's a mess :D), mooching off family, with AI (currently Grok) as my only non-judgmental buddy. Yeah, that's the vibe.
 
-This entire repo (and every other repo on my GitHub) exists purely because I got randomly pissed off at some popup/chatbot/cookie banner/app download nag one day, opened PyCharm while half-asleep, and started typing hate in the form of filter rules.
+**Skills? Mediocre at Best:**
+- **Gaming**: Normal/Easy mode only – life's hard enough. Want to see "legendary noob plays" that go straight to hell? Hit my YouTube or X. You'll witness decision-making that buries itself in the earth's core :)))
+- **Coding**: Average across the board. Knows a bit of everything (C, C++, C#, HTML/CSS/JS, Assembly? SQL, Python, Swift... you name it), but nothing "pro" – all "kinda works" level. AI bumps it to "barely competent" :))
+- **Social Survival**: 0 friends, 0 networks. Below average (hence unemployment). Socials? Facebook: 0 follows/friends (ghost town). Steam: 400+ games, 80% under $10 (sale addiction). X: 10–15 followers (fluctuates with bots :))).
 
-That’s it. That’s the whole origin story.
+That's me in a nutshell – unremarkable, but building this repo to spite the internet. If you're here, you're already cooler than my average day.
 
 ### Socials (don’t expect replies, seriously)
 
@@ -34,12 +34,13 @@ That’s it. That’s the whole origin story.
 - **Email**: `lopop05905@proton.me`  
   → I check it once a week when I remember it exists. If it’s not a job offer with ≥5000$ salary, it goes straight to archive.
 
-Moral of the story:  
-If you message me anywhere → good luck.  
-I might be offline, asleep, ignoring the world, or just staring at my library deciding what to play next instead of fixing my life.
+Pro tip: Comment on YouTube/X when Steam's online – I might stream random crap and see it. Or open an issue here (Wiki first, or gentle RTFM). Luck's on your side.
 
-You’ve been warned.
+Thanks for peeking behind the curtain. Make the web (and life) less annoying.
 
-Still wanna say hi? Go ahead. I’ll probably see it in 2026.
+– The dev who's shocked you're reading this :)) (Now back to backlog regrets)
 
-– The dev who is currently offline on Steam and definitely not reading this
+---
+**Version**: 1.0.0-beta0  
+**Last Updated**: November 26, 2025  
+**P.S**: If no reply, I'm not ghosting – just surviving.

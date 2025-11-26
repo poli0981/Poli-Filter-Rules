@@ -1,6 +1,6 @@
 # Security Policy
 
-**Custom Adblock Filter List** – Version 1.0.0-beta0  
+**Poli-Filter-Rules** – Version 1.0.0-beta0  
 **Last Updated: November 26, 2025**
 
 Oh, someone actually reading this? :)) Wild. I thought security policies were for fancy repos with VCs and bug bounties. This is just a tired dev's text files + Python scripts fighting ads on a wheezing laptop. But hey, beta means we're pretending to be responsible – so here's the deal.
@@ -35,4 +35,4 @@ Thanks for caring (or stumbling here). You're already 0.01% safer than most repo
 ---
 **Version**: 1.0.0-beta0  
 **Last Updated**: November 26, 2025  
-**Contact**: [your.email@gmail.com] for private reports
+**Contact**: [lopop05905@proton.me] for private reports
