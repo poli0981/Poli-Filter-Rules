@@ -82,6 +82,7 @@
 ://ta88*$document
 ://zx88*$document
 ://tk88*$document
+://new88*$document
 
 
 ||hostman.com/_nuxt/img/new-coin-tutorials.fce6d90.png$image

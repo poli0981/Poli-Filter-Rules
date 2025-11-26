@@ -1,50 +1,45 @@
-# Privacy Policy  
-**Poli-Filter-Rules** – Version 1.0-alpha1  
-**Last Updated: November 22, 2025**
+# Privacy Policy
 
-### English Version
+**Poli-Filter-Rules** – Version 1.0.0-beta0  
+**Last Updated: November 26, 2025**
 
-### 1. Data Collection?
-   Zero. Nada. Không có. Zilch. Null. None.  
-   This repo is just a bunch of text files on GitHub.  
-   I don't have servers, I don't have analytics, I don't have cookies, I don't even have a proper job.
+This Privacy Policy explains (or tries to) how this repo handles your data. Spoiler: It doesn't. At all. Beta means we've tidied up the edges, but the core truth remains – this is static text files on GitHub, not a data-hoarding empire.
 
-### 2. So what do I know about you?  
-   Literally nothing.  
-   GitHub might know your IP when you download the raw file – that's between you and Microsoft.
-   Go read it here: https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement
-   I don't see shit. I don't want to see shit. I have enough problems with my own life.
+We're compliant with general principles (GDPR-inspired for open-source vibes), but since there's zero collection, you're golden by default.
 
-### 3. **Nah, your data – what do I get from keeping it?**  
-   Exactly fucking nothing. Not a single đồng. Not even a view on YouTube.  
-   I'm too broke and too lazy to sell your data even if I had it (which I don't).
+## 1. Data Collection (The Short Answer: None)
 
-### 4. **Raw File Subscriptions (Brave/AdGuard/uBlock etc.)**
-   When you subscribe to the raw URLs, your adblocker pings GitHub’s CDN. Again — that traffic goes to GitHub/Cloudflare, not to me. I can’t see it, can’t log it, can’t sell it (even if I wanted to, which I don’t, because again: broke, not evil).
+- **Zero Personal Data**: No tracking, no IPs, no emails, no "tell me your life story" forms. This repo is dumb text: filters, scripts, docs. No servers, no analytics, no creepy cookies.
+- **What I Know About You**: Nothing. Zilch. GitHub might log your download (their policy, not mine – check https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement). I see stars/forks/issues, but that's public repo magic.
+- **Scripts & Tools**: Beta cleaners (duplicate checkers, bulk removers) run locally on your machine – they touch zero data beyond your raw files. No phoning home.
 
-### 5. **Third-party stuff**  
-   If you subscribe via raw URL → Cloudflare/GitHub CDN sees your request. Again, not my circus, not my monkeys.
+## 2. Data Use & Sharing (Even Shorter: Nope)
 
-### 6. If You Open an Issue or PR
-Your GitHub username and whatever you write will be public forever (that’s how GitHub works).  
-Still not my server, still not my data.
+- No collection = no use, no sharing, no selling. I'm too broke and lazy for that game (plus, I hate trackers – irony?).
+- Contributions (PRs/issues): Your GitHub username goes public. That's it. No emails harvested.
 
-### 7. **Future plans**  
-   Even if one day this repo blows up to 10k stars (lmao in my dreams), I still won't add analytics.  
-   Because:
-   - I hate trackers myself (that's why I made this repo)
-   - I'm too depressed to learn how to implement them properly
-   - My laptop would probably explode
+## 3. Third-Party Links & Tools (Not My Mess)
 
-### 8. Changes to This Policy
-If I ever decide to add analytics or sell your soul to Facebook (spoiler: I won’t), I’ll update this file.  
-Continued use after that = you agree.  
-But let’s be real — this section will stay exactly the same until the heat death of the universe.
+- Raw URLs hit GitHub/CDN – their privacy rules apply (read 'em if paranoid).
+- Inspirations like EasyList/uBlock/AdGuard: External, their policies separate. We adapt rules, not data.
 
-### 9. **Your responsibility**  
-   If you're in EU and worried about GDPR – congrats, you're the first person ever to read this far.  
-   Since I collect zero data, you're already compliant by default. You're welcome.
+## 4. Beta Changes & Future (Spoiler: Still Zero)
 
-Still reading? Go touch some grass, king.
+- Beta optimizations (wildcard merges, script polish) don't touch data – just cleaner code.
+- If the repo explodes (lmao), still no analytics. Promise. My laptop would melt first.
 
-– A very tired, very private, very data-allergic dev
+## 5. Your Rights & Contact (Do What You Want)
+
+- EU folks: GDPR? You're set – no data means no requests needed.
+- Questions? Open an issue (Wiki/FAQ first, or gentle RTFM). Or email [lopop05905@proton.me] – I'll see it in a week (if it's not a scam).
+
+This policy might evolve (beta's all about iteration). Check back, or don't – your data's safe either way.
+
+Thanks for trusting this noodle-fueled project. Make the web private(ish).
+
+– The dev who collects regrets, not data
+
+---
+**Version**: 1.0.0-beta0  
+**Last Updated**: November 26, 2025  
+**Beta Note**: Polished for clarity, still 100% data-free. Proceed paranoia-free.

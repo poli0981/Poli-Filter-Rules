@@ -1,59 +1,42 @@
-# Contributing Guidelines + Code of Conduct  
-**Poli-Filter-Rules** – Version 1.0-alpha1
-**Last Updated: November 22, 2025**
+# Code of Conduct
 
-I’m begging you: **read this before opening an issue, fork, discussion, or even breathing near my repo.**
+**Poli-Filter-Rules** – Version 1.0.0-beta0  
+**Last Updated: November 26, 2025**
 
-1. **You can call this repo trash, useless, d@gshit, whatever.**  
-   I don’t care. I know it’s mediocre. I made it while eating instant noodles and crying.  
-   → But the second you insult, mock, or be toxic to ANY OTHER HUMAN (including me, but especially others) → instant block + ignore forever.  
-   I’ve been bullied enough in real life (family, school, university). I’m done. Zero tolerance.
+This repo is a solo + AI project born from frustration and late-night caffeine – it's not perfect, but it's ours. We keep it welcoming for everyone: devs, noobs, lurkers, and that one person who actually stars it. Beta means we're growing up, so let's keep the vibe positive, direct, and drama-free.
 
-2. **Get to the f#cking point. No essays. No fake politeness.**  
-   Bad example:
-   ```
-   “Hi sir, hope you’re having a wonderful day, I’m very sorry to bother you but I found a small issue…”
-   ```
- 
-   → I will ignore you. I hate fake shit.
+## Our Pledge
 
-   Good example:  
-   ```bash
-      `https://shopee.vn` – chatbot bubble still shows up. Selector: `div[class*='chatbot-container']`. Screenshot attached.
-   ```
-   → I will love you forever (platonically).
+We commit to making participation in this project a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
 
-3. **Required info when reporting a problem (missing any = auto-close):**
-   - Exact URL (not “a shopping site”, not “YouTube” – give me the damn link)
-   - What is NOT blocked/hidden
-   - Selector (right-click → Copy → Copy selector)
-   - Screenshot (optional) (upload, don’t describe)
-   - Your adblocker + version (Brave/AdGuard/uBlock)
+We value different opinions and perspectives – even if they're "this repo is trash" (hey, fair). But toxicity? Nah. We're here to clean the web, not each other's feeds.
 
-4. **Discussions tab**  
-   → Only for suggesting new annoying sh!t to block.  
-   → Not for “hi”, “thanks”, “great project”, or “can you add TikTok please”. Those go to hell (or just don’t).
+## Standards of Conduct
 
-5. **Forks**  
-   Do whatever the fuck you want. It’s MIT.  
-   But if you make a popular fork and don’t credit me… man, that’s just sad.
+**Do:**
+- Be respectful and kind (or at least neutral – I'm tired too).
+- Assume good intent – we're all fighting ads and existential dread.
+- Critique ideas/code, not people (e.g., "This rule's bloaty" > "You're dumb").
+- Use clear, direct language (no fake politeness – I hate that too).
 
-6. **Pull Requests**  
-   - Edit ONLY raw files  
-   - Run scripts  
-   - Commit BOTH raw + generated  
-   - Title: "Add block for lazada.vn app nag" (not "Update hiding.txt")  
-   → I merge fast if it’s good. I ignore forever if it’s lazy.
+**Don't:**
+- Insult, harass, or dox anyone (zero tolerance – block + ignore forever).
+- Spam issues/PRs with off-topic rants (Wiki/FAQ first, or gentle RTFM).
+- Be toxic to others (trash the project/me? OK, I'm numb. Trash someone else? Rethink your life, kindly).
 
-7. **Final Rule**  
-   Read the Wiki first.  
-   Read the FAQ.  
-   If your question is already answered there → I will close your issue with a single word: “RTFM”.
+## Enforcement
 
-I’m tired. I’m depressed. I’m running on spite and instant coffee.  
-Be kind or be gone.
+Violations? I'll handle 'em solo-style:
+- Mild: Gentle reminder + edit/delete.
+- Serious: Block, close issues, no mercy.
+- Enforcement is up to me (Grok helps debug, not drama). Appeals? Email [lopop05905@proton.me] – but expect "read CoC again."
 
-Thank you for understanding.  
-Have a nice day (or don’t, I don’t control that).
+We aim for inclusivity, but if it's exhausting, it's out. Beta's about growth – let's make it fun.
 
-– The dev who is currently offline on Steam and ignoring everyone 
+## Attribution
+
+Adapted from Contributor Covenant v2.1 – thanks for the blueprint. Made real for a tired dev's repo.
+
+Questions? Issues open (politely). Thanks for being awesome(ish).
+
+– The dev who's enforcing this while eating cold noodles

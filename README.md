@@ -1,28 +1,22 @@
 # Poli-Filter-Rules - Personal Content Blocker Filter List
 
-[![Version](https://img.shields.io/badge/version-1.0--alpha5-blue.svg)](https://github.com/poli0981/Poli-Filter-Rules)
+[![Version](https://img.shields.io/badge/version-1.0.0-beta0-blue.svg)](https://github.com/poli0981/Poli-Filter-Rules)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Updates](https://img.shields.io/badge/updates-every%203%20days-orange.svg)](https://github.com/poli0981/my-content-blocker/commits/main)
 
-## Overview
+#A modular, auto-generated adblock filter list for nuking ads, trackers, popups, and annoyances – now in beta glow-up mode. Compatible with Brave, AdGuard, uBlock Origin, and any ABP-savvy tool.
 
-- A highly modular, auto-generated, and meticulously organized personal adblock filter list designed for Brave, AdGuard, uBlock Origin, and any AdBlock Plus-compatible extension.
-- Built as a solo project with heavy AI assistance (Grok 4.1 Thinking - Beta), this list focuses on real-world annoyances: aggressive ads, trackers, cookie banners, app download nags, chatbots, Facebook widgets, and full-domain blocks for particularly toxic sites.
-- Version 1.0-alpha1 marks the transition to fully English documentation and a professional repository structure suitable for international use.
+Built by a jobless, noodle-fueled Vietnamese dev + his AI co-pilot (Grok 4.1 Thinking - Beta). Beta means alpha scars healed: Cleaner scripts, optimized wildcards, dup-proof raws. Still personal (my Reels-scroll rage), but less "cry at 4 AM."
 
-## Features
+## Features (Beta Upgrades)
 
-- Raw → auto-generated workflow (no manual sorting ever again)
-- Full-domain blocking with reasons & tags
-- Per-site CSS hiding rules, automatically organized by domain
-- Exception list for over-blocking protection
-- Scripts for generation & organization included
-- All legal docs (EULA, ToS, Privacy Policy, etc.)
-
-## Current Version
-- Version: 1.0-alpha1
-- Release Date: November 21, 2025
-- Changelog: [CHANGELOG.md](CHANGELOG.md)
+- **Raw → Auto-Generated Flow**: No manual hell – add to raws, run scripts, get polished blocks/hides.
+- **Full-Domain Blocking**: Tagged raws (e.g., [tracker] → $third-party) + wildcard merges (e.g., blah.co.com → ||co.com^$all).
+- **Per-Site Hiding**: Organized by domain, global *## first, dup selectors auto-nuked.
+- **Bulk Tools**: Duplicate checkers (blocking/hiding), wildcard removers (up to 10 patterns, e.g., *.com, abc.*).
+- **Exceptions**: Whitelist over-blocks without tears.
+- **Beta Polish**: Learned from Dandelion Sprout's list – smarter rules, no more Ctrl+C/V drudgery.
+- Updates: ~3–5 days (or when laptop/coffee/life allows).
 
 ## Update Frequency
 - Update frequency: every 3–5 days (may be earlier or delayed due to health, file loss, or real-life issues)
@@ -30,26 +24,35 @@
 ## Repository Structure
 ```text
 .
-├── autoscript/
-│   ├── generate-blocking.py      # raw → full-block-domains.txt + advanced-block.txt
-│   └── organize-hiding.py        # hiding-raws.txt → organized-hiding.txt (grouped by domain)
-├── blocks/
-│   ├── raws.txt                  # plain domain list with optional tags "[tracker][popup][full]"
-│   ├── full-block-domains.txt    # auto-generated ||domain^$important,...
-│   └── advanced-block.txt        # manual complex blocking rules
-├── Hide/
-│   ├── hiding-raws.txt           # raw CSS selectors (free-form input)
-│   └── organized-hiding.txt      # auto-generated, grouped & sorted by domain
-├── Exception/
-│   └── exception.txt
-├── docs/
-│   ├── ACKNOWLEDGEMENTS.md
-│   ├── DISCLAIMER.md
-│   ├── EULA.md
-│   ├── PrivacyPolicy.md
-│   └── ToS.md
-├── LICENSE                       # MIT License
-└── README.md
+├── autoscript/                 # Magic wands (Grok-coded, bro-prompted)
+│   ├── generate-blocking.py    # raws.txt → full/advanced blocks
+│   ├── organize-hiding.py      # hiding-raws.txt → organized hides
+│   ├── check_duplicates.py     # Dup hunter for blocking raw
+│   ├── check_hiding_duplicates.py # Dup hunter for hiding raw (wildcard-proof)
+│   └── bulk_remove_domains.py  # Multi-wildcard nuke (e.g., .com, abc.)
+├── blocks/                     # Blocking hell
+│   ├── raws.txt                # Plain domains + tags [full][tracker]
+│   ├── full-block-domains.txt  # Generated full nukes
+│   └── advanced-block.txt      # Wildcard merges + complex rules
+├── Hide/                       # Hiding sanctuary
+│   ├── hiding-raws.txt         # Raw selectors (dump 'em here)
+│   └── organized-hiding.txt    # Generated, domain-grouped, dup-free
+├── Exception/                  # Mercy zone
+│   └── exception.txt           # @@ whitelists
+├── docs/                       # Legal armor (beta-polished)
+│   ├── ACKNOWLEDGEMENTS.md     # Shoutouts (Grok MVP)
+│   ├── DISCLAIMER.md           # "As is" reality check
+│   ├── EULA.md                 # MIT with heart
+│   ├── PrivacyPolicy.md        # Zero data vibes
+│   ├── ToS.md                  # No-drama rules
+│   └── SECURITY.md             # Bug bounties? Lol, report nicely
+├── LICENSE                     # MIT – fork freely
+├── CODE_OF_CONDUCT.md          # Code of conduct (be cool)
+├── Contact.md                  # Get in touch (no spam, pls)
+├── CONTRIBUTING.md             # How to help (fork + PR)
+├── Personal-FAQ.md             # My personal FAQ (beta edition)
+├── README.md                   # This file (beta edition)
+└── CHANGELOG.md                # Update log (scam wars edition)
 ```
 
 ## How to Use
@@ -72,34 +75,41 @@
      https://raw.githubusercontent.com/poli0981/Poli-Filter-Rules/refs/heads/main/Exception/exception.txt
      ```
 
-2. Or subscribe to the whole repo as multiple custom lists in your preferred adblocker.
+2. **Add to Your Adblocker**:
+   - Brave: Settings > Shields > Content Filtering > Custom lists > Paste URLs.
+   - AdGuard: Settings > Filters > Custom > Add URL.
+   - uBlock: Dashboard > My filters > Import.
+   - Others: Google "add custom filter list [your tool]" – 10s job.
 
-Auto-update works instantly on GitHub raw URLs.
+3. **Test & Tweak**: Reload sites, check for breakage. Over-block? Add @@ exceptions. Beta wildcards are strong – whitelist wisely.
 
 ## Auto Scripts (Super Convenient)
+## Auto Scripts (Run These, Thank Me Later)
 
 ```bash
-# Blocking rules
-python autoscript/generate-blocking.py
+# Blocking
+cd autoscript
+python generate-blocking.py  # raws → blocks (after edits)
 
-# Hiding rules (run after adding to hiding-raws.txt)
-python autoscript/organize-hiding.py
+# Hiding
+python organize-hiding.py    # raws → organized
+
+# Cleaners (new beta toys)
+python check_duplicates.py --remove          # Nuke blocking dups
+python check_hiding_duplicates.py --domain=youtube.com --remove  # Hiding dups per site
+python bulk_remove_domains.py                # Interactive wildcard purge
 ```
-_Just commit the raw files → run scripts → commit generated files. Zero manual sorting forever._
-
+Workflow: Edit raws > Run script > Commit raw + generated > PR if contributing. Zero manual sort forever.
 
 ## Development Stack
 
-- ***IDEs***: PyCharm 2025.3 EAP + Visual Studio Code
-- ***AI Assistant***: Grok 4.1 Thinking - Beta (xAI) – ~50% of documentation, script logic, rule suggestions, debugging, and organization ideas
-- Human: prompt engineering, rule writing, testing, final decisions, health management :)
+- **IDEs**: PyCharm 2025.3 EAP + VS Code (daily grind tools).
+- **AI Co-Pilot**: Grok 4.1 Thinking - Beta (~50% brainpower: scripts, docs, sanity).
+- **Human**: Prompts, tests, noodle-fueled commits, search, add website (~50% regret).
 
 ## Contributing
 
-- This is primarily a solo project, but contributions are very welcome!
-- Fork → add rules to raw files → run scripts → open PR with both raw + generated files.
-- Please include reason in comments and test on real sites.
-- Issues & suggestions are always appreciated.
+Solo + AI, but forks/PRs welcome. See `CONTRIBUTING.md` for bug reports (detailed, no fluff). CoC in `CODE_OF_CONDUCT.md` – be direct, no toxicity.
 
 ## Legal & Privacy
 
@@ -112,10 +122,11 @@ _Just commit the raw files → run scripts → commit generated files. Zero manu
 
 ## Acknowledgements
 
-- Special thanks to _Grok 4.1 Thinking - Beta_ for being an incredible co-pilot: writing documentation, fixing bugs in seconds, suggesting smart script architecture, and keeping the project moving even when I was tired or sick.
-- Couldn't have reached 1.0-alpha1 this fast without you, bro.
+- See ACKNOWLEDGEMENTS.md – Grok MVP, Dandelion Sprout wizard, and y'all for not suing yet.
+- Beta's our "good enough" milestone – thanks for the ride. Star if it cleans your web (or pities my soul). Feedback? Issues open, Wiki first.
+- Built with spite, scripts, and a dash of hope.
+- Make ads extinct, one rule at a time.
 
-Built with passion, automation, and a bit of AI magic.
-Feedback? Open an issue – let's make the web suck less, together.
+– The dev who's almost calling this "stable" (one more coffee...)
 
-**Last updated:** _November 21, 2025._
+**Last updated:** _November 26, 2025._

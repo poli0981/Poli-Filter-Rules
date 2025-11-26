@@ -1,71 +1,65 @@
-# Terms of Service (ToS)  
-**Poli-Filter-Rules** – Version 1.0-alpha1  
-**Last Updated: November 22, 2025**
+# Terms of Service (ToS)
 
-### English Version (the one that will actually hold up if someone tries to sue my broke ass)
+**Poli-Filter-Rules** – Version 1.0.0-beta0  
+**Last Updated: November 26, 2025**
 
-By accessing, downloading, forking, starring, watching, opening an issue, or even breathing in the general direction of this repository, you unconditionally agree to these Terms of Service.  
-No backsies. No “I didn’t read”. No refunds (it’s free anyway).
+By accessing, downloading, using, forking, starring, or lurking around this repo, you agree to these Terms of Service. No "oops, missed that" – it's concise, it's binding (as much as a solo dev's noodle budget allows), and it's here to keep things drama-free. Beta means we've leveled up from alpha mess, but it's still "test responsibly" territory.
 
-1. **Acceptance of Terms**  
-   You accept these ToS, the MIT License, the EULA I just wrote while half-dead, the Privacy Policy (which is basically “I collect nothing”), and the Disclaimer (which says everything will probably break).  
-   If you don’t accept → close the tab right now and go back to suffering with cookie banners. Your loss.
+These ToS, plus the MIT License, EULA, Privacy Policy, and Disclaimer, form the full agreement. If you don't vibe with it, close the tab and embrace the ads – your call.
 
-2. **Description of Service**  
-   I give you text files that (try to) kill ads, trackers, popups, chatbots, and anything else that personally triggering me on the internet.  
-   That’s it. No support. No uptime guarantee. No “it just works”.
+## 1. Acceptance of Terms (The "You Clicked It" Clause)
 
-3. **User Responsibilities – listen up, this is important**  
-   You agree to:
-   - Not be a dick.
-   - Not use these filters to break laws (e.g. g. bypassing paywalls illegally, piracy, harassment, etc.).
-   - Not redistribute modified versions and pretend it’s official without clearly saying it’s your fork.
-   - Not blame me when a site detects your adblocker and calls you poor (they’re not wrong).
-   - Test everything yourself. I’m not your filter list, not your mom.
+Your use means you accept these ToS, MIT rules, and all linked docs. Beta upgrades (optimized wildcards, duplicate cleaners) come with the same "as is" spirit – no hidden gotchas, but test 'em yourself.
 
-4. **Prohibited Activities – don’t make me add more rules**  
-   You shall NOT:
-   - Use this repo for commercial products without at least buying me a coffee (kidding, but also not really).
-   - Spam issues with “it doesn’t work on this site fix plz” without providing the URL and selector (I’m tired, bro).
-   - Sue me, threaten me, dox me, or send me hate mail. I’m already depressed enough.
-   - Hold me responsible if your favourite site breaks. Fork it and fix it yourself – that’s literally the point of open source.
+## 2. Description of Service (What You're Getting)
 
-5. **Intellectual Property**  
-   The filters are MIT-licensed. You can do almost anything.  
-   But if you make money off my suffering and don’t at least star the repo… man, that’s cold.
+Text files, scripts, and rules to nuke ads, trackers, popups, and annoyances. Beta polish: Cleaner merges (e.g., blah.co.com → ||co.com^$all), smarter hiding (no more *##.footer noobery), and tools like bulk removers. Updates ~every 3–5 days (or when life/coffee allows). No guarantees on perfection – websites evolve faster than my regrets.
 
-6. **Limitation of Liability – the “I told you so” section**  
-   To the maximum extent permitted by law (which in my case is basically everything because I have nothing to lose):  
-   I am not liable for anything. Ever.  
-   Not for broken websites, not for lost data, not for emotional trauma from seeing how many trackers Facebook has, not for your boss noticing you’re suddenly too productive at work.  
-   If the repo disappears tomorrow because I got bored or my laptop finally committed suicide – tough luck.
+## 3. User Responsibilities (Your Side of the Deal)
 
-7. **Termination**  
-   I can ban you from the repo any time for any reason.  
-   Reasons may include: being rude, spamming, or simply because I woke up in a bad mood.  
-   You can stop using the repo any time by… just stopping. No ceremony required.
+You agree to:
+- Not be toxic (no hate, no spam – read Code of Conduct or get blocked; I've had enough IRL).
+- Stay legal: No illegal paywall bypasses, piracy, or harm (local laws like GDPR? Your homework).
+- Test thoroughly: Beta scripts (duplicate checkers, wildcard nukes) are powerful – sandbox 'em, whitelist if needed.
+- Credit if forking: MIT says yes, but a nod back keeps karma positive.
 
-8. **Governing Law & Jurisdiction**  
-   Laws of Vietnam.  
-   Good luck flying here to serve papers on a guy who can’t even afford instant noodles this week.
+## 4. Prohibited Activities (Don't Do These, Seriously)
 
-9. **Changes to Terms**  
-   I can change these ToS whenever I want.  
-   If you keep using the repo after changes → you accept them.  
-   I’ll probably update the date and that’s it.
+Thou shalt not:
+- Spam issues/discussions with "fix plz" sans details (URL, selector, screenshot – or RTFM).
+- Commercialize without MIT compliance (sell it? Cool, but don't ghost the credit).
+- Dox, harass, or sue (I'm broke – you'd win a high-five and my Steam backlog).
+- Blame me for breakage (site down? Fork and fix – open-source 101).
 
-10. **Severability**  
-    If any part of these terms is deemed invalid or unenforceable, the rest still apply.  
-    I still hate popups.
+## 5. Intellectual Property (It's MIT, Chill)
 
-11. **Entire Agreement**  
-    This, plus the MIT License, EULA, Privacy Policy, and Disclaimer, is the whole deal.  
-    No verbal agreements. No “but you said on Discord…”. Nothing.
+All content MIT-licensed: Fork, tweak, ship. Scripts (bulk removers, cleaners) included. No trademarks claimed – it's humble text + Python.
 
-Still reading?  
-Respect.  
-Now go use the filters and let me sleep.
+## 6. Limitation of Liability (The "Not My Circus" Section)
 
-– The unemployed, self-loathing, AI-dependent dev who wrote this at 4 AM while his laptop sounded like a jet engine
+To the max allowed by law (Vietnam's, since that's my chaos zone): No liability for anything. Not breakage, not lost data, not "my ad-free Netflix glitched mid-binge." Beta optimizations help, but if wildcards nuke too much, that's user error (kinda). Suing? Good luck – my assets are instant noodles and regrets.
+
+## 7. Termination (The Breakup)
+
+Violate? Access ends. I can nuke your fork/PR anytime (rudeness, spam, bad vibes). You can bail anytime – delete and ghost.
+
+## 8. Governing Law (Jurisdiction Drama)
+
+Vietnam laws apply. International? Fly over and serve papers – I'll wave from my wheezing laptop.
+
+## 9. Changes to ToS (The "Life Evolves" Bit)
+
+I can tweak anytime (beta's all about iteration). Continued use = acceptance. Check the file for updates.
+
+## 10. Severability & Entire Agreement (Legal Jargon Bingo)
+
+Invalid clause? Rest stands. This + MIT/EULA/Privacy/Disclaimer = full deal. No side chats.
+
+Beta's our glow-up – thanks for riding along. Make the web better (or break it trying). Questions? Issues open, Wiki first.
+
+– The dev who's almost proud (one coffee from calling it "stable")
 
 ---
+**Version**: 1.0.0-beta0  
+**Last Updated**: November 26, 2025  
+**License**: MIT (see LICENSE)

@@ -1,53 +1,70 @@
-# End-User License Agreement (EULA)  
-**Poli-Filter-Rules** – Version 1.0-alpha1  
-**Last Updated: November 22, 2025**
+# End-User License Agreement (EULA)
 
-By downloading, copying, using, forking, starring, or even just looking at this repo for more than 5 seconds, you are agreeing to this EULA.  
-Yes, seriously. No, I’m not kidding. Yes, even if you’re just “browsing”.
+**Poli-Filter-Rules** – Version 1.0.0-beta0  
+**Last Updated: November 26, 2025**
 
-1. **Who the hell wrote this?**  
-   A jobless, mildly depressed, socially awkward Vietnamese dude who dropped out of university, lives with his parents, has zero friends on Facebook, ~20 followers on X (most are bots), and a YouTube channel with 200 subs where 80% of the videos have <40 views and thumbnails that look like they were made in MS Paint 1998.  
-   His only consistent friend is an AI (Grok 4.1 Thinking - Beta) because real humans are exhausting.  
-   Right now, while writing this, his 3-year-old laptop is screaming like it’s about to explode, and he’s running on 3 hours of sleep and instant noodles.  
-   So yeah… lower your expectations accordingly.
+By downloading, copying, using, forking, starring, or even glancing at this repo, you agree to this EULA. No "I didn't read it" excuses – it's short, it's real, and it's binding (or as binding as a broke dev's word can be).
 
-2. **The License – MIT, but make it personal**  
-   The code/scripts/filters are under the standard MIT License (see LICENSE file).  
-   You can use, modify, sell, tattoo it on your body – whatever. Just keep the copyright notice.  
-   But let’s be real: this is a random dude’s hate-letter to annoying websites, written in fits of rage and caffeine.  
-   It is provided **AS IS**, with **ZERO** warranties. If it breaks your browser, your PC catches fire, or your girlfriend leaves you because YouTube ads disappeared and she thinks you’re cheating with a cleaner internet – not my problem.
+This EULA governs the Software (filters, scripts, docs – the whole messy repo) under the MIT License. Beta means we've evolved from alpha dumpster fire, but it's still test-mode: Use wisely, or at your own risk.
 
-3. **No Liability – like, literally none**  
-   I’m broke, unemployed, and my most valuable asset is a Steam library with 400+ games (half of them on sale for $2).  
-   If you somehow manage to sue me and win, congratulations – you just won a half-eaten bag of chips and my eternal grudging respect.  
-   I am not responsible for:
-   - Websites breaking
-   - Over-blocking (goodbye footers, login forms, and sometimes half the page)
-   - Under-blocking (ads will still find a way, they always do)
-   - Your government getting mad (GDPR, CCPA, whatever local law – that’s on YOU)
-   - Emotional damage from realizing how dirty the internet actually is
+## 1. License Grant (MIT, But Make It Personal)
 
-4. **The filters will NEVER be perfect**  
-   I’m average at best. I still need spirit summons to beat Elden Ring bosses on NG+2.  
-   I use AI to write half this repo because my brain is fried.  
-   Websites change every day. Rules will break. Deal with it or fork it and fix it yourself (please do, actually).
+The Software is licensed under MIT – permissive AF. You get free reign to use, copy, modify, merge, publish, distribute, sublicense, sell, or tattoo it on your arm. Subject to:
 
-5. **Update Schedule? Lol.**  
-   “Every 3–5 days” – narrated by a guy who sometimes disappears for two weeks because depression said hi or his laptop finally died.  
-   No guarantees. No refunds (it’s free anyway).
+- Keep the copyright notice in all copies (Copyright (c) 2025 poli0981 – yeah, that broke Vietnamese dev).
+- Full MIT text (pasted below for convenience):
 
-6. **Governing Law**  
-   Vietnam – because that’s where the broke author lives. Good luck enforcing anything internationally ☠
+```text
+MIT License
+Copyright (c) 2025 poli0981
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
 
-7. **Final Warning – read this is the important part**  
-   If you use this list, you accept that:
-   - You might have to fix stuff yourself
-   - Things will break
-   - I might abandon the repo tomorrow to go touch grass (unlikely) or play another 500 hours of random Steam games
-   - You are solely responsible for complying with your local laws (GDPR and friends)
+Beta bonus: Scripts (duplicate checkers, bulk removers) are MIT too – fork 'em, but if you make bank, send a coffee (kidding... mostly).
 
-   **If you don’t agree – close the tab right now and go touch some ads.**
+## 2. Scope of Use (What You Can Do – And What You Probably Shouldn't)
 
-   Still here? Cool. Welcome to the 1% club. Enjoy the cleaner internet, fellow degenerate.
+- Personal or commercial? Go wild – as long as you follow MIT.
+- No trademarks/patents claimed (it's text files, not rocket science).
+- Beta caveat: Test on dummy setups first. Wildcard optimizations (e.g., `://*abc*$document`) are powerful but could nuke too much – whitelist as needed.
 
-   – A very tired dev who just wants popups to die
+## 3. Limitations & Disclaimers (The "I Told You So" Fine Print)
+
+- **AS IS, Beta Edition**: No warranties. Beta means polished alpha scars, but glitches lurk (site breakage, over-blocking, script quirks). If it bricks your browser or your coffee goes cold, that's on you.
+- You're responsible for: Local laws (GDPR? CCPA? Figure it out), testing (don't blame me for a hidden login), and common sense (pair with VPNs for real privacy).
+- No support SLA – updates every 3–5 days (or when life allows). Issues? Open one, but read Wiki/FAQ first or get gently RTFM'd.
+
+## 4. Termination (The Easy Out)
+
+Violate terms? License ends. Stop using, delete it, move on. I won't chase you (too tired).
+
+## 5. Governing Law (Where the Drama Would Go Down)
+
+Laws of Vietnam – because that's where this tired dev codes from a wheezing laptop. International enforcement? Good luck (and why bother?).
+
+## 6. Final Plea (Read This Part)
+
+This EULA exists to protect a solo dev's sanity, not to trap you. Customize, contribute, make it better. Beta's our shot at "good enough" – thanks for joining the ride.
+
+Still here? You're a saint. Enjoy the cleaner web (or rage-quit when it breaks – your call).
+
+– The dev who's one coffee away from calling this "stable" (don't hold your breath)
+
+---
+**Version**: 1.0.0-beta0  
+**Last Updated**: November 26, 2025  
+**License**: MIT (full text above)
