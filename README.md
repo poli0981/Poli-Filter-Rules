@@ -1,10 +1,10 @@
 # Poli-Filter-Rules - Personal Content Blocker Filter List
 
-[![Version](https://img.shields.io/badge/version-1.0.0-beta0-blue.svg)](https://github.com/poli0981/Poli-Filter-Rules)
+[![Version](https://img.shields.io/badge/version-1.0.0--beta0-blue.svg)](https://github.com/poli0981/Poli-Filter-Rules)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Updates](https://img.shields.io/badge/updates-every%203%20days-orange.svg)](https://github.com/poli0981/my-content-blocker/commits/main)
 
-#A modular, auto-generated adblock filter list for nuking ads, trackers, popups, and annoyances – now in beta glow-up mode. Compatible with Brave, AdGuard, uBlock Origin, and any ABP-savvy tool.
+A modular, auto-generated adblock filter list for nuking ads, trackers, popups, and annoyances – now in beta glow-up mode. Compatible with Brave, AdGuard, uBlock Origin, and any ABP-savvy tool.
 
 Built by a jobless, noodle-fueled Vietnamese dev + his AI co-pilot (Grok 4.1 Thinking - Beta). Beta means alpha scars healed: Cleaner scripts, optimized wildcards, dup-proof raws. Still personal (my Reels-scroll rage), but less "cry at 4 AM."
 
@@ -55,7 +55,7 @@ Built by a jobless, noodle-fueled Vietnamese dev + his AI co-pilot (Grok 4.1 Thi
 └── CHANGELOG.md                # Update log (scam wars edition)
 ```
 
-## How to Use
+## How to Use (Even a Noob Can Do This)
 
 1. Subscribe to the generated files (recommended):
    - Full block:
@@ -83,7 +83,6 @@ Built by a jobless, noodle-fueled Vietnamese dev + his AI co-pilot (Grok 4.1 Thi
 
 3. **Test & Tweak**: Reload sites, check for breakage. Over-block? Add @@ exceptions. Beta wildcards are strong – whitelist wisely.
 
-## Auto Scripts (Super Convenient)
 ## Auto Scripts (Run These, Thank Me Later)
 
 ```bash
@@ -101,28 +100,28 @@ python bulk_remove_domains.py                # Interactive wildcard purge
 ```
 Workflow: Edit raws > Run script > Commit raw + generated > PR if contributing. Zero manual sort forever.
 
-## Development Stack
+## Development Stack (What Keeps This Alive)
 
 - **IDEs**: PyCharm 2025.3 EAP + VS Code (daily grind tools).
 - **AI Co-Pilot**: Grok 4.1 Thinking - Beta (~50% brainpower: scripts, docs, sanity).
 - **Human**: Prompts, tests, noodle-fueled commits, search, add website (~50% regret).
 
-## Contributing
+## Contributing (Yes, You – Read Wiki First)
 
 Solo + AI, but forks/PRs welcome. See `CONTRIBUTING.md` for bug reports (detailed, no fluff). CoC in `CODE_OF_CONDUCT.md` – be direct, no toxicity.
 
-## Legal & Privacy
+## Legal & Privacy (Beta Armor)
 
-- **License**: MIT (permissive – use anywhere)
+- **License**: MIT (fork freely, credit kindly)
 - _No data collection_ whatsoever (static files only)
 - Full docs in `/docs` folder:
 - [EULA](docs/EULA.md) | [ToS](docs/ToS.md) | [Privacy Policy](docs/PrivacyPolicy.md)
 - [Disclaimer](docs/DISCLAMER.md) | [Acknowledgements](docs/ACKNOWLEDGEMENTS.md)
 
 
-## Acknowledgements
+## Acknowledgements (Shoutouts Section)
 
-- See ACKNOWLEDGEMENTS.md – Grok MVP, Dandelion Sprout wizard, and y'all for not suing yet.
+- See `ACKNOWLEDGEMENTS.md` – Grok MVP, Dandelion Sprout wizard, and y'all for not suing yet.
 - Beta's our "good enough" milestone – thanks for the ride. Star if it cleans your web (or pities my soul). Feedback? Issues open, Wiki first.
 - Built with spite, scripts, and a dash of hope.
 - Make ads extinct, one rule at a time.
