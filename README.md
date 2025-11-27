@@ -78,7 +78,7 @@ Built by a jobless, noodle-fueled Vietnamese dev + his AI co-pilot (Grok 4.1 Thi
 2. **Add to Your Adblocker**:
    - Brave: Settings > Shields > Content Filtering > Custom lists > Paste URLs.
    - AdGuard: Settings > Filters > Custom > Add URL.
-   - uBlock: Dashboard > My filters > Import.
+   - uBlock: Click extension icon > Open dashboard > Filter lists > Import > Paste URLs > Apply changes.
    - Others: Google "add custom filter list [your tool]" – 10s job.
 
 3. **Test & Tweak**: Reload sites, check for breakage. Over-block? Add @@ exceptions. Beta wildcards are strong – whitelist wisely.
