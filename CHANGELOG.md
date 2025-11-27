@@ -1,71 +1,45 @@
 # CHANGELOG.md  
 **Poli Filter Rules** – From zero to hero (sort of)
 
-Written by the same unemployed dev who is currently eating cold noodles at 6 a.m. while listening to lofi to cope.
+All notable changes to this project will be documented in this file. Beta means alpha's rough edges sanded down – fewer dups, smarter wildcards, and docs that don't make you cry. Updates ~every 3–5 days (or when the dev's not napping on noodles).
 
-## 1.0-alpha5 – "5 Hours of My Life Gone: Gambling Ads & More Useless Crap Hidden" Mega Patch (November 25, 2025)
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and we adhere to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-- Added 200+ international gambling domains (UK, India, Middle East, Bangladesh, etc.) + advanced blocking rules
-- Hidden Postman chatbot/cookie consent; Twitch Turbo button; Medium email/footer/membership; Footers on TikTok/Bluesky/Loaded.com/ether.fi/Chess.com
-- 5 hours wasted – because why not make it hurt more?
-- Node.js reinstall mid-update (unrelated suffering)
 
----
+## [1.0.0-beta0] – "From Alpha Trash to Beta Hope" Glow-Up (November 27, 2025)
 
-## 1.0-alpha2.5 – "Scam Emails & More Gambling Bullshit" Quick Fix (November 23, 2025)
+- **Scripts Overhaul**: Added dup checkers (blocking/hiding, wildcard-proof), bulk domain remover (multi-pattern up to 10, e.g., *.com, abc.*).
+- **Optimizations**: Merged similar subdomains (e.g., blah.co.com → ||co.com^$all), near-similar domains (://*abc*$document – learned from Dandelion Sprout, no more manual Ctrl+C/V hell).
+- **Blocking Tweaks**: Added gambling/casino domains (200+).
+- **Hiding Tweaks**: Added cookie consent/footer/signup/login nags; fixed noob rules like *##.footer → ##.footer (wtf, beta brain).
+- **Docs Remake**: Polished ACKNOWLEDGEMENTS, ToS, EULA, README, Wiki (non-tech friendly), CONTACT bio, SECURITY.
+- **FAQ Expansion**: More philosophical/silly Qs (e.g., "Why hate fake politeness?" – life's too short).
+- 3 sleepless days + $50 wallet grind – worth it? You decide.
 
-- Added 84+ gambling domains (de88, au88, okfun, xi88, etc.) + advanced subdomain rules
-- Removed 1 duplicate domain (efficiency? Maybe.)
-- Hidden useless crap: Itch.io login/register/download/footer/socials; Reddit privacy/pro/agreement/legal footer; Brave.com/karate.com/Duolingo web footers
+## [1.0-alpha5] – "5 Hours of My Life Gone: Gambling Ads & More Useless Crap Hidden" Mega Patch - 2025-11-25
+- Added 200+ international gambling domains + advanced rules (UK/India/Middle East/Bangladesh nukes).  
+- Hidden Postman chatbot/cookie; Twitch Turbo; Medium email/footer/membership; Footers on TikTok/Bluesky/Loaded/ether.fi/Chess.com.  
+- 5 hours wasted – Node.js reinstall mid-grind (unrelated pain).
+
+## [1.0-alpha2.5] - "Scam Emails & More Gambling Bullshit" - 2025-11-23
+- Added 84+ gambling domains + advanced rules.  
+- Hidden Itch.io/Reddit footers/legal; Brave/karate/Duolingo footers.  
+- Duplicate domain removed (efficiency? Idk).
 - Official war on scams and Facebook's garbage moderation
 - 2 hours of my life wasted – worth it?
 
+## [1.0-alpha2] - "I Hate Gambling Sites & HoYoverse" Emergency Patch - 2025-11-23
+- Added 80+ gambling/casino domains + advanced rules.  
+- Hidden Google/Instagram footers; HoYoLab annoyances nuked.  
+- Deleted all HoYoverse games (-$200 goodbye).
+
+## [1.0-alpha1] - "The International Mental Breakdown Release" - 2025-11-21
+- Initial international release: Full docs, modular structure, raw → generate scripts, Wiki, savage legal suite.
+
+## [1.0-alpha0] - "The Dumpster Fire Birth" - I Forgot When
+- Initial alpha release: Basic rules, minimal docs.
 ---
 
-## 1.0-alpha2 – "I Hate Gambling Sites & HoYoverse" Emergency Patch (November 23, 2025)
+Beta's milestone – from alpha dumpster to "maybe usable." Star if it blocks your pain (or pities mine). Feedback? Issues open (Wiki first).
 
-- Added 80+ gambling/casino/betting domains + advanced subdomain coverage
-- Hidden Google & Instagram footers (because they're ugly and useless)
-- Completely nuked annoying elements on HoYoLab (download buttons, recommendations, follow buttons, etc.)
-- Officially declared war on HoYoverse and deleted all their games from my life
-- Minor mental breakdown included in this release
-
----
-
-### Version 1.0-alpha1 – November 21, 2025  
-**"The International Mental Breakdown Release"**
-
-- Finally switched everything to proper English so the whole world can laugh at my suffering
-- Full modular repository structure (folders, raw files, generated files, scripts, docs, Hide/, blocks/, etc.)
-- Added two god-tier automation scripts:
-  - `generate-blocking.py` → raw domains → perfect full-block-domains.txt with tags ` [tracker] [popup] [full]`
-  - `organize-hiding.py` → `hiding-raws.txt` → `organized-hiding.txt` grouped & sorted by domain (global rules now keep `*##` properly, tested 5 times because I don't trust myself)
-- Created raw workflow: from now on I only edit `raws.txt` and `hiding-raws.txt` → run script → commit both → done. No more manual sorting ever again. My remaining hair thanks you.
-- Added ~50 full-block domains (scam shops, malware, crypto trash, fake news, ultra-annoying Vietnamese sites, etc.)
-- Added ~50 hiding rules, now perfectly grouped by domain (YouTube, Facebook, VnExpress, Tiki, Shopee, Lazada, 24h.com.vn, kenh14, etc.)
-- Wrote the most sarcastic but legally bulletproof legal docs in open-source history:
-  - `EULA.md` → you can't sue me, I warned you
-  - `PrivacyPolicy.md` → I collect nothing, because I literally can't
-  - `ToS.md` → don't be a dick, also Malenia sends her regards
-  - `CONTACT.md` → come watch me suffer on YouTube/Steam
-- Full Wiki with 7 pages of painful detail so I never have to explain the same thing twice
-- README.md now looks like it belongs to a real project (badges included)
-- Acknowledgements updated: Grok 4.1 Thinking - Beta officially promoted to "co-author and emotional support AI"
-
-### Version 1.0-alpha0 - Date ???, I forgot.
-- ...
-
----
-
-### Future Plans (or copium, who knows)
-- `1.0-beta` → when I feel like it (maybe when I finally get a job or beat Elden Ring DLC without summoning)
-- `1.0.0 (official release)` → when the list has enough rules OR when hell freezes over (whichever comes first)
-
-Current mood: tired but weirdly proud.  
-Current ramen stock: 3 packs left.  
-Current will to live: fluctuating.
-
-If you're reading this, thank you for using my stupid little list.  
-Now let me go die to the Elden Beast again.
-
-— The dev who just wants the web to stop screaming at him
+– The dev who's one wildcard away from calling it "stable" (don't bet on it)
