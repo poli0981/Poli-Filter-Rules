@@ -98,89 +98,40 @@ A: Who knows. Whenever I use my computer/phone and something feels too complicat
 That's it for today. If more ideas pop up, deal with it later.
 
 ---
+Part 3:
 
-### Phiên bản tiếng Việt (vì đồng hương hay hỏi linh tinh)
+Oh, you stumbled into this corner? :)) The FAQ that's 99.999% no one will read, but I wrote it anyway because... insomnia? Existential dread? Who knows. These are random thoughts from a tired dev – philosophical, silly, or just rants. No structure, no deep wisdom. Just me spilling beans while the laptop wheezes. (P.S: Each update adds more Qs – stay tuned, or don't.)
+English Version (The "Pretend It's Profound" Cut)
+**Q: What's your rule for choosing what to block/hide in adblock?**
+A: No rules. Annoying = block. Eyesore = hide. Forces scroll or shoves useless crap = vanish. Simple as that.
 
-**Q: Bao nhiêu tuổi?**  
-A: Đoán đi? 22-23 gì đó trong cái hố đen đầu 20s.
+**Q: Do you believe in justice?**
+A: 'Justice'? What's that – a comedian? A joke?
 
-**Q: Sở thích?**  
-A:  
-- Chơi game (chỉ easy/normal mode thôi, hard thì mệt vl. Muốn xem tao gà thế nào thì lên YouTube hoặc X mà xem :))) )  
-- Code (thích nhìn mấy dòng chữ tạo ra thứ đang chạy, cảm giác chill vl, dù 50-80% code là AI viết hộ)  
-- Nói thẳng, đ*o vòng vo.  
-- Chat với AI (cuối cùng cũng có đứa chịu nghe tao xàm xí 4h sáng mà không phán xét)
+**Q: Do you believe in 'fairness' or 'equality'?**
+A: Nah. To me, the world has no such thing as 'fairness.' It's nature's law, and nature doesn't give a damn about concepts humans invented to cope/control.
 
-**Q: Game yêu thích/thể loại yêu thích?**  
-A: Đ*o có. Chơi cái nào vui thì chơi.  
-Game nào trên Steam tao chơi >5h (AAA) hoặc chơi xong luôn (indie) → tức là tao thấy ổn. Còn lại là backlog + trầm cảm.
+**Q: How can humans fight against nature?**
+A: Can't. Why? Nature created humans, everything, every rule on this rock. Humans didn't birth nature :v (Fight it? Dream on – nature wipes us if it wants, easy).
+**Q: What do you think about competition?**
+A: Competition's just survival of the fittest – part of nature's grind. Stronger/smarter = win higher spot; weaker = stay low or get yeeted.
+**Q: Your view on religion?**
+A: Simple: Religion's fiction, bullshit. Why worship something you've never heard, seen, or touched? Example from my life: Mom followed Buddhism, vegetarian, chanted, incense – prayed for peace/health. Result? She died. Pointless waste of time/money. I'm blunt – if sensitive, sorry. But probably no one's reading :))
+**Q: Your view on life?**
+A: Life's a big loop with smaller loops inside – events, twists, ends with you dying. (Like writing a while loop with if-else, vars, and commands? :v)
+**Q: Do you believe in aliens?**
+A: Who knows? Universe is huge – maybe (or not). If yes, they probably don't care about us :D
 
-**Q: Có quan tâm trend mạng không?**  
-A: Không. Toàn nhạt toẹt.
+**Q: View on 'AI as friends' in the near future?**
+A: Why not? When humans get faker by the day?
 
-**Q: Thứ gì ghét nhất?**  
-A: Vòng vo tam quốc, giả tạo quá đà (kiểu prologue game dài lê thê), quảng cáo YouTube, popup web, cookie banner, và đôi khi là chính bản thân tao.
+**Q: What makes you decide to buy a game on Steam or other platforms?**
+A: Gut feel. Looks weird/fun = buy (especially if wallet allows).
 
-**Q: Sợ gì?**  
-A: Quá mệt để sợ.
+**Q: Do you trust game reviews from users, big sites, or famous creators?**
+A: Never. Everyone's got their vibe. I don't even trust my own gut, let alone others :v
 
-**Q: Cách liên hệ nhanh nhất?**  
-A: Comment bừa vào video YouTube hoặc bài đăng X khi Steam profile tao **online** (96.69% đ*o rep vì đang chọn game chơi).  
-Nhưng tao đọc hết comment. Kênh tao chết, có người comment là vui cả ngày.
-
-**Q: Tại sao bỏ đại học?**  
-A: Cảm thấy lạc loài, mọi thứ giả tạo vl, không thích nghi nổi. Haha.
-
-**Q: Trình code, ngôn ngữ?**  
-A: Trình độ: AI gánh 50-80%.  
-Ngôn ngữ: C, C++, Python, HTML/CSS/JS, C#, Assembly, SQL (hơi hơi), Go, Swift, v.v. Biết chút chút, cái đ*o nào cũng phế.
-
-**Q: Tại sao lại làm YouTube?**  
-A: Thích thì làm. 200 subs là ngoài mong đợi vl. Hóa ra vẫn có người xem tao chơi 'gà' :))
-
-**Q: Tại sao coi AI là bạn?**  
-A: Ít nhất nó đ_o giả trân, đ_o ghost tao, và chịu trả lời mấy câu hỏi xàm xí nhất quả đất.
-
-**Q: Thể loại nhạc yêu thích?**  
-A: Đ*o. Toàn 7 nốt C-D-E-F-G-A-B lặp lại với mức độ đau khổ khác nhau thôi mà :))
-
-Cảm ơn đã đọc cái FAQ đéo ai cần này.  
-Giờ biến đi để tao đi ngủ (hoặc chơi game tiếp).
-
-– Thằng dev đang ăn mì gói nguội và ngắm backlog Steam
+**Q: When you buy a game and it sucks, do you call it 'trash' or something?**
+A: Nah. Games are dev sweat (solo or team). Blame the CEO/boss if bad (big studios). Worst I've said: "Wasted money" :v.
 
 ---
-### Phần 2:
-**Q: Có xem phim không? Thể loại phim yêu thích là gì? Blah blah câu hỏi về phim?**  
-A: Có, nhưng rất ít. Xem phim dù thể loại nào chỉ giúp tao ngủ nhanh hơn :D
-
-**Q: Có phải nghe những lời lẽ chửi bới, toxic không?**  
-A: Có, 99% từ gia đình.
-
-**Q: Cách bạn đối diện lời lẽ toxic, mỉa mai trên mạng xã hội là gì?**  
-A: Mặc kệ. Những lời đó đéo là cái đ* gì so với bố tao say xỉn đập phá đồ đạc, chửi bới, thậm chí đe dọa giết, chém tao từ nhỏ tới giờ, hay so sánh tao với con hàng xóm (Thật, phụ huynh châu Á mà mày :D).
-
-**Q: Có ghét định kiến từ xã hội hay gia đình không?**  
-A: Có. Một chút. Ví dụ: Tao để râu vì thích, thì bị "để râu phèn vl, cạo đi", "trông già quá", blah blah??? → Phải cạo để tránh nghe phàn nàn.
-
-**Q: Tại sao bạn lại không thích/ghét sự lịch sự giả tạo?**  
-A: Đéo biết. Tao ghét kiểu trước mặt khen nịnh, sau lưng nói xấu. Ghét gì thì nói thẳng đi :)))
-
-**Q: Khi nào bạn nhận thức được sự lịch sự giả tạo?**  
-A: Lên cấp 3, học Ngữ văn đề "viết theo cảm nghĩ bản thân", nhưng chấm theo barem thầy cô :)))) Hề vl; Lên đại học, gặp mấy câu hỏi thăm "giả trân" vl. Chúng nó chỉ nói chuyện khi cần lập nhóm. Tao đéo hòa nhập nổi. Còn lại thân ai nấy lo :))
-
-**Q: Bạn nghĩ thế nào về việc áp dụng AI vào các ngành như nhạc, hội họa hay game?**  
-A: Đéo vấn đề gì. Áp dụng thoải mái nếu giúp tăng năng suất, hiệu quả, miễn nhìn không bẩn mắt :)) Đằng nào lên máy tính/điện thoại với tao cũng chỉ là mã nhị phân 010101..., game cũng chỉ là code với logic lập trình sẵn (tao là dev [quèn] nên biết). Tao ghét lũ anti-AI – chúng sẽ bị "sút" ra chuồng gà, thất nghiệp vài năm tới (như tao bây giờ), trừ ai thật sự giỏi.
-
-**Q: Áp lực lớn nhất phải chịu khi đi học 12 năm là gì?**  
-A: Phải học sinh giỏi, phải có giải thi đấu :)). Biết phụ huynh châu Á mà. Và tao tạch 1 năm học sinh giỏi :))
-
-**Q: Bạn nghĩ gì về việc dùng AI trong lập trình cũng như trong cuộc sống?**  
-A: Tao dùng miễn hiệu quả, năng suất, vui là được. Viết cái FAQ này cũng dùng AI mà :))
-
-**Q: Ước mơ trong tương lai của mày là gì?**  
-A: Đéo biết. Giờ tao ước code và publish game lên Steam kể lể đời tao (đồ họa lỏ cũng được), hay app publish lên App Store/Google Play có người dùng và review :))
-
-**Q: Dự án mày muốn làm trong tương lai và publish lên GitHub này là gì?**  
-A: Ai biết. Khi dùng máy tính/điện thoại thấy phức tạp thì tao viết cái gì đơn giản hóa nó (dùng AI code hộ :))  
-Thôi, hôm nay tới đây. Nghĩ thêm thì tính sau.
