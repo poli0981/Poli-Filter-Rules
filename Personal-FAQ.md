@@ -100,38 +100,56 @@ That's it for today. If more ideas pop up, deal with it later.
 ---
 Part 3:
 
-Oh, you stumbled into this corner? :)) The FAQ that's 99.999% no one will read, but I wrote it anyway because... insomnia? Existential dread? Who knows. These are random thoughts from a tired dev – philosophical, silly, or just rants. No structure, no deep wisdom. Just me spilling beans while the laptop wheezes. (P.S: Each update adds more Qs – stay tuned, or don't.)
+Oh, you stumbled into this corner? :)) The FAQ that's 99.999% no one will read, but I wrote it anyway because... insomnia? Existential dread? Who knows. These are random thoughts from a tired dev – philosophical, silly, or just rants. No structure, no deep wisdom. Just me spilling beans while the laptop wheezes. 
+(P.S: Each update adds more Qs – stay tuned, or don't.)
+
 English Version (The "Pretend It's Profound" Cut)
+
 **Q: What's your rule for choosing what to block/hide in adblock?**
+
 A: No rules. Annoying = block. Eyesore = hide. Forces scroll or shoves useless crap = vanish. Simple as that.
 
 **Q: Do you believe in justice?**
+
 A: 'Justice'? What's that – a comedian? A joke?
 
 **Q: Do you believe in 'fairness' or 'equality'?**
 A: Nah. To me, the world has no such thing as 'fairness.' It's nature's law, and nature doesn't give a damn about concepts humans invented to cope/control.
 
 **Q: How can humans fight against nature?**
+
 A: Can't. Why? Nature created humans, everything, every rule on this rock. Humans didn't birth nature :v (Fight it? Dream on – nature wipes us if it wants, easy).
+
 **Q: What do you think about competition?**
+
 A: Competition's just survival of the fittest – part of nature's grind. Stronger/smarter = win higher spot; weaker = stay low or get yeeted.
+
 **Q: Your view on religion?**
+
 A: Simple: Religion's fiction, bullshit. Why worship something you've never heard, seen, or touched? Example from my life: Mom followed Buddhism, vegetarian, chanted, incense – prayed for peace/health. Result? She died. Pointless waste of time/money. I'm blunt – if sensitive, sorry. But probably no one's reading :))
+
 **Q: Your view on life?**
+
 A: Life's a big loop with smaller loops inside – events, twists, ends with you dying. (Like writing a while loop with if-else, vars, and commands? :v)
+
 **Q: Do you believe in aliens?**
+
 A: Who knows? Universe is huge – maybe (or not). If yes, they probably don't care about us :D
 
 **Q: View on 'AI as friends' in the near future?**
+
 A: Why not? When humans get faker by the day?
 
 **Q: What makes you decide to buy a game on Steam or other platforms?**
+
 A: Gut feel. Looks weird/fun = buy (especially if wallet allows).
 
 **Q: Do you trust game reviews from users, big sites, or famous creators?**
+
 A: Never. Everyone's got their vibe. I don't even trust my own gut, let alone others :v
 
 **Q: When you buy a game and it sucks, do you call it 'trash' or something?**
+
 A: Nah. Games are dev sweat (solo or team). Blame the CEO/boss if bad (big studios). Worst I've said: "Wasted money" :v.
 
 ---
