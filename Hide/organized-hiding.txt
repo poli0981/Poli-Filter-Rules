@@ -3,7 +3,6 @@
 ! Source: hiding-raws.txt
 ! Total hiding rules: 168
 
-
 ###cookie-consent
 ###cookieconsent
 ###footer
@@ -186,20 +185,20 @@ www.facebook.com##footer > .x193iq5w.xeuugli.x13faqbe.x1vvkbs.x1xmvt09.x1lliihq.
 www.gog.com##.footer-microservice.main-footer
 
 ! --- www.google.com ---
-www.google.com##.KxwPGc.SSwjIe ! Hide Google footer
+www.google.com##.KxwPGc.SSwjIe
 www.google.com##.XPuBac
 
 ! --- www.hoyolab.com ---
-www.hoyolab.com##.footer__copyright > p ! Hide copyright text
-www.hoyolab.com##.mhy-article-list__body > div.mhy-article-card-wrapper > .mhy-article-card ! Hide article cards on homepage
+www.hoyolab.com##.footer__copyright > p
+www.hoyolab.com##.mhy-article-list__body > div.mhy-article-card-wrapper > .mhy-article-card
 www.hoyolab.com##.mhy-article-list__body > div.mhy-contribution-card-v2.mhy-contribution-card-v2--ended
 www.hoyolab.com##.mhy-article-list__body > div.mhy-contribution-card-v2.mhy-contribution-card-v2--started
 www.hoyolab.com##.mhy-loadmore.mhy-loadmore-common.mhy-loadmore-scroll
 www.hoyolab.com##.mhy-recommend-user-list-side > div.recommend-user-card
 www.hoyolab.com##.mhy-side-section.mhy-download-section
 www.hoyolab.com##.mhy-side-section.recommend-users
-www.hoyolab.com##.mhy-timeline-recommend-user-list__container.with-rounded-corners > div.mhy-timeline-recommend-user-list__card > .recommend-user-card ! Hide recommended user
-www.hoyolab.com##.new-game-card.insert-com ! Hide new game card on homepage, oh shit, I don't see new Hoyoverse game again
+www.hoyolab.com##.mhy-timeline-recommend-user-list__container.with-rounded-corners > div.mhy-timeline-recommend-user-list__card > .recommend-user-card
+www.hoyolab.com##.new-game-card.insert-com
 www.hoyolab.com##div.footer__item:nth-of-type(1)
 www.hoyolab.com##div.footer__item:nth-of-type(2) > .footer__block
 www.hoyolab.com##div.mhy-side-section:nth-of-type(4)
