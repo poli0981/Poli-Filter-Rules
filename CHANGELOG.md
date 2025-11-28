@@ -9,7 +9,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## [1.0.0-beta0] – "From Alpha Trash to Beta Hope" Glow-Up (November 27, 2025)
 
 - **Scripts Overhaul**: Added dup checkers (blocking/hiding, wildcard-proof), bulk domain remover (multi-pattern up to 10, e.g., *.com, abc.*).
-- **Optimizations**: Merged similar subdomains (e.g., blah.co.com → ||co.com^$all), near-similar domains (://*abc*$document – learned from Dandelion Sprout, no more manual Ctrl+C/V hell).
+- **Optimizations**: Merged similar subdomains (e.g., blah.co.com → ||co.com^$all), near-similar domains (://*abc*$document – learned this syntax from Dandelion Sprout, no more manual Ctrl+C/V hell).
 - **Blocking Tweaks**: Added gambling/casino domains (200+).
 - **Hiding Tweaks**: Added cookie consent/footer/signup/login nags; fixed noob rules like *##.footer → ##.footer (wtf, beta brain).
 - **Docs Remake**: Polished ACKNOWLEDGEMENTS, ToS, EULA, README, Wiki (non-tech friendly), CONTACT bio, SECURITY.
