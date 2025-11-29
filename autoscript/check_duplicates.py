@@ -4,7 +4,7 @@ import sys
 from collections import Counter
 from datetime import datetime
 
-RAW_FILE = pathlib.Path('../blocks/raws_clean.txt') # input file
+RAW_FILE = pathlib.Path('../blocks/raws_sorted.txt') # input file
 BACKUP_FILE = RAW_FILE.with_suffix('.backup.txt') # backup if needed
 OUTPUT_FILE = RAW_FILE.with_name(RAW_FILE.stem + '_clean.txt') # cleaned output
 

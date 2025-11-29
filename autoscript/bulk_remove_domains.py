@@ -4,7 +4,7 @@ import fnmatch
 import sys
 from datetime import datetime
 
-RAW_FILE = pathlib.Path('../blocks/raws.txt')  # Adjust path as needed
+RAW_FILE = pathlib.Path('../blocks/raws_sorted.txt')  # Adjust path as needed
 CLEAN_FILE = RAW_FILE.with_name(RAW_FILE.stem + '_clean.txt')
 
 def extract_domain(line):

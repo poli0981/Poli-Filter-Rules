@@ -2,7 +2,7 @@
 import pathlib
 from datetime import datetime
 
-RAW_FILE = pathlib.Path('../blocks/raws_clean.txt')
+RAW_FILE = pathlib.Path('../blocks/raws_sorted.txt')
 OUTPUT_FILE = pathlib.Path('../blocks/full-block-domains.txt')
 
 domains = []
@@ -55,6 +55,10 @@ with OUTPUT_FILE.open('w', encoding='utf-8') as out:
             option = 'important,popup'
         elif tag == 'all':
             option  = 'all'
+        elif tag == '3rd-party-script':
+            option = 'script,third-party'
+        elif tag == 'script':
+            option = 'script'
         elif tag == 'full' or not tag:
             option = 'important'
         else:
