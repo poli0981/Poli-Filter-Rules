@@ -1,4 +1,3 @@
-animehay.*##.ah_footer
 animehay.*##.ah_content > .bg-black.padding-10
 animehay.*##.nav-items.flex-wrap.flex
 animehay.*##div.ah-frame-bg:nth-of-type(5)
@@ -29,37 +28,20 @@ www.nytimes.com##.css-sg7scw
 www.nytimes.com##.css-1e1s8k7
 
 www.ted.com##.w-full.pr-5 > .w-full.px-5.md\:px-10.xl\:px-16
-www.ted.com##footer.flex.w-full > .w-full.bg-black
 
-github.*##.footer.pt-8.pb-6.f6.color-fg-muted
+##div[class*="footer"]
+##div[id*="footer"]
+##div[class*="chatbot"]
+##div[id*="chatbot"]
+##div[class*="copyright"]
+##div[id*="copyright"]
+##footer
+##.chat-widget { display: none !important; }
 
-##.cookie-banner
-##.consent-popup
-##div[id^="cookie-notice"]
-##.gdpr-banner
-
-##.intercom-launcher
+##.chat-button-bottom-right { display: none !important; }
 ##.drift-widget
-##div[id^="tidio-chat"]
-##.zopim
-##.chat-button-bottom-right
-
-
-###footer
-###site-footer
-##.footer
-##.site-footer
 ##.fb-like
 ##.fb-share-button
-##div[data-provider="facebook"]
-##[id^="fb-root"]
-###cookieconsent
-##.cookieconsent
-###cookie-consent
-##.cookie-consent
-
-discussions.unity.com###onetrust-banner-sdk > div:nth-of-type(1) > .ot-sdk-container > .ot-sdk-row
-cloud.unity.com###onetrust-banner-sdk > div:nth-of-type(1) > .ot-sdk-container > .ot-sdk-row
 
 open.spotify.com##.D_6zDR19xV1TJcWGiLff
 open.spotify.com##.esBjsh.sc-jxOSlx
@@ -69,15 +51,11 @@ open.spotify.com##.main-view-container__mh-footer-container
 open.spotify.com##button.e-91000-button-tertiary--condensed.e-91000-overflow-wrap-anywhere.encore-text-body-medium-bold.enYihQ.Button-sc-1dqy6lx-0:nth-of-type(1)
 
 www.google.com##.XPuBac
-www.google.com##.KxwPGc.SSwjIe ! Hide Google footer
+www.google.com##.KxwPGc.SSwjIe
 
 ihentai.*##.v-footer.v-theme--dark.tw-justify-center.\!tw-py-10
 ihentai.*##.v-btn.v-btn--elevated.v-theme--dark.bg-orange.v-btn--density-default.v-btn--size-default.v-btn--variant-elevated.\!tw-normal-case.\!tw-tracking-normal
 ihentai.*##.v-spacer
-
-vlxx.*##footer
-
-search.brave.com##footer.svelte-6sdecn
 
 www.reddit.com###advertise-button
 
@@ -102,10 +80,10 @@ www.hoyolab.com##.mhy-side-section.mhy-download-section
 www.hoyolab.com##div.footer__item:nth-of-type(1)
 www.hoyolab.com##div.footer__item:nth-of-type(2) > .footer__block
 www.hoyolab.com##.footer__copyright > p ! Hide copyright text
-www.hoyolab.com##.mhy-article-list__body > div.mhy-article-card-wrapper > .mhy-article-card ! Hide article cards on homepage
-www.hoyolab.com##.new-game-card.insert-com ! Hide new game card on homepage, oh shit, I don't see new Hoyoverse game again
+www.hoyolab.com##.mhy-article-list__body > div.mhy-article-card-wrapper > .mhy-article-card
+www.hoyolab.com##.new-game-card.insert-com
 www.hoyolab.com##.mhy-loadmore.mhy-loadmore-common.mhy-loadmore-scroll
-www.hoyolab.com##.mhy-timeline-recommend-user-list__container.with-rounded-corners > div.mhy-timeline-recommend-user-list__card > .recommend-user-card ! Hide recommended user
+www.hoyolab.com##.mhy-timeline-recommend-user-list__container.with-rounded-corners > div.mhy-timeline-recommend-user-list__card > .recommend-user-card
 
 www.hoyolab.com##.mhy-article-list__body > div.mhy-contribution-card-v2.mhy-contribution-card-v2--started
 www.hoyolab.com##div.mhy-side-section:nth-of-type(4)
@@ -122,9 +100,12 @@ itch.io##.sidebar_social
 itch.io##.footer
 itch.io##a.panel_button:nth-of-type(1)
 itch.io##.panel_button.register_button
+
 karate.com##.footer_footer__Imvdy
+
 www.reddit.com##.text-neutral-content-weak.flex.gap-\[var\(--rem4\)\].flex-wrap.items-center.gap-xs
 www.reddit.com##.visible.py-md.grow.flex.flex-col.justify-end
+
 www.duolingo.com##._3mfHU
 brave.com##.site-footer.section.pb-12
 
@@ -149,8 +130,6 @@ www.betso88pro.com##.notranslate.__isShow__FhnKi.__bottom__GOZ51.container__S60m
 
 hostman.com##.container--0Ycx
 bet88lo.com##.swift-in-viewport.link-hau-dai
-
-www.top100bookmakers.com###cookieconsent
 
 www.chess.com###navigation-footer
 
@@ -177,24 +156,29 @@ www.youtube.com###guide-links-primary
 www.youtube.com###guide-links-secondary
 www.youtube.com###contents-container > .ytd-rich-shelf-renderer.style-scope
 www.youtube.com###content > .ytd-rich-section-renderer.style-scope
+www.youtube.com###panels
+www.youtube.com###fulfilled-layout > .ytd-ad-slot-renderer.style-scope
+
 
 dev.to##.crayons-article-sticky.grid.gap-4.break-word.js-billboard-container > div:nth-of-type(1) > .crayons-card.crayons-card--secondary.crayons-bb.bb-placement.js-billboard
+
 www.datacamp.com##.css-101nefz
 www.datacamp.com##.css-1udnue6.css-13gihf0
 www.datacamp.com##.css-1kvegv3.css-13gihf0
 www.datacamp.com##.css-17outbb
+
 dev.to##.flex.items-center.h-100.ml-auto
+
 www.bairesdev.com##.relative.overflow-hidden.flex.justify-center.bg-site-neutrals-25
 www.bairesdev.com##.bg-site-neutrals-25.shadow-lv3.flex.w-fit.items-center.justify-center.gap-4.rounded-2xl.p-3.mdL\:flex-col
+
 store.steampowered.com###content_callout
 store.steampowered.com###content_out
-steamcommunity.com###footer_spacer
-steamcommunity.com###footer
-help.steampowered.com###footer
-search.brave.com##footer.svelte-jz8lnl
+
 www.youtube.com##ytd-mini-guide-entry-renderer.style-scope.ytd-mini-guide-renderer:nth-of-type(2) > .yt-simple-endpoint.style-scope.ytd-mini-guide-entry-renderer
 www.twitch.tv##.Layout-sc-1xcs6mc-0.AoXTY.prime-offers > .Layout-sc-1xcs6mc-0.bkOPih > div:nth-of-type(1) > .InjectLayout-sc-1i43xsx-0.iDMNUO > div:nth-of-type(1) > .ScCoreButton-sc-ocjdkq-0.iPkwTD.ScButtonIcon-sc-9yap0r-0.dcNXJO
 www.twitch.tv##.Layout-sc-1xcs6mc-0.hiJTwz > .ScCoreButton-sc-ocjdkq-0.iPkwTD.ScButtonIcon-sc-9yap0r-0.dcNXJO
+
 wutheringwaves.kurogames.com##.cookies-modal
 wutheringwaves.kurogames.com##.footer
 wutheringwaves.kurogames.com##.link-list
@@ -203,11 +187,24 @@ wutheringwaves.kurogames.com##div.nav-item.nav-item-en:nth-of-type(6) > .nav-ite
 kick.com###radix-_R_u2jl5ubtb_
 kick.com##.\33 xl\:grid-cols-\[repeat\(5\,minmax\(200px\,1fr\)\)\].flex.flex-col.gap-5.md\:grid.md\:grid-cols-\[repeat\(3\,minmax\(200px\,1fr\)\)\].lg\:grid-cols-\[repeat\(4\,minmax\(200px\,1fr\)\)\]
 kick.com##.flex.max-h-6.w-fit.items-center.justify-center > .h-full
+
 www.twitch.tv##.Layout-sc-1xcs6mc-0.hdaUxc
+
 kick.com##.group.inline-flex.gap-1\.5.items-center.justify-center.rounded.font-semibold.box-border.relative.transition-all.betterhover\:active\:scale-\[0\.98\].disabled\:pointer-events-none.select-none.whitespace-nowrap.\[\&_svg\]\:size-\[1em\].outline-transparent.outline-2.outline-offset-2.bg-transparent.focus-visible\:outline-grey-300.text-white.\[\&_svg\]\:fill-current.betterhover\:hover\:bg-surface-tint.lg\:data-\[state\=open\]\:bg-surface-tint.data-\[state\=active\]\:bg-surface-tint.disabled\:text-grey-600.disabled\:bg-grey-1000.px-3.py-2.text-base
 kick.com##.group.inline-flex.gap-1\.5.items-center.justify-center.rounded.font-semibold.box-border.relative.transition-all.betterhover\:active\:scale-\[0\.98\].disabled\:pointer-events-none.select-none.whitespace-nowrap.\[\&_svg\]\:size-\[1em\].outline-transparent.outline-2.outline-offset-2.bg-green-500.focus-visible\:outline-green-200.text-green-950.\[\&_svg\]\:fill-current.betterhover\:hover\:bg-green-600.focus-visible\:bg-green-500.disabled\:bg-green-800.px-3.py-2.text-base
+
 x.com##.css-175oi2r.r-1habvwh.r-eqz5dr.r-uaa2di.r-w7s2jr.r-u9wvl5.r-bnwqim
+
 x.com##.css-175oi2r.r-18u37iz.r-1w6e6rj.r-3pj75a
+
 endfield.gryphline.com##.Xrsk\+Qlh9i08Vsrs368r8Q\=\=.f-uw5oqemiZQ9E\+QQGoDUw\=\=
 endfield.gryphline.com##.Header_buttonShare__ml1S_
 endfield.gryphline.com##.Header_buttonShareBg__Tabt5
+
+! Chatbot
+hk.trip.com##.mod-back-top-side-bar
+
+
+! Vivaia footer & newsletter
+www.vivaia.com###st_m604nly3yjdwnvehptm
+www.vivaia.com##._follow._pc

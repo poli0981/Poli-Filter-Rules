@@ -1,33 +1,23 @@
 ! Organized Hiding Rules - Auto Generated
-! Generated on: 2025-11-26 02:11
+! Generated on: 2025-11-29 11:34
 ! Source: hiding-raws.txt
-! Total hiding rules: 168
+! Total hiding rules: 155
 
-###cookie-consent
-###cookieconsent
-###footer
-###site-footer
-##.chat-button-bottom-right
-##.consent-popup
-##.cookie-banner
-##.cookie-consent
-##.cookieconsent
+##.chat-button-bottom-right { display: none !important; }
+##.chat-widget { display: none !important; }
 ##.drift-widget
 ##.fb-like
 ##.fb-share-button
-##.footer
-##.gdpr-banner
-##.intercom-launcher
-##.site-footer
-##.zopim
-##[id^="fb-root"]
-##div[data-provider="facebook"]
-##div[id^="cookie-notice"]
-##div[id^="tidio-chat"]
+##div[class*="chatbot"]
+##div[class*="copyright"]
+##div[class*="footer"]
+##div[id*="chatbot"]
+##div[id*="copyright"]
+##div[id*="footer"]
+##footer
 
 ! --- animehay.* ---
 animehay.*##.ah_content > .bg-black.padding-10
-animehay.*##.ah_footer
 animehay.*##.bg-black.flex.flex-hozi-center.fs-17.padding-0-10.height-50.border-r-b-t
 animehay.*##.flex.ah-frame-bg.flex-wrap
 animehay.*##.movie-recommend.ah-frame-bg
@@ -64,9 +54,6 @@ brave.com##.site-footer.section.pb-12
 ! --- bsky.app ---
 bsky.app##div.css-146c3p1:nth-of-type(6)
 
-! --- cloud.unity.com ---
-cloud.unity.com###onetrust-banner-sdk > div:nth-of-type(1) > .ot-sdk-container > .ot-sdk-row
-
 ! --- cuutruyen.* ---
 cuutruyen.*##.flex-1.flex.justify-end.max-w-full > div.relative
 cuutruyen.*##.lg\:h-13.lg\:w-13.md\:h-12.md\:w-12.h-8.w-8
@@ -76,23 +63,17 @@ cuutruyen.*##.px-2.bg-gray-800.border-t-2.border-gray-800.py-16
 dev.to##.crayons-article-sticky.grid.gap-4.break-word.js-billboard-container > div:nth-of-type(1) > .crayons-card.crayons-card--secondary.crayons-bb.bb-placement.js-billboard
 dev.to##.flex.items-center.h-100.ml-auto
 
-! --- discussions.unity.com ---
-discussions.unity.com###onetrust-banner-sdk > div:nth-of-type(1) > .ot-sdk-container > .ot-sdk-row
-
 ! --- endfield.gryphline.com ---
 endfield.gryphline.com##.Header_buttonShare__ml1S_
 endfield.gryphline.com##.Header_buttonShareBg__Tabt5
 endfield.gryphline.com##.Xrsk\+Qlh9i08Vsrs368r8Q\=\=.f-uw5oqemiZQ9E\+QQGoDUw\=\=
 
-! --- github.* ---
-github.*##.footer.pt-8.pb-6.f6.color-fg-muted
-
-! --- help.steampowered.com ---
-help.steampowered.com###footer
-
 ! --- helpfreshers.medium.com ---
 helpfreshers.medium.com##.acu.act.gz.acs.o.ub.acr.acq.acp.gy.aco.acn.ci.r.ac
 helpfreshers.medium.com##.gu.fr.m.adi.adh.adg.adf.ade.add.adc.adb.ada.acz.acy.acx.acw.acv.pw-susi-modal
+
+! --- hk.trip.com ---
+hk.trip.com##.mod-back-top-side-bar
 
 ! --- hostman.com ---
 hostman.com##.cc-1o31k.cc-1qbp0
@@ -118,6 +99,8 @@ karate.com##.footer_footer__Imvdy
 kick.com###radix-_R_u2jl5ubtb_
 kick.com##.\33 xl\:grid-cols-\[repeat\(5\,minmax\(200px\,1fr\)\)\].flex.flex-col.gap-5.md\:grid.md\:grid-cols-\[repeat\(3\,minmax\(200px\,1fr\)\)\].lg\:grid-cols-\[repeat\(4\,minmax\(200px\,1fr\)\)\]
 kick.com##.flex.max-h-6.w-fit.items-center.justify-center > .h-full
+kick.com##.group.inline-flex.gap-1\.5.items-center.justify-center.rounded.font-semibold.box-border.relative.transition-all.betterhover\:active\:scale-\[0\.98\].disabled\:pointer-events-none.select-none.whitespace-nowrap.\[\&_svg\]\:size-\[1em\].outline-transparent.outline-2.outline-offset-2.bg-green-500.focus-visible\:outline-green-200.text-green-950.\[\&_svg\]\:fill-current.betterhover\:hover\:bg-green-600.focus-visible\:bg-green-500.disabled\:bg-green-800.px-3.py-2.text-base
+kick.com##.group.inline-flex.gap-1\.5.items-center.justify-center.rounded.font-semibold.box-border.relative.transition-all.betterhover\:active\:scale-\[0\.98\].disabled\:pointer-events-none.select-none.whitespace-nowrap.\[\&_svg\]\:size-\[1em\].outline-transparent.outline-2.outline-offset-2.bg-transparent.focus-visible\:outline-grey-300.text-white.\[\&_svg\]\:fill-current.betterhover\:hover\:bg-surface-tint.lg\:data-\[state\=open\]\:bg-surface-tint.data-\[state\=active\]\:bg-surface-tint.disabled\:text-grey-600.disabled\:bg-grey-1000.px-3.py-2.text-base
 
 ! --- medium.com ---
 medium.com##.k.l.i > .q.o
@@ -131,21 +114,10 @@ open.spotify.com##.main-view-container__mh-footer-container
 open.spotify.com##button.e-91000-button-tertiary--condensed.e-91000-overflow-wrap-anywhere.encore-text-body-medium-bold.enYihQ.Button-sc-1dqy6lx-0:nth-of-type(1)
 open.spotify.com##button.e-91000-button-tertiary--condensed.e-91000-overflow-wrap-anywhere.encore-text-body-medium-bold.enYihQ.Button-sc-1dqy6lx-0:nth-of-type(3)
 
-! --- search.brave.com ---
-search.brave.com##footer.svelte-6sdecn
-search.brave.com##footer.svelte-jz8lnl
-
-! --- steamcommunity.com ---
-steamcommunity.com###footer
-steamcommunity.com###footer_spacer
-
 ! --- store.steampowered.com ---
 store.steampowered.com###content_callout
 store.steampowered.com###content_out
 store.steampowered.com###footer
-
-! --- vlxx.* ---
-vlxx.*##footer
 
 ! --- wutheringwaves.kurogames.com ---
 wutheringwaves.kurogames.com##.cookies-modal
@@ -233,18 +205,19 @@ www.reddit.com##faceplate-tracker:nth-of-type(4) > .relative.list-none.mt-0 > .f
 
 ! --- www.ted.com ---
 www.ted.com##.w-full.pr-5 > .w-full.px-5.md\:px-10.xl\:px-16
-www.ted.com##footer.flex.w-full > .w-full.bg-black
 
 ! --- www.tiktok.com ---
 www.tiktok.com##.css-1dtzhde-0be0dc34--DivFooterContainer.enjgv3a0
 
-! --- www.top100bookmakers.com ---
-www.top100bookmakers.com###cookieconsent
-
 ! --- www.twitch.tv ---
 www.twitch.tv##.Layout-sc-1xcs6mc-0.AoXTY.prime-offers > .Layout-sc-1xcs6mc-0.bkOPih > div:nth-of-type(1) > .InjectLayout-sc-1i43xsx-0.iDMNUO > div:nth-of-type(1) > .ScCoreButton-sc-ocjdkq-0.iPkwTD.ScButtonIcon-sc-9yap0r-0.dcNXJO
+www.twitch.tv##.Layout-sc-1xcs6mc-0.hdaUxc
 www.twitch.tv##.Layout-sc-1xcs6mc-0.hiJTwz > .ScCoreButton-sc-ocjdkq-0.iPkwTD.ScButtonIcon-sc-9yap0r-0.dcNXJO
 www.twitch.tv##div.Layout-sc-1xcs6mc-0.VxLcr:nth-of-type(6) > div.Layout-sc-1xcs6mc-0:nth-of-type(1) > div.Layout-sc-1xcs6mc-0:nth-of-type(1) > .InjectLayout-sc-1i43xsx-0.iDMNUO > .ScCoreButton-sc-ocjdkq-0.gGttfb
+
+! --- www.vivaia.com ---
+www.vivaia.com###st_m604nly3yjdwnvehptm
+www.vivaia.com##._follow._pc
 
 ! --- www.youtube.com ---
 www.youtube.com###buttons > ytd-button-renderer.ytd-masthead.style-scope > yt-button-shape
@@ -252,8 +225,10 @@ www.youtube.com###comments
 www.youtube.com###content > .ytd-rich-section-renderer.style-scope
 www.youtube.com###contents-container > .ytd-rich-shelf-renderer.style-scope
 www.youtube.com###copyright
+www.youtube.com###fulfilled-layout > .ytd-ad-slot-renderer.style-scope
 www.youtube.com###guide-links-primary
 www.youtube.com###guide-links-secondary
+www.youtube.com###panels
 www.youtube.com###secondary > .ytd-watch-flexy.style-scope
 www.youtube.com###voice-search-button > .ytd-masthead.style-scope > yt-button-shape
 www.youtube.com##.ytd-download-button-renderer.style-scope > yt-button-shape

@@ -1,0 +1,17 @@
+! Cookie Consent Blocking List - Block JS/CDN for Common Consent Tools
+! Version: 1.0.0-beta0
+! Description: Nukes cookie consent scripts/CDNs (OneTrust, Cookiebot, etc.) to prevent load. Fallback to hiding if needed.
+! Subscribe this + cookie-consent-hiding.txt for full war.
+
+||consent.cookiebot.com^
+||cdn.cookielaw.org^$important
+||cmp.osano.com^$important
+||consent.trustarc.com^$important
+||cdn.cookieyes.com^$important
+||*.usercentrics.eu^$important
+
+! Cookie Consent
+||*onetrust.com^$important,third-party
+||*.cookiebot.com^$important,third-party
+||*.cookielaw.org^$important,third-party
+||*.consentmanager.net^$important,third-party
