@@ -1,6 +1,6 @@
 # Contributing Guide
 
-**Poli-Filter-Rules** – Version 1.0.0-beta0  
+**Poli-Filter-Rules**  
 **Last Updated: November 26, 2025**
 
 Hey, you want in? Cool – this solo + AI repo appreciates the company (humans are rare here). Beta means we're polished but still raw: Fork, tweak, PR. No hand-holding, but I'll merge if it's solid. Read Wiki/FAQ first (seriously, 90% of "help" is there).
@@ -30,7 +30,7 @@ Provide:
 - OS (Windows 11? Linux Mint?).
 - Adblocker tool (Brave? uBlock? – if relevant).
 
-Example: "Ran check_duplicates.py --remove on Windows 11/Python 3.11/VS Code. Error: 'pathlib.Path not found'. Screenshot attached."
+Example: "Ran `check_duplicates.py --remove on Windows 11/Python 3.11/VS Code. Error: 'pathlib.Path not found'`. Screenshot attached."
 
 ### 2. URL Conflicts (Wrong Block/Hide – My Hardcore Rules Bite Back)
 My rules can be aggressive (wildcard nukes, anyone?). If a site breaks:

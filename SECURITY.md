@@ -1,6 +1,6 @@
 # Security Policy
 
-**Poli-Filter-Rules** – Version 1.0.0-beta0  
+**Poli-Filter-Rules**  
 **Last Updated: November 26, 2025**
 
 Oh, someone actually reading this? :)) Wild. I thought security policies were for fancy repos with VCs and bug bounties. This is just a tired dev's text files + Python scripts fighting ads on a wheezing laptop. But hey, beta means we're pretending to be responsible – so here's the deal.

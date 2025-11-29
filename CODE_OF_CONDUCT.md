@@ -1,6 +1,6 @@
 # Code of Conduct
 
-**Poli-Filter-Rules** – Version 1.0.0-beta0  
+**Poli-Filter-Rules**  
 **Last Updated: November 26, 2025**
 
 This repo is a solo + AI project born from frustration and late-night caffeine – it's not perfect, but it's ours. We keep it welcoming for everyone: devs, noobs, lurkers, and that one person who actually stars it. Beta means we're growing up, so let's keep the vibe positive, direct, and drama-free.

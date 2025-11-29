@@ -1,6 +1,6 @@
 # About the Author  
-**Poli-Filter-Rules** – Version 1.0-alpha1  
-**Last Updated: November 22, 2025**
+**Poli-Filter-Rules** – Version 1.0-beta0.5
+**Last Updated: November 29, 2025**
 
 ### English Version
 

@@ -1,6 +1,6 @@
 # Poli-Filter-Rules - Personal Content Blocker Filter List
 
-[![Version](https://img.shields.io/badge/version-1.0.0--beta0-blue.svg)](https://github.com/poli0981/Poli-Filter-Rules)
+[![Version](https://img.shields.io/badge/version-1.0.0--beta0.5-blue.svg)](https://github.com/poli0981/Poli-Filter-Rules)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Updates](https://img.shields.io/badge/updates-every%203%20days-orange.svg)](https://github.com/poli0981/my-content-blocker/commits/main)
 
@@ -28,14 +28,17 @@ Built by a jobless, noodle-fueled Vietnamese dev + his AI co-pilot (Grok 4.1 Thi
 │   ├── generate-blocking.py    # raws.txt → full/advanced blocks
 │   ├── organize-hiding.py      # hiding-raws.txt → organized hides
 │   ├── check_duplicates.py     # Dup hunter for blocking raw
-│   ├── check_hiding_duplicates.py # Dup hunter for hiding raw (wildcard-proof)
+│   ├── check_hiding_duplicates.py    # Dup hunter for hiding raw (wildcard-proof)
+│   ├── sort-raws-blocks.py           # Alphabetical sorter for raws + blocks
 │   └── bulk_remove_domains.py  # Multi-wildcard nuke (e.g., .com, abc.)
 ├── blocks/                     # Blocking hell
 │   ├── raws.txt                # Plain domains + tags [full][tracker]
 │   ├── full-block-domains.txt  # Generated full nukes
+│   ├── cookie-consent-blocking.txt   # Cookie consent annoyances
 │   └── advanced-block.txt      # Wildcard merges + complex rules
 ├── Hide/                       # Hiding sanctuary
 │   ├── hiding-raws.txt         # Raw selectors (dump 'em here)
+│   ├── cookie-consent-hiding.txt  # Cookie consent element hiders
 │   └── organized-hiding.txt    # Generated, domain-grouped, dup-free
 ├── Exception/                  # Mercy zone
 │   └── exception.txt           # @@ whitelists
@@ -74,6 +77,14 @@ Built by a jobless, noodle-fueled Vietnamese dev + his AI co-pilot (Grok 4.1 Thi
      ```text
      https://raw.githubusercontent.com/poli0981/Poli-Filter-Rules/refs/heads/main/Exception/exception.txt
      ```
+   - Optional: Cookie consent blockers/hiders:
+
+     ```text
+        https://raw.githubusercontent.com/poli0981/Poli-Filter-Rules/refs/heads/main/blocks/cookie-consent-blocking.txt
+     ```
+     ```text
+        https://raw.githubusercontent.com/poli0981/Poli-Filter-Rules/refs/heads/main/Hide/cookie-consent-hiding.txt
+     ```
 
 2. **Add to Your Adblocker**:
    - Brave: Settings > Shields > Content Filtering > Custom lists > Paste URLs.
@@ -97,6 +108,7 @@ python organize-hiding.py    # raws → organized
 python check_duplicates.py --remove          # Nuke blocking dups
 python check_hiding_duplicates.py --domain=youtube.com --remove  # Hiding dups per site
 python bulk_remove_domains.py                # Interactive wildcard purge
+python sort-raws-blocks.py                  # Alphabetical sort for raws of domains for blocking
 ```
 Workflow: Edit raws > Run script > Commit raw + generated > PR if contributing. Zero manual sort forever.
 
@@ -128,4 +140,4 @@ Solo + AI, but forks/PRs welcome. See `CONTRIBUTING.md` for bug reports (detaile
 
 – The dev who's almost calling this "stable" (one more coffee...)
 
-**Last updated:** _November 26, 2025._
+**Last updated:** _November 29, 2025._

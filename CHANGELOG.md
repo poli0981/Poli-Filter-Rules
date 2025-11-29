@@ -5,6 +5,20 @@ All notable changes to this project will be documented in this file. Beta means 
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and we adhere to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 1.0.0-beta0.5 – Fix & Optimization Patch (November 29, 2025)
+
+- Added `sort-raws-block.py` – Alphabetizes raws.txt for clean reads.
+- Optimized full-block-domains.txt to 200 rules (from ~800 – wildcard syntax saves lives).
+- Advanced rules boost: Nuke 96.69% sites (e.g., `://*jun8*.$document` for variants).
+- New files: cookie-consent-blocking.txt (CDN/JS kills) + cookie-consent-hiding.txt (CSS fallback).
+- Exceptions for 'bet' sites (bet.com, bethesda.net – wildcard mercy).
+- New domains to advanced + cookie CDN blocks.
+- Hiding: Footers/cookie consent on sites + fixed selector misses.
+- Personal FAQ: More "no-one-cares" Qs :)))
+- README: Tree update, cookie paths :)), new script guide, version bump.
+- Wiki: Sort script usage; "read or suffer" FAQs :D; Cookie paths.
+
+Nothing major – just tweaks. Beta smoother.
 
 ## [1.0.0-beta0] – "From Alpha Trash to Beta Hope" Glow-Up (November 27, 2025)
 
