@@ -5,6 +5,38 @@ All notable changes to this project will be documented in this file. Beta means 
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and we adhere to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+---
+## 1.0.0-beta0.6125 – Random Number Patch (December 07, 2025)
+
+- Fixed over-aggressive footer rules (`##div[class*=”footer”]`,`##div[id*=”footer”]` – killed buttons; manual 
+  tweaks now :D).
+- Removed redundant/conflicting rules with experimental features.
+- ***Updated README:*** Changed Structure, How to Use & Auto Script sections.
+- ***Wiki Refresh:*** Added 3 new pages (experimental features explain, tracking block guide, FAQ updates :D); Fixed 
+  'almost entire' Wiki.
+- ***Cookie consent boost:*** More CDN/JS in cookie-consent-blocking.txt; extra CSS in cookie-consent-hiding.txt.
+- ***Experimental Features (Volatile – Test Sandbox, No Pay :v)***:
+  + *Cookie CSS hide (99.919%)*: `##[class*=”cookie”]`, `##[id*=”consent”]`, variants.
+  + *Social/copyright nuke:* `##[id*=”copyright”]`, etc.
+  + *Tracking block:* New `/blocks/block-tracking.txt` (`google-analytics.com`, classics).
+  + *Download hide:* New `/blocks/download-blocking.txt` (Play/App nags). E.g., '`/*google-play*.svg$image,
+  domain=~google.
+    com|~play.google.com`.
+  + *Third-party block/hide:* New `third-party-blocking.txt` (e.g., `||youtube.com^$third-party`).
+  + *Anti-porn block:* New `blocks/anti-porn.txt` :D (If you wanna see, don't use this – me too :)))))).
+- New Script: `sort_and_count_everything_rules.py` (original `sort_and_count_block.py` intent) – Adds pro headers *
+  (Title, Description, GitHub link, author, blah blah :v)*; Sorts/counts rules for *both* Hiding and Blocking (Grok 
+  is da best :)) ). Removed old scripts: `generate-blocking.py`, `organize-hiding.py`, and `sort-raws-block.py`.
+- *Hiding:* More footers.
+- *Blocking:* Dozens gambling/scams :))) (FB moderation fatigue).
+- *Hiding:* Login/signup on `myanimelist.com`, `fandom.com`, etc.
+- *Exceptions:* New whitelists.
+- *No-One-Cares FAQ:* Part 5 – rants added :)))
+- *Docs:* Experimental warnings everywhere.
+
+Light tweaks – beta sharper.
+
+---
 ## 1.0.0-beta0.5 – Fix & Optimization Patch (November 29, 2025)
 
 - Added `sort-raws-block.py` – Alphabetizes raws.txt for clean reads.
@@ -20,6 +52,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 Nothing major – just tweaks. Beta smoother.
 
+---
 ## [1.0.0-beta0] – "From Alpha Trash to Beta Hope" Glow-Up (November 27, 2025)
 
 - **Scripts Overhaul**: Added dup checkers (blocking/hiding, wildcard-proof), bulk domain remover (multi-pattern up to 10, e.g., *.com, abc.*).
@@ -30,11 +63,13 @@ Nothing major – just tweaks. Beta smoother.
 - **FAQ Expansion**: More philosophical/silly Qs (e.g., "Why hate fake politeness?" – life's too short).
 - 3 sleepless days + $50 wallet grind – worth it? You decide.
 
+---
 ## [1.0-alpha5] – "5 Hours of My Life Gone: Gambling Ads & More Useless Crap Hidden" Mega Patch - 2025-11-25
 - Added 200+ international gambling domains + advanced rules (UK/India/Middle East/Bangladesh nukes).  
 - Hidden Postman chatbot/cookie; Twitch Turbo; Medium email/footer/membership; Footers on TikTok/Bluesky/Loaded/ether.fi/Chess.com.  
 - 5 hours wasted – Node.js reinstall mid-grind (unrelated pain).
 
+---
 ## [1.0-alpha2.5] - "Scam Emails & More Gambling Bullshit" - 2025-11-23
 - Added 84+ gambling domains + advanced rules.  
 - Hidden Itch.io/Reddit footers/legal; Brave/karate/Duolingo footers.  
@@ -42,18 +77,24 @@ Nothing major – just tweaks. Beta smoother.
 - Official war on scams and Facebook's garbage moderation
 - 2 hours of my life wasted – worth it?
 
+---
 ## [1.0-alpha2] - "I Hate Gambling Sites & HoYoverse" Emergency Patch - 2025-11-23
 - Added 80+ gambling/casino domains + advanced rules.  
 - Hidden Google/Instagram footers; HoYoLab annoyances nuked.  
 - Deleted all HoYoverse games (-$200 goodbye).
 
+---
 ## [1.0-alpha1] - "The International Mental Breakdown Release" - 2025-11-21
 - Initial international release: Full docs, modular structure, raw → generate scripts, Wiki, savage legal suite.
 
+---
 ## [1.0-alpha0] - "The Dumpster Fire Birth" - I Forgot When
 - Initial alpha release: Basic rules, minimal docs.
+
 ---
 
 Beta's milestone – from alpha dumpster to "maybe usable." Star if it blocks your pain (or pities mine). Feedback? Issues open (Wiki first).
 
 – The dev who's one wildcard away from calling it "stable" (don't bet on it)
+
+Last Updated: December 06, 2025

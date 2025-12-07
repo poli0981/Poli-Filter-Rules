@@ -1,7 +1,6 @@
 # Terms of Service (ToS)
 
-**Poli-Filter-Rules** – Version 1.0.0-beta0  
-**Last Updated: November 26, 2025**
+**Poli-Filter-Rules** – Version 1.0.0-beta0.6125  
 
 By accessing, downloading, using, forking, starring, or lurking around this repo, you agree to these Terms of Service. No "oops, missed that" – it's concise, it's binding (as much as a solo dev's noodle budget allows), and it's here to keep things drama-free. Beta means we've leveled up from alpha mess, but it's still "test responsibly" territory.
 
@@ -59,7 +58,13 @@ Beta's our glow-up – thanks for riding along. Make the web better (or break it
 
 – The dev who's almost proud (one coffee from calling it "stable")
 
+## Special: Experimental Features Warning (Beta Tester Only)
+
+- **Basic Beta Testing Rules**: Sandbox test (use incognito/VM), report bugs with details (URL, screenshot, error), no production/live use (e.g., work/banking sites), rollback easy (disable URL).
+- **Potential Errors Galore**: Expect glitches like login fails, site no-load, payment errors, adblock detected, ads slipping through, videos not playing, etc. It's experimental – bugs happen.
+- **Zero Responsibility**: Author (me) and Grok disclaim *everything*. No liability for breakage, data loss, or "my life ended because of a hidden button." Use = you own it.
+- **P.S: You're an Unpaid Tester Now :v**: If you enable these, congrats – you're beta guinea pig. Feedback? Issue with facts (no fluff). Love ya for the risk!
+
 ---
-**Version**: 1.0.0-beta0  
-**Last Updated**: November 26, 2025  
+**Last Updated**: December 7, 2025  
 **License**: MIT (see LICENSE)

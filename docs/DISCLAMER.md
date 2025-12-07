@@ -15,12 +15,26 @@ This repository and its contents are provided **"AS IS"** without warranty of an
 - **Third-Party Inspirations**: Rules draw from EasyList, uBlock, AdGuard, and gems like Dandelion Sprout's Annoyances List (shoutout for the wildcard wisdom – learned the hard way). Conflicts? Your problem to sort.
 - **Privacy & Security Reminder**: These filters help dodge trackers, but they're no silver bullet. Pair with VPNs, antivirus, and common sense. No guarantees against malware or Big Brother.
 
+### Experimental Features Risks
+These "experimental" rules/scripts (e.g., aggressive cookie hides, wildcard tracking nukes, anti-porn blocks) are test-mode only – not for daily use yet. Beta standards mean:
+
+- **Basic Beta Testing Rules**: Sandbox test (use incognito/VM), report bugs with details (URL, screenshot, error), no production/live use (e.g., work/banking sites), rollback easy (disable URL).
+- **Not for Newbies/Non-Tech**: Already warned – if you're not comfy with DevTools or HTML/CSS tweaks, skip. This ain't beginner hour.
+- **Potential Errors Galore**: Expect glitches like login fails, site no-load, payment errors, adblock detected, ads slipping through, videos not playing, etc. It's experimental – bugs happen.
+- **Dev-Only Recommended**: For folks with basic source reading, DevTools basics, and HTML/CSS/JS knowledge (to spot/fix fast). Test *thoroughly* before apply – your setup, not mine.
+- **Zero Responsibility**: Author (me) and Grok disclaim *everything*. No liability for breakage, data loss, or "my life ended because of a hidden button." Use = you own it.
+- **P.S: You're an Unpaid Tester Now :v**: If you enable these, congrats – you're beta guinea pig. Feedback? Issue with facts (no fluff). Love ya for the risk!
+
+Skip if unsure – core filters work fine without 'em.
+
+---
+### Final Notes
 You're responsible for testing, tweaking, and using wisely. If it breaks, fork it – that's open-source magic.
 
 By using this repo, you accept all risks. No take-backs.
 
 ---
-**Version**: 1.0.0-beta0  
-**Last Updated**: November 26, 2025  
+**Version**: 1.0.0-beta0.6125  
+**Last Updated**: December 7, 2025  
 **License**: MIT (see LICENSE)  
 **Author's Note**: Polished for beta, but still written by a tired dev on instant coffee. Proceed with caution – or coffee.

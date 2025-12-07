@@ -56,7 +56,14 @@ Violate terms? License ends. Stop using, delete it, move on. I won't chase you (
 
 Laws of Vietnam – because that's where this tired dev codes from a wheezing laptop. International enforcement? Good luck (and why bother?).
 
-## 6. Final Plea (Read This Part)
+## 6. ⚠️ Experimental Features Warning (Beta Tester Only)
+
+- **Basic Beta Testing Rules**: Sandbox test (use incognito/VM), report bugs with details (URL, screenshot, error), no production/live use (e.g., work/banking sites), rollback easy (disable URL).
+- **Potential Errors Galore**: Expect glitches like login fails, site no-load, payment errors, adblock detected, ads slipping through, videos not playing, etc. It's experimental – bugs happen.
+- **Zero Responsibility**: Author (me) and Grok disclaim *everything*. No liability for breakage, data loss, or "my life ended because of a hidden button." Use = you own it.
+- **P.S: You're an Unpaid Tester Now :v**: If you enable these, congrats – you're beta guinea pig. Feedback? Issue with facts (no fluff). Love ya for the risk!
+
+## 7. Final Plea (Read This Part)
 
 This EULA exists to protect a solo dev's sanity, not to trap you. Customize, contribute, make it better. Beta's our shot at "good enough" – thanks for joining the ride.
 
@@ -68,3 +75,6 @@ Still here? You're a saint. Enjoy the cleaner web (or rage-quit when it breaks �
 **Version**: 1.0.0-beta0  
 **Last Updated**: November 26, 2025  
 **License**: MIT (full text above)
+
+---
+**Contact**: [lopop05905@proton.me](mailto:lopop05905@proton.me)

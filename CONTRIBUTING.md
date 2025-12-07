@@ -1,7 +1,7 @@
 # Contributing Guide
 
 **Poli-Filter-Rules**  
-**Last Updated: November 26, 2025**
+**Last Updated: December 7, 2025**
 
 Hey, you want in? Cool – this solo + AI repo appreciates the company (humans are rare here). Beta means we're polished but still raw: Fork, tweak, PR. No hand-holding, but I'll merge if it's solid. Read Wiki/FAQ first (seriously, 90% of "help" is there).
 
@@ -45,6 +45,13 @@ Example: "https://tiki.vn/login blocked login form. Selector: #login-div. Screen
 - **Toxic OK (Kinda)**: Trash me/project? Fine – I'm numb/emotionally scarred (family/school/university vibes). But toxic to others? Rethink your life, kindly. +1 ignore, no debate.
 - **Non-Devs Welcome**: If you're not tech-savvy, report anyway – I'll guide. Devs? Detail like above (you're better than my trash self – use it).
 - **No Repeats**: Wiki/FAQ covers 99%. Duplicate issue? Closed with love (and RTFM).
+
+### 3. Reporting Experimental Bugs
+- **Basic Beta Testing Rules**: Sandbox test (use incognito/VM), report bugs with details (URL, screenshot, error), no production/live use (e.g., work/banking sites), rollback easy (disable URL).
+- **Not for Newbies/Non-Tech**: Already warned – if you're not comfy with DevTools or HTML/CSS tweaks, skip. This ain't beginner hour.
+- **Zero Responsibility**: Author (me) and Grok disclaim *everything*. No liability for breakage, data loss, or "my life ended because of a hidden button." Use = you own it.
+- ***P.S: You're an Unpaid Tester Now :v***: If you enable these, congrats – you're beta guinea pig. Feedback? Issue 
+  with facts (no fluff). Love ya for the risk!
 
 Open issues/PRs on GitHub. I'll respond in 3–5 days (or when coffee hits). Thanks – your fix might save my sanity.
 
