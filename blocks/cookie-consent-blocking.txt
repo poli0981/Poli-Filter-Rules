@@ -33,3 +33,4 @@
 ||cookiehub.net/c2/93363859.js$script
 ||cdn01.basis.net/assets/up.js$script
 
+||thepowersaber.com/cdn/shopifycloud/consent-tracking-api/v0.1/consent-tracking-api.js

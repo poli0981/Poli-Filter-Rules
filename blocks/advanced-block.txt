@@ -31,6 +31,7 @@
 ||za.com^$all
 ||co.tz^$all
 ||co.zm^$all
+||co.uk^$all
 ||us.org^$all
 ://*sb88*.$document
 ://*mb88*.$document

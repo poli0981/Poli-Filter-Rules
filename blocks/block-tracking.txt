@@ -196,3 +196,17 @@
 ||clammyendearedkeg.com
 ||ads.ourdream.ai
 
+
+||static-tracking.klaviyo.com^$third-party
+||static.klaviyo.com$third-party
+||mplmncb.com/banners-web/cXFnbw==.js$script
+*fbcdn.net^$third-party
+||page.strtgic.com^$third-party
+||adexchangeclear.com^
+||123da.com^
+||mplmncb.com/popup/qqgopopup-qqto.js$script
+||bvtpk.com/tag.min.js$script
+||acscdn.com/script/banner.js$script
+||mplmncb.com/banners-web/cXFnbw==.js$script
+||chilihandshakewing.com^
+||gigglegrowlworrisome.com^
