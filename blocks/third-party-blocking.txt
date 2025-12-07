@@ -1,0 +1,11 @@
+||www.youtube.com/embed/*
+||www.youtube-nocookie.com/embed/*
+||www.youtube.com/*$third-party,domain=~google.com|~developer.google.com
+||www.youtube-nocookie.com/*$third-party
+||youtu.be/*$third-party
+||fonts.googleapis.com^$third-party
+||fonts.gstatic.com^$third-party
+||garena.com^$third-party
+||play.google.com$third-party
+||zohopublic.com$third-party
+*shopee.vn$third-party
