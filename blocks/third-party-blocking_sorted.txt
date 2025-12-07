@@ -1,9 +1,9 @@
-! Title: Poli Filter Rules - [NaMe_of-List-Rules]
+! Title: Poli Filter Rules - Third-Party Blocking
 ! Version: 1.0.0-beta0.6125
 ! Author: poli0981 (with Grok's help)
 ! Generated: 2025-12-07 12:23
 ! Homepage: https://github.com/poli0981/Poli-Filter-Rules
-! Description: [Insert hErE] :v
+! Description: Blocks various third-party services to enhance user privacy and reduce unwanted content.
 ! Total Rules: 11 (non-comment only)
 ! Mode: Pure rules (comments skipped)
 
