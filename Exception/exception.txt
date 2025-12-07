@@ -5,3 +5,8 @@
 @@||bethel.edu^$document
 @@||betherecertificate.org^$document
 @@||betternet.co^$document
+@@||go-better.com^$document
+@@||betterment.com^$document
+@@||bettercallsaul.amc.com^$document
+@@||beta.team$document
+@@||betagenvietnam.com^$document

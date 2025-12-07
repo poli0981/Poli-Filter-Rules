@@ -1,17 +1,35 @@
-! Cookie Consent Blocking List - Block JS/CDN for Common Consent Tools
-! Version: 1.0.0-beta0
-! Description: Nukes cookie consent scripts/CDNs (OneTrust, Cookiebot, etc.) to prevent load. Fallback to hiding if needed.
-! Subscribe this + cookie-consent-hiding.txt for full war.
-
 ||consent.cookiebot.com^
+||consentcdn.cookiebot.com^$important
 ||cdn.cookielaw.org^$important
 ||cmp.osano.com^$important
 ||consent.trustarc.com^$important
 ||cdn.cookieyes.com^$important
+||cmp.inmobi.com^$important
 ||*.usercentrics.eu^$important
+||consent.formula1.com^
+||cdn-prod.securiti.ai^
+||ei.phncdn.com/www-static/js/cookieBanner/cookie_banner.js$script
+||cdn.priv.center/pc/truendo_cmp.pid.js$script
+||s.shangri-la.com/sl-fe-public/js/consent_mode-0.0.13.js$script
+||static.canva.com/web/f5e43c068f140dfa.strings.js$script
+||chunk-composing.canva.com/chunk-batch/36d8b5b0fd2cb2f6.js$script
+||s1.nordcdn.com/d/consent/prod/main.js$script
+||assets-cms.privateinternetaccess.com/js/cookie-consent/desktop/*^$script
+||tags.tiqcdn.com/utag/visa/visa-com/prod/utag.js$script
+||cdn-apac.onetrust.com/scripttemplates/otSDKStub.js$script
+||nike.com/static/dotcom-privacy/mfe-privacy-consent/_reco/public/069a1774aa37b2b1c768/index.umd.js$script
+||js.hs-banner.com/v2/*^$script
 
-! Cookie Consent
-||*onetrust.com^$important,third-party
-||*.cookiebot.com^$important,third-party
-||*.cookielaw.org^$important,third-party
-||*.consentmanager.net^$important,third-party
+! cdkvd
+
+||cdn-production-opera-website.operacdn.com/staticfiles/main.04d59840ca08.js$script
+||cdn-production-opera-website.operacdn.com/staticfiles/3819-180ec4d45c6749f86c59.js$script
+||cdn-production-opera-website.operacdn.com/staticfiles/surveyMonkey.47d041a8c080.js$script
+||cdn.shopify.com/shopifycloud/consent-tracking-api/v0.1/consent-tracking-api.js$script
+||cdn-app.pathfactory.com/production/jukebox-lite/current/jukebox.js$script
+||cdn-app.pathfactory.com/production/jukebox-lite/current/677.js$script
+||cc.cdn.civiccomputing.com/9/cookieControl-9.x.min.js$script
+||www.ikea.com/us/en/cookieconsent/scripts/cookieconsent-onetrust-js.js$script
+||cookiehub.net/c2/93363859.js$script
+||cdn01.basis.net/assets/up.js$script
+

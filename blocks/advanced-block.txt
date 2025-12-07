@@ -1,4 +1,3 @@
-! General blocking rules
 ||88.com^$all
 ||ru.com^$all
 ||in.net^$all
@@ -25,15 +24,14 @@
 ||ae.org^$all
 ||gr.com^$all
 ||localinfo.jp^$all
-||adnxs.com^$all
-||doubleclick.net^$all
+||*adnxs.com^$all
+||*doubleclick.net^$all
 ||org.mx^$all
 ||gb.net^$all
 ||za.com^$all
 ||co.tz^$all
 ||co.zm^$all
 ||us.org^$all
-
 ://*sb88*.$document
 ://*mb88*.$document
 ://*66win*.$document
@@ -92,23 +90,50 @@
 ://*say88*.$document
 ://*ricwin*.$document
 ://*gk88*.$document
-||analytics.tiktok.com^
+://*f168*.$document
+://*kong88*.$document
+://*kon88*.$document
+://*ph688*.$document
+://kingkong*.$document
+://kh68*.$document
+://kh78*.$document
+://e688*.$document
+://koin688*.$document
+://*rizk*.$document
+://*maha168*.$document
+://ff777*.$document
+://ph678*.$document
+://*tt88*.$document
+://*one88*.$document
+://*god55*.$document
+://*kclub*.$document
+://*aalive*.$document
 
-||hostman.com/_nuxt/img/new-coin-tutorials.fce6d90.png$image
+! cdvgfcv
+
+://ok8386*.$document
+://*rc88*.$document
+://*rc-88*.$document
+://goal123*.$document
+://123goal*.$document
+://bom88*.$document
+://tot88*.$document
+://uk88*.$document
+://cm88*.$document
+://lk68*.$document
+://*uu88*.$document
+://bl555*.$document
+://*kerahoki*.$document
+://*km88*.$document
+
+! dcdvcde
+://*kh78*.$document
+://*kh88*.$document
+://*68jl*.$document
+://*68dg*.$document
+://joy68*.$document
+://*manclub*.$document
+://*df999*.$document
+://*bong88*.$document
+://*bong99*.$document
 ||bv399.com/en$subdocument
-
-! App download popup
-||play.google.com/store/apps^$important,popup
-||itunes.apple.com/app^$important,popup
-
-! Chatbot
-||intercom.io^$important,third-party
-||drift.com^$important,third-party
-||tidio.com^$important,third-party
-||zendesk.com/widget^$important,third-party
-||tawk.to^$important,third-party
-
-! Facebook third-party
-||connect.facebook.net^$important,third-party
-||facebook.com/plugins^$important,third-party
-||fbcdn.net^$important,third-party,domain=~facebook.com
