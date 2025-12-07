@@ -1,0 +1,40 @@
+! Title: Poli Filter Rules - Cookie Consent Blocking (Sorted)
+! Version: 1.0.0-beta0.6125
+! Author: poli0981 (with Grok's help)
+! Generated: 2025-12-07 12:23
+! Homepage: https://github.com/poli0981/Poli-Filter-Rules
+! Description: A collection of rules to block cookie consent scripts and related resources.
+! Total Rules: 31 (non-comment only)
+! Mode: Pure rules (comments skipped)
+
+||*.usercentrics.eu^$important
+||assets-cms.privateinternetaccess.com/js/cookie-consent/desktop/*^$script
+||cc.cdn.civiccomputing.com/9/cookieControl-9.x.min.js$script
+||cdn-apac.onetrust.com/scripttemplates/otSDKStub.js$script
+||cdn-app.pathfactory.com/production/jukebox-lite/current/677.js$script
+||cdn-app.pathfactory.com/production/jukebox-lite/current/jukebox.js$script
+||cdn-prod.securiti.ai^
+||cdn-production-opera-website.operacdn.com/staticfiles/3819-180ec4d45c6749f86c59.js$script
+||cdn-production-opera-website.operacdn.com/staticfiles/main.04d59840ca08.js$script
+||cdn-production-opera-website.operacdn.com/staticfiles/surveyMonkey.47d041a8c080.js$script
+||cdn.cookielaw.org^$important
+||cdn.cookieyes.com^$important
+||cdn.priv.center/pc/truendo_cmp.pid.js$script
+||cdn.shopify.com/shopifycloud/consent-tracking-api/v0.1/consent-tracking-api.js$script
+||cdn01.basis.net/assets/up.js$script
+||chunk-composing.canva.com/chunk-batch/36d8b5b0fd2cb2f6.js$script
+||cmp.inmobi.com^$important
+||cmp.osano.com^$important
+||consent.cookiebot.com^
+||consent.formula1.com^
+||consent.trustarc.com^$important
+||consentcdn.cookiebot.com^$important
+||cookiehub.net/c2/93363859.js$script
+||ei.phncdn.com/www-static/js/cookieBanner/cookie_banner.js$script
+||js.hs-banner.com/v2/*^$script
+||nike.com/static/dotcom-privacy/mfe-privacy-consent/_reco/public/069a1774aa37b2b1c768/index.umd.js$script
+||s.shangri-la.com/sl-fe-public/js/consent_mode-0.0.13.js$script
+||s1.nordcdn.com/d/consent/prod/main.js$script
+||static.canva.com/web/f5e43c068f140dfa.strings.js$script
+||tags.tiqcdn.com/utag/visa/visa-com/prod/utag.js$script
+||www.ikea.com/us/en/cookieconsent/scripts/cookieconsent-onetrust-js.js$script

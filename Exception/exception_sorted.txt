@@ -1,0 +1,21 @@
+! Title: Poli Filter Rules - Exception Domains (Sorted)
+! Version: 1.0.0-beta0.6125
+! Author: poli0981 (with Grok's help)
+! Generated: 2025-12-07 12:23
+! Homepage: https://github.com/poli0981/Poli-Filter-Rules
+! Description: A comprehensive list of exception domain rules for use with ad blockers like uBlock Origin and AdGuard. This list is designed to allow access to various trusted domains that may otherwise be blocked by general filtering rules.
+! Total Rules: 12 (non-comment only)
+! Mode: Pure rules (comments skipped)
+
+@@||alphabet.com^$document
+@@||bet.com^$document
+@@||bet.psdschools.org^$document
+@@||beta.team$document
+@@||betagenvietnam.com^$document
+@@||bethel.edu^$document
+@@||betherecertificate.org^$document
+@@||bethesda.net^$document
+@@||bettercallsaul.amc.com^$document
+@@||betterment.com^$document
+@@||betternet.co^$document
+@@||go-better.com^$document

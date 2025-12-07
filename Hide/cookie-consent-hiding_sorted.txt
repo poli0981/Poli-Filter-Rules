@@ -1,0 +1,47 @@
+! Title: Poli Filter Rules - Cookie Consent Hiding Rules
+! Version: 1.0.0-beta0.6125
+! Author: poli0981 (with Grok's help)
+! Generated: 2025-12-07 12:23
+! Homepage: https://github.com/poli0981/Poli-Filter-Rules
+! Description: A comprehensive list of cookie consent hiding rules for use with ad blockers like uBlock Origin and AdGuard. This list is designed to hide cookie consent banners and pop-ups that appear on websites, improving user experience while browsing.
+! Total Rules: 38 (non-comment only)
+! Mode: Pure rules (comments skipped)
+
+##[class*="alert"]
+##[class*="banner"]
+##[class*="ccpa"]
+##[class*="consent"]
+##[class*="cookie"]
+##[class*="cookiebot"]
+##[class*="cookielaw"]
+##[class*="dialog"]
+##[class*="gdpr"]
+##[class*="modal"]
+##[class*="notification"]
+##[class*="onetrust"]
+##[class*="overlay"]
+##[class*="popup"]
+##[class*="privacy"]
+##[class*="usercentrics"]
+##[id*="alert"]
+##[id*="banner"]
+##[id*="ccpa"]
+##[id*="consent"]
+##[id*="cookie"]
+##[id*="cookiebot"]
+##[id*="cookielaw"]
+##[id*="dialog"]
+##[id*="gdpr"]
+##[id*="modal"]
+##[id*="notification"]
+##[id*="onetrust"]
+##[id*="overlay"]
+##[id*="popup"]
+##[id*="privacy"]
+##[id*="usercentrics"]
+cookieinformation.com###coiOverlay
+hostman.com##.cc--c1Lk
+www.alphabet.com##epaas-consent-drawer-shell
+www.bairesdev.com##.mdS\:justify-center.justify-start.mx-auto.flex.py-3.px-4.will-change-transform.bg-site-neutrals-900.max-w-full.fixed.w-full.bottom-0.z-50.translate-y-full.opacity-0.pointer-events-none.animate-snackbar-show
+www.lego.com##.kWsBbv.AgeGatestyles__Wrapper-sc-jl57jl-0
+www.mbarchaa.com###d-notification-bar
