@@ -110,10 +110,10 @@ Skip if unsure – core filters work fine without 'em.
      ```
    - Cookie consent blockers/hiders:
      ```text
-     https://raw.githubusercontent.com/poli0981/Poli-Filter-Rules/refs/heads/main/blocks/cookie-consent-blocking.txt
+     https://raw.githubusercontent.com/poli0981/Poli-Filter-Rules/refs/heads/main/blocks/cookie-consent-blocking_sorted.txt
      ```
      ```text
-     https://raw.githubusercontent.com/poli0981/Poli-Filter-Rules/refs/heads/main/Hide/hiding-raws_sorted.txt
+     https://raw.githubusercontent.com/poli0981/Poli-Filter-Rules/refs/heads/main/Hide/cookie-consent_hiding_sorted.txt
      ```
      
    * **Experimental features:** See Wiki for details – use at your own risk.
