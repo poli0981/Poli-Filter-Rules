@@ -1,6 +1,6 @@
 # Personal FAQ – Nobody Asked By Absolutely Nobody (But I Wrote It Anyway Because I'm Bored and Depressed)
 
-** November 22, 2025 **
+**Last updated:** _November 29, 2025_
 
 Yes, this is the stupid FAQ nobody will ever read.  
 I wrote it at 6 AM while my laptop fan sounded like a dying cat.  
@@ -153,3 +153,36 @@ A: Never. Everyone's got their vibe. I don't even trust my own gut, let alone ot
 A: Nah. Games are dev sweat (solo or team). Blame the CEO/boss if bad (big studios). Worst I've said: "Wasted money" :v.
 
 ---
+## Personal FAQ – Part 4: More Rants from the Void (Even Less Relevance)
+
+Added because... why not? Insomnia strikes again. These are deeper/sillier dives – philosophical, game rants, life shrugs. No one's reading, but if you are, congrats on the time sink :))).
+
+**Q: Thoughts on freedom?**  
+A: Freedom? What's that when you're stuck accepting someone else's 'rules'? True freedom's a myth in chains.
+
+**Q: How do you react to comments calling you bad at games on platforms (YouTube, X...)?**  
+A: If it's true, I own it. Games are just code for fun – no shame in sucking.
+
+**Q: Why play on normal/easy?**  
+A: Why not? Harder modes just amp HP/dmg/movesets – life's challenging enough. Like challenges? Cool, your call. Me? Easy mode for sanity.
+
+**Q: Latest toxic comment on social media?**  
+A: Called me 'gay' for Magic build in Elden Ring NG+2. Uh? Playstyle = sexuality? WTF? :))
+
+**Q: Anything interesting from school life?**  
+A: Nothing. Zilch. Blank slate of boredom.
+
+**Q: Why so closed off with people?**  
+A: Conversations feel fake. No 'real' vibe.
+
+**Q: Any friends from 3 years of high school?**  
+A: One guy I actually called a friend :v
+
+**Q: What sparked your interest in code?**  
+A: Kid me on Windows XP, playing pixel/3D block games – "How does this machine make it run?" Simple curiosity, blah blah.
+
+**Q: What games does your YouTube channel play?**  
+A: Everything – all genres, graphics, gameplay. But no online multiplayer – solo vibes only :).
+
+**Q: Can AI replace humans?**  
+A: If you're skilled/adaptable, no fear :v. Lazy ones? See ya in the unemployment line (like me).
