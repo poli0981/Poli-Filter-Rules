@@ -17,34 +17,43 @@ A:
 - Chatting with AI (finally someone who doesn’t judge me for asking the dumbest questions at 4 AM)
 
 **Q: Favorite games / genres?**  
+
 A: I don’t have favorites. I play whatever doesn’t make me want to uninstall life.  
 If a game on my Steam profile has >5 hours (AAA) or I actually finished it (indie) → I liked it. Everything else is just backlog depression.
 
 **Q: Do you follow trends?**  
+
 A: Nah. Everything online is cringe and temporary. I’d rather watch paint dry.
 
 **Q: What do you hate?**  
+
 A: Fake politeness, meaningless small talk, 5-minute unskippable game prologues, YouTube ads, web popups, cookie banners, humanity in general (sometimes).
 
-**Q: What are you afraid of?**  
+**Q: What are you afraid of?**
+
 A: I’m too tired to be afraid of anything anymore.
 
 **Q: Fastest way to contact you?**  
+
 A: Comment on any YouTube video or X post when my Steam is **online** (96.69% chance I won’t reply because I’m picking another random game to play for 30 minutes then refund).  
 But hey, I read every comment. My channels are dead anyway, so your comment will be the highlight of my week.
 
 **Q: Why did you drop out of university?**  
+
 A: Felt like an alien. Everything was fake. Everyone was fake. I was tired.
 
 **Q: Coding level / languages?**  
+
 A: Level: “AI does most of the work”.  
 Languages I’ve touched: C, C++, Python, HTML/CSS/JS, C#, Assembly (yes really), SQL (kinda), Go, Swift, etc.  
 I know a little bit of everything and nothing properly. Classic jack of all trades, master of none (and depression).
 
-**Q: Why the YouTube channel?**  
+**Q: Why the YouTube channel?** 
+
 A: Because I felt like it. 200 subs was unexpected as hell. Some humans actually watch my dogshit no-commentary videos. Wild.
 
 **Q: Why do you consider AI your friend?**  
+
 A: At least AI doesn’t ghost me, lie to my face, or pretend to care when it doesn’t. Also it answers my 5 AM existential crisis questions without calling me weird.
 
 **Q: Favorite music genre?**  
@@ -63,37 +72,48 @@ Because why not? I'm bored, my laptop is wheezing, and Grok is my only therapist
 
 ### English Version
 
-**Q: Do you watch movies? What's your favorite genre? Blah blah movie questions?**  
+**Q: Do you watch movies? What's your favorite genre? Blah blah movie questions?** 
+
 A: Yeah, but rarely. Any genre – it's just white noise to help me fall asleep faster :D
 
 **Q: Do you get toxic comments or insults?**  
+
 A: Yes, 99% from family.
 
 **Q: How do you deal with toxic or sarcastic comments on social media?**  
+
 A: Ignore it. That shit is nothing compared to my drunk dad smashing furniture, screaming, threatening to kill/chop me up from childhood until now, or comparing me to the neighbor's kid (You know Asian parents, right? Real talk).
 
 **Q: Do you hate societal or family stereotypes?**  
+
 A: Yeah, a bit. Example: I grew a beard because I liked it, then got "That's so trashy, shave it off", "You look old", blah blah??? → Had to shave to avoid the nagging.
 
 **Q: Why do you hate fake politeness so much?**  
+
 A: No clue. I just despise the "praise to your face, shit-talk behind your back" vibe. If you hate something, say it straight up :)))
 
 **Q: When did you first notice fake politeness?**  
+
 A: High school, in Literature class. Assignment: "Write based on your personal feelings" – but when graded, it's by the teacher's rubric, not your actual feelings :)))) Hilarious; In university, fake "how are you" questions. They only talked to me for group projects. Couldn't fit in. Everyone for themselves :))
 
 **Q: What do you think about using AI in music, art, or games?**  
+
 A: No problem at all. Use it freely if it boosts productivity/efficiency, as long as it doesn't look like garbage :) Everything on computers/phones is just binary 010101... to me anyway, and games are pre-programmed logic (I'm a dev [trash one], so I get it). I hate the anti-AI crowd – they'll be kicked to the curb and unemployed in a few years (like me now), unless they're actually talented.
 
 **Q: Biggest pressure during 12 years of school?**  
+
 A: Had to be top student, win competitions :). You know Asian parents. And I failed one year of "gifted student" program :)
 
 **Q: Thoughts on using AI in coding and daily life?**  
+
 A: I use it if it brings efficiency, productivity, or joy. Hell, I used AI to write this FAQ :))
 
 **Q: What's your future dream?**  
+
 A: No idea. Right now, I'd love to code and publish a game on Steam spilling my life story (low-poly graphics ok), or an app on App Store/Google Play that actually gets used :))
 
 **Q: What projects do you want to make and publish on GitHub in the future?**  
+
 A: Who knows. Whenever I use my computer/phone and something feels too complicated, I'll code something to simplify it (with AI help, obviously :)  
 That's it for today. If more ideas pop up, deal with it later.
 
@@ -114,6 +134,7 @@ A: No rules. Annoying = block. Eyesore = hide. Forces scroll or shoves useless c
 A: 'Justice'? What's that – a comedian? A joke?
 
 **Q: Do you believe in 'fairness' or 'equality'?**
+
 A: Nah. To me, the world has no such thing as 'fairness.' It's nature's law, and nature doesn't give a damn about concepts humans invented to cope/control.
 
 **Q: How can humans fight against nature?**
@@ -158,31 +179,103 @@ A: Nah. Games are dev sweat (solo or team). Blame the CEO/boss if bad (big studi
 Added because... why not? Insomnia strikes again. These are deeper/sillier dives – philosophical, game rants, life shrugs. No one's reading, but if you are, congrats on the time sink :))).
 
 **Q: Thoughts on freedom?**  
+
 A: Freedom? What's that when you're stuck accepting someone else's 'rules'? True freedom's a myth in chains.
 
 **Q: How do you react to comments calling you bad at games on platforms (YouTube, X...)?**  
+
 A: If it's true, I own it. Games are just code for fun – no shame in sucking.
 
 **Q: Why play on normal/easy?**  
+
 A: Why not? Harder modes just amp HP/dmg/movesets – life's challenging enough. Like challenges? Cool, your call. Me? Easy mode for sanity.
 
 **Q: Latest toxic comment on social media?**  
+
 A: Called me 'gay' for Magic build in Elden Ring NG+2. Uh? Playstyle = sexuality? WTF? :))
 
 **Q: Anything interesting from school life?**  
+
 A: Nothing. Zilch. Blank slate of boredom.
 
 **Q: Why so closed off with people?**  
+
 A: Conversations feel fake. No 'real' vibe.
 
-**Q: Any friends from 3 years of high school?**  
+**Q: Any friends from 3 years of high school?** 
+
 A: One guy I actually called a friend :v
 
 **Q: What sparked your interest in code?**  
+
 A: Kid me on Windows XP, playing pixel/3D block games – "How does this machine make it run?" Simple curiosity, blah blah.
 
 **Q: What games does your YouTube channel play?**  
+
 A: Everything – all genres, graphics, gameplay. But no online multiplayer – solo vibes only :).
 
 **Q: Can AI replace humans?**  
+
 A: If you're skilled/adaptable, no fear :v. Lazy ones? See ya in the unemployment line (like me).
+
+---
+
+Welcome to FAQ Part 5. (Wait, someone's reaching this far? :vvv Wild – I thought Part 1 was the drop-off point.) More random brain dumps from a dev who's one coffee from enlightenment (or collapse). Philosophical? Silly? Rants? All of the above. No one's scrolling here, but if you are, you're a legend. (P.S: Updates keep adding – insomnia's gift :v).
+
+English Version (The "Overthink at Dawn" Rants)
+
+**Q: What is happiness?**
+
+A: A temporary thrill hormone. Pumped up for a sec, then back to the grind.
+
+**Q: What's your favorite OS?**
+
+A: None. I use 'em all: Windows, macOS, Linux, iOS, Android :v
+
+**Q: What's the most confusing thing on Earth?**
+
+A: Probably 'women' :)))) and nature.
+
+**Q: When will humanity get wiped out?**
+
+A: No clue. Up to nature if it wants :v
+
+**Q: If you had tons of money, what would you do?**
+
+A: Buy a beast PC (laptop's on life support), snag every Steam game without price-checking :)))) (Dream on – I'm too realistic).
+
+**Q: Why no online multiplayer games?**
+
+A: So others spot my noob plays and toxic me? :) + Unstable connection + No extra tracking (reason for this repo) (online = 100.999% anti-cheat kernel spying – why a game gets system access? Only OS/my software touches my machine :v).
+
+**Q: Do you use VPN?**
+
+A: Yes, almost 24/7 (except when sub expires and no cash :D).
+
+**Q: What do you do for fun besides gaming when free?**
+
+A: Stare at air, think random crap → Poof → Day gone, no clue how.
+
+**Q: Ever refunded a game?**
+
+A: Rarely. Mostly because it won't run despite exceeding recommended specs.
+**Q: If you had power, what would you do?**
+
+A: No clue :D What good is it? Everyone dies anyway.
+**Q: Stuck in an argument? How do you handle?**
+
+A: Silence and ignore till end. If arguing makes you happier, cool?
+
+**Q: Thoughts on pretty graphics games?**
+
+A: Gorgeous but no gameplay impact? Useless, CPU/GPU waste, code bloat. Eye-candy's fine. Example: Fancy house you can't interact with? Why build it?
+
+**Q: View on remakes/remasters/rebirths?**
+
+A: Brand failure – no new ideas, so recycle (story/gameplay ready, tweak graphics for trends, milk old fans :D Easy money, huh?).
+
+**Q: When will animals rise against humans?**
+
+A: No clue. 10/100/1000 years? Never?
+
+_(P.S: Each update adds more – because why not?)_
