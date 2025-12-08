@@ -152,7 +152,6 @@
 *adform.net$all
 *aniview.com$all
 *atmtd.com$all
-*adform.net$all
 *bidswitch.net$all
 *casalemedia.com$all
 *clean.gg$all
@@ -160,7 +159,6 @@
 *cpx.to$all
 *criteo.com$all
 *fastly.net$all
-*indexww.com$all
 *lijit.com$all
 *openx.net$all
 *richaudience.com$all
@@ -207,6 +205,7 @@
 ||mplmncb.com/popup/qqgopopup-qqto.js$script
 ||bvtpk.com/tag.min.js$script
 ||acscdn.com/script/banner.js$script
-||mplmncb.com/banners-web/cXFnbw==.js$script
 ||chilihandshakewing.com^
 ||gigglegrowlworrisome.com^
+||*pancake.vn$all
+||api.webcake.io^$all

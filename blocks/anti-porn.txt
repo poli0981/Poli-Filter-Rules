@@ -37,7 +37,6 @@
 ! Mainstream porn blocking
 ://*xnxx*.$document
 ://*xvideos*.$document
-://*youjizz*.$document
 ://*brazzers*.$document
 ://*chaturbate*.$document
 ://*naughtyamerica*.$document
@@ -129,7 +128,6 @@
 ://*xgroovy*.$document
 ://*mansurfer*.$document
 ://*xcafe*.$document
-://*vipwank*.$document
 ://*iamsissy*.$document
 ://*justustrannies*.$document
 ://*keekass*.$document
@@ -175,7 +173,6 @@
 ://*bongacams*.$document
 ://*tsmate*.$document
 ://*imlive*.$document
-://*chaturbate*.$document
 ://*scroller*.$document
 
 ! Live chat
@@ -188,7 +185,6 @@
 ! Except for generic hentai blocking above (e.g hentai, rule34, etc)
 ||fakku.net^$important
 ://*gelbooru*.$document
-://*porcore*.$document
 ://*hanime*.$document
 ||hstream.moe^$important
 ://*h-anime*.$document
@@ -229,7 +225,6 @@
 ://*doujinblog*.$document
 ://*mitaku*.$document
 ://*jjgirls*.$document
-://*imagefap*.$document
 ://*pichunter*.$document
 ://*e621*.$document
 ://*hitomi*.$document
@@ -327,3 +322,7 @@
 ://*tsmatch*.$document
 ://*tsdates*.$document
 ://*shemaledating*.$document
+
+! Bi*ch Girl Website
+||netdep.vip^$important
+||booking63tinhthanh.site^$important
