@@ -209,3 +209,15 @@
 ||gigglegrowlworrisome.com^
 ||*pancake.vn$all
 ||api.webcake.io^$all
+||improving.duckduckgo.com^
+||external-content.duckduckgo.com^
+||links.duckduckgo.com^
+||grok.com/api/log_metric
+||grok.com/_data/v1/events
+||ads-api.x.com
+o13855.ingest.sentry.io
+||telemetry.canva.com/v1/traces
+$removeparam=fbclid
+$removeparam=referer_domain
+$removeparam=utm_*
+$removeparam=a,p

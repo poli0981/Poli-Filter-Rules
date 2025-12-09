@@ -29,8 +29,6 @@ www.ted.com##.w-full.pr-5 > .w-full.px-5.md\:px-10.xl\:px-16
 ##[id*="chatbot"]
 ##[class*="copyright"]
 ##[id*="copyright"]
-##[class*="social"]
-##[id*="social"]
 ##[class*="link_social"]
 ##[id*="link_social"]
 ##[class*="ageConfirmation"]
