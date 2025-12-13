@@ -17,11 +17,12 @@ FILES = [
     '../blocks/anti-porn.txt',
 ]
 
-VERSION = "1.0.0-beta0.6125"
+VERSION = "1.0.0-beta0.7.0"
 TITLE = "Poli Filter Rules - [NaMe_of-List-Rules]"
 AUTHOR = "poli0981 (with Grok's help)"
 HOMEPAGE = "https://github.com/poli0981/Poli-Filter-Rules"
 DESCRIPTION_LIST = "[Insert hErE] :v"
+EXPIRE_TIME = "3 days"
 
 def sort_and_count_file(input_path, output_path, pure_rules=False):
     """Sort lines (non-comment first), count pure rules, add header; --pure-rules skips comments"""
@@ -51,6 +52,7 @@ def sort_and_count_file(input_path, output_path, pure_rules=False):
         out.write(f'! Author: {AUTHOR}\n')
         out.write(f'! Generated: {datetime.now().strftime("%Y-%m-%d %H:%M")}\n')
         out.write(f'! Homepage: {HOMEPAGE}\n')
+        out.write(f'! Expires: {EXPIRE_TIME}\n')
         out.write(f'! Description: {DESCRIPTION_LIST}\n')
         out.write(f'! Total Rules: {len(rules)} (non-comment only)\n')
         if pure_rules:
