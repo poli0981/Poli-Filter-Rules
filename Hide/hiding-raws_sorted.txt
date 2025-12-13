@@ -5,7 +5,7 @@
 ! Homepage: https://github.com/poli0981/Poli-Filter-Rules
 ! Expires: 3 days
 ! Description: This list is designed to hide various unwanted elements on websites, improving user experience while browsing.
-! Total Rules: 223 (non-comment only)
+! Total Rules: 224 (non-comment only)
 ! Mode: Pure rules (comments skipped)
 
 ###modal_age_confirmation
@@ -81,6 +81,7 @@ endfield.gryphline.com##.Xrsk\+Qlh9i08Vsrs368r8Q\=\=.f-uw5oqemiZQ9E\+QQGoDUw\=\=
 fusionmarkets.investments##.mui-aos6kw.MuiBox-root
 github.com##.color-border-subtle.color-fg-muted.f6.pb-6.pt-7.footer
 github.com##.footer-session-authentication
+github.com##.position-relative.pt-6.footer
 help.steampowered.com###footer
 helpfreshers.medium.com##.acu.act.gz.acs.o.ub.acr.acq.acp.gy.aco.acn.ci.r.ac
 helpfreshers.medium.com##.gu.fr.m.adi.adh.adg.adf.ade.add.adc.adb.ada.acz.acy.acx.acw.acv.pw-susi-modal

@@ -296,4 +296,7 @@ github.com##.color-border-subtle.color-fg-muted.f6.pb-6.pt-7.footer
 www.gzo123.com###footer
 voodoo.io##.framer-kutq3w
 
+github.com##.position-relative.pt-6.footer
+
+
 
