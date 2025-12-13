@@ -1,13 +1,14 @@
 ! Title: Poli Filter Rules - Cookie Consent Blocking (Sorted)
-! Version: 1.0.0-beta0.6125
+! Version: 1.0.0-beta0.7.0
 ! Author: poli0981 (with Grok's help)
-! Generated: 2025-12-07 12:23
+! Generated: 2025-12-13 13:02
 ! Homepage: https://github.com/poli0981/Poli-Filter-Rules
+! Expires: 3 days
 ! Description: A collection of rules to block cookie consent scripts and related resources.
-! Total Rules: 31 (non-comment only)
+! Total Rules: 37 (non-comment only)
 ! Mode: Pure rules (comments skipped)
 
-||*.usercentrics.eu^$important
+*usercentrics.eu^$important
 ||assets-cms.privateinternetaccess.com/js/cookie-consent/desktop/*^$script
 ||cc.cdn.civiccomputing.com/9/cookieControl-9.x.min.js$script
 ||cdn-apac.onetrust.com/scripttemplates/otSDKStub.js$script
@@ -22,10 +23,14 @@
 ||cdn.priv.center/pc/truendo_cmp.pid.js$script
 ||cdn.shopify.com/shopifycloud/consent-tracking-api/v0.1/consent-tracking-api.js$script
 ||cdn01.basis.net/assets/up.js$script
+||chunk-composing.canva.com/chunk-batch/326e9621d3fea6a2.js$script
 ||chunk-composing.canva.com/chunk-batch/36d8b5b0fd2cb2f6.js$script
+||chunk-composing.canva.com/chunk-batch/ae23b04a6accad16.js$script
+||chunk-composing.canva.com/chunk-batch/f5e43c068f140dfa.strings.js$script
 ||cmp.inmobi.com^$important
 ||cmp.osano.com^$important
 ||consent.cookiebot.com^
+||consent.cookiebot.com^$important
 ||consent.formula1.com^
 ||consent.trustarc.com^$important
 ||consentcdn.cookiebot.com^$important
@@ -37,4 +42,6 @@
 ||s1.nordcdn.com/d/consent/prod/main.js$script
 ||static.canva.com/web/f5e43c068f140dfa.strings.js$script
 ||tags.tiqcdn.com/utag/visa/visa-com/prod/utag.js$script
+||thepowersaber.com/cdn/shopifycloud/consent-tracking-api/v0.1/consent-tracking-api.js
+||www.canva.com/_ajax/privacypreference/trackingconsent/check
 ||www.ikea.com/us/en/cookieconsent/scripts/cookieconsent-onetrust-js.js$script

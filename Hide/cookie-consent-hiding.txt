@@ -1,4 +1,3 @@
-www.top100bookmakers.com###cookieconsent
 ##div[class^="cookie"]
 ##div[class$="cookie"]
 ##div[id^="cookie"]
@@ -27,10 +26,10 @@ www.top100bookmakers.com###cookieconsent
 ##div[class*="cookie-law"]
 ##div[id*="cookie-law"]
 
+www.canva.com##.e4Qmjw
 www.alphabet.com##epaas-consent-drawer-shell
 cookieinformation.com###coiOverlay
 www.mbarchaa.com###d-notification-bar
-www.canva.com##.e4Qmjw
 www.ted.com###a873d79e-ae4c-4404-b380-2dc07cd09e33
 trustarc.com###truste-consent-track
 wutheringwaves.kurogames.com##.cookies-modal

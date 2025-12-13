@@ -1,10 +1,11 @@
 ! Title: Poli Filter Rules - Hiding Rules Basic
-! Version: 1.0.0-beta0.6125
+! Version: 1.0.0-beta0.7.0
 ! Author: poli0981 (with Grok's help)
-! Generated: 2025-12-07 12:23
+! Generated: 2025-12-13 13:02
 ! Homepage: https://github.com/poli0981/Poli-Filter-Rules
-! Description: A comprehensive list of basic hiding rules for use with ad blockers like uBlock Origin and AdGuard. This list is designed to hide various unwanted elements on websites, improving user experience while browsing.
-! Total Rules: 220 (non-comment only)
+! Expires: 3 days
+! Description: This list is designed to hide various unwanted elements on websites, improving user experience while browsing.
+! Total Rules: 223 (non-comment only)
 ! Mode: Pure rules (comments skipped)
 
 ###modal_age_confirmation
@@ -24,7 +25,6 @@
 ##[class*="chatbot"]
 ##[class*="copyright"]
 ##[class*="link_social"]
-##[class*="social"]
 ##[id*="age-check"]
 ##[id*="age-consent"]
 ##[id*="age-gate"]
@@ -38,7 +38,6 @@
 ##[id*="chatbot"]
 ##[id*="copyright"]
 ##[id*="link_social"]
-##[id*="social"]
 about.gitlab.com##.be-nav-footer
 amplitude.com##.bg-white > footer
 animehay.*##.ah_content > .bg-black.padding-10
@@ -80,6 +79,7 @@ endfield.gryphline.com##.Header_buttonShare__ml1S_
 endfield.gryphline.com##.Header_buttonShareBg__Tabt5
 endfield.gryphline.com##.Xrsk\+Qlh9i08Vsrs368r8Q\=\=.f-uw5oqemiZQ9E\+QQGoDUw\=\=
 fusionmarkets.investments##.mui-aos6kw.MuiBox-root
+github.com##.color-border-subtle.color-fg-muted.f6.pb-6.pt-7.footer
 github.com##.footer-session-authentication
 help.steampowered.com###footer
 helpfreshers.medium.com##.acu.act.gz.acs.o.ub.acr.acq.acp.gy.aco.acn.ci.r.ac
@@ -123,7 +123,9 @@ steamcommunity.com###footer
 store.steampowered.com###content_callout
 store.steampowered.com###content_out
 store.steampowered.com###footer
+store.steampowered.com##.Ksy4XAVZlM0-
 tiembiaga.vn###modal_age_bg
+voodoo.io##.framer-kutq3w
 wutheringwaves.kurogames.com##.footer
 wutheringwaves.kurogames.com##.link-list
 wutheringwaves.kurogames.com##.login-btn
@@ -158,6 +160,7 @@ www.fandom.com##.newsletter
 www.gog.com##.footer-microservice.main-footer
 www.google.com##.KxwPGc.SSwjIe
 www.google.com##.XPuBac
+www.gzo123.com###footer
 www.hoyolab.com##.mhy-article-list__body > div.mhy-article-card-wrapper > .mhy-article-card
 www.hoyolab.com##.mhy-article-list__body > div.mhy-contribution-card-v2.mhy-contribution-card-v2--ended
 www.hoyolab.com##.mhy-article-list__body > div.mhy-contribution-card-v2.mhy-contribution-card-v2--started
@@ -221,6 +224,7 @@ www.youtube.com###secondary > .ytd-watch-flexy.style-scope
 www.youtube.com###voice-search-button > .ytd-masthead.style-scope > yt-button-shape
 www.youtube.com##.ytd-download-button-renderer.style-scope > yt-button-shape
 www.youtube.com##ytd-guide-entry-renderer.ytd-guide-section-renderer.style-scope:nth-of-type(2)
+www.youtube.com##ytd-mini-guide-entry-renderer.ytd-mini-guide-renderer.style-scope:nth-of-type(2)
 www.youtube.com##ytd-guide-signin-promo-renderer.ytd-guide-renderer.style-scope
 www.youtube.com##ytd-mini-guide-entry-renderer.style-scope.ytd-mini-guide-renderer:nth-of-type(2) > .yt-simple-endpoint.style-scope.ytd-mini-guide-entry-renderer
 x.com##.css-175oi2r.r-18u37iz.r-1w6e6rj.r-3pj75a

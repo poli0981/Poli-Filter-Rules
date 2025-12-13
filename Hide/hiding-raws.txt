@@ -25,6 +25,8 @@ www.nytimes.com##.css-50gbj.e1j3jvdr1 > span:nth-of-type(1)
 www.nytimes.com##.css-sg7scw
 www.nytimes.com##.css-1e1s8k7
 www.ted.com##.w-full.pr-5 > .w-full.px-5.md\:px-10.xl\:px-16
+
+
 ##[class*="chatbot"]
 ##[id*="chatbot"]
 ##[class*="copyright"]
@@ -165,6 +167,7 @@ www.youtube.com###contents-container > .ytd-rich-shelf-renderer.style-scope
 www.youtube.com###content > .ytd-rich-section-renderer.style-scope
 www.youtube.com###panels
 www.youtube.com###fulfilled-layout > .ytd-ad-slot-renderer.style-scope
+www.youtube.com##ytd-mini-guide-entry-renderer.ytd-mini-guide-renderer.style-scope:nth-of-type(2)
 
 
 dev.to##.crayons-article-sticky.grid.gap-4.break-word.js-billboard-container > div:nth-of-type(1) > .crayons-card.crayons-card--secondary.crayons-bb.bb-placement.js-billboard
@@ -288,4 +291,9 @@ xanimu.com###beside-video-ver2
 scrolller.com##div.popup--zIndex.popup--dark.popup--animate.popup--sticky.popup:nth-of-type(7)
 scrolller.com##div.popup--zIndex.popup--dark.popup--animate.popup--sticky.popup:nth-of-type(6)
 scrolller.com##.index-module__dMXy4q__sticky.index-module__dMXy4q__container
+store.steampowered.com##.Ksy4XAVZlM0-
+github.com##.color-border-subtle.color-fg-muted.f6.pb-6.pt-7.footer
+www.gzo123.com###footer
+voodoo.io##.framer-kutq3w
+
 

@@ -1,12 +1,42 @@
 ! Title: Poli Filter Rules - Gambling Sites Block List - Advanced Block
-! Version: 1.0.0-beta0.6125
+! Version: 1.0.0-beta0.7.0
 ! Author: poli0981 (with Grok's help)
-! Generated: 2025-12-07 12:23
+! Generated: 2025-12-13 13:02
 ! Homepage: https://github.com/poli0981/Poli-Filter-Rules
+! Expires: 3 days
 ! Description: Blocks access to various online gambling and betting sites.
-! Total Rules: 134 (non-comment only)
+! Total Rules: 177 (non-comment only)
 ! Mode: Pure rules (comments skipped)
 
+$removeparam=/^_click|^click/
+$removeparam=/^aff_id|^aff_sub|^aff_/
+$removeparam=/^atc|^ats/
+$removeparam=/^campaign|^adZones|^affiliate|^advertising|^AffReferrer|^AffCampaign/
+$removeparam=/^cmpid|^affid/
+$removeparam=/^psid|^dpid/
+$removeparam=/^track|^trackid|^tracking|^trackingId/
+$removeparam=/^utm/
+$removeparam=/^utm_|^mtm_|^utm/
+$removeparam=/^z|^var|^pb|^pbc|^pbi|^pbu|^psp|^eucx/
+$removeparam=a
+$removeparam=ad
+$removeparam=ad_id
+$removeparam=adv
+$removeparam=afsrc
+$removeparam=cid
+$removeparam=clickid
+$removeparam=fbclid
+$removeparam=fbPixelId
+$removeparam=irgwc
+$removeparam=link_data
+$removeparam=nats
+$removeparam=offer
+$removeparam=partner_id
+$removeparam=ref
+$removeparam=referer_domain
+$removeparam=refid
+$removeparam=refsite
+:/*nova88*.$document
 ://*.bet$document
 ://*66vip*.$document
 ://*66win*.$document
@@ -17,9 +47,11 @@
 ://*aalive*.$document
 ://*abcvip*.$document
 ://*bet*.$document
+://*bin88*.$document
 ://*bk8*.$document
 ://*bong88*.$document
 ://*bong99*.$document
+://*bot88*.$document
 ://*bu88*.$document
 ://*bu88*.$document
 ://*cobet*.$document
@@ -28,6 +60,7 @@
 ://*df999*.$document
 ://*dom88*.$document
 ://*f168*.$document
+://*five88*.$document
 ://*fun88*.$document
 ://*gemwin*.$document
 ://*gk88*.$document
@@ -52,6 +85,7 @@
 ://*mi88*.$document
 ://*new88*.$document
 ://*nh88*.$document
+://*nice88*.$document
 ://*nohu*.$document
 ://*okfun*.$document
 ://*okvip*.$document
@@ -72,6 +106,7 @@
 ://*ta88*.$document
 ://*tip88*.$document
 ://*tk88*.$document
+://*top88*.$document
 ://*tt88*.$document
 ://*uk88*.$document
 ://*uu88*.$document
@@ -80,8 +115,11 @@
 ://*vip7*.$document
 ://*vivu88*.$document
 ://*vm88*.$document
+://*vmax*.$document
 ://*vn88*.$document
 ://*vn88*.$document
+://*vua99*.$document
+://*wi88^.$document
 ://*williamhill*.$document
 ://*win66*.$document
 ://*win79*.$document
@@ -95,6 +133,7 @@
 ://cm88*.$document
 ://e688*.$document
 ://ff777*.$document
+://fo88*.$document
 ://goal123*.$document
 ://joy68*.$document
 ://kh68*.$document
@@ -102,6 +141,7 @@
 ://kingkong*.$document
 ://koin688*.$document
 ://lk68*.$document
+://nc88*.$document
 ://ok8386*.$document
 ://ph678*.$document
 ://tot88*.$document
@@ -110,14 +150,17 @@
 ||*doubleclick.net^$all
 ||88.com^$all
 ||ae.org^$all
+||axjndvucr.com$removeparam
 ||br.com^$all
 ||bv399.com/en$subdocument
 ||cn.com^$all
 ||co.com^$all
 ||co.tz^$all
+||co.uk^$all
 ||co.zm^$all
 ||com.co^$all
 ||de.com^$all
+||dk.b8vip.art$removeparam
 ||eu.com^$all
 ||gb.net^$all
 ||gr.com^$all
@@ -140,4 +183,5 @@
 ||vn.vip^$all
 ||weebly.com^$all
 ||whskxk1.com^$all
+||www.porntrex.com^$removeparam=/^mode|^action|^rand/
 ||za.com^$all

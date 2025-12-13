@@ -105,3 +105,10 @@
 ||assets.quizlet.com/_next/static/media/*@2x.*a.png$image
 www.bk.com##[href^="https://apps.apple.com/us/app/burger-king-app/id638323895"]
 www.bk.com##[href^="https://play.google.com/store/apps/details"]
+discord.com##div.listItem__650eb:nth-of-type(7)
+voodoo.io##.framer-1yfejdg
+voodoo.io##.framer-14kox8k
+voodoo.io##.framer-1q9e8td
+voodoo.io##.framer-2jl8xs
+voodoo.io##.framer-1dknqia
+voodoo.io##.framer-occqhm

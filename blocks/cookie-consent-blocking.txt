@@ -1,11 +1,12 @@
 ||consent.cookiebot.com^
 ||consentcdn.cookiebot.com^$important
+||consent.cookiebot.com^$important
 ||cdn.cookielaw.org^$important
 ||cmp.osano.com^$important
 ||consent.trustarc.com^$important
 ||cdn.cookieyes.com^$important
 ||cmp.inmobi.com^$important
-||*.usercentrics.eu^$important
+*usercentrics.eu^$important
 ||consent.formula1.com^
 ||cdn-prod.securiti.ai^
 ||ei.phncdn.com/www-static/js/cookieBanner/cookie_banner.js$script
@@ -20,8 +21,6 @@
 ||nike.com/static/dotcom-privacy/mfe-privacy-consent/_reco/public/069a1774aa37b2b1c768/index.umd.js$script
 ||js.hs-banner.com/v2/*^$script
 
-! cdkvd
-
 ||cdn-production-opera-website.operacdn.com/staticfiles/main.04d59840ca08.js$script
 ||cdn-production-opera-website.operacdn.com/staticfiles/3819-180ec4d45c6749f86c59.js$script
 ||cdn-production-opera-website.operacdn.com/staticfiles/surveyMonkey.47d041a8c080.js$script
@@ -35,5 +34,6 @@
 
 ||thepowersaber.com/cdn/shopifycloud/consent-tracking-api/v0.1/consent-tracking-api.js
 ||www.canva.com/_ajax/privacypreference/trackingconsent/check
-||telemetry.canva.com/v1/traces
-||chunk-composing.canva.com/chunk-batch/ae23b04a6accad16.js+f5e43c068f140dfa.strings.js+326e9621d3fea6a2.js$script
+||chunk-composing.canva.com/chunk-batch/ae23b04a6accad16.js$script
+||chunk-composing.canva.com/chunk-batch/f5e43c068f140dfa.strings.js$script
+||chunk-composing.canva.com/chunk-batch/326e9621d3fea6a2.js$script

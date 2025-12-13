@@ -10,3 +10,4 @@
 @@||bettercallsaul.amc.com^$document
 @@||beta.team$document
 @@||betagenvietnam.com^$document
+@@*java*.

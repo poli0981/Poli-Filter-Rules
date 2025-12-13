@@ -1,47 +1,46 @@
 ! Title: Poli Filter Rules - Cookie Consent Hiding Rules
-! Version: 1.0.0-beta0.6125
+! Version: 1.0.0-beta0.7.0
 ! Author: poli0981 (with Grok's help)
-! Generated: 2025-12-07 12:23
+! Generated: 2025-12-13 13:02
 ! Homepage: https://github.com/poli0981/Poli-Filter-Rules
-! Description: A comprehensive list of cookie consent hiding rules for use with ad blockers like uBlock Origin and AdGuard. This list is designed to hide cookie consent banners and pop-ups that appear on websites, improving user experience while browsing.
-! Total Rules: 38 (non-comment only)
+! Expires: 3 days
+! Description: This list is designed to hide cookie consent banners and pop-ups that appear on websites, improving user experience while browsing.
+! Total Rules: 36 (non-comment only)
 ! Mode: Pure rules (comments skipped)
 
-##[class*="alert"]
-##[class*="banner"]
-##[class*="ccpa"]
-##[class*="consent"]
-##[class*="cookie"]
-##[class*="cookiebot"]
-##[class*="cookielaw"]
-##[class*="dialog"]
-##[class*="gdpr"]
-##[class*="modal"]
-##[class*="notification"]
-##[class*="onetrust"]
-##[class*="overlay"]
-##[class*="popup"]
-##[class*="privacy"]
-##[class*="usercentrics"]
-##[id*="alert"]
-##[id*="banner"]
-##[id*="ccpa"]
-##[id*="consent"]
-##[id*="cookie"]
-##[id*="cookiebot"]
-##[id*="cookielaw"]
-##[id*="dialog"]
-##[id*="gdpr"]
-##[id*="modal"]
-##[id*="notification"]
-##[id*="onetrust"]
-##[id*="overlay"]
-##[id*="popup"]
-##[id*="privacy"]
-##[id*="usercentrics"]
+##div[class$="consent"]
+##div[class$="cookie"]
+##div[class*="ccpa"]
+##div[class*="cookie-consent"]
+##div[class*="cookie-consent-banner"]
+##div[class*="cookie-law"]
+##div[class*="cookie-notice"]
+##div[class*="cookieConsent"]
+##div[class*="gdpr"]
+##div[class*="onetrust"]
+##div[class="gdpr-banner"]
+##div[class^="consent"]
+##div[class^="cookie"]
+##div[id$="consent"]
+##div[id$="cookie"]
+##div[id*="ccpa"]
+##div[id*="cookie-consent"]
+##div[id*="cookie-consent-banner"]
+##div[id*="cookie-law"]
+##div[id*="cookie-notice"]
+##div[id*="cookieConsent"]
+##div[id*="gdpr"]
+##div[id*="onetrust"]
+##div[id*="onetrust-banner-sdk"]
+##div[id="gdpr-banner"]
+##div[id^="consent"]
+##div[id^="cookie"]
 cookieinformation.com###coiOverlay
 hostman.com##.cc--c1Lk
+trustarc.com###truste-consent-track
+wutheringwaves.kurogames.com##.cookies-modal
 www.alphabet.com##epaas-consent-drawer-shell
 www.bairesdev.com##.mdS\:justify-center.justify-start.mx-auto.flex.py-3.px-4.will-change-transform.bg-site-neutrals-900.max-w-full.fixed.w-full.bottom-0.z-50.translate-y-full.opacity-0.pointer-events-none.animate-snackbar-show
-www.lego.com##.kWsBbv.AgeGatestyles__Wrapper-sc-jl57jl-0
+www.canva.com##.e4Qmjw
 www.mbarchaa.com###d-notification-bar
+www.ted.com###a873d79e-ae4c-4404-b380-2dc07cd09e33

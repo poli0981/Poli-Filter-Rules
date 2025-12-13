@@ -1,10 +1,11 @@
 ! Title: Poli Filter Rules - Download Blocking (App Stores, Google Play, F-Droid, etc.)
-! Version: 1.0.0-beta0.6125
+! Version: 1.0.0-beta0.7.0
 ! Author: poli0981 (with Grok's help)
-! Generated: 2025-12-07 12:23
+! Generated: 2025-12-13 13:02
 ! Homepage: https://github.com/poli0981/Poli-Filter-Rules
+! Expires: 3 days
 ! Description: Blocks download buttons and images from various app stores (Google Play, Apple App Store, F-Droid, Samsung Galaxy Store, Huawei AppGallery, etc.) to prevent accidental app downloads when browsing websites.
-! Total Rules: 103 (non-comment only)
+! Total Rules: 110 (non-comment only)
 ! Mode: Pure rules (comments skipped)
 
 /*app-gallery*.avif$image,domain=~huawei.com|~appgallery.huawei.com
@@ -105,6 +106,13 @@
 /*samsungstore*.png$image,domain=~samsung.com|~galaxystore.samsung.com
 /*samsungstore*.svg$image,domain=~samsung.com|~galaxystore.samsung.com
 /*samsungstore*.webp$image,domain=~samsung.com|~galaxystore.samsung.com
+discord.com##div.listItem__650eb:nth-of-type(7)
+voodoo.io##.framer-14kox8k
+voodoo.io##.framer-1dknqia
+voodoo.io##.framer-1q9e8td
+voodoo.io##.framer-1yfejdg
+voodoo.io##.framer-2jl8xs
+voodoo.io##.framer-occqhm
 www.bk.com##[href^="https://apps.apple.com/us/app/burger-king-app/id638323895"]
 www.bk.com##[href^="https://play.google.com/store/apps/details"]
 ||assets.quizlet.com/_next/static/media/*@2x.*a.png$image
