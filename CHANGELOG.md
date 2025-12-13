@@ -6,6 +6,29 @@ All notable changes to this project will be documented in this file. Beta means 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and we adhere to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
+
+## 1.0.0-beta0.7.0 – "Porn Wars & FB Rage" Bulk Nuke (December 13, 2025)
+
+- Fixed over-aggressive hiding rules ('##[class=”overlay”], ##[id*=”social”]' etc. – broke Steam payments; specific names now).
+- Removed duplicates in scattered rules.
+- +160 gambling sites to full-domain-blocks.txt.
+- +250 tracking rules.
+- +~450 porn sites (total ~700 rules, ~800+ sites); removed '*jav*.$document' from anti-porn.txt.
+- Advanced tweaks: Multi-site rules + $removeparam tests in advanced-block.txt.
+- Revived generate-blocking.py for bulk porn site rules.
+- Updated sort_and_count_everything_rules.py: Added EXPIRE_TIME = "3 days" for AdGuard auto-update.
+- New Scripts (2 Toys):
+  + DNS-level blocker for Windows (0.0.0.0 lines – no repeat drudgery).
+  + Param/value extractor for $removeparam (file input, table output – endless domains? Solved).
+- Re-ran sort_and_count for add/remove tweaks.
+- Personal FAQ: Part 6 :D.
+- Wiki Add: New page for 2 scripts.
+- Blahblah fixes: Other errors (lazy list :v).
+
+Porn/gambling bulk – beta fiercer.
+
+---
+
 ## 1.0.0-beta0.6125 – Random Number Patch (December 07, 2025)
 
 - Fixed over-aggressive footer rules (`##div[class*=”footer”]`,`##div[id*=”footer”]` – killed buttons; manual 
