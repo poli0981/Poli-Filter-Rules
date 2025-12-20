@@ -19,9 +19,6 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Install dependencies (if any – pandas for table)
-        run: pip install pandas
-
       - name: Run sort & count script
         run: python autoscript/sort_and_count_everything_rules.py
 
