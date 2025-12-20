@@ -27,7 +27,6 @@ jobs:
         run: python autoscript/sort_and_count_everything_rules.py
 
       - name: Check for changes
-        id: changes
         run: |
           git config --global user.name "poli0981"
           git config --global user.email "127664709+poli0981@users.noreply.github.com"
