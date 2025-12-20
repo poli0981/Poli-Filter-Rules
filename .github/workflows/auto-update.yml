@@ -35,13 +35,16 @@ jobs:
           else
             echo "no_changes=false" >> $GITHUB_OUTPUT
           fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+
 
       - name: Commit & push if changes
         if: steps.changes.outputs.no_changes == 'false'
         run: |
           git add .
           git commit -m "Auto sort & count rules [skip ci]"  # Skip CI loop
-          git push origin main  # Thay branch
+          git push origin main  # Change branch
 
       - name: No changes notification
         if: steps.changes.outputs.no_changes == 'true'
