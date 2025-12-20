@@ -5,16 +5,16 @@ import argparse
 
 # List files to process
 FILES = [
-    '../blocks/full-block-domains.txt',
-    '../blocks/advanced-block.txt',
-    '../blocks/download-blocking.txt',
-    '../blocks/block-tracking.txt',
-    '../blocks/cookie-consent-blocking.txt',
-    '../blocks/third-party-blocking.txt',
-    '../Hide/hiding-raws.txt',
-    '../Hide/cookie-consent-hiding.txt',
-    '../Exception/exception.txt',
-    '../blocks/anti-porn.txt',
+    '/blocks/full-block-domains.txt',
+    '/blocks/advanced-block.txt',
+    '/blocks/download-blocking.txt',
+    '/blocks/block-tracking.txt',
+    '/blocks/cookie-consent-blocking.txt',
+    '/blocks/third-party-blocking.txt',
+    '/Hide/hiding-raws.txt',
+    '/Hide/cookie-consent-hiding.txt',
+    '/Exception/exception.txt',
+    '/blocks/anti-porn.txt',
 ]
 
 VERSION = "1.0.0-beta0.7.0"
