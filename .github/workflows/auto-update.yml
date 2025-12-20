@@ -31,14 +31,12 @@ jobs:
         run: |
           git config --global user.name "poli0981"
           git config --global user.email "127664709+poli0981@users.noreply.github.com"
-          if git diff --quiet; then
-            echo "no_changes=true" >> $GITHUB_OUTPUT
+          git add .
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
           else
-            echo "no_changes=false" >> $GITHUB_OUTPUT
+            git commit -m "Auto sort & count rules [skip ci]"
+            git push
           fi
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-
-      - name: No changes notification
-        if: steps.changes.outputs.no_changes == 'true'
-        run: echo "No changes – rules already sorted. Chill."
