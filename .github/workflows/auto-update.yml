@@ -12,7 +12,8 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GH_TOKEN }}  # PAT với repo scope push
+          token: ${{ secrets.GH_TOKEN }}  # PAT with repo scope push
+          persist-credentials: true
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -37,14 +38,6 @@ jobs:
           fi
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-
-
-      - name: Commit & push if changes
-        if: steps.changes.outputs.no_changes == 'false'
-        run: |
-          git add .
-          git commit -m "Auto sort & count rules [skip ci]"  # Skip CI loop
-          git push origin main  # Change branch
 
       - name: No changes notification
         if: steps.changes.outputs.no_changes == 'true'
