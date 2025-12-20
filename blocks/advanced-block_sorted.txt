@@ -1,12 +1,14 @@
-! Title: Poli Filter Rules - Gambling Sites Block List - Advanced Block
+! Title: Poli Filter Rules - [NaMe_of-List-Rules]
 ! Version: 1.0.0-beta0.7.0
 ! Author: poli0981 (with Grok's help)
-! Generated: 2025-12-13 13:02
+! Generated: 2025-12-20 17:22
 ! Homepage: https://github.com/poli0981/Poli-Filter-Rules
 ! Expires: 3 days
-! Description: Blocks access to various online gambling and betting sites.
+! Description: [Insert hErE] :v
 ! Total Rules: 177 (non-comment only)
-! Mode: Pure rules (comments skipped)
+
+
+! Remove parameter
 
 $removeparam=/^_click|^click/
 $removeparam=/^aff_id|^aff_sub|^aff_/

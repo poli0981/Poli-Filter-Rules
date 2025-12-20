@@ -1,12 +1,12 @@
-! Title: Poli Filter Rules - Third-Party Blocking
+! Title: Poli Filter Rules - [NaMe_of-List-Rules]
 ! Version: 1.0.0-beta0.7.0
 ! Author: poli0981 (with Grok's help)
-! Generated: 2025-12-13 13:02
+! Generated: 2025-12-20 17:22
 ! Homepage: https://github.com/poli0981/Poli-Filter-Rules
 ! Expires: 3 days
-! Description: Blocks various third-party services to enhance user privacy and reduce unwanted content.
-! Total Rules: 19 (non-comment only)
-! Mode: Pure rules (comments skipped)
+! Description: [Insert hErE] :v
+! Total Rules: 20 (non-comment only)
+
 
 *google.com$third-party,domain=~youtube.com|~m.youtube.com|~www.youtube.com
 *shopee.vn$third-party
@@ -14,6 +14,7 @@
 ||agoda.com$third-party
 ||alibaba.com$third-party
 ||fonts.googleapis.com^$third-party
+||fonts.gstatic.com^$important,third-party,domain=~google.com|~developer.google.com|~youtube.com|~translate.google.com
 ||garena.com^$third-party
 ||k2s.cc$third-party
 ||livejasmin.com$third-party

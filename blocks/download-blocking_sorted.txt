@@ -1,12 +1,16 @@
-! Title: Poli Filter Rules - Download Blocking (App Stores, Google Play, F-Droid, etc.)
+! Title: Poli Filter Rules - [NaMe_of-List-Rules]
 ! Version: 1.0.0-beta0.7.0
 ! Author: poli0981 (with Grok's help)
-! Generated: 2025-12-13 13:02
+! Generated: 2025-12-20 17:22
 ! Homepage: https://github.com/poli0981/Poli-Filter-Rules
 ! Expires: 3 days
-! Description: Blocks download buttons and images from various app stores (Google Play, Apple App Store, F-Droid, Samsung Galaxy Store, Huawei AppGallery, etc.) to prevent accidental app downloads when browsing websites.
+! Description: [Insert hErE] :v
 ! Total Rules: 110 (non-comment only)
-! Mode: Pure rules (comments skipped)
+
+
+
+! cdnkvd
+
 
 /*app-gallery*.avif$image,domain=~huawei.com|~appgallery.huawei.com
 /*app-gallery*.gif$image,domain=~huawei.com|~appgallery.huawei.com

@@ -1,12 +1,90 @@
-! Title: Poli Filter Rules - Hiding Rules Basic
+! Title: Poli Filter Rules - [NaMe_of-List-Rules]
 ! Version: 1.0.0-beta0.7.0
 ! Author: poli0981 (with Grok's help)
-! Generated: 2025-12-13 13:02
+! Generated: 2025-12-20 17:22
 ! Homepage: https://github.com/poli0981/Poli-Filter-Rules
 ! Expires: 3 days
-! Description: This list is designed to hide various unwanted elements on websites, improving user experience while browsing.
+! Description: [Insert hErE] :v
 ! Total Rules: 224 (non-comment only)
-! Mode: Pure rules (comments skipped)
+
+
+
+
+
+##.chat-button-bottom-right { display: none !important; }
+
+
+
+ihentai.*##.v-footer.v-theme--dark.tw-justify-center.\!tw-py-10
+ihentai.*##.v-btn.v-btn--elevated.v-theme--dark.bg-orange.v-btn--density-default.v-btn--size-default.v-btn--variant-elevated.\!tw-normal-case.\!tw-tracking-normal
+
+
+
+
+
+
+
+
+
+www.hoyolab.com##.footer__copyright > p ! Hide copyright text
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ###modal_age_confirmation
 ##.drift-widget
@@ -225,9 +303,9 @@ www.youtube.com###secondary > .ytd-watch-flexy.style-scope
 www.youtube.com###voice-search-button > .ytd-masthead.style-scope > yt-button-shape
 www.youtube.com##.ytd-download-button-renderer.style-scope > yt-button-shape
 www.youtube.com##ytd-guide-entry-renderer.ytd-guide-section-renderer.style-scope:nth-of-type(2)
-www.youtube.com##ytd-mini-guide-entry-renderer.ytd-mini-guide-renderer.style-scope:nth-of-type(2)
 www.youtube.com##ytd-guide-signin-promo-renderer.ytd-guide-renderer.style-scope
 www.youtube.com##ytd-mini-guide-entry-renderer.style-scope.ytd-mini-guide-renderer:nth-of-type(2) > .yt-simple-endpoint.style-scope.ytd-mini-guide-entry-renderer
+www.youtube.com##ytd-mini-guide-entry-renderer.ytd-mini-guide-renderer.style-scope:nth-of-type(2)
 x.com##.css-175oi2r.r-18u37iz.r-1w6e6rj.r-3pj75a
 x.com##.css-175oi2r.r-18u37iz.r-1w6e6rj.r-gu64tb
 x.com##.css-175oi2r.r-1habvwh.r-eqz5dr.r-uaa2di.r-w7s2jr.r-u9wvl5.r-bnwqim
