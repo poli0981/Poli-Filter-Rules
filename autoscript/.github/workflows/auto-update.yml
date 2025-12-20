@@ -1,0 +1,48 @@
+name: Auto Sort & Count Rules
+
+on:
+  schedule:
+    - cron: '0 0 */3 * *'  # Every day 00:00 UTC
+  workflow_dispatch:  # Manual run test
+
+jobs:
+  sort-and-count:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_TOKEN }}  # PAT với repo scope push
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies (if any – pandas for table)
+        run: pip install pandas
+
+      - name: Run sort & count script
+        run: python autoscript/sort_and_count_everything_rules.py
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git config --global user.name "poli0981"
+          git config --global user.email "127664709+poli0981@users.noreply.github.com"
+          if git diff --quiet; then
+            echo "no_changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "no_changes=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit & push if changes
+        if: steps.changes.outputs.no_changes == 'false'
+        run: |
+          git add .
+          git commit -m "Auto sort & count rules [skip ci]"  # Skip CI loop
+          git push origin main  # Thay branch
+
+      - name: No changes notification
+        if: steps.changes.outputs.no_changes == 'true'
+        run: echo "No changes – rules already sorted. Chill."
