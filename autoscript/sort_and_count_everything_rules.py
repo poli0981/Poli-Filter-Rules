@@ -2,9 +2,6 @@
 import pathlib
 from datetime import datetime
 import argparse
-from pathlib import Path
-
-from freetype import filename
 
 # List files to process
 FILES = [
