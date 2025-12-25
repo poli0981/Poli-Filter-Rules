@@ -1,13 +1,14 @@
 # param_extractor.py - Updated: File input (one URL/domain per line), pretty table for params
-import pathlib
-import requests
-from urllib.parse import urlparse, parse_qs
-import pandas as pd
-from datetime import datetime
 import argparse
+import pathlib
+from urllib.parse import urlparse, parse_qs
+
+import pandas as pd
+import requests
 
 DEFAULT_INPUT_FILE = pathlib.Path('../domain.txt')  # One URL/domain per line
 OUTPUT_FILE = pathlib.Path('../autoscript/param_report.csv')  # CSV + console table
+
 
 def extract_params(url):
     """Fetch URL, extract query params/values"""
@@ -27,6 +28,7 @@ def extract_params(url):
         }
     except Exception as e:
         return {'Domain': url, 'Num_Params': 0, 'Param_Names': 'Error', 'Param_Values': str(e)}
+
 
 def main(input_file):
     if not input_file.exists():
@@ -53,7 +55,9 @@ def main(input_file):
 
     # Save CSV
     df.to_csv(OUTPUT_FILE, index=False)
-    print(f"\nTable saved to {OUTPUT_FILE} (for Excel). Example $removeparam rule: ||{urls[0].split('/')[2]}^$removeparam={df['Param_Names'].iloc[0] if df['Num_Params'].iloc[0] > 0 else 'utm_source'}")
+    print(
+        f"\nTable saved to {OUTPUT_FILE} (for Excel). Example $removeparam rule: ||{urls[0].split('/')[2]}^$removeparam={df['Param_Names'].iloc[0] if df['Num_Params'].iloc[0] > 0 else 'utm_source'}")
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Extract params from URL file")
