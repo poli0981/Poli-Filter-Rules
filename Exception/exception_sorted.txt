@@ -1,14 +1,13 @@
-! Title: Poli Filter Rules - [NaMe_of-List-Rules]
+! Title: Poli Filter Rules - Exception List
 ! Version: 1.0.0-beta0.7.0
 ! Author: poli0981 (with Grok's help)
-! Generated: 2025-12-25 00:13
+! Generated: 2025-12-25 16:26
 ! Homepage: https://github.com/poli0981/Poli-Filter-Rules
 ! Expires: 3 days
-! Description: [Insert hErE] :v
-! Total Rules: 13 (non-comment only)
+! Description: This list to add exception in accepted sites
+! Total Rules: 12 (non-comment only)
+! Mode: Pure rules (comments skipped)
 
-
-@@*java*.
 @@||alphabet.com^$document
 @@||bet.com^$document
 @@||bet.psdschools.org^$document

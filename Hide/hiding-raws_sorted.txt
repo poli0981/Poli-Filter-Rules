@@ -1,99 +1,99 @@
-! Title: Poli Filter Rules - [NaMe_of-List-Rules]
+! Title: Poli Filter Rules - Hiding List
 ! Version: 1.0.0-beta0.7.0
 ! Author: poli0981 (with Grok's help)
-! Generated: 2025-12-25 00:13
+! Generated: 2025-12-25 16:26
 ! Homepage: https://github.com/poli0981/Poli-Filter-Rules
 ! Expires: 3 days
-! Description: [Insert hErE] :v
-! Total Rules: 224 (non-comment only)
-
-
-
-
-
-##.chat-button-bottom-right { display: none !important; }
-
-
-
-ihentai.*##.v-footer.v-theme--dark.tw-justify-center.\!tw-py-10
-ihentai.*##.v-btn.v-btn--elevated.v-theme--dark.bg-orange.v-btn--density-default.v-btn--size-default.v-btn--variant-elevated.\!tw-normal-case.\!tw-tracking-normal
-
-
-
-
-
-
-
-
-
-www.hoyolab.com##.footer__copyright > p ! Hide copyright text
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+! Description: This list to hide annoying element
+! Total Rules: 389 (non-comment only)
+! Mode: Pure rules (comments skipped)
+
+###ad
+###ads
 ###modal_age_confirmation
+##.ad
+##.ads
 ##.drift-widget
 ##.fb-like
 ##.fb-share-button
+##[class*="ad-banner"]
+##[class*="ad-bottom"]
+##[class*="ad-footer"]
+##[class*="ad-header"]
+##[class*="ad-left"]
+##[class*="ad-modal"]
+##[class*="ad-notice"]
+##[class*="ad-overlay"]
+##[class*="ad-place"]
+##[class*="ad-popup"]
+##[class*="ad-right"]
+##[class*="ad-top"]
+##[class*="ad_banner"]
+##[class*="ad_bottom"]
+##[class*="ad_footer"]
+##[class*="ad_header"]
+##[class*="ad_left"]
+##[class*="ad_modal"]
+##[class*="ad_notice"]
+##[class*="ad_overlay"]
+##[class*="ad_place"]
+##[class*="ad_popup"]
+##[class*="ad_right"]
+##[class*="ad_top"]
+##[class*="adbanner"]
+##[class*="adbottom"]
+##[class*="adfooter"]
+##[class*="adheader"]
+##[class*="adleft"]
+##[class*="admodal"]
+##[class*="adnotice"]
+##[class*="adoverlay"]
+##[class*="adplace"]
+##[class*="adPopup"]
+##[class*="adright"]
+##[class*="ads-banner"]
+##[class*="ads-bottom"]
+##[class*="ads-footer"]
+##[class*="ads-header"]
+##[class*="ads-left"]
+##[class*="ads-modal"]
+##[class*="ads-notice"]
+##[class*="ads-overlay"]
+##[class*="ads-place"]
+##[class*="ads-popup"]
+##[class*="ads-right"]
+##[class*="ads-top"]
+##[class*="ads_banner"]
+##[class*="ads_bottom"]
+##[class*="ads_footer"]
+##[class*="ads_header"]
+##[class*="ads_left"]
+##[class*="ads_modal"]
+##[class*="ads_notice"]
+##[class*="ads_overlay"]
+##[class*="ads_place"]
+##[class*="ads_popup"]
+##[class*="ads_right"]
+##[class*="ads_top"]
+##[class*="adsBanner"]
+##[class*="adsbottom"]
+##[class*="adsfooter"]
+##[class*="adsheader"]
+##[class*="adsleft"]
+##[class*="adsmodal"]
+##[class*="adsnotice"]
+##[class*="adsoverlay"]
+##[class*="adsplace"]
+##[class*="adsPopup"]
+##[class*="adsright"]
+##[class*="adstop"]
+##[class*="adtop"]
+##[class*="advertisement"]
+##[class*="advertising"]
 ##[class*="age-check"]
+##[class*="age-confirmation"]
 ##[class*="age-consent"]
 ##[class*="age-gate"]
-##[class*="age-policy"]
 ##[class*="age-policy"]
 ##[class*="age-restriction"]
 ##[class*="age-verification"]
@@ -103,10 +103,87 @@ www.hoyolab.com##.footer__copyright > p ! Hide copyright text
 ##[class*="chatbot"]
 ##[class*="copyright"]
 ##[class*="link_social"]
+##[class*="quang-cao"]
+##[class*="quangcao"]
+##[class*="termsmessage"]
+##[id*="ad-banner"]
+##[id*="ad-bottom"]
+##[id*="ad-footer"]
+##[id*="ad-header"]
+##[id*="ad-left"]
+##[id*="ad-modal"]
+##[id*="ad-notice"]
+##[id*="ad-overlay"]
+##[id*="ad-place"]
+##[id*="ad-popup"]
+##[id*="ad-right"]
+##[id*="ad-top"]
+##[id*="ad_banner"]
+##[id*="ad_bottom"]
+##[id*="ad_footer"]
+##[id*="ad_header"]
+##[id*="ad_left"]
+##[id*="ad_modal"]
+##[id*="ad_notice"]
+##[id*="ad_overlay"]
+##[id*="ad_place"]
+##[id*="ad_popup"]
+##[id*="ad_right"]
+##[id*="ad_top"]
+##[id*="adbanner"]
+##[id*="adbottom"]
+##[id*="adfooter"]
+##[id*="adheader"]
+##[id*="adleft"]
+##[id*="admodal"]
+##[id*="adnotice"]
+##[id*="adoverlay"]
+##[id*="adplace"]
+##[id*="adPopup"]
+##[id*="adright"]
+##[id*="ads-banner"]
+##[id*="ads-bottom"]
+##[id*="ads-footer"]
+##[id*="ads-header"]
+##[id*="ads-left"]
+##[id*="ads-modal"]
+##[id*="ads-notice"]
+##[id*="ads-overlay"]
+##[id*="ads-place"]
+##[id*="ads-popup"]
+##[id*="ads-right"]
+##[id*="ads-top"]
+##[id*="ads_banner"]
+##[id*="ads_bottom"]
+##[id*="ads_footer"]
+##[id*="ads_header"]
+##[id*="ads_left"]
+##[id*="ads_modal"]
+##[id*="ads_notice"]
+##[id*="ads_overlay"]
+##[id*="ads_place"]
+##[id*="ads_popup"]
+##[id*="ads_right"]
+##[id*="ads_top"]
+##[id*="adsBanner"]
+##[id*="adsbottom"]
+##[id*="adsfooter"]
+##[id*="adsheader"]
+##[id*="adsleft"]
+##[id*="adsmodal"]
+##[id*="adsnotice"]
+##[id*="adsoverlay"]
+##[id*="adsplace"]
+##[id*="adsPopup"]
+##[id*="adsright"]
+##[id*="adstop"]
+##[id*="adtop"]
+##[id*="advertisement"]
+##[id*="advertising"]
 ##[id*="age-check"]
+##[id*="age-confirmation"]
 ##[id*="age-consent"]
 ##[id*="age-gate"]
-##[id*="age-policy"]
 ##[id*="age-policy"]
 ##[id*="age-restriction"]
 ##[id*="age-verification"]
@@ -116,7 +193,11 @@ www.hoyolab.com##.footer__copyright > p ! Hide copyright text
 ##[id*="chatbot"]
 ##[id*="copyright"]
 ##[id*="link_social"]
+##[id*="quang-cao"]
+##[id*="quangcao"]
+##[id*="termsmessage"]
 about.gitlab.com##.be-nav-footer
+aipenly.com##.overflow-hidden.py-12.bg-\[\#1A1127\].relative
 amplitude.com##.bg-white > footer
 animehay.*##.ah_content > .bg-black.padding-10
 animehay.*##.bg-black.flex.flex-hozi-center.fs-17.padding-0-10.height-50.border-r-b-t
@@ -156,6 +237,8 @@ edition.cnn.com##.cnn-app-display-none.footer
 endfield.gryphline.com##.Header_buttonShare__ml1S_
 endfield.gryphline.com##.Header_buttonShareBg__Tabt5
 endfield.gryphline.com##.Xrsk\+Qlh9i08Vsrs368r8Q\=\=.f-uw5oqemiZQ9E\+QQGoDUw\=\=
+footstockings.com##.footer
+footstockings.com##.top-links
 fusionmarkets.investments##.mui-aos6kw.MuiBox-root
 github.com##.color-border-subtle.color-fg-muted.f6.pb-6.pt-7.footer
 github.com##.footer-session-authentication
@@ -182,6 +265,7 @@ kick.com##.group.inline-flex.gap-1\.5.items-center.justify-center.rounded.font-s
 kick.com##.group.inline-flex.gap-1\.5.items-center.justify-center.rounded.font-semibold.box-border.relative.transition-all.betterhover\:active\:scale-\[0\.98\].disabled\:pointer-events-none.select-none.whitespace-nowrap.\[\&_svg\]\:size-\[1em\].outline-transparent.outline-2.outline-offset-2.bg-transparent.focus-visible\:outline-grey-300.text-white.\[\&_svg\]\:fill-current.betterhover\:hover\:bg-surface-tint.lg\:data-\[state\=open\]\:bg-surface-tint.data-\[state\=active\]\:bg-surface-tint.disabled\:text-grey-600.disabled\:bg-grey-1000.px-3.py-2.text-base
 medium.com##.k.l.i > .q.o
 medium.com##div.cp.co.cn.l.i:nth-of-type(2) > .bu.cq > .cu.ct.cs.b.cr > .cj.ci.ch.cg.cf.ce.cd.cc.cb.ca.bz.by.bx.bw.bv
+mod18.com##.qkkdvdatepeudmetydkpamknlblhzdfeytvpcunjyhbrtbmrezazlsipi.zevuznwnmtlzvlpugrzxzbdqxuriumcxedribttbunklzkxlrxstlsipi
 myanimelist.net###footer-block
 myanimelist.net##.btn-signup
 myanimelist.net##.ga-impression.bottom-bar
@@ -205,6 +289,7 @@ store.steampowered.com###footer
 store.steampowered.com##.Ksy4XAVZlM0-
 tiembiaga.vn###modal_age_bg
 voodoo.io##.framer-kutq3w
+wikifeet.com##div:nth-of-type(6)
 wutheringwaves.kurogames.com##.footer
 wutheringwaves.kurogames.com##.link-list
 wutheringwaves.kurogames.com##.login-btn
@@ -262,6 +347,7 @@ www.loaded.com##.footer.content > .bg-primary-darker
 www.loaded.com##.p-10.lg\:py-14.flex.max-lg\:flex-wrap.lg\:justify-center.items-center
 www.nasa.gov##.custom-position.fixed.active.pum-position-fixed.size-custom.theme-862814.popmake.pum-container
 www.nasa.gov##.padding-y-7.padding-x-3.bg-carbon-black-important.usa-footer
+www.nastia.ai##.pt-9.p-4.bg-tertiary.mt-\[88px\].footer
 www.netflix.com##.default-ltr-iqcdef-cache-1r1jvwn
 www.nytimes.com##.css-1e1s8k7
 www.nytimes.com##.css-50gbj.e1j3jvdr1 > span:nth-of-type(1)
@@ -277,6 +363,7 @@ www.reddit.com##faceplate-tracker:nth-of-type(14) > .relative.list-none.mt-0 > .
 www.reddit.com##faceplate-tracker:nth-of-type(15) > .relative.list-none.mt-0 > .flex.justify-between.relative.px-md.gap-\[0\.5rem\].text-secondary.hover\:text-secondary-hover.active\:bg-interactive-pressed.hover\:bg-neutral-background-hover.hover\:no-underline.cursor-pointer.py-2xs.-outline-offset-1.s\:rounded-2.bg-transparent.no-underline
 www.reddit.com##faceplate-tracker:nth-of-type(16) > .relative.list-none.mt-0 > .flex.justify-between.relative.px-md.gap-\[0\.5rem\].text-secondary.hover\:text-secondary-hover.active\:bg-interactive-pressed.hover\:bg-neutral-background-hover.hover\:no-underline.cursor-pointer.py-2xs.-outline-offset-1.s\:rounded-2.bg-transparent.no-underline
 www.reddit.com##faceplate-tracker:nth-of-type(4) > .relative.list-none.mt-0 > .flex.justify-between.relative.px-md.gap-\[0\.5rem\].text-secondary.hover\:text-secondary-hover.active\:bg-interactive-pressed.hover\:bg-neutral-background-hover.hover\:no-underline.cursor-pointer.py-2xs.-outline-offset-1.s\:rounded-2.bg-transparent.no-underline
+www.sankakucomplex.com##.MuiPaper-elevation6.MuiSnackbarContent-root.MuiPaper-root
 www.shangri-la.com##.c-lego-footer
 www.ted.com##.w-full.pr-5 > .w-full.px-5.md\:px-10.xl\:px-16
 www.tiktok.com##.css-1dtzhde-0be0dc34--DivFooterContainer.enjgv3a0

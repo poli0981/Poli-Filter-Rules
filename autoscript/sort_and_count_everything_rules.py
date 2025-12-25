@@ -21,8 +21,55 @@ VERSION = "1.0.0-beta0.7.0"
 TITLE = "Poli Filter Rules - [NaMe_of-List-Rules]"
 AUTHOR = "poli0981 (with Grok's help)"
 HOMEPAGE = "https://github.com/poli0981/Poli-Filter-Rules"
-DESCRIPTION_LIST = "[Insert hErE] :v"
+DESCRIPTION_LIST = "[Insert hErE]"
 EXPIRE_TIME = "3 days"
+
+def replace_title(filename_stem):
+    title = "[NaMe_of-List-Rules]"
+    if title in TITLE:
+        if filename_stem == "advanced-block":
+            return TITLE.replace(title, "Advanced Block List")
+        elif filename_stem == "anti-porn":
+            return TITLE.replace(title, "Anti-Porn Block List")
+        elif filename_stem == "block-tracking":
+            return TITLE.replace(title, "Tracking Block List")
+        elif filename_stem == "cookie-consent-blocking":
+            return TITLE.replace(title, "Cookie Consent Block List")
+        elif filename_stem == "download-blocking":
+            return TITLE.replace(title, "Download Block List")
+        elif filename_stem == "full-block-domains":
+            return TITLE.replace(title, "Full Domain Block List")
+        elif filename_stem == "hiding-raws":
+            return TITLE.replace(title, "Hiding List")
+        elif filename_stem == "third-party-blocking":
+            return TITLE.replace(title, "Third-Party Block List")
+        elif filename_stem == "exception":
+            return TITLE.replace(title, "Exception List")
+    return TITLE
+
+def replace_description(filename_stem):
+    description = "[Insert hErE]"
+    if description in DESCRIPTION_LIST:
+        if filename_stem == "advanced-block":
+            return DESCRIPTION_LIST.replace(description, "Advanced Block")
+        elif filename_stem == "anti-porn":
+            return DESCRIPTION_LIST.replace(description, "This list to block pornographic content")
+        elif filename_stem == "block-tracking":
+            return DESCRIPTION_LIST.replace(description, "This list to block tracking ads/tracking scripts, etc.")
+        elif filename_stem == "cookie-consent-blocking":
+            return DESCRIPTION_LIST.replace(description, "This list to block cookie consent popups")
+        elif filename_stem == "download-blocking":
+            return DESCRIPTION_LIST.replace(description, "This list to block download popups/buttons")
+        elif filename_stem == "full-block-domains":
+            return DESCRIPTION_LIST.replace(description, "This list to block domains exactly domain")
+        elif filename_stem == "hiding-raws":
+            return DESCRIPTION_LIST.replace(description, "This list to hide annoying element")
+        elif filename_stem == "third-party-blocking":
+            return DESCRIPTION_LIST.replace(description, "This list to block third-party web")
+        elif filename_stem == "exception":
+            return DESCRIPTION_LIST.replace(description, "This list to add exception in accepted sites")
+    return DESCRIPTION_LIST
+
 
 def sort_and_count_file(input_path, output_path, pure_rules=False):
     """Sort lines (non-comment first), count pure rules, add header; --pure-rules skips comments"""
@@ -47,13 +94,13 @@ def sort_and_count_file(input_path, output_path, pure_rules=False):
 
     # Write output
     with open(output_path, 'w', encoding='utf-8') as out:
-        out.write(f'! Title: {TITLE}\n')
+        out.write(f'! Title: {replace_title(input_path.stem)}\n')
         out.write(f'! Version: {VERSION}\n')
         out.write(f'! Author: {AUTHOR}\n')
         out.write(f'! Generated: {datetime.now().strftime("%Y-%m-%d %H:%M")}\n')
         out.write(f'! Homepage: {HOMEPAGE}\n')
         out.write(f'! Expires: {EXPIRE_TIME}\n')
-        out.write(f'! Description: {DESCRIPTION_LIST}\n')
+        out.write(f'! Description: {replace_description(input_path.stem)}\n')
         out.write(f'! Total Rules: {len(rules)} (non-comment only)\n')
         if pure_rules:
             out.write('! Mode: Pure rules (comments skipped)\n')
@@ -68,6 +115,7 @@ def sort_and_count_file(input_path, output_path, pure_rules=False):
             out.write(rule + '\n')
 
     return len(rules)
+
 
 def main():
     parser = argparse.ArgumentParser(description="Sort & count block files – optional pure rules mode")

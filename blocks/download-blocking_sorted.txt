@@ -1,17 +1,43 @@
-! Title: Poli Filter Rules - [NaMe_of-List-Rules]
+! Title: Poli Filter Rules - Download Block List
 ! Version: 1.0.0-beta0.7.0
 ! Author: poli0981 (with Grok's help)
-! Generated: 2025-12-25 00:13
+! Generated: 2025-12-25 16:26
 ! Homepage: https://github.com/poli0981/Poli-Filter-Rules
 ! Expires: 3 days
-! Description: [Insert hErE] :v
-! Total Rules: 110 (non-comment only)
+! Description: This list to block download popups/buttons
+! Total Rules: 204 (non-comment only)
+! Mode: Pure rules (comments skipped)
 
-
-
-! cdnkvd
-
-
+/*android-badge*.avif$image,domain=~google.com|~play.google.com
+/*android-badge*.gif$image,domain=~google.com|~play.google.com
+/*android-badge*.jpeg$image,domain=~google.com|~play.google.com
+/*android-badge*.jpg$image,domain=~google.com|~play.google.com
+/*android-badge*.png$image,domain=~google.com|~play.google.com
+/*android-badge*.svg$image,domain=~google.com|~play.google.com
+/*android-badge*.webp$image,domain=~google.com|~play.google.com
+/*android-button*.$image,domain=~google.com|~play.google.com
+/*android-button*.avif$image,domain=~google.com|~play.google.com
+/*android-button*.gif$image,domain=~google.com|~play.google.com
+/*android-button*.jpeg$image,domain=~google.com|~play.google.com
+/*android-button*.jpg$image,domain=~google.com|~play.google.com
+/*android-button*.png$image,domain=~google.com|~play.google.com
+/*android-button*.svg$image,domain=~google.com|~play.google.com
+/*android-button*.webp$image,domain=~google.com|~play.google.com
+/*androidbadge*.avif$image,domain=~google.com|~play.google.com
+/*androidbadge*.gif$image,domain=~google.com|~play.google.com
+/*androidbadge*.jpeg$image,domain=~google.com|~play.google.com
+/*androidbadge*.jpg$image,domain=~google.com|~play.google.com
+/*androidbadge*.png$image,domain=~google.com|~play.google.com
+/*androidbadge*.svg$image,domain=~google.com|~play.google.com
+/*androidbadge*.webp$image,domain=~google.com|~play.google.com
+/*androidbutton*.$image,domain=~google.com|~play.google.com
+/*androidbutton*.avif$image,domain=~google.com|~play.google.com
+/*androidbutton*.gif$image,domain=~google.com|~play.google.com
+/*androidbutton*.jpeg$image,domain=~google.com|~play.google.com
+/*androidbutton*.jpg$image,domain=~google.com|~play.google.com
+/*androidbutton*.png$image,domain=~google.com|~play.google.com
+/*androidbutton*.svg$image,domain=~google.com|~play.google.com
+/*androidbutton*.webp$image,domain=~google.com|~play.google.com
 /*app-gallery*.avif$image,domain=~huawei.com|~appgallery.huawei.com
 /*app-gallery*.gif$image,domain=~huawei.com|~appgallery.huawei.com
 /*app-gallery*.jpeg$image,domain=~huawei.com|~appgallery.huawei.com
@@ -89,6 +115,62 @@
 /*gplay*.png$image,domain=~google.com|~play.google.com
 /*gplay*.svg$image,domain=~google.com|~play.google.com
 /*gplay*.webp$image,domain=~google.com|~play.google.com
+/*ios-badge*.avif$image,domain=~apple.com|~itunes.apple.com|~apps.apple.com
+/*ios-badge*.gif$image,domain=~apple.com|~itunes.apple.com|~apps.apple.com
+/*ios-badge*.jpeg$image,domain=~apple.com|~itunes.apple.com|~apps.apple.com
+/*ios-badge*.jpg$image,domain=~apple.com|~itunes.apple.com|~apps.apple.com
+/*ios-badge*.png$image,domain=~apple.com|~itunes.apple.com|~apps.apple.com
+/*ios-badge*.svg$image,domain=~apple.com|~itunes.apple.com|~apps.apple.com
+/*ios-badge*.webp$image,domain=~apple.com|~itunes.apple.com|~apps.apple.com
+/*ios-button*.avif$image,domain=~apple.com|~itunes.apple.com|~apps.apple.com
+/*ios-button*.gif$image,domain=~apple.com|~itunes.apple.com|~apps.apple.com
+/*ios-button*.jpeg$image,domain=~apple.com|~itunes.apple.com|~apps.apple.com
+/*ios-button*.jpg$image,domain=~apple.com|~itunes.apple.com|~apps.apple.com
+/*ios-button*.png$image,domain=~apple.com|~itunes.apple.com|~apps.apple.com
+/*ios-button*.svg$image,domain=~apple.com|~itunes.apple.com|~apps.apple.com
+/*ios-button*.webp$image,domain=~apple.com|~itunes.apple.com|~apps.apple.com
+/*iosbadge*.avif$image,domain=~apple.com|~itunes.apple.com|~apps.apple.com
+/*iosbadge*.gif$image,domain=~apple.com|~itunes.apple.com|~apps.apple.com
+/*iosbadge*.jpeg$image,domain=~apple.com|~itunes.apple.com|~apps.apple.com
+/*iosbadge*.jpg$image,domain=~apple.com|~itunes.apple.com|~apps.apple.com
+/*iosbadge*.png$image,domain=~apple.com|~itunes.apple.com|~apps.apple.com
+/*iosbadge*.svg$image,domain=~apple.com|~itunes.apple.com|~apps.apple.com
+/*iosbadge*.webp$image,domain=~apple.com|~itunes.apple.com|~apps.apple.com
+/*iosbutton*.avif$image,domain=~apple.com|~itunes.apple.com|~apps.apple.com
+/*iosbutton*.gif$image,domain=~apple.com|~itunes.apple.com|~apps.apple.com
+/*iosbutton*.jpeg$image,domain=~apple.com|~itunes.apple.com|~apps.apple.com
+/*iosbutton*.jpg$image,domain=~apple.com|~itunes.apple.com|~apps.apple.com
+/*iosbutton*.png$image,domain=~apple.com|~itunes.apple.com|~apps.apple.com
+/*iosbutton*.svg$image,domain=~apple.com|~itunes.apple.com|~apps.apple.com
+/*iosbutton*.webp$image,domain=~apple.com|~itunes.apple.com|~apps.apple.com
+/*mac-badge*.avif$image,domain~=apple.com|itunes.apple.com|~apps.apple.com
+/*mac-badge*.gif$image,domain~=apple.com|itunes.apple.com|~apps.apple.com
+/*mac-badge*.jpeg$image,domain~=apple.com|itunes.apple.com|~apps.apple.com
+/*mac-badge*.jpg$image,domain~=apple.com|itunes.apple.com|~apps.apple.com
+/*mac-badge*.png$image,domain~=apple.com|itunes.apple.com|~apps.apple.com
+/*mac-badge*.svg$image,domain~=apple.com|itunes.apple.com|~apps.apple.com
+/*mac-badge*.webp$image,domain~=apple.com|itunes.apple.com|~apps.apple.com
+/*macbadge*.avif$image,domain~=apple.com|itunes.apple.com|~apps.apple.com
+/*macbadge*.gif$image,domain~=apple.com|itunes.apple.com|~apps.apple.com
+/*macbadge*.jpeg$image,domain~=apple.com|itunes.apple.com|~apps.apple.com
+/*macbadge*.jpg$image,domain~=apple.com|itunes.apple.com|~apps.apple.com
+/*macbadge*.png$image,domain~=apple.com|itunes.apple.com|~apps.apple.com
+/*macbadge*.svg$image,domain~=apple.com|itunes.apple.com|~apps.apple.com
+/*macbadge*.webp$image,domain~=apple.com|itunes.apple.com|~apps.apple.com
+/*macos-badge*.avif$image,domain~=apple.com|itunes.apple.com|~apps.apple.com
+/*macos-badge*.gif$image,domain~=apple.com|itunes.apple.com|~apps.apple.com
+/*macos-badge*.jpeg$image,domain~=apple.com|itunes.apple.com|~apps.apple.com
+/*macos-badge*.jpg$image,domain~=apple.com|itunes.apple.com|~apps.apple.com
+/*macos-badge*.png$image,domain~=apple.com|itunes.apple.com|~apps.apple.com
+/*macos-badge*.svg$image,domain~=apple.com|itunes.apple.com|~apps.apple.com
+/*macos-badge*.webp$image,domain~=apple.com|itunes.apple.com|~apps.apple.com
+/*macosbadge*.avif$image,domain~=apple.com|itunes.apple.com|~apps.apple.com
+/*macosbadge*.gif$image,domain~=apple.com|itunes.apple.com|~apps.apple.com
+/*macosbadge*.jpeg$image,domain~=apple.com|itunes.apple.com|~apps.apple.com
+/*macosbadge*.jpg$image,domain~=apple.com|itunes.apple.com|~apps.apple.com
+/*macosbadge*.png$image,domain~=apple.com|itunes.apple.com|~apps.apple.com
+/*macosbadge*.svg$image,domain~=apple.com|itunes.apple.com|~apps.apple.com
+/*macosbadge*.webp$image,domain~=apple.com|itunes.apple.com|~apps.apple.com
 /*play-store*.avif$image,domain=~google.com|~play.google.com
 /*play-store*.gif$image,domain=~google.com|~play.google.com
 /*play-store*.jpeg$image,domain=~google.com|~play.google.com
@@ -117,8 +199,16 @@ voodoo.io##.framer-1q9e8td
 voodoo.io##.framer-1yfejdg
 voodoo.io##.framer-2jl8xs
 voodoo.io##.framer-occqhm
+www.bemorekinky.com##.justify-center.items-center.flex.whitespace-nowrap.transition-all.hover\:shadow-xl.shadow-lg.font-arbutus.text-sm.rounded-full.py-2.px-4.border-primary-purple.border-2.text-text-primary.bg-transparent
+www.bemorekinky.com##.justify-center.items-center.flex.whitespace-nowrap.transition-all.hover\:shadow-xl.shadow-lg.font-arbutus.text-sm.rounded-full.py-2.px-4.text-white.bg-primary-purple
+www.bemorekinky.com##.mb-8.justify-center.gap-6.sm\:flex-row.flex-col.flex
+www.bemorekinky.com##.md\:py-12.py-8.border-surface-border\/20.border-t
+www.bemorekinky.com##.text-center.mb-12.justify-center.gap-6.sm\:flex-row.flex-col.flex
+www.bemorekinky.com##.text-center.z-10.relative.mx-auto.max-w-5xl > div > .justify-center.gap-6.sm\:flex-row.flex-col.flex
 www.bk.com##[href^="https://apps.apple.com/us/app/burger-king-app/id638323895"]
 www.bk.com##[href^="https://play.google.com/store/apps/details"]
+www.priveeai.com##a.font-light.py-6.px-6.border-default-100.border.bg-transparent.text-xl.rounded-full.data-\[hover\=true\]\:opacity-hover.text-default-foreground.motion-reduce\:transition-none.transition-transform-colors-opacity.\[\&\>svg\]\:max-w-\[theme\(spacing\.8\)\].gap-2.h-10.min-w-20.data-\[focus-visible\=true\]\:outline-offset-2.data-\[focus-visible\=true\]\:outline-focus.data-\[focus-visible\=true\]\:outline-2.data-\[focus-visible\=true\]\:z-10.outline-none.data-\[pressed\=true\]\:scale-\[0\.97\].overflow-hidden.subpixel-antialiased.whitespace-nowrap.select-none.appearance-none.box-border.justify-center.items-center.inline-flex.relative.group.z-0.transition-opacity.active\:opacity-disabled.hover\:opacity-80.no-underline.tap-highlight-transparent:nth-of-type(1)
+www.priveeai.com##a.font-light.py-6.px-6.border-default-100.border.bg-transparent.text-xl.rounded-full.data-\[hover\=true\]\:opacity-hover.text-default-foreground.motion-reduce\:transition-none.transition-transform-colors-opacity.\[\&\>svg\]\:max-w-\[theme\(spacing\.8\)\].gap-2.h-10.min-w-20.data-\[focus-visible\=true\]\:outline-offset-2.data-\[focus-visible\=true\]\:outline-focus.data-\[focus-visible\=true\]\:outline-2.data-\[focus-visible\=true\]\:z-10.outline-none.data-\[pressed\=true\]\:scale-\[0\.97\].overflow-hidden.subpixel-antialiased.whitespace-nowrap.select-none.appearance-none.box-border.justify-center.items-center.inline-flex.relative.group.z-0.transition-opacity.active\:opacity-disabled.hover\:opacity-80.no-underline.tap-highlight-transparent:nth-of-type(2)
 ||assets.quizlet.com/_next/static/media/*@2x.*a.png$image
 ||static.wikia.nocookie.net/3f46912f-45a8-47f0-ac9d-6dca02c3a5ca$image
 ||static.wikia.nocookie.net/6e8f2e52-ab5a-427f-a836-ab57168161ec$image

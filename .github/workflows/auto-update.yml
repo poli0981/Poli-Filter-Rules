@@ -20,7 +20,8 @@ jobs:
           python-version: '3.12'
 
       - name: Run sort & count script
-        run: python autoscript/sort_and_count_everything_rules.py
+        run:
+          python autoscript/sort_and_count_everything_rules.py --pure-rules
 
       - name: Check for changes
         run: |
