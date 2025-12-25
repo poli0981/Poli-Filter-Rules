@@ -4,7 +4,6 @@
 ||www.youtube-nocookie.com/*$third-party
 ||youtu.be/*$third-party
 ||fonts.googleapis.com^$third-party
-||fonts.gstatic.com^$important,third-party,domain=~google.com|~developer.google.com|~youtube.com|~translate.google.com
 ||garena.com^$third-party
 ||play.google.com$important,third-party
 ||zohopublic.com$important,third-party
@@ -15,6 +14,11 @@
 ||stripchat.$third-party
 ||maps.googleapis.com$third-party
 ||k2s.cc$third-party
-*tiktok.com$third-party
 ||twitter.com$important,third-party
-*google.com$third-party,domain=~youtube.com|~m.youtube.com|~www.youtube.com
+||accounts.google.com/gsi/client$third-party
+||theresanaiforthat.com$third-party
+||page.widget.zalo.me$third-party
+||futureplc.com$important,third-party
+||sp.zalo.me/plugins/sdk.js$script,third-party
+||button-share.zalo.me$third-party
+||agego.com$third-party
