@@ -1,21 +1,111 @@
-! Title: Poli Filter Rules - [NaMe_of-List-Rules]
+! Title: Poli Filter Rules - Cookie Consent Block List
 ! Version: 1.0.0-beta0.7.0
 ! Author: poli0981 (with Grok's help)
-! Generated: 2025-12-22 00:13
+! Generated: 2025-12-25 16:26
 ! Homepage: https://github.com/poli0981/Poli-Filter-Rules
 ! Expires: 3 days
-! Description: [Insert hErE] :v
-! Total Rules: 37 (non-comment only)
-
-
-
+! Description: This list to block cookie consent popups
+! Total Rules: 131 (non-comment only)
+! Mode: Pure rules (comments skipped)
 
 *usercentrics.eu^$important
+/ccpa-banner*.
+/ccpa-overlay*.
+/ccpa-popup*.
+/ccpa.
+/ccpa_banner*.
+/ccpa_overlay*.
+/ccpa_popup*.
+/ccpaBanner*.
+/ccpaOverlay*.
+/ccpaPopup*.
+/cookie-banner*.
+/cookie-consent*.
+/cookie-modal*.
+/cookie-notice*.
+/cookie-notification*.
+/cookie-overlay*.
+/cookie-policy*.
+/cookie-popup*.
+/cookie-terms*.
+/cookie-terms-of-use*.
+/cookie_banner*.
+/cookie_consent*.
+/cookie_modal*.
+/cookie_notice*.
+/cookie_notification*.
+/cookie_overlay*.
+/cookie_policy*.
+/cookie_popup*.
+/cookie_terms*.
+/cookie_terms_of_use*.
+/cookiebanner*.
+/cookieconsent*.
+/cookiemodal*.
+/cookienotice*.
+/cookienotification*.
+/cookieOverlay*.
+/cookiepolicy*.
+/cookiepopup*.
+/cookies-banner*.
+/cookies-consent*.
+/cookies-modal*.
+/cookies-notice*.
+/cookies-notification*.
+/cookies-overlay*.
+/cookies-policy*.
+/cookies-popup*.
+/cookies-terms*.
+/cookies_banner*.
+/cookies_consent*.
+/cookies_modal*.
+/cookies_notice*.
+/cookies_notification*.
+/cookies_overlay*.
+/cookies_policy*.
+/cookies_popup*.
+/cookies_terms*.
+/cookies_terms_of_use*.
+/cookiesbanner*.
+/cookiesconsent*.
+/cookiesmodal*.
+/cookiesnotice*.
+/cookiesnotification*.
+/cookiesoverlay*.
+/cookiespolicy*.
+/cookiespopup*.
+/cookiesterms*.
+/cookiestermsofuse*.
+/cookieterms*.
+/cookietermsofuse*.
+/eula-banner*.
+/eula.
+/eula_banner*.
+/gdpr-banner*.
+/gdpr-overlay*.
+/gdpr-popup*.
+/gdpr.
+/gdpr_banner*.
+/gdpr_overlay*.
+/gdpr_popup*.
+/gdprbanner*.
+/gdprOverlay*.
+/gdprpopup*.
+/privacy-policy*.
+/privacy-popup*.
+/privacy-terms*.
+/privacy_policy*.
+/privacy_popup*.
+/privacy_terms.
+/privacypolicy*.
+/privacypopup*.
+/privacyterms*.
 ||assets-cms.privateinternetaccess.com/js/cookie-consent/desktop/*^$script
 ||cc.cdn.civiccomputing.com/9/cookieControl-9.x.min.js$script
 ||cdn-apac.onetrust.com/scripttemplates/otSDKStub.js$script
 ||cdn-app.pathfactory.com/production/jukebox-lite/current/677.js$script
 ||cdn-app.pathfactory.com/production/jukebox-lite/current/jukebox.js$script
+||cdn-cookieyes.com^$important
 ||cdn-prod.securiti.ai^
 ||cdn-production-opera-website.operacdn.com/staticfiles/3819-180ec4d45c6749f86c59.js$script
 ||cdn-production-opera-website.operacdn.com/staticfiles/main.04d59840ca08.js$script
@@ -36,8 +126,10 @@
 ||consent.formula1.com^
 ||consent.trustarc.com^$important
 ||consentcdn.cookiebot.com^$important
+||cookiefirst.com^$important
 ||cookiehub.net/c2/93363859.js$script
 ||ei.phncdn.com/www-static/js/cookieBanner/cookie_banner.js$script
+||freeprivacypolicy.com
 ||js.hs-banner.com/v2/*^$script
 ||nike.com/static/dotcom-privacy/mfe-privacy-consent/_reco/public/069a1774aa37b2b1c768/index.umd.js$script
 ||s.shangri-la.com/sl-fe-public/js/consent_mode-0.0.13.js$script
