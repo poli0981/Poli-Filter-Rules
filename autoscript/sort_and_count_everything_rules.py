@@ -10,7 +10,7 @@ from freetype import filename
 FILES = [
     'blocks/full-block-domains.txt',
     'blocks/advanced-block.txt',
-    '.blocks/download-blocking.txt',
+    'blocks/download-blocking.txt',
     'blocks/block-tracking.txt',
     'blocks/cookie-consent-blocking.txt',
     'blocks/third-party-blocking.txt',
