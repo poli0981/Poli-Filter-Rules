@@ -33,12 +33,12 @@
 ##[id*="cookiebottom"]
 ##[class*="cookiebottom"]
 
-#[class*="cookies-consent"]
-#[id*="cookies-consent"]
-#[class*="cookiesconsent"]
-#[id*="cookiesconsent"]
-#[class*="cookies_consent"]
-#[id*="cookies_consent"]
+##[class*="cookies-consent"]
+##[id*="cookies-consent"]
+##[class*="cookiesconsent"]
+##[id*="cookiesconsent"]
+##[class*="cookies_consent"]
+##[id*="cookies_consent"]
 
 ##[class*="cookieOverlay"]
 ##[id*="cookieOverlay"]
@@ -124,12 +124,12 @@
 ##[class*="cookiesaccept"]
 ##[id*="cookiesaccept"]
 
-##[class*=accept-cookie"]
-##[id*=accept-cookie"]
-##[class*=accept_cookie"]
-##[id*=accept_cookie"]
-##[class*=acceptcookie"]
-##[id*=acceptcookie"]
+##[class*="accept-cookie"]
+##[id*"=accept-cookie"]
+##[class*="accept_cookie"]
+##[id*="accept_cookie"]
+##[class*="acceptcookie"]
+##[id*="acceptcookie"]
 
 ##.gdpr
 ###gdpr
