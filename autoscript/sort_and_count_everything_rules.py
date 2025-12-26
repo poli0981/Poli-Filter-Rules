@@ -41,6 +41,8 @@ def replace_title(filename_stem):
             return TITLE.replace(title, "Full Domain Block List")
         elif filename_stem == "hiding-raws":
             return TITLE.replace(title, "Hiding List")
+        elif filename_stem == "cookie-consent-hiding":
+            return TITLE.replace(title, "Cookie Consent Hiding List")
         elif filename_stem == "third-party-blocking":
             return TITLE.replace(title, "Third-Party Block List")
         elif filename_stem == "exception":
@@ -64,6 +66,8 @@ def replace_description(filename_stem):
             return DESCRIPTION_LIST.replace(description, "This list to block domains exactly domain")
         elif filename_stem == "hiding-raws":
             return DESCRIPTION_LIST.replace(description, "This list to hide annoying element")
+        elif filename_stem == "cookie-consent-hiding":
+            return DESCRIPTION_LIST.replace(description, "This list to hide cookie/privacy consent popups")
         elif filename_stem == "third-party-blocking":
             return DESCRIPTION_LIST.replace(description, "This list to block third-party web")
         elif filename_stem == "exception":
