@@ -1,16 +1,19 @@
-! Title: Poli Filter Rules - [NaMe_of-List-Rules]
+! Title: Poli Filter Rules - Cookie Consent Hiding List
 ! Version: 1.0.0-beta0.7.0
 ! Author: poli0981 (with Grok's help)
-! Generated: 2025-12-25 16:26
+! Generated: 2025-12-26 12:08
 ! Homepage: https://github.com/poli0981/Poli-Filter-Rules
 ! Expires: 3 days
-! Description: [Insert hErE]
+! Description: This list to hide cookie/privacy consent popups
 ! Total Rules: 164 (non-comment only)
 ! Mode: Pure rules (comments skipped)
 
 ###gdpr
 ##.gdpr
 ##.iwCJUI.sc-3hrznp-2
+##[class*="accept-cookie"]
+##[class*="accept_cookie"]
+##[class*="acceptcookie"]
 ##[class*="cookie-accept"]
 ##[class*="cookie-agree"]
 ##[class*="cookie-bottom"]
@@ -44,18 +47,21 @@
 ##[class*="cookieright"]
 ##[class*="cookies-accept"]
 ##[class*="cookies-agree"]
+##[class*="cookies-consent"]
 ##[class*="cookies-modal"]
 ##[class*="cookies-notice"]
 ##[class*="cookies-overlay"]
 ##[class*="cookies-popup"]
 ##[class*="cookies_accept"]
 ##[class*="cookies_agree"]
+##[class*="cookies_consent"]
 ##[class*="cookies_modal"]
 ##[class*="cookies_notice"]
 ##[class*="cookies_overlay"]
 ##[class*="cookies_popup"]
 ##[class*="cookiesaccept"]
 ##[class*="cookiesagree"]
+##[class*="cookiesconsent"]
 ##[class*="cookiesModal"]
 ##[class*="cookiesnotice"]
 ##[class*="cookiesOverlay"]
@@ -71,9 +77,6 @@
 ##[class*="user_consent"]
 ##[class*="userAgree"]
 ##[class*="userConsent"]
-##[class*=accept-cookie"]
-##[class*=accept_cookie"]
-##[class*=acceptcookie"]
 ##[class="gdpr-banner"]
 ##[class="gdpr-overlay"]
 ##[class="gdpr-popup"]
@@ -81,6 +84,9 @@
 ##[class="gdpr_overlay"]
 ##[class="gdpr_popup"]
 ##[class="gdprbanner"]
+##[id*"=accept-cookie"]
+##[id*="accept_cookie"]
+##[id*="acceptcookie"]
 ##[id*="cookie-accept"]
 ##[id*="cookie-agree"]
 ##[id*="cookie-bottom"]
@@ -114,18 +120,21 @@
 ##[id*="cookieright"]
 ##[id*="cookies-accept"]
 ##[id*="cookies-agree"]
+##[id*="cookies-consent"]
 ##[id*="cookies-modal"]
 ##[id*="cookies-notice"]
 ##[id*="cookies-overlay"]
 ##[id*="cookies-popup"]
 ##[id*="cookies_accept"]
 ##[id*="cookies_agree"]
+##[id*="cookies_consent"]
 ##[id*="cookies_modal"]
 ##[id*="cookies_notice"]
 ##[id*="cookies_overlay"]
 ##[id*="cookies_popup"]
 ##[id*="cookiesaccept"]
 ##[id*="cookiesagree"]
+##[id*="cookiesconsent"]
 ##[id*="cookiesModal"]
 ##[id*="cookiesnotice"]
 ##[id*="cookiesOverlay"]
@@ -141,9 +150,6 @@
 ##[id*="user_consent"]
 ##[id*="userAgree"]
 ##[id*="userConsent"]
-##[id*=accept-cookie"]
-##[id*=accept_cookie"]
-##[id*=acceptcookie"]
 ##[id="gdpr-banner"]
 ##[id="gdpr-overlay"]
 ##[id="gdpr-popup"]
@@ -154,13 +160,7 @@
 ##div[class*="cookie-law"]
 ##div[id*="cookie-law"]
 #[class*="cookie_agree"]
-#[class*="cookies-consent"]
-#[class*="cookies_consent"]
-#[class*="cookiesconsent"]
 #[id*="cookie_agree"]
-#[id*="cookies-consent"]
-#[id*="cookies_consent"]
-#[id*="cookiesconsent"]
 cookieinformation.com###coiOverlay
 erikalust.com##.z-\[60\].relative
 hostman.com##.cc--c1Lk
