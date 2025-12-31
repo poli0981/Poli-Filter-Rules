@@ -1,0 +1,50 @@
+name: Feedback (General Thoughts – Positive, Negative, or Just Vibes :v)
+description: Share your thoughts on the list – love it, hate it, or "meh". Non-tech welcome! Read Wiki/FAQ first or gentle RTFM :))
+title: "[Feedback] "
+labels: ["feedback", "needs-triage"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        yo. Thanks for the feedback – helps me know if this repo's saving sanity or causing more pain :v. Be direct 
+        (no fluff – life's short). Wrong/off-topic? Auto-ignore by default.
+
+        Keep it chill – positive, negative, or neutral all good. No essays needed.
+
+  - type: dropdown
+    id: feedback-type
+    attributes:
+      label: Feedback Type
+      options:
+        - Positive (love it!)
+        - Negative (hate it!)
+        - Neutral (meh / suggestions)
+    validations:
+      required: true
+
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Your Feedback (Straight Thoughts – No Limit, But Keep Readable :v)
+      description: What works? What sucks? Ideas? Rants? All welcome.
+      placeholder: E.g., "Hides YouTube shorts perfectly – thanks!" or "Too aggressive on footers – breaks login"
+    validations:
+      required: true
+
+  - type: input
+    id: screenshot
+    attributes:
+      label: Screenshot / Link (Optional – Drag/Drop or Paste)
+      description: Visual proof? Before/after or example site – helps a lot.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Final Check (Mandatory – Or Auto-Ignore :)))
+      description: Off-topic/violate policy? Default ignore (applies to all templates).
+      options:
+        - label: Template correct, on-topic, no toxicity. Feedback valid.
+          required: true

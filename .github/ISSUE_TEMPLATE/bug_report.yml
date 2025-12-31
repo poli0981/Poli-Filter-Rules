@@ -1,0 +1,148 @@
+name: Bug Report (Dev Edition – Tech Details Needed :v)
+description: Report script/code bugs – for devs/curious folks. Non-tech? Use the simple Bug Report template. Read Wiki/FAQ first or gentle RTFM :))
+title: "[Dev Bug] "
+labels: ["bug", "dev", "needs-triage"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Hey dev friend! Thanks for diving deep – helps fix fast. Be direct (no fluff – life's short :v). Wrong/off-topic template? Auto-ignore by default.
+
+        **Error description <100 words** – longer = ignore.
+        Fill all mandatory (*) – incomplete = close.
+
+  - type: dropdown
+    id: error-type
+    attributes:
+      label: Error Type (What Broke?)
+      options:
+        - Code runs but wrong function
+        - Code doesn't run at all
+        - Missing rule(s)
+        - Rules duplicate on lines
+        - Function/logic wrong (e.g., abcxyz not working)
+        - Dup filter misses some
+        - Param extract misses values
+        - DNS gen outputs wrong txt
+        - Missing/extra module
+        - GitHub Action not running
+        - Other (describe below – <100 words)
+    validations:
+      required: true
+
+  - type: textarea
+    id: other-desc
+    attributes:
+      label: Other Error Description (<100 Words – Longer = Ignore)
+      description: Straight facts – what you see vs expected.
+      placeholder: E.g., "Dup checker skips inline comments – misses spam.com ! note"
+    validations:
+      required: false
+
+  - type: textarea
+    id: error-detail
+    attributes:
+      label: Detailed Error in Terminal/IDE (Copy-Paste – No This = No Fix :v)
+      description: Full traceback/screenshot text. E.g., "No module named pandas" or "Path error in line 42".
+      placeholder: Paste exact error here
+    validations:
+      required: true
+
+  - type: dropdown
+    id: python-version
+    attributes:
+      label: Python Version
+      options:
+        - 3.x (e.g., 3.12)
+        - 2.x (legacy?)
+        - 1.x (museum piece?)
+        - Other (fill below – wait, really? :v)
+    validations:
+      required: true
+
+  - type: textarea
+    id:  python-version-other
+    attributes:
+      label: Other Python Version (If Choose "Other" Above)
+      placeholder: E.g., 3.9.7
+    validations:
+      required: false
+
+  - type: dropdown
+    id: ide
+    attributes:
+      label: IDE Used
+      options:
+        - VS Code
+        - Visual Studio
+        - JetBrains (PyCharm, etc.)
+        - Other (fill below)
+    validations:
+      required: true
+
+  - type: textarea
+    id: ide-other
+    attributes:
+      label: Other IDE (If Choose "Other" Above)
+      placeholder: E.g., Sublime Text
+    validations:
+      required: false
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating System
+      options:
+        - Windows 11
+        - Windows 10
+        - Windows 7 or older (XP/Vista vibes :)))
+        - macOS
+        - Linux
+    validations:
+      required: true
+
+  - type: input
+    id: os-version
+    attributes:
+      label: OS Name + Version (E.g., Ubuntu 24.04, Win 11 24H2)
+      placeholder: E.g., iOS 18.1
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority Level (How Urgent?)
+      options:
+        - Not urgent / no impact
+        - Low impact / can wait
+        - Safe fix needed
+        - Urgent / fix ASAP
+    validations:
+      required: true
+
+  - type: input
+    id: screenshot
+    attributes:
+      label: Screenshot (Optional – Drag/Drop or Link)
+      description: Error console or weird output – helps debug faster.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: vm
+    attributes:
+      label: Running in Virtual Machine? (Optional)
+      options:
+        - label: Yes (VM/WSL/Docker/etc.)
+        - label: No (bare metal)
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Final Check (Mandatory – Or Auto-Ignore :)))
+      description: Off-topic/violate policy? Default ignore (applies to all templates).
+      options:
+        - label: Template correct, on-topic, no toxicity. Report valid.
+          required: true

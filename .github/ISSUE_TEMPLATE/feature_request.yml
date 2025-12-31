@@ -1,0 +1,62 @@
+name: Feature Request / Improvement (Non-Tech Friendly – Simple Form :v)
+description: Suggest new feature or improvement – short & easy. Non-tech welcome! Read Wiki/FAQ first or gentle RTFM :))
+title: "[Feature] "
+labels: ["enhancement", "needs-triage"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Hey! Thanks for the idea – helps make the list better. Keep it short & direct (no fluff – life's short :v). Wrong/off-topic? Auto-ignore by default.
+
+        Fill all mandatory (*) – incomplete = close.
+
+  - type: input
+    id: feature-name
+    attributes:
+      label: Feature Name / What to Improve
+      description: Short title. E.g., "Add new hide filter", "Make blocking less aggressive", "Better error messages".
+      placeholder: E.g., "Hide cookie banners on mobile better"
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason? (Why This Helps)
+      description: Simple explanation. E.g., "Easier to read", "Faster loading", "Less eye pain", "Fewer bugs", "Just because you like it :)"
+      placeholder: E.g., "Current footer hide breaks some sites – make it smarter"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: priority
+    attributes:
+      label: Priority Level (Pick ONE Only)
+      description: How urgent is this?
+      options:
+        - label: Not urgent / nice to have
+        - label: Maybe needed / can wait
+        - label: Very needed
+        - label: Extremely urgent / fix ASAP
+    validations:
+      required: true
+      multiple: false
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Extra Details (Optional – Keep Short)
+      description: More info/screenshots/links if you want. No essays :v
+      placeholder: E.g., "Happens on https://example.com – screenshot attached"
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Final Check (Mandatory – Or Auto-Ignore :)))
+      description: Off-topic/violate policy? Default ignore.
+      options:
+        - label: Template correct, on-topic, no toxicity. Suggestion valid.
+          required: true

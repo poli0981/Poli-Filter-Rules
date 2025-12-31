@@ -1,0 +1,104 @@
+name: Add Rule (Tech-Friendly – Suggest New Blocks/Hides :v)
+description: Suggest adding new blocking/hiding rules – for folks comfy with rules. Non-tech? Use simple Bug Report or Feature template. Read Wiki/FAQ first or gentle RTFM :))
+title: "[Add Rule] "
+labels: ["add-rule", "needs-triage"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Hey! Thanks for the rule suggestion – helps nuke more annoyances :v. Be direct (no fluff – life's short). Wrong/off-topic? Auto-ignore by default.
+
+        **1 website/1 rule per line** – multi-line mess = ignore.
+        Fill all mandatory (*) – incomplete = close.
+
+  - type: dropdown
+    id: site-count
+    attributes:
+      label: Number of Sites This Rule Applies To
+      options:
+        - 1 site
+        - 2 sites
+        - 3 sites
+        - 5 sites
+        - 10 sites
+        - More than 10 (specify below)
+        - All sites (global rule)
+    validations:
+      required: true
+
+  - type: textarea
+    id: sites
+    attributes:
+      label: Specific Websites (If 1 or Specific Number – One Per Line)
+      description: Full URLs/domains. E.g., spam.com, gambling.vn. Skip if global.
+      placeholder: |
+        https://spam.com
+        gambling.vn
+    validations:
+      required: false
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason (Why Block/Hide?)
+      description: Short – e.g., "Stupid ads", "Eye-pain popup", "Useless nag".
+      placeholder: E.g., "Endless cookie banner + tracking"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: rule-type
+    attributes:
+      label: Rule Type
+      options:
+        - Block only
+        - Hide only
+        - Both (block + hide)
+    validations:
+      required: true
+
+  - type: textarea
+    id: block-rule
+    attributes:
+      label: Blocking Rule (If Block/Both – ABP Syntax)
+      description: E.g., ||adsbullshit.com^$important, ||tracker.com^$script, $removeparam=utm_source
+      placeholder: E.g., ||gambling.vn^$all
+    validations:
+      required: false
+
+  - type: textarea
+    id: hide-rule
+    attributes:
+      label: Hiding Rule (If Hide/Both – ABP Syntax)
+      description: E.g., gambling.vn##.popup, *##.footer, ##[class*="ads"]
+      placeholder: E.g., ##.cookie-banner
+    validations:
+      required: false
+
+  - type: textarea
+    id: exception
+    attributes:
+      label: Exception (Optional – Prevent Over-Block)
+      description: E.g., @@||legit-site.com^$document
+      placeholder: E.g., @@||bethesda.net^$document
+    validations:
+      required: false
+
+  - type: textarea
+    id: after-look
+    attributes:
+      label: How Site Should Look After (Optional – Description/Screenshot)
+      description: E.g., "No footer, cleaner layout" or link screenshot.
+      placeholder: E.g., "Popup gone, page readable"
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Final Check (Mandatory – Or Auto-Ignore :)))
+      description: Off-topic/violate policy? Default ignore (applies to all templates).
+      options:
+        - label: Template correct, on-topic, no toxicity. Suggestion valid.
+          required: true

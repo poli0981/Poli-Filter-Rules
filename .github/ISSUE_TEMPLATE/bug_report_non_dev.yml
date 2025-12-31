@@ -1,0 +1,161 @@
+name: Bug Report (Non-Dev Friendly – Just Tell Me What Broke :v)
+description: Report a site/filter glitch – simple form, no tech jargon needed. Read FAQ/Wiki first or gentle RTFM :))
+title: "[Bug] "
+labels: ["bug", "needs-triage"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Hey! Thanks for reporting – helps make the list better. Be direct (no "hi, hope you're well" fluff – life's short :v). Wrong/off-topic template? Auto-ignore by default.
+
+        **Max 10 URLs per report** – more or multi on one line = ignore.
+        **Other error description <100 words** – longer = ignore.
+        Fill all mandatory (*) – incomplete = close.
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority Level (How Urgent?)
+      options:
+        - Not urgent / no impact
+        - Low impact / can wait
+        - Safe fix needed
+        - Urgent / fix ASAP
+    validations:
+      required: true
+
+  - type: textarea
+    id: urls
+    attributes:
+      label: Affected Websites (Exact URLs – Max 10, One Per Line)
+      description: Full URL(s) where bug happens. E.g., https://example.com/login. No "shopping site" – exact or ignore.
+      placeholder: |
+        https://example.com
+        https://spam.vn/page
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: error-type
+    attributes:
+      label: What Kind of Error? (Check All That Apply)
+      options:
+        - label: UI broken (layout messed up)
+        - label: White/blank page
+        - label: Payment error
+        - label: Login/signup error
+        - label: Video not playing
+        - label: Ads still show
+        - label: Other (describe below – <100 words)
+    validations:
+      required: true
+
+  - type: textarea
+    id: other-desc
+    attributes:
+      label: Other Error Description (<100 Words – Longer = Ignore)
+      description: Straight facts only – what you see, what should happen.
+      placeholder: E.g., "Login button hidden on https://site.com – can't sign in."
+    validations:
+      required: false
+
+  - type: dropdown
+    id: tool
+    attributes:
+      label: Adblock Tool Used
+      options:
+        - Brave Shields
+        - uBlock Origin
+        - uBlock Lite
+        - AdGuard (Extension)
+        - AdGuard (App)
+        - Other (fill below)
+    validations:
+      required: true
+
+  - type: input
+    id: tool-version
+    attributes:
+      label: Tool Version (E.g., Brave 1.62.123)
+      placeholder: E.g., uBlock 1.58.0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating System
+      options:
+        - Windows 11
+        - Windows 10
+        - Windows 7 / Older (XP/Vista)
+        - macOS
+        - iOS
+        - iPadOS
+        - Android
+        - Linux
+    validations:
+      required: true
+
+  - type: input
+    id: os-version
+    attributes:
+      label: OS Name + Version (E.g., Ubuntu 24.04, Win 11 24H2)
+      placeholder: E.g., iOS 18.1
+    validations:
+      required: true
+
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browser
+      options:
+        - Google Chrome
+        - Microsoft Edge
+        - Brave (Stable/Beta/Nightly)
+        - Firefox
+        - Vivaldi
+        - Opera
+        - Zen
+        - Tor Browser
+        - Mullvad Browser
+        - LibreWolf
+        - Waterfox
+        - Pale Moon
+        - Comet
+        - Safari
+        - DuckDuckGo Browser
+        - Samsung Internet
+        - Opera GX
+        - Chromium-based (other)
+        - Gecko-based (other)
+        - WebKit-based (other, e.g., Safari)
+
+    validations:
+      required: true
+
+  - type: input
+    id: browser-version
+    attributes:
+      label: Browser Version + Name If "Other" (E.g., Chrome 130.0)
+      placeholder: E.g., Safari 18
+    validations:
+      required: true
+
+  - type: input
+    id: screenshot
+    attributes:
+      label: Screenshot (Optional – Drag/Drop or Link)
+      description: Upload image – helps fix faster (GitHub auto-supports drag-drop).
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Final Check (Mandatory – Or Auto-Ignore :)))
+      description: Wrong/off-topic/violate policy? Default ignore.
+      options:
+        - label: I filled template correctly, on-topic, no toxicity. Report valid.
+          required: true
