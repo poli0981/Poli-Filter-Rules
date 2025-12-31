@@ -66,7 +66,7 @@ body:
     validations:
       required: false
 
-  - type: input
+  - type: textarea
     id: screenshot
     attributes:
       label: Screenshot / Diagram (Optional – Drag/Drop or Link)
