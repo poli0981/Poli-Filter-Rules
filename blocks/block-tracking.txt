@@ -31,7 +31,7 @@
 ||cdn.clarip.com/sephora/donotsell/assets/js/donotsell.min.js$script
 ||js-cdn.dynatrace.com/jstag/16362cc0dec/bf15698iev/10ad61344e68aed_complete.js$script
 ||resources.digital-cloud.medallia.com/wdcus/114065/onsite/embed.js$script
-||js.appboycdn.com/web-sdk/*,domain=~design.com
+||js.appboycdn.com/web-sdk/*$script
 ||fundingchoicesmessages.google.com^
 ||cdn.clarip.com/sephora/donotsell/assets/js/donotsell-manager-extended.min.js$script
 ||kroger.com/content/v2/objects/sitemodalcontainer/1.0.0/esperanto.json?*
