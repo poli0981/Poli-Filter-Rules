@@ -32,7 +32,7 @@ body:
     validations:
       required: true
 
-  - type: input
+  - type: textarea
     id: screenshot
     attributes:
       label: Screenshot / Link (Optional – Drag/Drop or Paste)
