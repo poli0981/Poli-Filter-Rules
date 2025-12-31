@@ -1,0 +1,48 @@
+name: Off-Topic / Rant (Anything Goes – Spill Here :v)
+description: Want to chat off-topic? Rant? Criticize me/project? Dump it all here. No rules, no judgment – this is the "free therapy" zone :)))
+title: "[Off-Topic] "
+labels: ["off-topic"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Yo! You made it to the off-topic corner :)) Congrats – most people don't.
+
+        This is the safe space for:
+        - Random chit-chat
+        - Life stories
+        - Game rants
+        - "Why is the world like this?" thoughts
+        - Criticizing me/project (go wild – I'm numb :v)
+        - Anything not bug/feature/rule-related
+
+        No toxicity to others (CoC still applies). Trash me? Fine – I don't feel it anymore. Enjoy your catharsis. Luck :)))))
+
+        Dump whatever. I'll read (maybe reply, maybe not – mood dependent).
+
+  - type: textarea
+    id: rant
+    attributes:
+      label: Your Off-Topic Thoughts / Rant / Whatever (No Limits – Go Nuts :v)
+      description: Spill it all. Positive, negative, existential – all welcome. No essays required, but if you write one, I'll skim :)))
+      placeholder: E.g., "Life sucks", "Your repo saved my sanity", "Why no multiplayer games?", or just "hello from the void"
+    validations:
+      required: true
+
+  - type: input
+    id: screenshot
+    attributes:
+      label: Screenshot / Meme / Random Image (Optional – Drag/Drop or Link)
+      description: Visual spice? Sure, why not :v
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Final Check (Mandatory – Or Auto-Ignore :)))
+      description: Violate CoC (toxicity to others)? Default ignore. Keep it chill.
+      options:
+        - label: I read CoC, no toxicity to others. Just off-topic vibes.
+          required: true

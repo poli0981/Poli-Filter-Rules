@@ -1,0 +1,84 @@
+name: Feature Request / Improvement (Dev Edition – Tech Details Welcome :v)
+description: Suggest new feature or code improvement – for devs/tech folks. Non-tech? Use the simple Feature template. Read Wiki/FAQ first or gentle RTFM :))
+title: "[Dev Feature] "
+labels: ["enhancement", "dev", "needs-triage"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Hey dev buddy! Thanks for the brainwave – helps make the repo less trash :v. Be direct (no fluff – life's short). Wrong/off-topic template? Auto-ignore by default.
+
+        Fill all mandatory (*) – incomplete = close.
+        Code snippets/pseudo? I'll check (lazily – my skill average :D). No malware plz :)))
+
+  - type: textarea
+    id: feature
+    attributes:
+      label: Feature / Improvement (What to Add/Change)
+      description: Clear title/description. E.g., "10k+ rule gen too slow", "Add extension/app/web", "New check_error.py", "Add/remove function abcxyz", "Switch to OOP/class", "Change language to C#/C++/Assembly :v", etc.
+      placeholder: E.g., "Bulk param stripper for $removeparam – faster than manual"
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason (Why This Rocks)
+      description: Explain benefit. E.g., "100x faster gen", "UI friendly", "Cleaner code", "Less RAM crash", "Just cooler :v"
+      placeholder: E.g., "Current sort O(n^2) – switch to radix for 10k+ rules"
+    validations:
+      required: true
+
+  - type: textarea
+    id: code
+    attributes:
+      label: Pseudo-Code / Snippet / File (Optional But Gold – I'll Lazy-Check :D)
+      description: Share idea in code (no malware plz – my antivirus is coffee). Pseudo, snippet, or full file OK.
+      render: code
+      placeholder: |
+        # Example pseudo
+        def super_fast_sort(rules):
+            # Magic here
+            return sorted(rules, key=lambda x: x.domain)
+    validations:
+      required: false
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority Level (Pick ONE Only)
+      options:
+        - Not urgent / nice to have
+        - Maybe needed / can wait
+        - Very needed
+        - Extremely urgent / fix ASAP
+    validations:
+      required: true
+      multiple: false
+
+  - type: textarea
+    id: related
+    attributes:
+      label: Related Files/Scripts (Optional – Helps Me Find)
+      description: E.g., "sort_and_count_everything_rules.py line 42", "advanced-block.txt"
+      placeholder: E.g., "Impacts dns_block_generator.py"
+    validations:
+      required: false
+
+  - type: input
+    id: screenshot
+    attributes:
+      label: Screenshot / Diagram (Optional – Drag/Drop or Link)
+      description: Visual idea? Flowchart/error – helps lazy me :v
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Final Check (Mandatory – Or Auto-Ignore :)))
+      description: Off-topic/violate policy? Default ignore.
+      options:
+        - label: Template correct, on-topic, no toxicity. Suggestion valid.
+          required: true

@@ -1,0 +1,82 @@
+name: Remove Rule (Tech-Friendly – Suggest Rule Deletion :v)
+description: Suggest removing blocking/hiding rules – for folks comfy with rules. Non-tech? Use simple Bug Report template. Read Wiki/FAQ first or gentle RTFM :))
+title: "[Remove Rule] "
+labels: ["remove-rule", "needs-triage"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Yo. Thanks for the remove suggestion – helps avoid over-block :v. Be direct (no fluff – life's short). 
+        Wrong/off-topic? Auto-ignore by default.
+
+        **1 website/1 rule per line** – mess = ignore.
+        Fill all mandatory (*) – incomplete = close.
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason (Why Remove?)
+      description: Clear – e.g., "Need download app", "Login essential", "Over-block breaks UI", "Not tracking", "Site legit now".
+      placeholder: E.g., "Login button hidden – can't sign in without"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: rule-type
+    attributes:
+      label: Rule Type to Remove
+      options:
+        - Block only
+        - Hide only
+        - Both (block + hide)
+    validations:
+      required: true
+
+  - type: textarea
+    id: rules
+    attributes:
+      label: Rules to Remove (Exact ABP Syntax – One Per Line)
+      description: Copy from files. E.g., ||buynow.net^$all or ##.legitclass
+      placeholder: |
+        ||gambling.vn^$all
+        youtube.com##.login-btn
+    validations:
+      required: true
+
+  - type: textarea
+    id: sites
+    attributes:
+      label: Websites Affected (One Per Line – Format domain.com - Short Reason)
+      description: E.g., "legit.com - This site isn't tracking anymore". Helps verify.
+      placeholder: |
+        legit.com - Login essential for content
+        download.vn - Need app button
+    validations:
+      required: true
+
+  - type: textarea
+    id: after-look
+    attributes:
+      label: How Site Should Look After Remove (Optional – Description)
+      description: E.g., "Login button visible again", "Download works".
+      placeholder: E.g., "Footer back, but cleaner layout"
+    validations:
+      required: false
+
+  - type: input
+    id: screenshot
+    attributes:
+      label: Screenshot (Optional – Drag/Drop or Link)
+      description: Before/after or breakage – helps verify fast.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Final Check (Mandatory – Or Auto-Ignore :)))
+      description: Off-topic/violate policy? Default ignore (applies to all templates).
+      options:
+        - label: Template correct, on-topic, no toxicity. Suggestion valid.
+          required: true
