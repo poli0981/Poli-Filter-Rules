@@ -2,7 +2,7 @@ name: Auto Sort & Count Rules
 
 on:
   schedule:
-    - cron: '0 0 */3 * *'  # Every day 00:00 UTC
+    - cron: '0 0 */3 * *'
   workflow_dispatch:  # Manual run test
 
 jobs:
@@ -19,15 +19,8 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Run sort & count script
-        run:
-          python autoscript/sort_and_count_everything_rules.py --pure-rules
-
-      - name: Check for changes
+      - name: Run bash script to sort and count rules
         run: |
-          git config --global user.name "poli0981"
-          git config --global user.email "127664709+poli0981@users.noreply.github.com"
-          git add .
-          git diff --staged --quiet && echo "No changes – skip commit" || (git commit -m "Auto update rules [$(date +'%Y-%m-%d')]" && git push)
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          chmod +x ./bash/update.sh
+          ./bash/update.sh
+        shell: bash
