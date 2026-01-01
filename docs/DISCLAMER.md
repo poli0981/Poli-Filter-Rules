@@ -1,40 +1,29 @@
 # Disclaimer
 
-This repository and its contents are provided **"AS IS"** without warranty of any kind, either express or implied, including but not limited to the implied warranties of merchantability, fitness for a particular purpose, or non-infringement. Version 1.0.0-beta0 means we're past alpha chaos, but beta still means "test at your own risk" – expect refinements, not perfection.
+**Custom Adblock Filter List** – Version 1.0  
+**Last Updated: January 2, 2026**
 
-## Key Warnings (Read This or Regret It)
+This repository and its contents are provided **"AS IS"** without warranty of any kind, express or implied – including merchantability, fitness for purpose, or non-infringement. 1.0 means we've survived alpha chaos and beta tweaks, but "stable" is relative when coded by a tired, unemployed dev on instant noodles and spite.
 
-- **Beta Stage Evolution**: This is 1.0.0-beta0. We've cleaned up scripts, optimized rules, and polished docs, but things can still break. Websites change faster than I can caffeinate. Rules may over-block, under-block, or glitch on edge cases.
-- **Personal Project Roots**: These filters are born from one dude's (mine) daily battles with ads, trackers, popups, and existential dread. They're not universal – what annoys me might be your lifeline. Customize or fork; don't blame me if your favorite site looks like a skeleton.
-- **Potential Side Effects (They Happen)**:
-  - Legit elements (footers, logins, buttons) get hidden or blocked – test on non-critical tabs first.
-  - Adblockers might conflict with other lists; disable 'em temporarily to debug.
-  - Over-aggressive wildcard rules (e.g., *.com) could nuke too much – whitelist exceptions as needed.
-- **No Liability, Zero Dollars Edition**: I'm broke, jobless, and my most valuable asset is a wheezing laptop. I disclaim all liability for damages, data loss, site breakage, or therapy bills from a "cleaner" internet. If you sue and win, congrats – you get my Steam backlog (400+ games of regret).
-- **Update Cadence**: Roughly every 3–5 days, but life (health, scams, noodle runs) gets in the way. No SLAs here – check commits for changes.
-- **Third-Party Inspirations**: Rules draw from EasyList, uBlock, AdGuard, and gems like Dandelion Sprout's Annoyances List (shoutout for the wildcard wisdom – learned the hard way). Conflicts? Your problem to sort.
-- **Privacy & Security Reminder**: These filters help dodge trackers, but they're no silver bullet. Pair with VPNs, antivirus, and common sense. No guarantees against malware or Big Brother.
+## Key Warnings (Read or Regret – Seriously)
 
-### Experimental Features Risks
-These "experimental" rules/scripts (e.g., aggressive cookie hides, wildcard tracking nukes, anti-porn blocks) are test-mode only – not for daily use yet. Beta standards mean:
+- **Official But Still Human**: 1.0 is the "good enough" milestone – rules leaner, scripts smarter, docs polished. But websites evolve faster than my motivation. Rules may over-block, under-block, or glitch when sites redesign.
+- **Personal Origins**: Born from one guy's (mine) daily rage at ads, trackers, popups, and cookie nags. Not universal – what I hate might be your must-have. Customize, fork, or whitelist – don't blame me if your fave site turns skeleton.
+- **Potential Breakage (It Happens)**:
+  - Legit elements (logins, payments, footers) hidden/blocked – test non-critical first.
+  - Conflicts with other lists – disable to debug.
+  - Wildcard rules powerful but risky – over-nuke? Exception time.
+- **No Liability, Empty Wallet Edition**: I'm broke, jobless, laptop wheezing. Zero responsibility for damages, data loss, site breakage, or "therapy bills from cleaner internet." Sue? Win my Steam backlog (400+ sale games of regret).
+- **Update Rhythm**: ~3–5 days when life allows (health, scams, noodle runs). No SLAs – check commits.
+- **Third-Party Roots**: Rules inspired by EasyList, uBlock, AdGuard, Dandelion Sprout's gems (wildcard wisdom saved my sanity). Conflicts? Your merge puzzle.
+- **Privacy & Security Note**: Filters help dodge trackers – not bulletproof. Pair with VPNs/antivirus. No complete protection promise.
 
-- **Basic Beta Testing Rules**: Sandbox test (use incognito/VM), report bugs with details (URL, screenshot, error), no production/live use (e.g., work/banking sites), rollback easy (disable URL).
-- **Not for Newbies/Non-Tech**: Already warned – if you're not comfy with DevTools or HTML/CSS tweaks, skip. This ain't beginner hour.
-- **Potential Errors Galore**: Expect glitches like login fails, site no-load, payment errors, adblock detected, ads slipping through, videos not playing, etc. It's experimental – bugs happen.
-- **Dev-Only Recommended**: For folks with basic source reading, DevTools basics, and HTML/CSS/JS knowledge (to spot/fix fast). Test *thoroughly* before apply – your setup, not mine.
-- **Zero Responsibility**: Author (me) and Grok disclaim *everything*. No liability for breakage, data loss, or "my life ended because of a hidden button." Use = you own it.
-- **P.S: You're an Unpaid Tester Now :v**: If you enable these, congrats – you're beta guinea pig. Feedback? Issue with facts (no fluff). Love ya for the risk!
+You're responsible for testing, tweaking, using wisely. Fork if breaks – open-source magic.
 
-Skip if unsure – core filters work fine without 'em.
+By using, you accept all risks. No take-backs.
 
 ---
-### Final Notes
-You're responsible for testing, tweaking, and using wisely. If it breaks, fork it – that's open-source magic.
-
-By using this repo, you accept all risks. No take-backs.
-
----
-**Version**: 1.0.0-beta0.6125  
-**Last Updated**: December 7, 2025  
+**Version**: 1.0  
+**Last Updated**: January 2, 2026  
 **License**: MIT (see LICENSE)  
-**Author's Note**: Polished for beta, but still written by a tired dev on instant coffee. Proceed with caution – or coffee.
+**Author's Note**: 1.0 shipped on "birthday" (+1 age, zero fanfare). Polished but still me – tired, real, coffee-dependent. Thanks for joining the ride.
