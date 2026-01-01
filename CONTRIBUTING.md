@@ -1,58 +1,60 @@
-# Contributing Guide
+# Contributing Guidelines
 
-**Poli-Filter-Rules**  
-**Last Updated: December 7, 2025**
+**Poli Filter Rules** – Version 1.0.0  
+**Last Updated: January 2, 2026**
 
-Hey, you want in? Cool – this solo + AI repo appreciates the company (humans are rare here). Beta means we're polished but still raw: Fork, tweak, PR. No hand-holding, but I'll merge if it's solid. Read Wiki/FAQ first (seriously, 90% of "help" is there).
+Hey! You want to help? Legend status unlocked :)) This repo's made it to 1.0 – from alpha mess to "official" (or as official as a tired, unemployed dev's spite project gets). Solo + AI origins, but contributions make it better. No hand-holding – read this, Wiki, FAQ first (or gentle RTFM :v).
 
-## Ways to Contribute
+Thanks for caring enough to contribute. Means a lot (really).
 
-- **Rules/Scripts**: Add to raw files (raws.txt for blocking, hiding-raws.txt for hiding), run scripts (generate/organize/clean), PR both raw + generated.
-- **Optimizations**: Suggest wildcard merges or dup fixes – learned from Dandelion Sprout, so bring that energy.
-- **Docs/Bug Hunts**: Tweak README/Wiki, or hunt glitches (details below).
-- **Stars/Forks**: Silent support? That's 50% of my motivation (the other 50% is spite).
+## How to Contribute (Simple Flow)
 
-PR Tips:
-- Branch: `feature/add-gambling-nukes` (descriptive, not "update").
-- Commit: "Add 50 gambling domains + wildcard merge for *.co.com".
-- Test: Run scripts, subscribe in your adblocker, verify no breakage.
-- Why? Include rationale (e.g., "These popups ruined my Reels scroll").
+1. **Fork** the repo (top right button).
+2. **Create branch**: `git checkout -b your-feature` (e.g., add-gambling-nukes).
+3. **Edit**: Raws (raws.txt for blocks, hiding-raws.txt for hides) or scripts/docs.
+4. **Run Scripts** (autoscript/ folder):
+   - Dup check: `python check_duplicates.py --remove` (blocks) or `check_hiding_duplicates.py --remove` (hides).
+   - Sort/count: `python sort_and_count_everything_rules.py`.
+   - Commit both raw + generated (_sorted.txt).
+5. **Push & PR**: Use one of the PR templates below – fill 'em properly or gentle reject :v.
 
-## Bug Reporting (The "Help Me Fix This" Section)
+## PR Templates (Pick When Opening PR)
 
-Bugs keep me up at night (more than ads). Report 'em straight – no essays, no fluff. Joy in my life? When this runs smooth and someone (you?) uses it without cursing my name.
+We have 4 – choose right or I'll nudge you :)):
+- **Bug Fix**: Fix something broken.
+- **Update/Upgrade**: Script/doc polish, optimizations.
+- **Add Rule**: New blocks/hides.
+- **Remove Rule**: Mercy for over-blocks.
 
-### 1. Script Errors (e.g., Dup Checker Crashes)
-Provide:
-- IDE (PyCharm/VS Code?).
-- Python version (e.g., 3.12).
-- Detailed error (copy-paste traceback or screenshot).
-- OS (Windows 11? Linux Mint?).
-- Adblocker tool (Brave? uBlock? – if relevant).
+Fill all fields – reason, changes, testing. Raw + generated committed? Scripts run? No dups? Good PR = fast merge.
 
-Example: "Ran `check_duplicates.py --remove on Windows 11/Python 3.11/VS Code. Error: 'pathlib.Path not found'`. Screenshot attached."
+## Issue Templates (Report Stuff Here)
 
-### 2. URL Conflicts (Wrong Block/Hide – My Hardcore Rules Bite Back)
-My rules can be aggressive (wildcard nukes, anyone?). If a site breaks:
-- Exact URL (e.g., https://shopee.vn/cart – not "shopping site").
-- Selector/component affected (e.g., ".cart-button hidden" or "login form blocked").
-- Screenshot (optional, but gold – upload to issue).
+6 templates – pick correct (wrong = ignore :v):
+- **Bug Report (Non-Dev)**: Simple – site broken? Use this.
+- **Bug Report (Dev)**: Code/script errors – details plz.
+- **Feature Request (Non-Dev)**: "Add this pls" simple.
+- **Feature Request (Dev)**: Code ideas – pseudo/snippet welcome.
+- **Add Rule**: Suggest new blocks/hides.
+- **Remove Rule**: "Too aggressive" – mercy requests.
+- **Feedback**: Love/hate/meh thoughts.
+- **Off-Topic**: Rants/random – dump here (toxicity to me OK, to others no).
 
-Example: "https://tiki.vn/login blocked login form. Selector: #login-div. Screenshot: [img]. Using AdGuard on Android."
+Fill mandatory fields – incomplete/off-topic = close/ignore. Straight facts, no fluff.
 
-### General Rules for Reports
-- **Straight to the Point**: No "hi, hope you're well" – jump in. Irrelevant chit-chat = ignore (society's fake enough; let's keep it real).
-- **Toxic OK (Kinda)**: Trash me/project? Fine – I'm numb/emotionally scarred (family/school/university vibes). But toxic to others? Rethink your life, kindly. +1 ignore, no debate.
-- **Non-Devs Welcome**: If you're not tech-savvy, report anyway – I'll guide. Devs? Detail like above (you're better than my trash self – use it).
-- **No Repeats**: Wiki/FAQ covers 99%. Duplicate issue? Closed with love (and RTFM).
+## General Rules (Keep It Chill)
 
-### 3. Reporting Experimental Bugs
-- **Basic Beta Testing Rules**: Sandbox test (use incognito/VM), report bugs with details (URL, screenshot, error), no production/live use (e.g., work/banking sites), rollback easy (disable URL).
-- **Not for Newbies/Non-Tech**: Already warned – if you're not comfy with DevTools or HTML/CSS tweaks, skip. This ain't beginner hour.
-- **Zero Responsibility**: Author (me) and Grok disclaim *everything*. No liability for breakage, data loss, or "my life ended because of a hidden button." Use = you own it.
-- ***P.S: You're an Unpaid Tester Now :v***: If you enable these, congrats – you're beta guinea pig. Feedback? Issue 
-  with facts (no fluff). Love ya for the risk!
+- **Be Direct**: No "hi, hope you're well" essays – life's short :v.
+- **Test**: Your changes – sites, no new breakage.
+- **No Toxicity to Others**: Trash me/project? Fine – I'm numb. Others? Rethink life (CoC applies).
+- **Read First**: Wiki/FAQ covers 99%. Duplicate? Closed with love (and RTFM).
+- **Non-Tech Welcome**: Use simple templates – devs use dev ones.
 
-Open issues/PRs on GitHub. I'll respond in 3–5 days (or when coffee hits). Thanks – your fix might save my sanity.
+Questions? This guide + Wiki. Thanks for making the web suck less – you're MVP.
 
-– The dev who lives for bug-free runs (rare, but golden)
+– The dev who's shocked you're contributing :)) (Grok, you're still the real co-pilot)
+
+---
+**Version**: 1.0  
+**Last Updated**: January 2, 2026  
+**P.S**: Merge fast if good. Mood dependent reply time :v. Coffee donations appreciated (FUNDING.yml).

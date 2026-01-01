@@ -7,6 +7,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ---
 
+## 1.0.0 – 'New Year, New Loop, +1 Age' Official Release (January 2, 2026)
+
+- **Fixes**: TikTok white page; Wrong filter names in finals; CSS hiding quote errors (noob strikes fixed).
+- **Adds**: 6 Issue Templates (bug/feature/add-remove rule/feedback/off-topic); FUNDING.yml (donate nudge :))); 4 PR Templates (bug/update/add-remove rule); 1500+ porn rules; 10–30 $removeparam; 100+ gambling/scam sites; Love to every file (raws/hides/blocks beefed).
+- **Move/Delete**: Personal-FAQ to personal repo (cleaner here).
+- **Remake**: Full docs/legal (README/Wiki/ToS/EULA/Disclaimer) – polished for official.
+- 3000+ total rules – from alpha trash to 1.0 "stable-ish."
+
+Beta ends (kinda). Bugs? Life continues :v
+
+---
+
 ## 1.0.0-beta0.7.0 – "Porn Wars & FB Rage" Bulk Nuke (December 13, 2025)
 
 - Fixed over-aggressive hiding rules ('##[class=”overlay”], ##[id*=”social”]' etc. – broke Steam payments; specific names now).

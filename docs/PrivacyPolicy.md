@@ -1,45 +1,45 @@
 # Privacy Policy
 
-**Poli-Filter-Rules** – Version 1.0.0-beta0  
-**Last Updated: November 26, 2025**
+**Poli Filter Rules** – Version 1.0  
+**Last Updated: January 2, 2026**
 
-This Privacy Policy explains (or tries to) how this repo handles your data. Spoiler: It doesn't. At all. Beta means we've tidied up the edges, but the core truth remains – this is static text files on GitHub, not a data-hoarding empire.
+Short version: I collect nothing. Zero. Zilch. Nada. 1.0 means polished docs, but the core truth stays – this is static text files + local scripts on GitHub, not a data vampire.
 
-We're compliant with general principles (GDPR-inspired for open-source vibes), but since there's zero collection, you're golden by default.
+Compliant with basics (GDPR vibes for open-source), but zero collection = you're safe by default. No tricks.
 
-## 1. Data Collection (The Short Answer: None)
+## 1. Data Collection (None – Seriously)
 
-- **Zero Personal Data**: No tracking, no IPs, no emails, no "tell me your life story" forms. This repo is dumb text: filters, scripts, docs. No servers, no analytics, no creepy cookies.
-- **What I Know About You**: Nothing. Zilch. GitHub might log your download (their policy, not mine – check https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement). I see stars/forks/issues, but that's public repo magic.
-- **Scripts & Tools**: Beta cleaners (duplicate checkers, bulk removers) run locally on your machine – they touch zero data beyond your raw files. No phoning home.
+- **Personal Data? Nope**: No tracking, IPs, emails, forms. Repo = text (filters, scripts, docs). No servers, analytics, cookies – my laptop barely runs this.
+- **What I See**: Stars/forks/issues (public GitHub). Downloads? GitHub logs (their policy – https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement). I see nothing.
+- **Scripts Local**: Beta/1.0 tools (dup checkers, param extractors) run on *your* machine – touch your files only. No phone-home.
 
-## 2. Data Use & Sharing (Even Shorter: Nope)
+## 2. Use & Sharing (Still None)
 
-- No collection = no use, no sharing, no selling. I'm too broke and lazy for that game (plus, I hate trackers – irony?).
-- Contributions (PRs/issues): Your GitHub username goes public. That's it. No emails harvested.
+- No data = no use/sharing/selling. Too broke/lazy for that (and I hate trackers – irony).
+- PRs/Issues: GitHub username public. That's it.
 
-## 3. Third-Party Links & Tools (Not My Mess)
+## 3. Third-Party (Not My Problem)
 
-- Raw URLs hit GitHub/CDN – their privacy rules apply (read 'em if paranoid).
-- Inspirations like EasyList/uBlock/AdGuard: External, their policies separate. We adapt rules, not data.
+- Raw URLs → GitHub/CDN (their privacy).
+- Inspirations (EasyList/uBlock/AdGuard/Dandelion Sprout): External – their rules.
 
-## 4. Beta Changes & Future (Spoiler: Still Zero)
+## 4. 1.0 Changes & Future (Guess What – Still Zero)
 
-- Beta optimizations (wildcard merges, script polish) don't touch data – just cleaner code.
-- If the repo explodes (lmao), still no analytics. Promise. My laptop would melt first.
+- 1.0 polish (auto-updates ~3 days via Action, modular files) touches no data.
+- Future? Extensions/apps? Still local/zero collection promise. Laptop melt before analytics.
 
-## 5. Your Rights & Contact (Do What You Want)
+## 5. Your Rights & Contact (Easy)
 
-- EU folks: GDPR? You're set – no data means no requests needed.
-- Questions? Open an issue (Wiki/FAQ first, or gentle RTFM). Or email [lopop05905@proton.me] – I'll see it in a week (if it's not a scam).
+- GDPR/CCPA? Zero data = compliant default. Requests? Unneeded, but issue/email if paranoid.
+- Questions? Issue (Wiki/FAQ first) or [your.email@gmail.com] – reply when coffee hits.
 
-This policy might evolve (beta's all about iteration). Check back, or don't – your data's safe either way.
+Policy evolves (1.0 iterative). Check back, or don't – data safe anyway.
 
-Thanks for trusting this noodle-fueled project. Make the web private(ish).
+Thanks for trusting noodle project. Web private(ish) now.
 
-– The dev who collects regrets, not data
+– The dev who collects regrets, not data :v (1.0 shipped – still tired)
 
 ---
-**Version**: 1.0.0-beta0  
-**Last Updated**: November 26, 2025  
-**Beta Note**: Polished for clarity, still 100% data-free. Proceed paranoia-free.
+**Version**: 1.0  
+**Last Updated**: January 2, 2026  
+**Note**: 1.0 official – zero data forever. Coffee donations? FUNDING.yml :)))

@@ -1,70 +1,63 @@
 # Terms of Service (ToS)
 
-**Poli-Filter-Rules** – Version 1.0.0-beta0.6125  
+**Poli Filter Rules** – Version 1.0  
+**Last Updated: January 2, 2026**
 
-By accessing, downloading, using, forking, starring, or lurking around this repo, you agree to these Terms of Service. No "oops, missed that" – it's concise, it's binding (as much as a solo dev's noodle budget allows), and it's here to keep things drama-free. Beta means we've leveled up from alpha mess, but it's still "test responsibly" territory.
+By accessing, downloading, using, forking, starring, or even lurking this repo, you agree to these Terms. No "didn't read" excuses – it's short, real, and binding (as much as a broke dev's word can be). 1.0 means we've survived to "official," but it's still "use at your own risk" – auto-updates every ~3 days via GitHub Actions (rules fresh, but test 'em).
 
-These ToS, plus the MIT License, EULA, Privacy Policy, and Disclaimer, form the full agreement. If you don't vibe with it, close the tab and embrace the ads – your call.
+These ToS + MIT License + EULA + Privacy Policy + Disclaimer = full deal. Don't vibe? Close tab, embrace ads – your choice.
 
-## 1. Acceptance of Terms (The "You Clicked It" Clause)
+## 1. Acceptance (You Clicked It)
 
-Your use means you accept these ToS, MIT rules, and all linked docs. Beta upgrades (optimized wildcards, duplicate cleaners) come with the same "as is" spirit – no hidden gotchas, but test 'em yourself.
+Use = accept all docs. Beta's gone – 1.0's here with polished scripts (auto-sort/count every 3 days), modular files, and experimental toys. No hidden tricks.
 
-## 2. Description of Service (What You're Getting)
+## 2. Service Description (What You Get)
 
-Text files, scripts, and rules to nuke ads, trackers, popups, and annoyances. Beta polish: Cleaner merges (e.g., blah.co.com → ||co.com^$all), smarter hiding (no more *##.footer noobery), and tools like bulk removers. Updates ~every 3–5 days (or when life/coffee allows). No guarantees on perfection – websites evolve faster than my regrets.
+Text files, scripts, rules to nuke ads/trackers/popups. 1.0 polish: Leaner wildcards, dup-free raws, cookie/third-party modules. Updates ~3–5 days (or when life allows). No uptime/SLA – open-source vibes.
 
-## 3. User Responsibilities (Your Side of the Deal)
+## 3. User Responsibilities (Your Part)
 
-You agree to:
-- Not be toxic (no hate, no spam – read Code of Conduct or get blocked; I've had enough IRL).
-- Stay legal: No illegal paywall bypasses, piracy, or harm (local laws like GDPR? Your homework).
-- Test thoroughly: Beta scripts (duplicate checkers, wildcard nukes) are powerful – sandbox 'em, whitelist if needed.
-- Credit if forking: MIT says yes, but a nod back keeps karma positive.
+- Not toxic (CoC applies – trash me/project OK, others no).
+- Legal stuff yours (GDPR/CCPA/local laws? Figure it – no data collected here, but your use = your compliance :v).
+- Test changes (scripts powerful – sandbox first).
+- Credit MIT-style if redistributing.
 
-## 4. Prohibited Activities (Don't Do These, Seriously)
+## 4. Prohibited Stuff (Don't Do This)
 
-Thou shalt not:
-- Spam issues/discussions with "fix plz" sans details (URL, selector, screenshot – or RTFM).
-- Commercialize without MIT compliance (sell it? Cool, but don't ghost the credit).
-- Dox, harass, or sue (I'm broke – you'd win a high-five and my Steam backlog).
-- Blame me for breakage (site down? Fork and fix – open-source 101).
+- Spam/issues off-topic (Wiki/FAQ first or RTFM :v).
+- Illegal use (paywall bypass, harm – not my circus).
+- Sue/harass (I'm broke – win my noodle collection).
+- Blame breakage (over-block? Whitelist – your setup).
 
-## 5. Intellectual Property (It's MIT, Chill)
+## 5. IP (MIT, Chill)
 
-All content MIT-licensed: Fork, tweak, ship. Scripts (bulk removers, cleaners) included. No trademarks claimed – it's humble text + Python.
+All MIT – fork/tweak/ship. Scripts included. No trademarks.
 
-## 6. Limitation of Liability (The "Not My Circus" Section)
+## 6. Liability Limit (Not My Problem Edition)
 
-To the max allowed by law (Vietnam's, since that's my chaos zone): No liability for anything. Not breakage, not lost data, not "my ad-free Netflix glitched mid-binge." Beta optimizations help, but if wildcards nuke too much, that's user error (kinda). Suing? Good luck – my assets are instant noodles and regrets.
+Max law allows (Vietnam's, my chaos zone): No liability. Not breakage, not data loss, not "therapy from cleaner web." GDPR/CCPA? Zero collection = compliant default, but your laws = your problem :v. Auto-updates fresh – glitches? Test.
 
-## 7. Termination (The Breakup)
+## 7. Termination (Easy Out)
 
-Violate? Access ends. I can nuke your fork/PR anytime (rudeness, spam, bad vibes). You can bail anytime – delete and ghost.
+Violate? Access ends. I can nuke PR/issues. You bail anytime – delete & ghost.
 
-## 8. Governing Law (Jurisdiction Drama)
+## 8. Governing Law (Drama Zone)
 
-Vietnam laws apply. International? Fly over and serve papers – I'll wave from my wheezing laptop.
+Vietnam laws. International? Good luck serving papers to noodle guy.
 
-## 9. Changes to ToS (The "Life Evolves" Bit)
+## 9. Changes (Life Evolves)
 
-I can tweak anytime (beta's all about iteration). Continued use = acceptance. Check the file for updates.
+Tweak anytime (1.0 iterative). Use after = accept. Check file.
 
-## 10. Severability & Entire Agreement (Legal Jargon Bingo)
+## 10. Severability & Full Deal
 
-Invalid clause? Rest stands. This + MIT/EULA/Privacy/Disclaimer = full deal. No side chats.
+Invalid part? Rest stands. This + other docs = everything.
 
-Beta's our glow-up – thanks for riding along. Make the web better (or break it trying). Questions? Issues open, Wiki first.
+1.0's our milestone – thanks for riding. Make web suck less.
 
-– The dev who's almost proud (one coffee from calling it "stable")
-
-## Special: Experimental Features Warning (Beta Tester Only)
-
-- **Basic Beta Testing Rules**: Sandbox test (use incognito/VM), report bugs with details (URL, screenshot, error), no production/live use (e.g., work/banking sites), rollback easy (disable URL).
-- **Potential Errors Galore**: Expect glitches like login fails, site no-load, payment errors, adblock detected, ads slipping through, videos not playing, etc. It's experimental – bugs happen.
-- **Zero Responsibility**: Author (me) and Grok disclaim *everything*. No liability for breakage, data loss, or "my life ended because of a hidden button." Use = you own it.
-- **P.S: You're an Unpaid Tester Now :v**: If you enable these, congrats – you're beta guinea pig. Feedback? Issue with facts (no fluff). Love ya for the risk!
+– The dev one coffee from "stable" (don't hold breath :v)
 
 ---
-**Last Updated**: December 7, 2025  
+**Version**: 1.0  
+**Last Updated**: January 2, 2026  
 **License**: MIT (see LICENSE)
