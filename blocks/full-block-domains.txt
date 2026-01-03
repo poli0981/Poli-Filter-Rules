@@ -1,8 +1,3 @@
-! Full Domain Block List - Auto Generated
-! Generated on: 2025-12-25 21:20
-! Source: raws.txt
-! Total domains: 575
-
 ||*urcdt.com^$important
 ||0c2bddd1f6.com^$important
 ||111hb88.com^$important
@@ -578,3 +573,6 @@
 ||zerodayromance.com^$important
 ||zo88win.biz^$important
 ||zog.link^$important
+||clickbay.click^$important
+||live99app.com^$important
+||dabanh.club^$important

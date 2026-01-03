@@ -563,6 +563,8 @@
 ||adscale.de
 ||ads-tours-api.psmcode.com
 ||pixels.spotify.com
+||incoming.telemetry.mozilla.org
+||search.brave.com/api/feedback
 
 /*adblock-detect*.
 /*adblocker-detect*.

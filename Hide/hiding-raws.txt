@@ -496,3 +496,6 @@ aipenly.com##.overflow-hidden.py-12.bg-\[\#1A1127\].relative
 www.nastia.ai##.pt-9.p-4.bg-tertiary.mt-\[88px\].footer
 www.sankakucomplex.com##.MuiPaper-elevation6.MuiSnackbarContent-root.MuiPaper-root
 
+chatgpt.com##.pb-6.p-4.border-t.gap-2.flex-col.flex.border-token-border-heavy.bg-token-bg-tertiary.overflow-hidden.max-w-full.w-full.z-\[100\]
+x.com##.r-ywh0we.r-1777fci.r-284m6k.r-1w6e6rj.r-18u37iz.css-175oi2r
+

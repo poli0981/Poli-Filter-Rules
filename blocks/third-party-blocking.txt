@@ -14,7 +14,7 @@
 ||stripchat.$third-party
 ||maps.googleapis.com$third-party
 ||k2s.cc$third-party
-||twitter.com$important,third-party
+||twitter.com^$third-party,domain=~x.com
 ||accounts.google.com/gsi/client$third-party
 ||theresanaiforthat.com$third-party
 ||page.widget.zalo.me$third-party

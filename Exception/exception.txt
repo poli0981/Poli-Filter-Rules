@@ -10,3 +10,6 @@
 @@||bettercallsaul.amc.com^$document
 @@||beta.team$document
 @@||betagenvietnam.com^$document
+@@*twimg.com
+@@*fastly.steamstatic.com
+chatgpt.com#@#[id*="ad-bottom"]

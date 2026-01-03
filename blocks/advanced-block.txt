@@ -147,7 +147,7 @@
 ://*ru34*.$document
 ://*r34*.$document
 ://*porn*.$document
-://*tube*.$document,domain=~youtube.com|~m.youtube.com|~www.youtube.com
+://*tube*.$document,domain=~youtube.com|~m.youtube.com|~www.youtube.com|~tubebuddy.com|~www.tubebuddy.com
 ://*sex*.$document
 ://*.xxx$document
 ://*nude*.$document
@@ -445,7 +445,7 @@ $removeparam=/^_click|^click/
 $removeparam=fbPixelId
 $removeparam=link_data
 $removeparam=ad_id
-$removeparam=/^z|^var|^pb|^pbc|^pbi|^pbu|^psp|^eucx/
+*$domain=~x.com,removeparam=/^z|^var|^pb|^pbc|^pbi|^pbu|^psp|^eucx/
 ||dk.b8vip.art$removeparam
 ||axjndvucr.com$removeparam
 $removeparam=/^atc|^ats/
