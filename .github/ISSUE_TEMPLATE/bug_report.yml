@@ -76,7 +76,7 @@ body:
     id: ide
     attributes:
       label: IDE Used
-      placeholder: Interactive Dev Environment (IDE) you code in
+      description: Interactive Dev Environment (IDE) you code in
       options:
         - VS Code
         - Visual Studio 2019/2022 or newer
@@ -125,7 +125,7 @@ body:
     id: ide-version-name
     attributes:
       label: IDE Version
-      placeholder: E.g., "VS Code 1.79.2", "PyCharm 2023.2"
+      placeholder: E.g., "VS Code 1.79.2", "PyCharm 2023.2", "VS 2022 v17.5 + PyCharm 2023.1"
     validations:
       required: true
 
@@ -147,7 +147,7 @@ body:
     id: os-version
     attributes:
       label: OS Name + Version (E.g., Ubuntu 24.04, Win 11 24H2), if 2+ OS, list all
-      placeholder: E.g., iOS 18.1, Windows 10 22H2 and macOS 14.5
+      placeholder: E.g., iOS 18.1, Windows 10 22H2 + macOS 14.5
     validations:
       required: true
 
