@@ -138,16 +138,22 @@ body:
         - Windows 10
         - Windows 7 or older (XP/Vista vibes :)))
         - macOS
-        - Linux
+        - Linux (Ubuntu, Fedora, etc.)
+        - ChromeOS
+        - BSD (FreeBSD, OpenBSD, etc.)
         - 2 OS or More (Specify Below)
     validations:
       required: true
 
-  - type: input
+  - type: textarea
     id: os-version
     attributes:
       label: OS Name + Version (E.g., Ubuntu 24.04, Win 11 24H2), if 2+ OS, list all
-      placeholder: E.g., iOS 18.1, Windows 10 22H2 + macOS 14.5
+      placeholder: |
+        if 1 OS, e.g.:
+        iOS 18.1
+        if 2+ OS, e.g.:
+        Windows 11 24H2 + Ubuntu 24.04
     validations:
       required: true
 

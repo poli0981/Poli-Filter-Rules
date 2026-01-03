@@ -1,0 +1,103 @@
+name: Fix Incorrect Rules (Dev/Tech-Savvy Only – Report Bad Rules :v)
+description: Report wrong/broken rules – for folks comfy with adblock syntax. Non-tech? Use Bug Report template. Read Wiki/FAQ first or gentle RTFM :))
+title: "[Fix Rule] "
+labels: ["fix-rule", "needs-triage"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Hey tech buddy! Thanks for spotting bad rules – helps clean the list :v. Be direct (no fluff – life's short). Wrong/off-topic? Auto-ignore by default.
+
+        **Non-tech skip** – this is syntax-deep. Use simple Bug Report if unsure.
+        
+        **Max 10 rules per report** – more = ignore.
+        
+        **1 rule per line** – syntax wrong = ignore.
+        
+        Fill all mandatory (*) – incomplete = close.
+
+  - type: dropdown
+    id: error-count
+    attributes:
+      label: Number of Incorrect Rules (Max 10)
+      options:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: rule-list
+    attributes:
+      label: Which List(s) Contain Bad Rules? (Check All)
+      options:
+        - label: full-block-domains.txt
+        - label: advanced-block.txt
+        - label: block-tracking.txt
+        - label: download-blocking.txt
+        - label: third-party-blocking.txt
+        - label: cookie-consent-blocking.txt
+        - label: cookie-consent-hiding.txt
+        - label: exception.txt
+        - label: anti-porn.txt
+        - label: hiding-raws.txt
+        - label: Other (describe below)
+    validations:
+      required: true
+
+  - type: textarea
+    id: bad-rules
+    attributes:
+      label: Incorrect Rules (Exact ABP Syntax – One Per Line)
+      description: Copy from file. Wrong syntax/multi-line = ignore.
+      placeholder: |
+        ||spam.com^important
+        youtube.com#.wrong-selector
+    validations:
+      required: true
+
+  - type: textarea
+    id: fixed-rule
+    attributes:
+      label: Suggested Fix (Optional – If You Know Syntax)
+      description: Your corrected version (one per line, match order above).
+      placeholder: |
+        ||spam.com^$all
+        youtube.com##.correct-selector
+    validations:
+      required: false
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why Wrong? (Short – E.g., Over-block, Syntax Error)
+      description: Quick note per rule or general.
+      placeholder: E.g., "Over-blocks legit site", "Missing quotes"
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot (Optional – Drag/Drop or Link)
+      description: Breakage proof – helps verify fast.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Final Check (Mandatory – Or Auto-Ignore :)))
+      description: Off-topic/violate policy? Default ignore (applies to all templates).
+      options:
+        - label: Template correct, on-topic, no toxicity. Report valid.
+          required: true
