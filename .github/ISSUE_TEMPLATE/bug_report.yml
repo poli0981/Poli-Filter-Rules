@@ -102,7 +102,7 @@ body:
     id: ide-other
     attributes:
       label: Other IDE (If Choose "Other" Above)
-      description: Or list multiple IDEs if using 2+
+      description: if multiple IDEs/Other, list all here
       placeholder: E.g., "Geany"
     validations:
       required: false
@@ -147,7 +147,7 @@ body:
     id: os-version
     attributes:
       label: OS Name + Version (E.g., Ubuntu 24.04, Win 11 24H2), if 2+ OS, list all
-      placeholder: E.g., iOS 18.1, Windows 10 22H2 + macOS 14.5
+      placeholder: E.g., iOS 18.1, Windows 10 22H2 and macOS 14.5
     validations:
       required: true
 
