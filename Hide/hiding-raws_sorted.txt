@@ -1,7 +1,7 @@
 ! Title: Poli Filter Rules - Hiding List
 ! Version: 1.0
 ! Author: poli0981 (with Grok's help)
-! Generated: 2026-01-03 13:27
+! Generated: 2026-01-03 13:30
 ! Homepage: https://github.com/poli0981/Poli-Filter-Rules
 ! Expires: 3 days
 ! Description: This list to hide annoying element

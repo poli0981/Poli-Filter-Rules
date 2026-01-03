@@ -1,7 +1,7 @@
 ! Title: Poli Filter Rules - Tracking Block List
 ! Version: 1.0
 ! Author: poli0981 (with Grok's help)
-! Generated: 2026-01-03 13:27
+! Generated: 2026-01-03 13:30
 ! Homepage: https://github.com/poli0981/Poli-Filter-Rules
 ! Expires: 3 days
 ! Description: This list to block tracking ads/tracking scripts, etc.
@@ -30,7 +30,7 @@
 *criteo.com$all
 *d.aa.online-metrix.net$important
 *fastly.net$all
-*fbcdn.net^$domain=~www.facebook.com|~facebbok.com|~m.facebook.com
+*fbcdn.net^$domain=~www.facebook.com|~facebook.com|~m.facebook.com|~messenger.com|~www.messenger.com
 *fh-wgt.com^$important
 *google-analytics.com$important
 *indexww.com$all
