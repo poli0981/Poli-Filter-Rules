@@ -1,11 +1,11 @@
 ! Title: Poli Filter Rules - Full Domain Block List
 ! Version: 1.0
 ! Author: poli0981 (with Grok's help)
-! Generated: 2026-01-02 08:00
+! Generated: 2026-01-03 13:27
 ! Homepage: https://github.com/poli0981/Poli-Filter-Rules
 ! Expires: 3 days
 ! Description: This list to block domains exactly domain
-! Total Rules: 575 (non-comment only)
+! Total Rules: 578 (non-comment only)
 ! Mode: Pure rules (comments skipped)
 
 ||*urcdt.com^$important
@@ -162,6 +162,7 @@
 ||choivivu.my^$important
 ||chubbyexemplaryhardiness.com^$important
 ||classic-bonus.com^$important
+||clickbay.click^$important
 ||cm88.com^$important
 ||cmd368.com^$important
 ||co88.vip^$important
@@ -176,6 +177,7 @@
 ||curtcoracii.com^$important
 ||d194f6c2fc.com^$important
 ||da8x.com^$important
+||dabanh.club^$important
 ||daga22.net^$important
 ||daga567.net^$important
 ||daga89.net^$important
@@ -325,6 +327,7 @@
 ||limbacoaming.cyou^$important
 ||linkbin88.com^$important
 ||live88.io^$important
+||live99app.com^$important
 ||lk68.biz^$important
 ||llkhskddtowp.com^$important
 ||login.thethaobig88.autos^$important

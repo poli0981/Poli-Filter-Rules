@@ -1,7 +1,7 @@
 ! Title: Poli Filter Rules - Advanced Block List
 ! Version: 1.0
 ! Author: poli0981 (with Grok's help)
-! Generated: 2026-01-02 08:00
+! Generated: 2026-01-03 13:27
 ! Homepage: https://github.com/poli0981/Poli-Filter-Rules
 ! Expires: 3 days
 ! Description: Advanced Block
@@ -19,7 +19,6 @@ $removeparam=/^psid|^dpid/
 $removeparam=/^track|^trackid|^tracking|^trackingId/
 $removeparam=/^utm/
 $removeparam=/^utm_|^mtm_|^utm/
-$removeparam=/^z|^var|^pb|^pbc|^pbi|^pbu|^psp|^eucx/
 $removeparam=a
 $removeparam=ad
 $removeparam=ad_id
@@ -64,6 +63,7 @@ $removeparam=via
 $removeparam=wpam_id
 $removeparam=wreferrer
 $removeparam=zoneid
+*$domain=~x.com,removeparam=/^z|^var|^pb|^pbc|^pbi|^pbu|^psp|^eucx/
 :/*nova88*.$document
 ://*.bet$document
 ://*.porn$document
@@ -372,7 +372,7 @@ $removeparam=zoneid
 ://*tsumino*.$document
 ://*tsvirtuallovers*.$document
 ://*tt88*.$document
-://*tube*.$document,domain=~youtube.com|~m.youtube.com|~www.youtube.com
+://*tube*.$document,domain=~youtube.com|~m.youtube.com|~www.youtube.com|~tubebuddy.com|~www.tubebuddy.com
 ://*twistys*.$document
 ://*u18chan*.$document
 ://*uk88*.$document

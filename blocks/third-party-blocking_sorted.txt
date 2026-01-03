@@ -1,7 +1,7 @@
 ! Title: Poli Filter Rules - Third-Party Block List
 ! Version: 1.0
 ! Author: poli0981 (with Grok's help)
-! Generated: 2026-01-02 08:00
+! Generated: 2026-01-03 13:27
 ! Homepage: https://github.com/poli0981/Poli-Filter-Rules
 ! Expires: 3 days
 ! Description: This list to block third-party web
@@ -25,7 +25,7 @@
 ||sp.zalo.me/plugins/sdk.js$script,third-party
 ||stripchat.$third-party
 ||theresanaiforthat.com$third-party
-||twitter.com$important,third-party
+||twitter.com^$third-party,domain=~x.com
 ||www.youtube-nocookie.com/*$third-party
 ||www.youtube-nocookie.com/embed/*
 ||www.youtube.com/*$third-party,domain=~google.com|~developer.google.com

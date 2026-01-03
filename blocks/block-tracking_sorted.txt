@@ -1,11 +1,11 @@
 ! Title: Poli Filter Rules - Tracking Block List
 ! Version: 1.0
 ! Author: poli0981 (with Grok's help)
-! Generated: 2026-01-02 08:00
+! Generated: 2026-01-03 13:27
 ! Homepage: https://github.com/poli0981/Poli-Filter-Rules
 ! Expires: 3 days
 ! Description: This list to block tracking ads/tracking scripts, etc.
-! Total Rules: 597 (non-comment only)
+! Total Rules: 599 (non-comment only)
 ! Mode: Pure rules (comments skipped)
 
 ##a[href="https://advertising.accuweather.com"]
@@ -344,13 +344,14 @@
 ||hotsoz.com$important^$important
 ||ib.adnxs.com^
 ||imasdk.googleapis.com/js/sdkloader/gpt_proxy.js$script
-||imasdk.googleapis.com/js/sdkloader/ima3.js$script, domain=~packers.com
-||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$script, domain=~packers.com
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=~packers.com
+||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$script,domain=~packers.com
 ||impact-ad.jp^$third-party
 ||impact.com$important
 ||impactcdn.com$important
 ||impractical-safe.com
 ||improving.duckduckgo.com^$important
+||incoming.telemetry.mozilla.org
 ||indianpornempire.com$important
 ||intelligenceadx.com^
 ||iople.com$important
@@ -470,6 +471,7 @@
 ||script.crazyegg.com/pages/scripts/0117/5134.js$script
 ||script.crazyegg.com/pages/versioned/tracking-scripts/b616613b19c81e712a5f49536707dc2e.js$script
 ||script.hotjar.com^
+||search.brave.com/api/feedback
 ||secure-gl.imrworldwide.com/cgi-bin/m$document
 ||secure.americancumdolls.com
 ||secure.cdn.fastclick.net/js/pubcid/latest/pubcid.min.js$script

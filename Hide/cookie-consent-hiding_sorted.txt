@@ -1,7 +1,7 @@
 ! Title: Poli Filter Rules - Cookie Consent Hiding List
 ! Version: 1.0
 ! Author: poli0981 (with Grok's help)
-! Generated: 2026-01-02 08:00
+! Generated: 2026-01-03 13:27
 ! Homepage: https://github.com/poli0981/Poli-Filter-Rules
 ! Expires: 3 days
 ! Description: This list to hide cookie/privacy consent popups
@@ -38,7 +38,7 @@
 ##[class*="cookieaccept"]
 ##[class*="cookieagree"]
 ##[class*="cookiebottom"]
-##[class*="cookieconsent]
+##[class*="cookieconsent"]
 ##[class*="cookieleft"]
 ##[class*="cookieModal"]
 ##[class*="cookienotice"]
@@ -84,7 +84,7 @@
 ##[class="gdpr_overlay"]
 ##[class="gdpr_popup"]
 ##[class="gdprbanner"]
-##[id*"=accept-cookie"]
+##[id*="accept-cookie"]
 ##[id*="accept_cookie"]
 ##[id*="acceptcookie"]
 ##[id*="cookie-accept"]
@@ -111,7 +111,7 @@
 ##[id*="cookieaccept"]
 ##[id*="cookieagree"]
 ##[id*="cookiebottom"]
-##[id*="cookieconsent]
+##[id*="cookieconsent"]
 ##[id*="cookieleft"]
 ##[id*="cookieModal"]
 ##[id*="cookienotice"]
