@@ -26,10 +26,28 @@ body:
     id: rule-type
     attributes:
       label: Rule Type to Remove
+      description: Choose what kind of rule you're suggesting to delete.
       options:
         - Block only
         - Hide only
-        - Both (block + hide)
+        - Exception only
+        - Block + Hide
+        - Block + Exception
+        - Hide + Exception
+        - Both (block + hide + exception)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority Level (How Urgent?)
+      description: Pick one.
+      options:
+        - Not urgent / no impact
+        - Low impact / can wait
+        - Safe fix needed
+        - Urgent / fix ASAP
     validations:
       required: true
 

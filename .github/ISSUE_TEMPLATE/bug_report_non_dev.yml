@@ -64,6 +64,7 @@ body:
     id: tool
     attributes:
       label: Adblock Tool Used
+      description: Adblocker/privacy tool where issue happens.
       options:
         - Brave Shields
         - uBlock Origin
@@ -95,6 +96,7 @@ body:
         - iPadOS
         - Android
         - Linux
+        - 2 OS or More (Specify Below)
     validations:
       required: true
 
@@ -102,7 +104,7 @@ body:
     id: os-version
     attributes:
       label: OS Name + Version (E.g., Ubuntu 24.04, Win 11 24H2)
-      placeholder: E.g., iOS 18.1
+      placeholder: E.g., iOS 18.1, Windows 10 22H2 + macOS 14.5
     validations:
       required: true
 
@@ -139,6 +141,7 @@ body:
     id: browser-version
     attributes:
       label: Browser Version + Name If "Other" (E.g., Chrome 130.0)
+      description: Browser version helps debug.
       placeholder: E.g., Safari 18
     validations:
       required: true
@@ -148,6 +151,7 @@ body:
     attributes:
       label: Screenshot (Optional – Drag/Drop or Link)
       description: Upload image – helps fix faster (GitHub auto-supports drag-drop).
+      placeholder: Attach screenshot or link here
     validations:
       required: false
 

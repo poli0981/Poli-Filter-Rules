@@ -48,13 +48,29 @@ body:
       required: true
 
   - type: dropdown
+    id: priority
+    attributes:
+      label: Priority Level (How Urgent?)
+      options:
+        - Not urgent / no impact
+        - Low impact / can wait
+        - Safe fix needed
+        - Urgent / fix ASAP
+    validations:
+      required: true
+
+  - type: dropdown
     id: rule-type
     attributes:
       label: Rule Type
       options:
         - Block only
         - Hide only
-        - Both (block + hide)
+        - Exception only
+        - Block + Hide only
+        - Block + Exception only
+        - Hide + Exception only
+        - Both (block + hide + exception)
     validations:
       required: true
 

@@ -53,10 +53,13 @@ body:
     id: python-version
     attributes:
       label: Python Version
+      description: Please specify the major version you're using.
       options:
         - 3.x (e.g., 3.12)
         - 2.x (legacy?)
         - 1.x (museum piece?)
+        - Not sure / don't know
+        - Multiple versions (specify below)
         - Other (fill below – wait, really? :v)
     validations:
       required: true
@@ -64,8 +67,8 @@ body:
   - type: textarea
     id:  python-version-other
     attributes:
-      label: Other Python Version (If Choose "Other" Above)
-      placeholder: E.g., 3.9.7
+      label: Other Python Version (If Choose "Other"/"Multiple Versions" Above)
+      placeholder: E.g., 3.9.7, 3.11.4, etc.
     validations:
       required: false
 
@@ -73,11 +76,25 @@ body:
     id: ide
     attributes:
       label: IDE Used
+      placeholder: Interactive Dev Environment (IDE) you code in
       options:
         - VS Code
-        - Visual Studio
-        - JetBrains (PyCharm, etc.)
-        - Other (fill below)
+        - Visual Studio 2019/2022 or newer
+        - JetBrains IDEs (PyCharm, IntelliJ, etc.)
+        - Sublime Text
+        - Atom
+        - Jupyter Notebook
+        - Spyder
+        - Thonny
+        - Cursor IDE
+        - Antigravity IDE
+        - Eclipse
+        - IDLE
+        - Emacs
+        - Vim
+        - Nano
+        - Terminal only (no IDE)
+        - Other/ 2 IDEs+ (Specify Below)
     validations:
       required: true
 
@@ -85,9 +102,32 @@ body:
     id: ide-other
     attributes:
       label: Other IDE (If Choose "Other" Above)
-      placeholder: E.g., Sublime Text
+      description: Or list multiple IDEs if using 2+
+      placeholder: E.g., "Geany"
     validations:
       required: false
+
+  - type: dropdown
+    id: ide-version
+    attributes:
+        label: IDE Version Type (If 2+ IDE/Other/You don't know, skip)
+        options:
+            - Latest release
+            - Long-term support (LTS) build
+            - Beta/Insider build
+            - Nightly build/Dev build
+            - Specific version/build (specify below)
+            - Don't know / not sure
+    validations:
+        required: false
+
+  - type: input
+    id: ide-version-name
+    attributes:
+      label: IDE Version
+      placeholder: E.g., "VS Code 1.79.2", "PyCharm 2023.2"
+    validations:
+      required: true
 
   - type: dropdown
     id: os
@@ -99,14 +139,15 @@ body:
         - Windows 7 or older (XP/Vista vibes :)))
         - macOS
         - Linux
+        - 2 OS or More (Specify Below)
     validations:
       required: true
 
   - type: input
     id: os-version
     attributes:
-      label: OS Name + Version (E.g., Ubuntu 24.04, Win 11 24H2)
-      placeholder: E.g., iOS 18.1
+      label: OS Name + Version (E.g., Ubuntu 24.04, Win 11 24H2), if 2+ OS, list all
+      placeholder: E.g., iOS 18.1, Windows 10 22H2 + macOS 14.5
     validations:
       required: true
 
