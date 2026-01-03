@@ -105,8 +105,8 @@
 ||js.partnerstack.com/v1/*$script,domain=~partnerstack.com
 ||ad.ipredictive.com/*^
 ||googletagservices.com/tag/js/gpt.js$script
-||imasdk.googleapis.com/js/sdkloader/ima3.js$script, domain=~packers.com
-||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$script, domain=~packers.com
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=~packers.com
+||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$script,domain=~packers.com
 ||imasdk.googleapis.com/js/sdkloader/gpt_proxy.js$script
 ||browser.sentry-cdn.com/7.120.3/modulemetadata.es5.min.js$script
 ||frog.wix.com^

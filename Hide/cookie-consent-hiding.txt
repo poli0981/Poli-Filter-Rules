@@ -1,7 +1,7 @@
 ##[class*="cookie-consent"]
 ##[id*="cookie-consent"]
-##[class*="cookieconsent]
-##[id*="cookieconsent]
+##[class*="cookieconsent"]
+##[id*="cookieconsent"]
 ##[class*="cookie_consent"]
 ##[id*="cookie_consent"]
 
@@ -125,7 +125,7 @@
 ##[id*="cookiesaccept"]
 
 ##[class*="accept-cookie"]
-##[id*"=accept-cookie"]
+##[id*="accept-cookie"]
 ##[class*="accept_cookie"]
 ##[id*="accept_cookie"]
 ##[class*="acceptcookie"]
