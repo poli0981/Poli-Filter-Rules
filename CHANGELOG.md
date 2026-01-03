@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file. Beta means 
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and we adhere to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 1.0.1 – Bug Fix Patch (January 03, 2026)
+
+- Added "Fix Incorrect Rules" issue template – report bad/broken rules easily.
+- Switched Actions to bash workflow – shorter, easier debug/fix (new bash knowledge test :v).
+- Various bug fixes from Issues (UI breaks, wrong hides, etc. – details in Issues, templates for a reason :v).
+- Minor tweaks (lazy list – check commits).
+
+Light patch – repo tidier.
+
 ---
 
 ## 1.0.0 – 'New Year, New Loop, +1 Age' Official Release (January 2, 2026)
