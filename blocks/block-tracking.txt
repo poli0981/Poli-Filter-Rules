@@ -191,7 +191,7 @@
 ||static-tracking.klaviyo.com^$third-party
 ||static.klaviyo.com$third-party
 ||mplmncb.com/banners-web/cXFnbw==.js$script
-*fbcdn.net^$domain=~www.facebook.com|~facebbok.com|~m.facebook.com
+*fbcdn.net^$domain=~www.facebook.com|~facebook.com|~m.facebook.com|~messenger.com|~www.messenger.com
 ||page.strtgic.com^$third-party
 ||123da.com$important
 ||mplmncb.com/popup/qqgopopup-qqto.js$script
