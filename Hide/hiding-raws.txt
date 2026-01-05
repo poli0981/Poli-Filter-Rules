@@ -11,7 +11,6 @@ animehay.*##div.flex.flex-ver-center.margin-10:nth-of-type(7)
 animehay.*##div.ah-frame-bg:nth-of-type(12)
 animehay.*##div.ah-frame-bg:nth-of-type(9)
 
-animevietsub.*##.Footer
 animevietsub.*##.widget-area
 animevietsub.*##.ann_text
 animevietsub.*##.announcement
@@ -39,6 +38,13 @@ www.ted.com##.w-full.pr-5 > .w-full.px-5.md\:px-10.xl\:px-16
 ##.ads
 ###ad
 ###ads
+###advertisement
+###advertising
+###advertisements
+###.advertisement
+###.advertisements
+##.advertising
+
 ##[class*="ad-banner"]
 ##[id*="ad-banner"]
 ##[class*="adbanner"]
@@ -207,6 +213,13 @@ www.ted.com##.w-full.pr-5 > .w-full.px-5.md\:px-10.xl\:px-16
 ##[id*="adsfooter"]
 ##[class*="adsfooter"]
 
+##[class*="ad-container"]
+##[id*="ad-container"]
+##[class*="ad_container"]
+##[id*="ad_container"]
+##[class*="adcontainer"]
+##[id*="adcontainer"]
+
 
 ##[class*="chatbot"]
 ##[id*="chatbot"]
@@ -244,6 +257,13 @@ www.ted.com##.w-full.pr-5 > .w-full.px-5.md\:px-10.xl\:px-16
 ##[class*="age-verify"]
 ##[id*="age-verify"]
 
+###footer
+##.footer
+###Footer
+##.Footer
+###site-footer
+##.site-footer
+
 ##.chat-button-bottom-right { display: none !important; }
 ##.drift-widget
 ##.fb-like
@@ -259,7 +279,7 @@ open.spotify.com##button.e-91000-button-tertiary--condensed.e-91000-overflow-wra
 www.google.com##.XPuBac
 www.google.com##.KxwPGc.SSwjIe
 
-ihentai.*##.v-footer.v-theme--dark.tw-justify-center.\!tw-py-10
+ihentai.bar##.v-footer.v-theme--dark.tw-justify-center.\!tw-py-10
 ihentai.*##.v-btn.v-btn--elevated.v-theme--dark.bg-orange.v-btn--density-default.v-btn--size-default.v-btn--variant-elevated.\!tw-normal-case.\!tw-tracking-normal
 ihentai.*##.v-spacer
 
@@ -280,7 +300,6 @@ www.crunchyroll.com##.footer--NNXrc.footer--is-default--F1n5V
 www.facebook.com##footer > .x193iq5w.xeuugli.x13faqbe.x1vvkbs.x1xmvt09.x1lliihq.x1s928wv.xhkezso.x1gmr53x.x1cpjm7i.x1fgarty.x1943h6x.x4zkp8e.x676frb.x1pg5gke.x1sibtaa.xo1l8bm.xi81zsa
 
 www.gog.com##.footer-microservice.main-footer
-store.steampowered.com###footer
 
 www.hoyolab.com##.mhy-side-section.mhy-download-section
 www.hoyolab.com##div.footer__item:nth-of-type(1)
@@ -301,7 +320,6 @@ www.instagram.com##.x1qjc9v5.x9f619.x78zum5.xdt5ytf.x2lah0s.xk390pu.xdj266r.x14z
 
 itch.io##.app_banner
 itch.io##.sidebar_social
-itch.io##.footer
 itch.io##a.panel_button:nth-of-type(1)
 itch.io##.panel_button.register_button
 
@@ -379,7 +397,6 @@ www.youtube.com##ytd-mini-guide-entry-renderer.style-scope.ytd-mini-guide-render
 www.twitch.tv##.Layout-sc-1xcs6mc-0.AoXTY.prime-offers > .Layout-sc-1xcs6mc-0.bkOPih > div:nth-of-type(1) > .InjectLayout-sc-1i43xsx-0.iDMNUO > div:nth-of-type(1) > .ScCoreButton-sc-ocjdkq-0.iPkwTD.ScButtonIcon-sc-9yap0r-0.dcNXJO
 www.twitch.tv##.Layout-sc-1xcs6mc-0.hiJTwz > .ScCoreButton-sc-ocjdkq-0.iPkwTD.ScButtonIcon-sc-9yap0r-0.dcNXJO
 
-wutheringwaves.kurogames.com##.footer
 wutheringwaves.kurogames.com##.link-list
 wutheringwaves.kurogames.com##.login-btn
 wutheringwaves.kurogames.com##div.nav-item.nav-item-en:nth-of-type(6) > .nav-item-name
@@ -453,9 +470,6 @@ www.adidas.com###adidas-main-footer
 
 www.coca-cola.com##.footer-wrapper.responsivegrid.container
 
-www.humblebundle.com##.site-footer
-steamcommunity.com###footer
-help.steampowered.com###footer
 www.fandom.com##.global-top-navigation__action-wrapper
 www.fandom.com##.global-footer
 www.fandom.com##.newsletter
@@ -483,12 +497,10 @@ scrolller.com##div.popup--zIndex.popup--dark.popup--animate.popup--sticky.popup:
 scrolller.com##.index-module__dMXy4q__sticky.index-module__dMXy4q__container
 store.steampowered.com##.Ksy4XAVZlM0-
 github.com##.color-border-subtle.color-fg-muted.f6.pb-6.pt-7.footer
-www.gzo123.com###footer
 voodoo.io##.framer-kutq3w
 
 github.com##.position-relative.pt-6.footer
 
-footstockings.com##.footer
 footstockings.com##.top-links
 wikifeet.com##div:nth-of-type(6)
 mod18.com##.qkkdvdatepeudmetydkpamknlblhzdfeytvpcunjyhbrtbmrezazlsipi.zevuznwnmtlzvlpugrzxzbdqxuriumcxedribttbunklzkxlrxstlsipi
@@ -498,4 +510,5 @@ www.sankakucomplex.com##.MuiPaper-elevation6.MuiSnackbarContent-root.MuiPaper-ro
 
 chatgpt.com##.pb-6.p-4.border-t.gap-2.flex-col.flex.border-token-border-heavy.bg-token-bg-tertiary.overflow-hidden.max-w-full.w-full.z-\[100\]
 x.com##.r-ywh0we.r-1777fci.r-284m6k.r-1w6e6rj.r-18u37iz.css-175oi2r
+www.google.com###fbar
 

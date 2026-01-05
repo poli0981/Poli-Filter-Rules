@@ -187,3 +187,4 @@ trustarc.com###truste-consent-track
 ##.iwCJUI.sc-3hrznp-2
 hostman.com##.cc--c1Lk
 www.bairesdev.com##.mdS\:justify-center.justify-start.mx-auto.flex.py-3.px-4.will-change-transform.bg-site-neutrals-900.max-w-full.fixed.w-full.bottom-0.z-50.translate-y-full.opacity-0.pointer-events-none.animate-snackbar-show
+www.steamgriddb.com##.noty_none.noty_has_progressbar.noty_theme__sgdb.noty_type__info.noty_bar

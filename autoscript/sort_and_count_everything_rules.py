@@ -17,7 +17,7 @@ FILES = [
     'blocks/anti-porn.txt',
 ]
 
-VERSION = "1.0.1"
+VERSION = "1.0.2"
 TITLE = "Poli Filter Rules - [NaMe_of-List-Rules]"
 AUTHOR = "poli0981 (with Grok's help)"
 HOMEPAGE = "https://github.com/poli0981/Poli-Filter-Rules"

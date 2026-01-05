@@ -157,5 +157,5 @@
 ||chunk-composing.canva.com/chunk-batch/ae23b04a6accad16.js$script
 ||chunk-composing.canva.com/chunk-batch/f5e43c068f140dfa.strings.js$script
 ||chunk-composing.canva.com/chunk-batch/326e9621d3fea6a2.js$script
-
+||www.travelyourways.com/updateUserCookie
 ||freeprivacypolicy.com

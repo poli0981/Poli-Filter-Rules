@@ -1844,3 +1844,4 @@ fyxstream.cc^$important
 ||jpamt.com^$important
 ||cospl.net^$important
 ||sukebei.nyaa.si^$important
+||www.kuxx.org^$important
