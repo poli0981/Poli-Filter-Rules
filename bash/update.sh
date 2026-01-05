@@ -7,7 +7,8 @@ python autoscript/sort_and_count_everything_rules.py --pure-rules
 ls -la
 
 # Commit and push changes if there are any
-git config --global user.name "poli0981"
-git config --global user.email "127664709+poli0981@users.noreply.github.com"
+git config --global user.name 'github-actions[bot]'
+git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
+git status
 git add .
-git diff --staged --quiet && echo "No changes – skip commit" || (git commit -m "Auto update rules [$(date +'%Y-%m-%d')]" && git push)
+git diff --staged --quiet && echo "No changes – skip commit" || (git commit -m "Auto update rules [$(date +'%Y-%m-%d')] by GitHub Action" && git push)
