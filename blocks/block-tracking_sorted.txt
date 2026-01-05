@@ -1,11 +1,11 @@
 ! Title: Poli Filter Rules - Tracking Block List
-! Version: 1.0.1
+! Version: 1.0.2
 ! Author: poli0981 (with Grok's help)
-! Generated: 2026-01-04 00:15
+! Generated: 2026-01-05 18:50
 ! Homepage: https://github.com/poli0981/Poli-Filter-Rules
 ! Expires: 3 days
 ! Description: This list to block tracking ads/tracking scripts, etc.
-! Total Rules: 599 (non-comment only)
+! Total Rules: 594 (non-comment only)
 ! Mode: Pure rules (comments skipped)
 
 ##a[href="https://advertising.accuweather.com"]
@@ -69,33 +69,19 @@
 /*detectedadblock*.
 /*pixel-track*.
 /3rd-party-ads.
-/ad-banner*.
-/ad-manager*.
-/ad-placeholder*.
-/ad-popup*.
-/ad-provider*.
+/ad-*.
 /ad.
 /ad/*
-/ad_banner*.
-/ad_manager*.
-/ad_placeholder*.
-/ad_popup*.
-/ad_provider*.
+/ad_*.
 /adbanner*.
 /admanager*.
 /adplaceholder*.
 /adpopup*.
 /adprovider*.
-/ads-banner*.
-/ads-placeholder*.
-/ads-popup*.
-/ads-provider*.
+/ads-*.
 /ads.
 /ads/*
-/ads_banner*.
-/ads_placeholder*.
-/ads_popup*.
-/ads_provider*.
+/ads_*.
 /adsbanner*.
 /adsplaceholder*.
 /adspopup*.
@@ -398,6 +384,7 @@
 ||measurement-api.criteo.com^
 ||melodiouscomposition.com$important
 ||merequartz.com$important
+||messenger.com/ajax/bz*
 ||metrics.doppiostreams.com$important
 ||mixpanel.com^$important
 ||mnaspm.com
@@ -516,6 +503,7 @@
 ||stripchats.io/cdn-cgi/challenge-platform/h/g/scripts/jsd/5eaf848a0845/main.js$script
 ||ststandard.com$important
 ||studio.youtube.com/youtubei/v1/log_event?alt=json
+||suggestqueries-clients6.youtube.com/
 ||sumome.com$important,third-party
 ||t.aslnk.link$important
 ||t.channeladvisor.com/v2/12021789.js$script
@@ -589,8 +577,15 @@
 ||www.googletagmanager.com/*
 ||www.ixspublic.com$important
 ||www.momvids.com/ads/
+||www.youtube.com/ad_companion
+||www.youtube.com/api/stats/qoe*
+||www.youtube.com/api/stats/watchtime*
 ||www.youtube.com/pagead/interaction/$document
+||www.youtube.com/pcs/activeview*
 ||www.youtube.com/youtubei/v1/log_event?alt=json
+||www.youtube.com/youtubei/v1/player/ad_break
+||www.youtube.com/youtubei/v1/updated_metadata*
+||www.youtube.com/youtubei/v1/yta_web/get_cards
 ||wx7777.com$important
 ||x.bidswitch.net^
 ||xenforo.com$third-party

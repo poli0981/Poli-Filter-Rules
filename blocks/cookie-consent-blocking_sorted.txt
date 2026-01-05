@@ -1,11 +1,11 @@
 ! Title: Poli Filter Rules - Cookie Consent Block List
-! Version: 1.0.1
+! Version: 1.0.2
 ! Author: poli0981 (with Grok's help)
-! Generated: 2026-01-04 00:15
+! Generated: 2026-01-05 18:50
 ! Homepage: https://github.com/poli0981/Poli-Filter-Rules
 ! Expires: 3 days
 ! Description: This list to block cookie consent popups
-! Total Rules: 131 (non-comment only)
+! Total Rules: 132 (non-comment only)
 ! Mode: Pure rules (comments skipped)
 
 *usercentrics.eu^$important
@@ -139,3 +139,4 @@
 ||thepowersaber.com/cdn/shopifycloud/consent-tracking-api/v0.1/consent-tracking-api.js
 ||www.canva.com/_ajax/privacypreference/trackingconsent/check
 ||www.ikea.com/us/en/cookieconsent/scripts/cookieconsent-onetrust-js.js$script
+||www.travelyourways.com/updateUserCookie

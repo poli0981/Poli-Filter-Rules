@@ -1,11 +1,11 @@
 ! Title: Poli Filter Rules - Anti-Porn Block List
-! Version: 1.0.1
+! Version: 1.0.2
 ! Author: poli0981 (with Grok's help)
-! Generated: 2026-01-04 00:15
+! Generated: 2026-01-05 18:50
 ! Homepage: https://github.com/poli0981/Poli-Filter-Rules
 ! Expires: 3 days
 ! Description: This list to block pornographic content
-! Total Rules: 1846 (non-comment only)
+! Total Rules: 1847 (non-comment only)
 ! Mode: Pure rules (comments skipped)
 
 *clips4sale.com^$important
@@ -1708,6 +1708,7 @@ fyxstream.cc^$important
 ||www.juicychat.ai^$important
 ||www.kinkmen.com^$important
 ||www.krush.chat^$important
+||www.kuxx.org^$important
 ||www.livecamfun.com^$important
 ||www.lpsg.com^$important
 ||www.luckycrush.live^$important

@@ -1,23 +1,36 @@
 ! Title: Poli Filter Rules - Hiding List
-! Version: 1.0.1
+! Version: 1.0.2
 ! Author: poli0981 (with Grok's help)
-! Generated: 2026-01-04 00:15
+! Generated: 2026-01-05 18:50
 ! Homepage: https://github.com/poli0981/Poli-Filter-Rules
 ! Expires: 3 days
 ! Description: This list to hide annoying element
-! Total Rules: 391 (non-comment only)
+! Total Rules: 401 (non-comment only)
 ! Mode: Pure rules (comments skipped)
 
+###.advertisement
+###.advertisements
 ###ad
 ###ads
+###advertisement
+###advertisements
+###advertising
+###footer
+###Footer
 ###modal_age_confirmation
+###site-footer
 ##.ad
 ##.ads
+##.advertising
 ##.drift-widget
 ##.fb-like
 ##.fb-share-button
+##.footer
+##.Footer
+##.site-footer
 ##[class*="ad-banner"]
 ##[class*="ad-bottom"]
+##[class*="ad-container"]
 ##[class*="ad-footer"]
 ##[class*="ad-header"]
 ##[class*="ad-left"]
@@ -30,6 +43,7 @@
 ##[class*="ad-top"]
 ##[class*="ad_banner"]
 ##[class*="ad_bottom"]
+##[class*="ad_container"]
 ##[class*="ad_footer"]
 ##[class*="ad_header"]
 ##[class*="ad_left"]
@@ -42,6 +56,7 @@
 ##[class*="ad_top"]
 ##[class*="adbanner"]
 ##[class*="adbottom"]
+##[class*="adcontainer"]
 ##[class*="adfooter"]
 ##[class*="adheader"]
 ##[class*="adleft"]
@@ -108,6 +123,7 @@
 ##[class*="termsmessage"]
 ##[id*="ad-banner"]
 ##[id*="ad-bottom"]
+##[id*="ad-container"]
 ##[id*="ad-footer"]
 ##[id*="ad-header"]
 ##[id*="ad-left"]
@@ -120,6 +136,7 @@
 ##[id*="ad-top"]
 ##[id*="ad_banner"]
 ##[id*="ad_bottom"]
+##[id*="ad_container"]
 ##[id*="ad_footer"]
 ##[id*="ad_header"]
 ##[id*="ad_left"]
@@ -132,6 +149,7 @@
 ##[id*="ad_top"]
 ##[id*="adbanner"]
 ##[id*="adbottom"]
+##[id*="adcontainer"]
 ##[id*="adfooter"]
 ##[id*="adheader"]
 ##[id*="adleft"]
@@ -217,7 +235,6 @@ animevietsub.*##.alert.alert-info
 animevietsub.*##.ann_text
 animevietsub.*##.announcement
 animevietsub.*##.Button.StylA
-animevietsub.*##.Footer
 animevietsub.*##.notification-enhanced
 animevietsub.*##.widget-area
 animevietsub.*##div.Wdgt:nth-of-type(7) > div.Title:nth-of-type(1)
@@ -238,13 +255,11 @@ edition.cnn.com##.cnn-app-display-none.footer
 endfield.gryphline.com##.Header_buttonShare__ml1S_
 endfield.gryphline.com##.Header_buttonShareBg__Tabt5
 endfield.gryphline.com##.Xrsk\+Qlh9i08Vsrs368r8Q\=\=.f-uw5oqemiZQ9E\+QQGoDUw\=\=
-footstockings.com##.footer
 footstockings.com##.top-links
 fusionmarkets.investments##.mui-aos6kw.MuiBox-root
 github.com##.color-border-subtle.color-fg-muted.f6.pb-6.pt-7.footer
 github.com##.footer-session-authentication
 github.com##.position-relative.pt-6.footer
-help.steampowered.com###footer
 helpfreshers.medium.com##.acu.act.gz.acs.o.ub.acr.acq.acp.gy.aco.acn.ci.r.ac
 helpfreshers.medium.com##.gu.fr.m.adi.adh.adg.adf.ade.add.adc.adb.ada.acz.acy.acx.acw.acv.pw-susi-modal
 hk.trip.com##.mod-back-top-side-bar
@@ -253,7 +268,6 @@ hostman.com##.container--0Ycx
 hostman.com##footer
 ihentai.*##.v-spacer
 itch.io##.app_banner
-itch.io##.footer
 itch.io##.panel_button.register_button
 itch.io##.sidebar_social
 itch.io##a.panel_button:nth-of-type(1)
@@ -283,15 +297,12 @@ scrolller.com##.index-module__dMXy4q__sticky.index-module__dMXy4q__container
 scrolller.com##div.popup--zIndex.popup--dark.popup--animate.popup--sticky.popup:nth-of-type(6)
 scrolller.com##div.popup--zIndex.popup--dark.popup--animate.popup--sticky.popup:nth-of-type(7)
 securiti.ai###primary-footer
-steamcommunity.com###footer
 store.steampowered.com###content_callout
 store.steampowered.com###content_out
-store.steampowered.com###footer
 store.steampowered.com##.Ksy4XAVZlM0-
 tiembiaga.vn###modal_age_bg
 voodoo.io##.framer-kutq3w
 wikifeet.com##div:nth-of-type(6)
-wutheringwaves.kurogames.com##.footer
 wutheringwaves.kurogames.com##.link-list
 wutheringwaves.kurogames.com##.login-btn
 wutheringwaves.kurogames.com##div.nav-item.nav-item-en:nth-of-type(6) > .nav-item-name
@@ -323,9 +334,9 @@ www.fandom.com##.global-footer
 www.fandom.com##.global-top-navigation__action-wrapper
 www.fandom.com##.newsletter
 www.gog.com##.footer-microservice.main-footer
+www.google.com###fbar
 www.google.com##.KxwPGc.SSwjIe
 www.google.com##.XPuBac
-www.gzo123.com###footer
 www.hoyolab.com##.mhy-article-list__body > div.mhy-article-card-wrapper > .mhy-article-card
 www.hoyolab.com##.mhy-article-list__body > div.mhy-contribution-card-v2.mhy-contribution-card-v2--ended
 www.hoyolab.com##.mhy-article-list__body > div.mhy-contribution-card-v2.mhy-contribution-card-v2--started
@@ -338,7 +349,6 @@ www.hoyolab.com##.new-game-card.insert-com
 www.hoyolab.com##div.footer__item:nth-of-type(1)
 www.hoyolab.com##div.footer__item:nth-of-type(2) > .footer__block
 www.hoyolab.com##div.mhy-side-section:nth-of-type(4)
-www.humblebundle.com##.site-footer
 www.instacart.com##.AuthModal__Overlay.ReactModal__Overlay--after-open.ReactModal__Overlay
 www.instagram.com##.x1qjc9v5.x9f619.x78zum5.xdt5ytf.x2lah0s.xk390pu.xdj266r.x14z9mp.xat24cr.x1lziwak.x1h3rv7z.xexx8yu.x18d9i69.x1n2onr6.x11njtxf.xv54qhq.xf7dkkf.xl8spv7
 www.instagram.com##.x1qjc9v5.x9f619.x78zum5.xdt5ytf.x2lah0s.xk390pu.xdj266r.x14z9mp.xat24cr.x1lziwak.x1h3rv7z.xexx8yu.x18d9i69.x1n2onr6.x11njtxf.xv54qhq.xf7dkkf.xvbhtw

@@ -1,38 +1,65 @@
 ! Title: Poli Filter Rules - Advanced Block List
-! Version: 1.0.1
+! Version: 1.0.2
 ! Author: poli0981 (with Grok's help)
-! Generated: 2026-01-04 00:15
+! Generated: 2026-01-05 18:50
 ! Homepage: https://github.com/poli0981/Poli-Filter-Rules
 ! Expires: 3 days
 ! Description: Advanced Block
-! Total Rules: 483 (non-comment only)
+! Total Rules: 549 (non-comment only)
 ! Mode: Pure rules (comments skipped)
 
-$removeparam=/^_click|^click/
-$removeparam=/^aff_id|^aff_sub|^aff_/
-$removeparam=/^atc|^ats/
-$removeparam=/^campaign|^adZones|^affiliate|^advertising|^AffReferrer|^AffCampaign/
-$removeparam=/^cmpid|^affid/
-$removeparam=/^linkId|^sourceId|^tenantId/
-$removeparam=/^mode|^action|^rand/
-$removeparam=/^psid|^dpid/
-$removeparam=/^track|^trackid|^tracking|^trackingId/
-$removeparam=/^utm/
-$removeparam=/^utm_|^mtm_|^utm/
+$removeparam-utm_content
 $removeparam=a
+$removeparam=action
 $removeparam=ad
+$removeparam=ad_campaign
 $removeparam=ad_id
+$removeparam=ad_id
+$removeparam=ad_name
 $removeparam=ad_sub
 $removeparam=adblk
 $removeparam=adblock
+$removeparam=adcampaign
+$removeparam=ads
+$removeparam=adset
+$removeparam=adset_id
+$removeparam=adset_name
 $removeparam=adType
 $removeparam=adv
+$removeparam=advertising
 $removeparam=adzone
+$removeparam=adZones
+$removeparam=af_ad
+$removeparam=af_ad_id
+$removeparam=af_adset
+$removeparam=af_adset_id
+$removeparam=af_c_id
+$removeparam=af_channel
+$removeparam=af_id
+$removeparam=af_siteid
+$removeparam=af_xp
+$removeparam=aff_id
+$removeparam=aff_name
+$removeparam=aff_sub
+$removeparam=AffCampaign
+$removeparam=affid
+$removeparam=affiliate
+$removeparam=affiliate_campaign
+$removeparam=affiliate_id
+$removeparam=affiliate_name
+$removeparam=AffReferrer
 $removeparam=afsrc
+$removeparam=atc
+$removeparam=ats
+$removeparam=campaign_id
+$removeparam=campaign_name
 $removeparam=cid
 $removeparam=city
+$removeparam=click
 $removeparam=clickid
 $removeparam=clickTag
+$removeparam=cmpid
+$removeparam=dpid
 $removeparam=dscl
 $removeparam=fbclid
 $removeparam=fbPixelId
@@ -42,13 +69,24 @@ $removeparam=inviteCode
 $removeparam=invitee
 $removeparam=irgwc
 $removeparam=link_data
+$removeparam=linkId
+$removeparam=mode
+$removeparam=mtm_campaign
+$removeparam=mtm_content
+$removeparam=mtm_id
+$removeparam=mtm_medium
+$removeparam=mtm_source
+$removeparam=mtm_term
 $removeparam=nats
 $removeparam=offer
 $removeparam=partner_id
 $removeparam=promo
 $removeparam=promo_code
 $removeparam=promo_id
+$removeparam=promocode
 $removeparam=promotion
+$removeparam=psid
+$removeparam=rand
 $removeparam=rcref
 $removeparam=ref
 $removeparam=referer
@@ -57,13 +95,37 @@ $removeparam=referral
 $removeparam=referrer
 $removeparam=refid
 $removeparam=refsite
+$removeparam=site
+$removeparam=site_source
+$removeparam=site_source_name
+$removeparam=sourceId
 $removeparam=srcref
 $removeparam=stan
+$removeparam=tenantId
+$removeparam=track
+$removeparam=tracker
+$removeparam=trackerid
+$removeparam=trackid
+$removeparam=tracking
+$removeparam=tracking_code
+$removeparam=trackingId
+$removeparam=utm_campaign
+$removeparam=utm_id
+$removeparam=utm_medium
+$removeparam=utm_source
+$removeparam=utm_term
 $removeparam=via
 $removeparam=wpam_id
 $removeparam=wreferrer
 $removeparam=zoneid
-*$domain=~x.com,removeparam=/^z|^var|^pb|^pbc|^pbi|^pbu|^psp|^eucx/
+*$domain=~x.com,removeparam=eucx
+*$domain=~x.com,removeparam=pb
+*$domain=~x.com,removeparam=pbc
+*$domain=~x.com,removeparam=pbi
+*$domain=~x.com,removeparam=pbu
+*$domain=~x.com,removeparam=psp
+*$domain=~x.com,removeparam=var
+*$domain=~x.com,removeparam=z
 :/*nova88*.$document
 ://*.bet$document
 ://*.porn$document
@@ -280,6 +342,7 @@ $removeparam=zoneid
 ://*okfun*.$document
 ://*okvip*.$document
 ://*one88*.$document
+://*onebox63*.$document
 ://*onlyfan*.$document
 ://*oopsie*.$document
 ://*oppai*.$document
@@ -330,6 +393,7 @@ $removeparam=zoneid
 ://*spankbang*.$document
 ://*spicychat*.$document
 ://*stasyq*.$document
+://*stone27*.$document
 ://*stripchat*.$document
 ://*stripchatvr*.$document
 ://*sut88*.$document
@@ -489,5 +553,7 @@ $removeparam=zoneid
 ||vn.vip^$all
 ||weebly.com^$all
 ||whskxk1.com^$all
-||www.porntrex.com^
+||www.google.com*^$removeparam=gs_lcrp
+||www.google.com*^$removeparam=oq
+||www.google.com*^$removeparam=sourceid
 ||za.com^$all
