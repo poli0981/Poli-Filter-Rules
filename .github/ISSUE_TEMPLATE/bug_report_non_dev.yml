@@ -41,6 +41,12 @@ body:
     attributes:
       label: What Kind of Error? (Check All That Apply)
       options:
+        - label: Web page not loading
+        - label: Pop-ups not blocked
+        - label: Trackers not blocked
+        - label: Legit content/sites blocked/hidden
+        - label: Filter not working
+        - label: Slow browsing/performance issues
         - label: UI broken (layout messed up)
         - label: White/blank page
         - label: Payment error
@@ -71,7 +77,10 @@ body:
         - uBlock Lite
         - AdGuard (Extension)
         - AdGuard (App)
+        - AdBlock Plus
         - Other (fill below)
+        - All (Multiple – Specify Below)
+        - None (Built-in Browser)
     validations:
       required: true
 
@@ -79,7 +88,7 @@ body:
     id: tool-version
     attributes:
       label: Tool Version (E.g., Brave 1.62.123)
-      placeholder: E.g., uBlock 1.58.0
+      placeholder: E.g., uBlock 1.58.0, all tools if "All"
     validations:
       required: true
 
@@ -94,9 +103,12 @@ body:
         - macOS
         - iOS
         - iPadOS
+        - watchOS
         - Android
-        - Linux
+        - Linux (Ubuntu, Fedora, etc.)
         - 2 OS or More (Specify Below)
+        - Other (Specify Below)
+        - All (Multiple – Specify Below)
     validations:
       required: true
 
@@ -110,6 +122,7 @@ body:
         E.g., 
         Windows 11 24H2 
         Ubuntu 24.04
+        All OS if "All"
     validations:
       required: true
 
@@ -138,7 +151,8 @@ body:
         - Chromium-based (other)
         - Gecko-based (other)
         - WebKit-based (other, e.g., Safari)
-
+        - Other (Specify Below)
+        - All (Multiple – Specify Below)
     validations:
       required: true
 

@@ -95,6 +95,8 @@ body:
         - Nano
         - Terminal only (no IDE)
         - Other/ 2 IDEs+ (Specify Below)
+        - Test for All IDEs (Multiple – Specify Below)
+        - Not sure / don't know
     validations:
       required: true
 
@@ -142,6 +144,8 @@ body:
         - ChromeOS
         - BSD (FreeBSD, OpenBSD, etc.)
         - 2 OS or More (Specify Below)
+        - All (Multiple – Specify Below)
+        - Other (Specify Below)
     validations:
       required: true
 
@@ -154,6 +158,7 @@ body:
         iOS 18.1
         if 2+ OS, e.g.:
         Windows 11 24H2 + Ubuntu 24.04
+        All OS if "All"
     validations:
       required: true
 
@@ -182,7 +187,7 @@ body:
     attributes:
       label: Running in Virtual Machine? (Optional)
       options:
-        - label: Yes (VM/WSL/Docker/etc.)
+        - label: Yes (VM/WSL/Docker/VirtualBox, etc.)
         - label: No (bare metal)
 
   - type: checkboxes
