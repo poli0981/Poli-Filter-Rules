@@ -5,6 +5,22 @@ All notable changes to this project will be documented in this file. Beta means 
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and we adhere to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 1.0.2 – Bug Fix Patch (January 09, 2026)
+
+- Fixed YouTube header hide [(#40)](https://github.com/poli0981/Poli-Filter-Rules/issues/40).
+- Fixed IGN web UI breakage [(#45)](https://github.com/poli0981/Poli-Filter-Rules/issues/45).
+- Fixed Google thumbnails/avatars missing [(#44)](https://github.com/poli0981/Poli-Filter-Rules/issues/44).
+- Fixed `co.uk` domain no-load/UI glitch [(#43)](https://github.com/poli0981/Poli-Filter-Rules/issues/43).
+- Fixed footer is not hidden on `ihen**i.bar` [(#48)](https://github.com/poli0981/Poli-Filter-Rules/issues/48)
+- Added fresh rules – details in [#35](https://github.com/poli0981/Poli-Filter-Rules/issues/35), [#36](https://github.com/poli0981/Poli-Filter-Rules/issues/36), [#37](https://github.com/poli0981/Poli-Filter-Rules/issues/37), [#41](https://github.com/poli0981/Poli-Filter-Rules/issues/41), 
+  [#42](https://github.com/poli0981/Poli-Filter-Rules/issues/42), [#46](https://github.com/poli0981/Poli-Filter-Rules/issues/46), [#47](https://github.com/poli0981/Poli-Filter-Rules/issues/47), [#50](https://github.com/poli0981/Poli-Filter-Rules/issues/50), [#51](https://github.com/poli0981/Poli-Filter-Rules/issues/51).
+- Improvements: Bug Report templates extra options [(#49)](https://github.com/poli0981/Poli-Filter-Rules/issues/49); 
+  Workflow GitHub Action Bot [(#38)](https://github.com/poli0981/Poli-Filter-Rules/issues/38).
+- Removed/tweaked rules for better life [(#52)](https://github.com/poli0981/Poli-Filter-Rules/issues/52).
+- First star received (person or bot? :v).
+
+Light patch – repo tidier.
+
 ## 1.0.1 – Bug Fix Patch (January 03, 2026)
 
 - Added "Fix Incorrect Rules" issue template – report bad/broken rules easily.
