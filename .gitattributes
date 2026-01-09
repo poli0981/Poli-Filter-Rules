@@ -16,4 +16,6 @@ SECURITY.md export-ignore
 /docs/PrivacyPolicy.md export-ignore
 CHANGELOG.md export-ignore
 
-*_sorted.txt export-ignore
+/blocks/raws_clean.txt export-ignore
+/blocks/raws.txt export-ignore
+/autoscript/param_report.csv export-ignore
