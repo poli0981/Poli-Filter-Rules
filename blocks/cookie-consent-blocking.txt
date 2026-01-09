@@ -141,7 +141,6 @@
 ||tags.tiqcdn.com/utag/visa/visa-com/prod/utag.js$script
 ||cdn-apac.onetrust.com/scripttemplates/otSDKStub.js$script
 ||nike.com/static/dotcom-privacy/mfe-privacy-consent/_reco/public/069a1774aa37b2b1c768/index.umd.js$script
-||js.hs-banner.com/v2/*^$script
 ||cdn-production-opera-website.operacdn.com/staticfiles/main.04d59840ca08.js$script
 ||cdn-production-opera-website.operacdn.com/staticfiles/3819-180ec4d45c6749f86c59.js$script
 ||cdn-production-opera-website.operacdn.com/staticfiles/surveyMonkey.47d041a8c080.js$script

@@ -71,7 +71,6 @@
 ##a[href="https://advertising.accuweather.com"]
 ||*amplitude.com$all,third-party
 ||fast.wistia.net/assets/external/E-v1.js$script
-||lh3.googleusercontent.com^
 ||cdn.vector.co/pixel.js$script
 ||webresource.tripcdn.com/ares2/basebiz/i18nthirdpartresource/1.0.0/default/sdk/facebook.sdk.v1006418595.js$script
 ||s.go-mpulse.net/boomerang/*
@@ -84,7 +83,6 @@
 ||analytics.ahrefs.com/analytics.js*$script
 ||cdn.segment.com/analytics.js/*^$script
 ||tracking-cdn.figpii.com/e727aa2faa02a7233e1477ceba9d3bfd.js$script
-||js.hs-analytics.net^
 ||cdn.mxpnl.com/libs/mixpanel-2-latest.min.js$script
 ||cdn.calibermind.com/a.js$script
 ||sb.scorecardresearch.com/internal-cs/default/beacon.js$script
@@ -574,6 +572,18 @@
 ||www.youtube.com/youtubei/v1/player/ad_break
 ||www.youtube.com/pcs/activeview*
 ||messenger.com/ajax/bz*
+||adengine.snigelweb.com^
+||static.anonymised.io^
+||static.narrativ.com^
+||geo.yahoo.com
+||geolocation.onetrust.com
+||pixel.quantserve.com^
+||pixel.wp.com^
+||p1.parsely.com/px/
+||api.fouanalytics.com/api/
+||www.google.com/ccm/collect
+||comcluster.cxense.com/Repo/rep.gif
+/js/espn-analytics.js
 
 /*adblock-detect*.
 /*adblocker-detect*.
@@ -585,10 +595,56 @@
 /*detectedadblock*.
 /*pixel-track*.
 
+*hs-banner.com/
+*hs-analytics.net/
+
+/adserver/
+/adsserver/
+/ad-server/
+/ads_server/
+/ads-server/
+/ad_server/
+/serverad/
+/server-ad/
+/server_ad/
+/serverads/
+/server-ads/
+
 /ads/*
 /ad/*
 /advertising/*
 /advertisement/*
+
+! Beacon
+/beacon/
+/beacon*.
+/trackbeacon*.
+/track-beacon*.
+/track_beacon*.
+
+! Pixel 1 x 1, 32 x 32, tracking pixels
+/pixel/
+/px.
+/trackpixel/
+/track-pixel/
+/track_pixel/
+/adpixel/
+/ad-pixel/
+/ad_pixel/
+/adspixel/
+/ads-pixel/
+/ads_pixel/
+||pixel.*/
+||px.*/
+||trackpixel.*/
+||track-pixel.*/
+||track_pixel.*/
+||adpixel.*/
+||ad-pixel.*/
+||ad_pixel.*/
+||adspixel.*/
+||ads-pixel.*/
+||ads_pixel.*/
 
 /advertising*.
 /ads.
@@ -597,9 +653,22 @@
 /ad-*.
 /ads_*.
 /ads-*.
+/*-ads.
+/*-ad.
+/advertisement*.
+/advertisingbanner*.
+/adsbanner*.
+/ads_pixel*.
 
 /advertisement*.
+/ad-slot*.
+/ads-slot*.
+/ads-lt*.
 /adprovider*.
+/ad-provider*.
+/ads-provider*.
+/ad-placeholder.
+
 /admanager*.
 /adspopup*.
 /adpopup*.

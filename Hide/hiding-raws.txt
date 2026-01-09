@@ -257,12 +257,46 @@ www.ted.com##.w-full.pr-5 > .w-full.px-5.md\:px-10.xl\:px-16
 ##[class*="age-verify"]
 ##[id*="age-verify"]
 
+##[id*="ad__container"]
+##[id*="ad--container"]
+##[class*="ad__container"]
+##[class*="ad--container"]
+##[id*="inline-ad"]
+##[id*="inline_ad"]
+##[class*="inline_ad"]
+##[class*="inline-ad"]
+##[id*="ads__container"]
+##[id*="ads--container"]
+##[class*="ads__container"]
+##[class*="ads--container"]
+##[class*="adunit"]
+##[id*="adunit"]
+##[class*="ad-unit"]
+##[id*="ad-unit"]
+##[class*="ad_unit"]
+##[id*="ad_unit"]
+##[class*="ads-unit"]
+##[id*="ads-unit"]
+##[class*="ads_unit"]
+##[id*="ads_unit"]
+##[id*="autopogo"]
+##[class*="autopogo"]
+
+###adm-footer
+###adm-header
+##.adm-footer
+##.adm-header
+
 ###footer
 ##.footer
 ###Footer
 ##.Footer
 ###site-footer
 ##.site-footer
+
+www.sportskeeda.com###taboola-below-article-thumbnails
+www.sportskeeda.com##.cta
+www.sportskeeda.com##[src*="//staticg.sportskeeda.com/skm/assets/promotional-content/2024/wwe-brainbuster-desktop.gif"]
 
 ##.chat-button-bottom-right { display: none !important; }
 ##.drift-widget
@@ -279,7 +313,7 @@ open.spotify.com##button.e-91000-button-tertiary--condensed.e-91000-overflow-wra
 www.google.com##.XPuBac
 www.google.com##.KxwPGc.SSwjIe
 
-ihentai.bar##.v-footer.v-theme--dark.tw-justify-center.\!tw-py-10
+ihentai.bar##.v-footer
 ihentai.*##.v-btn.v-btn--elevated.v-theme--dark.bg-orange.v-btn--density-default.v-btn--size-default.v-btn--variant-elevated.\!tw-normal-case.\!tw-tracking-normal
 ihentai.*##.v-spacer
 
@@ -304,7 +338,7 @@ www.gog.com##.footer-microservice.main-footer
 www.hoyolab.com##.mhy-side-section.mhy-download-section
 www.hoyolab.com##div.footer__item:nth-of-type(1)
 www.hoyolab.com##div.footer__item:nth-of-type(2) > .footer__block
-www.hoyolab.com##.footer__copyright > p ! Hide copyright text
+www.hoyolab.com##.footer__copyright > p
 www.hoyolab.com##.mhy-article-list__body > div.mhy-article-card-wrapper > .mhy-article-card
 www.hoyolab.com##.new-game-card.insert-com
 www.hoyolab.com##.mhy-loadmore.mhy-loadmore-common.mhy-loadmore-scroll

@@ -30,7 +30,7 @@
 ||za.com^$all
 ||co.tz^$all
 ||co.zm^$all
-||co.uk^$all
+||co.uk^$all,domain=~bbc.co.uk|~amazon.co.uk|~*guim.co.uk|~telegraph.co.uk
 ||us.org^$all
 ://*sb88*.$document
 ://*mb88*.$document
