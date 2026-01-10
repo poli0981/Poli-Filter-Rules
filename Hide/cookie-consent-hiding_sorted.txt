@@ -1,11 +1,11 @@
 ! Title: Poli Filter Rules - Cookie Consent Hiding List
 ! Version: 1.0.2
 ! Author: poli0981 (with Grok's help)
-! Generated: 2026-01-07 00:12
+! Generated: 2026-01-10 00:13
 ! Homepage: https://github.com/poli0981/Poli-Filter-Rules
 ! Expires: 3 days
 ! Description: This list to hide cookie/privacy consent popups
-! Total Rules: 165 (non-comment only)
+! Total Rules: 168 (non-comment only)
 ! Mode: Pure rules (comments skipped)
 
 ###gdpr
@@ -173,3 +173,6 @@ www.mbarchaa.com###d-notification-bar
 www.mydirtyhobby.com##.jss194
 www.steamgriddb.com##.noty_none.noty_has_progressbar.noty_theme__sgdb.noty_type__info.noty_bar
 www.ted.com###a873d79e-ae4c-4404-b380-2dc07cd09e33
+www.tvinsider.com
+www.tvinsider.com##._9r0K-Oum._5kE-6aUK
+www.tvinsider.com##.fEy1Z2XT

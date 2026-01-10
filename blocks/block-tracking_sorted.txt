@@ -1,11 +1,11 @@
 ! Title: Poli Filter Rules - Tracking Block List
 ! Version: 1.0.2
 ! Author: poli0981 (with Grok's help)
-! Generated: 2026-01-07 00:12
+! Generated: 2026-01-10 00:13
 ! Homepage: https://github.com/poli0981/Poli-Filter-Rules
 ! Expires: 3 days
 ! Description: This list to block tracking ads/tracking scripts, etc.
-! Total Rules: 594 (non-comment only)
+! Total Rules: 656 (non-comment only)
 ! Mode: Pure rules (comments skipped)
 
 ##a[href="https://advertising.accuweather.com"]
@@ -33,6 +33,8 @@
 *fbcdn.net^$domain=~www.facebook.com|~facebook.com|~m.facebook.com|~messenger.com|~www.messenger.com
 *fh-wgt.com^$important
 *google-analytics.com$important
+*hs-analytics.net/
+*hs-banner.com/
 *indexww.com$all
 *ingest.de.sentry.io$important
 *ingest.us.sentry.io$important
@@ -59,6 +61,8 @@
 *youtube.com/pagead/adview*
 *youtube.com/ptracking*
 *zeotap.com$all
+/*-ad.
+/*-ads.
 /*adblock-detect*.
 /*adblockdetect*.
 /*adblocker-detect*.
@@ -70,27 +74,65 @@
 /*pixel-track*.
 /3rd-party-ads.
 /ad-*.
+/ad-pixel/
+/ad-placeholder.
+/ad-provider*.
+/ad-server/
+/ad-slot*.
 /ad.
 /ad/*
 /ad_*.
+/ad_pixel/
+/ad_server/
 /adbanner*.
 /admanager*.
+/adpixel/
 /adplaceholder*.
 /adpopup*.
 /adprovider*.
 /ads-*.
+/ads-lt*.
+/ads-pixel/
+/ads-provider*.
+/ads-server/
+/ads-slot*.
 /ads.
 /ads/*
 /ads_*.
+/ads_pixel*.
+/ads_pixel/
+/ads_server/
 /adsbanner*.
+/adsbanner*.
+/adserver/
+/adspixel/
 /adsplaceholder*.
 /adspopup*.
 /adsprovider*.
+/adsserver/
+/advertisement*.
 /advertisement*.
 /advertisement/*
 /advertising*.
 /advertising/*
+/advertisingbanner*.
+/beacon*.
+/beacon/
+/js/espn-analytics.js
 /pixel-tracking.
+/pixel/
+/px.
+/server-ad/
+/server-ads/
+/server_ad/
+/serverad/
+/serverads/
+/track-beacon*.
+/track-pixel/
+/track_beacon*.
+/track_pixel/
+/trackbeacon*.
+/trackpixel/
 ||*adsco.re^$all
 ||*adsrvr.org$all
 ||*amazon-adsystem.com/*$third-party
@@ -126,12 +168,15 @@
 ||acscdn.com^$important
 ||ad-delivery.net^
 ||ad-good.com^$important
+||ad-pixel.*/
 ||ad.ipredictive.com/*^
 ||ad.twinrdengine.com^$important
+||ad_pixel.*/
 ||adbestnet.com^$important
 ||adcannyxml.com^$important
 ||addthis.com$important
 ||addtoany.com$important,third-party
+||adengine.snigelweb.com^
 ||adexchangeclear.com^$important
 ||adforcast.com^$important
 ||adforge.io^$important
@@ -140,8 +185,10 @@
 ||admatic.de$important
 ||admicro.vn
 ||admidainsight.com^$important
+||adpixel.*/
 ||adpresenter.de$important
 ||ads-api.x.com$important
+||ads-pixel.*/
 ||ads-tours-api.psmcode.com
 ||ads.betweendigital.com$important
 ||ads.exoclick.com$important
@@ -150,6 +197,7 @@
 ||ads.stickyadstv.com^$third-party
 ||ads.tiktok.com^
 ||ads.yaoihavenreborn.com$important
+||ads_pixel.*/
 ||adsafeprotected.com$important
 ||adscale.de
 ||adservice.google.com^
@@ -158,6 +206,7 @@
 ||adsmediabox.com$important
 ||adsninja.ca^$important
 ||adspector.io$important
+||adspixel.*/
 ||adspy.javrank.com^$important
 ||advertape.net^$important
 ||advertising.amazon.com^$third-party
@@ -182,6 +231,7 @@
 ||analytics.twitter.com^
 ||analytics.vinovo.si$important
 ||androidduvetscribble.com
+||api.fouanalytics.com/api/
 ||api.id5-sync.com/analytics/*$third-party
 ||api.maestra.io/scripts/v1/tracker.js$script
 ||api.mindbox.ru/scripts/v1/tracker.js$script,third-party
@@ -249,6 +299,7 @@
 ||clivads.com^$important
 ||cloudmetrics.xenforo.com$third-party
 ||collector.github.com^$important
+||comcluster.cxense.com/Repo/rep.gif
 ||comohoy.com
 ||connect.facebook.net/en_US/fbevents.js$script
 ||connect.facebook.net/en_US/sdk.js$script
@@ -311,6 +362,8 @@
 ||fundingchoicesmessages.google.com^
 ||fxmnba.com$important
 ||gameland.today$important,third-party
+||geo.yahoo.com
+||geolocation.onetrust.com
 ||getclicky.com^$important
 ||getrewardful.com^$important
 ||gigglegrowlworrisome.com^$important
@@ -348,7 +401,6 @@
 ||js-cdn.dynatrace.com/jstag/16362cc0dec/bf15698iev/10ad61344e68aed_complete.js$script
 ||js.appboycdn.com/web-sdk/*$script
 ||js.capndr.com/advertising.js$script
-||js.hs-analytics.net^
 ||js.hubspot.com/web-interactives-embed.js$script
 ||js.partnerstack.com/v1/*$script,domain=~partnerstack.com
 ||js.wpadmngr.com/static/adManager.js$script
@@ -363,7 +415,6 @@
 ||laymanesprit.com$important
 ||leakedzone.com$all
 ||lesseesupdress.com$important
-||lh3.googleusercontent.com^
 ||line-scdn.net$important
 ||links.duckduckgo.com^$important
 ||live.quixova.com/loadeactrl.go
@@ -409,6 +460,7 @@
 ||orfbijotqz.com
 ||outstreamoctober.store$important
 ||oyo4d.com$all
+||p1.parsely.com/px/
 ||p1aybb.com$important
 ||page.strtgic.com^$third-party
 ||pagead2.googlesyndication.com^
@@ -423,8 +475,11 @@
 ||picspy.info$third-party
 ||pingdom.net$important,third-party
 ||pip.bz$important
+||pixel.*/
+||pixel.quantserve.com^
 ||pixel.sitescout.com/up/$document
 ||pixel.wp.com$important
+||pixel.wp.com^
 ||pixels.spotify.com
 ||plausible.ravanallc.com/js/script.local.tagged-events.js$script
 ||play.google.com/log*
@@ -437,6 +492,7 @@
 ||prod.fennec.atp.fox/js/fennec.js
 ||ptwmstcnt.com$important
 ||push.services.mozilla.com
+||px.*/
 ||px.ads.linkedin.com$important
 ||px.mountain.com/sti$document
 ||pxl.stripchat.com/$document
@@ -488,6 +544,7 @@
 ||static-tracking.klaviyo.com^$third-party
 ||static.adroute.focas.jp^$important
 ||static.ads-twitter.com/uwt.js$script
+||static.anonymised.io^
 ||static.chartbeat.com/js/chartbeat_video.js$script
 ||static.cloudflareinsights.com/beacon.min.js$script
 ||static.criteo.net/js/ld/ld.js$script
@@ -495,6 +552,7 @@
 ||static.hotjar.com$important
 ||static.hotjar.com^
 ||static.klaviyo.com$third-party
+||static.narrativ.com^
 ||static.tezfiles.com$important
 ||static.trueanthem.com/scripts/ta.js
 ||statics.simpshub.com$all
@@ -523,10 +581,12 @@
 ||tpdwm.com$important
 ||tr.outbrain.com/unifiedPixel$document
 ||tr.snapchat.com^
+||track-pixel.*/
 ||track.hubspot.com^$important
 ||track.imgnai.com^$important
 ||track.quantilab3.com^$important^$important
 ||track.ultraprotrack.com$important
+||track_pixel.*/
 ||trackdesk.com^$important
 ||trackersimulator.org
 ||trackhaven.com^$important
@@ -536,6 +596,7 @@
 ||tracking.winemback.com^$important
 ||trackjs.com$important
 ||tracknow.info^$important
+||trackpixel.*/
 ||traffic.junky$important
 ||traffichaus.com$important,third-party
 ||transcend-cdn.com/cm/d1a4d701-2ca2-487c-9b90-59558395eb44/airgap.js
@@ -572,6 +633,7 @@
 ||www.datadoghq-browser-agent.com/datadog-rum-v4.js$script
 ||www.datadoghq-browser-agent.com/us1/v5/datadog-logs.js$script
 ||www.google.com*/pagead*
+||www.google.com/ccm/collect
 ||www.google.com/gen_204*
 ||www.google.com/pagead/lvz$document
 ||www.googletagmanager.com/*

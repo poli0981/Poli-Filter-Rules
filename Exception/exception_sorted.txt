@@ -1,16 +1,39 @@
 ! Title: Poli Filter Rules - Exception List
 ! Version: 1.0.2
 ! Author: poli0981 (with Grok's help)
-! Generated: 2026-01-07 00:12
+! Generated: 2026-01-10 00:13
 ! Homepage: https://github.com/poli0981/Poli-Filter-Rules
 ! Expires: 3 days
 ! Description: This list to add exception in accepted sites
-! Total Rules: 15 (non-comment only)
+! Total Rules: 40 (non-comment only)
 ! Mode: Pure rules (comments skipped)
 
 @@*fastly.steamstatic.com
 @@*twimg.com
+@@/*-assets/*
+@@/*_assets/*
+@@/_next/static/*
+@@/assets/*
+@@/css/*
+@@/favicon.
+@@/homepage/*
+@@/icon/*
+@@/icons/*
+@@/image-*/*
+@@/image/*
+@@/images-*/*
+@@/images/*
+@@/img/
+@@/logo/*
+@@/logos/*
+@@/root/*
+@@/roots/*
+@@/upload/*
+@@/uploads/*
+@@/video/*
+@@/videos/*
 @@||alphabet.com^$document
+@@||assets-prd.ignimgs.com
 @@||bet.com^$document
 @@||bet.psdschools.org^$document
 @@||beta.team$document
@@ -22,4 +45,6 @@
 @@||betterment.com^$document
 @@||betternet.co^$document
 @@||go-better.com^$document
+@@||i.insider.com
 chatgpt.com#@#[id*="ad-bottom"]
+youtube.com#@#[id*="ad-container"]

@@ -1,16 +1,18 @@
 ! Title: Poli Filter Rules - Hiding List
 ! Version: 1.0.2
 ! Author: poli0981 (with Grok's help)
-! Generated: 2026-01-07 00:12
+! Generated: 2026-01-10 00:13
 ! Homepage: https://github.com/poli0981/Poli-Filter-Rules
 ! Expires: 3 days
 ! Description: This list to hide annoying element
-! Total Rules: 401 (non-comment only)
+! Total Rules: 434 (non-comment only)
 ! Mode: Pure rules (comments skipped)
 
 ###.advertisement
 ###.advertisements
 ###ad
+###adm-footer
+###adm-header
 ###ads
 ###advertisement
 ###advertisements
@@ -20,6 +22,8 @@
 ###modal_age_confirmation
 ###site-footer
 ##.ad
+##.adm-footer
+##.adm-header
 ##.ads
 ##.advertising
 ##.drift-widget
@@ -28,6 +32,7 @@
 ##.footer
 ##.Footer
 ##.site-footer
+##[class*="ad--container"]
 ##[class*="ad-banner"]
 ##[class*="ad-bottom"]
 ##[class*="ad-container"]
@@ -41,6 +46,8 @@
 ##[class*="ad-popup"]
 ##[class*="ad-right"]
 ##[class*="ad-top"]
+##[class*="ad-unit"]
+##[class*="ad__container"]
 ##[class*="ad_banner"]
 ##[class*="ad_bottom"]
 ##[class*="ad_container"]
@@ -54,6 +61,7 @@
 ##[class*="ad_popup"]
 ##[class*="ad_right"]
 ##[class*="ad_top"]
+##[class*="ad_unit"]
 ##[class*="adbanner"]
 ##[class*="adbottom"]
 ##[class*="adcontainer"]
@@ -66,6 +74,7 @@
 ##[class*="adplace"]
 ##[class*="adPopup"]
 ##[class*="adright"]
+##[class*="ads--container"]
 ##[class*="ads-banner"]
 ##[class*="ads-bottom"]
 ##[class*="ads-footer"]
@@ -78,6 +87,8 @@
 ##[class*="ads-popup"]
 ##[class*="ads-right"]
 ##[class*="ads-top"]
+##[class*="ads-unit"]
+##[class*="ads__container"]
 ##[class*="ads_banner"]
 ##[class*="ads_bottom"]
 ##[class*="ads_footer"]
@@ -90,6 +101,7 @@
 ##[class*="ads_popup"]
 ##[class*="ads_right"]
 ##[class*="ads_top"]
+##[class*="ads_unit"]
 ##[class*="adsBanner"]
 ##[class*="adsbottom"]
 ##[class*="adsfooter"]
@@ -103,6 +115,7 @@
 ##[class*="adsright"]
 ##[class*="adstop"]
 ##[class*="adtop"]
+##[class*="adunit"]
 ##[class*="advertisement"]
 ##[class*="advertising"]
 ##[class*="age-check"]
@@ -115,12 +128,16 @@
 ##[class*="age-verify"]
 ##[class*="age-warning"]
 ##[class*="ageConfirmation"]
+##[class*="autopogo"]
 ##[class*="chatbot"]
 ##[class*="copyright"]
+##[class*="inline-ad"]
+##[class*="inline_ad"]
 ##[class*="link_social"]
 ##[class*="quang-cao"]
 ##[class*="quangcao"]
 ##[class*="termsmessage"]
+##[id*="ad--container"]
 ##[id*="ad-banner"]
 ##[id*="ad-bottom"]
 ##[id*="ad-container"]
@@ -134,6 +151,8 @@
 ##[id*="ad-popup"]
 ##[id*="ad-right"]
 ##[id*="ad-top"]
+##[id*="ad-unit"]
+##[id*="ad__container"]
 ##[id*="ad_banner"]
 ##[id*="ad_bottom"]
 ##[id*="ad_container"]
@@ -147,6 +166,7 @@
 ##[id*="ad_popup"]
 ##[id*="ad_right"]
 ##[id*="ad_top"]
+##[id*="ad_unit"]
 ##[id*="adbanner"]
 ##[id*="adbottom"]
 ##[id*="adcontainer"]
@@ -159,6 +179,7 @@
 ##[id*="adplace"]
 ##[id*="adPopup"]
 ##[id*="adright"]
+##[id*="ads--container"]
 ##[id*="ads-banner"]
 ##[id*="ads-bottom"]
 ##[id*="ads-footer"]
@@ -171,6 +192,8 @@
 ##[id*="ads-popup"]
 ##[id*="ads-right"]
 ##[id*="ads-top"]
+##[id*="ads-unit"]
+##[id*="ads__container"]
 ##[id*="ads_banner"]
 ##[id*="ads_bottom"]
 ##[id*="ads_footer"]
@@ -183,6 +206,7 @@
 ##[id*="ads_popup"]
 ##[id*="ads_right"]
 ##[id*="ads_top"]
+##[id*="ads_unit"]
 ##[id*="adsBanner"]
 ##[id*="adsbottom"]
 ##[id*="adsfooter"]
@@ -196,6 +220,7 @@
 ##[id*="adsright"]
 ##[id*="adstop"]
 ##[id*="adtop"]
+##[id*="adunit"]
 ##[id*="advertisement"]
 ##[id*="advertising"]
 ##[id*="age-check"]
@@ -208,8 +233,11 @@
 ##[id*="age-verify"]
 ##[id*="age-warning"]
 ##[id*="ageConfirmation"]
+##[id*="autopogo"]
 ##[id*="chatbot"]
 ##[id*="copyright"]
+##[id*="inline-ad"]
+##[id*="inline_ad"]
 ##[id*="link_social"]
 ##[id*="quang-cao"]
 ##[id*="quangcao"]
@@ -267,6 +295,7 @@ hostman.com##.cc-1o31k.cc-1qbp0
 hostman.com##.container--0Ycx
 hostman.com##footer
 ihentai.*##.v-spacer
+ihentai.bar##.v-footer
 itch.io##.app_banner
 itch.io##.panel_button.register_button
 itch.io##.sidebar_social
@@ -337,6 +366,7 @@ www.gog.com##.footer-microservice.main-footer
 www.google.com###fbar
 www.google.com##.KxwPGc.SSwjIe
 www.google.com##.XPuBac
+www.hoyolab.com##.footer__copyright > p
 www.hoyolab.com##.mhy-article-list__body > div.mhy-article-card-wrapper > .mhy-article-card
 www.hoyolab.com##.mhy-article-list__body > div.mhy-contribution-card-v2.mhy-contribution-card-v2--ended
 www.hoyolab.com##.mhy-article-list__body > div.mhy-contribution-card-v2.mhy-contribution-card-v2--started
@@ -376,6 +406,9 @@ www.reddit.com##faceplate-tracker:nth-of-type(16) > .relative.list-none.mt-0 > .
 www.reddit.com##faceplate-tracker:nth-of-type(4) > .relative.list-none.mt-0 > .flex.justify-between.relative.px-md.gap-\[0\.5rem\].text-secondary.hover\:text-secondary-hover.active\:bg-interactive-pressed.hover\:bg-neutral-background-hover.hover\:no-underline.cursor-pointer.py-2xs.-outline-offset-1.s\:rounded-2.bg-transparent.no-underline
 www.sankakucomplex.com##.MuiPaper-elevation6.MuiSnackbarContent-root.MuiPaper-root
 www.shangri-la.com##.c-lego-footer
+www.sportskeeda.com###taboola-below-article-thumbnails
+www.sportskeeda.com##.cta
+www.sportskeeda.com##[src*="//staticg.sportskeeda.com/skm/assets/promotional-content/2024/wwe-brainbuster-desktop.gif"]
 www.ted.com##.w-full.pr-5 > .w-full.px-5.md\:px-10.xl\:px-16
 www.tiktok.com##.css-1dtzhde-0be0dc34--DivFooterContainer.enjgv3a0
 www.tripadvisor.com##._S.NB.u.Xa.z.ICcQm
