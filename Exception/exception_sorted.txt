@@ -1,7 +1,7 @@
 ! Title: Poli Filter Rules - Exception List
 ! Version: 1.0.2
 ! Author: poli0981 (with Grok's help)
-! Generated: 2026-01-16 00:13
+! Generated: 2026-01-19 00:14
 ! Homepage: https://github.com/poli0981/Poli-Filter-Rules
 ! Expires: 3 days
 ! Description: This list to add exception in accepted sites
