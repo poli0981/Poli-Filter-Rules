@@ -1,7 +1,7 @@
 ! Title: Poli Filter Rules - Third-Party Block List
 ! Version: 1.0.2
 ! Author: poli0981 (with Grok's help)
-! Generated: 2026-02-25 00:19
+! Generated: 2026-02-28 00:14
 ! Homepage: https://github.com/poli0981/Poli-Filter-Rules
 ! Expires: 3 days
 ! Description: This list to block third-party web
