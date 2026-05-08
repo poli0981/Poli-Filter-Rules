@@ -41,7 +41,7 @@ jobs:
     timeout-minutes: 3
     steps:
       - name: Checkout (script only)
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           sparse-checkout: |
             .github/scripts
