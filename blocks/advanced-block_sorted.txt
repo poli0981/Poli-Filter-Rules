@@ -1,7 +1,7 @@
 ! Title: Poli Filter Rules - Advanced Block List
 ! Version: 1.0.2
 ! Author: poli0981 (with Grok's help)
-! Generated: 2026-05-28 00:33
+! Generated: 2026-05-31 00:37
 ! Homepage: https://github.com/poli0981/Poli-Filter-Rules
 ! Expires: 3 days
 ! Description: Advanced Block
